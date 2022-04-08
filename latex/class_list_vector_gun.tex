@@ -1,0 +1,383 @@
+\hypertarget{class_list_vector_gun}{}\section{RÃ©fÃ©rence de la classe List\+Vector\+Gun}
+\label{class_list_vector_gun}\index{List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_list_vector_gun_a9f370c4f677db9d3ecb750febcaed21e}{List\+Vector\+Gun}} ()
+\item 
+Vector3 \mbox{\hyperlink{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c}{trouver\+Mini\+Vect}} ()
+\begin{DoxyCompactList}\small\item\em Trouver le vecteur minimal (x et y de valeur minimal) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70}{add\+List}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} a)
+\begin{DoxyCompactList}\small\item\em Outil pour combiner deux listes \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442}{Add\+Vector}} (Vector3 x)
+\item 
+void \mbox{\hyperlink{class_list_vector_gun_a2969c469590b46d382af86ffbffe46c4}{Add}} (Vector3 x)
+\item 
+bool \mbox{\hyperlink{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae}{Contains}} (Vector3 x)
+\item 
+bool \mbox{\hyperlink{class_list_vector_gun_a6cff6d5a51a605010ca4ced8ef89e8c2}{Contains}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v)
+\item 
+Vector3 \mbox{\hyperlink{class_list_vector_gun_a6b94b7d8288d1415f1670181251bbfa2}{get\+Position}} (int nb)
+\item 
+void \mbox{\hyperlink{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f}{supp}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} temp)
+\begin{DoxyCompactList}\small\item\em Supprimer les elements de liste temp dans la liste structure \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_list_vector_gun_a88c192bd1bdd5b6fb48ec38eb9ee8711}{Remove}} (Vector3 v)
+\item 
+void \mbox{\hyperlink{class_list_vector_gun_a1ffc9f3c2ac48631dcd05ba8061ba9c7}{Remove\+At}} (int nb)
+\item 
+int \mbox{\hyperlink{class_list_vector_gun_a7c7706a2171becc86a8353b525d35d69}{Count}} ()
+\item 
+void \mbox{\hyperlink{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959}{remove\+List}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} temp)
+\begin{DoxyCompactList}\small\item\em Enlever une liste b de la liste structure\+Alive \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_list_vector_gun_ad89b2534e45d190049c9a922de5df655}{clear}} ()
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3}{get\+Gun\+Model}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v)
+\begin{DoxyCompactList}\small\item\em Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génération . \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_list_vector_gun_a1c5fc4ed92b846e08616d83971605241}{gun\+Model}} (Vector3 v\+Min, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} model\+Gun)
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827}{list\+Contain\+List}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ actuel)
+\begin{DoxyCompactList}\small\item\em Retourner la même structure à partir de deux listes \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_list_vector_gun_a23dabaffda742276390b578c091d101a}{nb\+Contain\+List}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} ancien, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} actuel)
+\begin{DoxyCompactList}\small\item\em Savoir combien de points d\textquotesingle{}entre deux structures ont les mêmes coordonnées \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description dÃ©taillÃ©e}
+Classe outil pour detecter la structure Canon (un Gosper Glider Gun trouve en 3D) \begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning,Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 03/04/2022 
+\end{DoxyDate}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_list_vector_gun_a9f370c4f677db9d3ecb750febcaed21e}\label{class_list_vector_gun_a9f370c4f677db9d3ecb750febcaed21e}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{List\+Vector\+Gun()}{ListVectorGun()}}
+{\footnotesize\ttfamily List\+Vector\+Gun.\+List\+Vector\+Gun (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a9f370c4f677db9d3ecb750febcaed21e_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_list_vector_gun_a2969c469590b46d382af86ffbffe46c4}\label{class_list_vector_gun_a2969c469590b46d382af86ffbffe46c4}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Add@{Add}}
+\index{Add@{Add}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+Add (\begin{DoxyParamCaption}\item[{Vector3}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a2969c469590b46d382af86ffbffe46c4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70}\label{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!add\+List@{add\+List}}
+\index{add\+List@{add\+List}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{add\+List()}{addList()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+add\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Outil pour combiner deux listes 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em a} & liste a \\
+\hline
+{\em b} & liste b\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+liste resultat 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442}\label{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Add\+Vector@{Add\+Vector}}
+\index{Add\+Vector@{Add\+Vector}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Add\+Vector()}{AddVector()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+Add\+Vector (\begin{DoxyParamCaption}\item[{Vector3}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_list_vector_gun_ad89b2534e45d190049c9a922de5df655}\label{class_list_vector_gun_ad89b2534e45d190049c9a922de5df655}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!clear@{clear}}
+\index{clear@{clear}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae}\label{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Contains@{Contains}}
+\index{Contains@{Contains}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Contains()}{Contains()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool List\+Vector\+Gun.\+Contains (\begin{DoxyParamCaption}\item[{Vector3}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a6cff6d5a51a605010ca4ced8ef89e8c2}\label{class_list_vector_gun_a6cff6d5a51a605010ca4ced8ef89e8c2}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Contains@{Contains}}
+\index{Contains@{Contains}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Contains()}{Contains()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool List\+Vector\+Gun.\+Contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a6cff6d5a51a605010ca4ced8ef89e8c2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a7c7706a2171becc86a8353b525d35d69}\label{class_list_vector_gun_a7c7706a2171becc86a8353b525d35d69}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Count@{Count}}
+\index{Count@{Count}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Count()}{Count()}}
+{\footnotesize\ttfamily int List\+Vector\+Gun.\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a7c7706a2171becc86a8353b525d35d69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3}\label{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!get\+Gun\+Model@{get\+Gun\+Model}}
+\index{get\+Gun\+Model@{get\+Gun\+Model}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{get\+Gun\+Model()}{getGunModel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} List\+Vector\+Gun.\+get\+Gun\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génération . 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+La structure \begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+un \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} qui est la modèle Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a6b94b7d8288d1415f1670181251bbfa2}\label{class_list_vector_gun_a6b94b7d8288d1415f1670181251bbfa2}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily Vector3 List\+Vector\+Gun.\+get\+Position (\begin{DoxyParamCaption}\item[{int}]{nb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a6b94b7d8288d1415f1670181251bbfa2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a1c5fc4ed92b846e08616d83971605241}\label{class_list_vector_gun_a1c5fc4ed92b846e08616d83971605241}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!gun\+Model@{gun\+Model}}
+\index{gun\+Model@{gun\+Model}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{gun\+Model()}{gunModel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} List\+Vector\+Gun.\+gun\+Model (\begin{DoxyParamCaption}\item[{Vector3}]{v\+Min,  }\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{model\+Gun }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a1c5fc4ed92b846e08616d83971605241_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827}\label{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!list\+Contain\+List@{list\+Contain\+List}}
+\index{list\+Contain\+List@{list\+Contain\+List}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{list\+Contain\+List()}{listContainList()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ List\+Vector\+Gun.\+list\+Contain\+List (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$}]{ancien,  }\item[{List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$}]{actuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Retourner la même structure à partir de deux listes 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em ancien} & \\
+\hline
+\end{DoxyParams}
+la liste des strucutures de la génération dernière. 
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em actuel} & \\
+\hline
+\end{DoxyParams}
+la liste des strucuture de la génération actuelle. \begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a23dabaffda742276390b578c091d101a}\label{class_list_vector_gun_a23dabaffda742276390b578c091d101a}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!nb\+Contain\+List@{nb\+Contain\+List}}
+\index{nb\+Contain\+List@{nb\+Contain\+List}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{nb\+Contain\+List()}{nbContainList()}}
+{\footnotesize\ttfamily int List\+Vector\+Gun.\+nb\+Contain\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{ancien,  }\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{actuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Savoir combien de points d\textquotesingle{}entre deux structures ont les mêmes coordonnées 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em ancien} & \\
+\hline
+\end{DoxyParams}
+la sous-\/strucuture de la génération dernière. 
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em actuel} & \\
+\hline
+\end{DoxyParams}
+la sous-\/strucuture de la génération actuelle. \begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Le nombre du points qui ont les mêmes coordonnées. Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a23dabaffda742276390b578c091d101a_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a23dabaffda742276390b578c091d101a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a88c192bd1bdd5b6fb48ec38eb9ee8711}\label{class_list_vector_gun_a88c192bd1bdd5b6fb48ec38eb9ee8711}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Remove@{Remove}}
+\index{Remove@{Remove}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+Remove (\begin{DoxyParamCaption}\item[{Vector3}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_list_vector_gun_a1ffc9f3c2ac48631dcd05ba8061ba9c7}\label{class_list_vector_gun_a1ffc9f3c2ac48631dcd05ba8061ba9c7}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!Remove\+At@{Remove\+At}}
+\index{Remove\+At@{Remove\+At}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{Remove\+At()}{RemoveAt()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+Remove\+At (\begin{DoxyParamCaption}\item[{int}]{nb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959}\label{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!remove\+List@{remove\+List}}
+\index{remove\+List@{remove\+List}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{remove\+List()}{removeList()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+remove\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{temp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Enlever une liste b de la liste structure\+Alive 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em structure\+Alive} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+liste resultat
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f}\label{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!supp@{supp}}
+\index{supp@{supp}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{supp()}{supp()}}
+{\footnotesize\ttfamily void List\+Vector\+Gun.\+supp (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{temp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprimer les elements de liste temp dans la liste structure 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em a} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c}\label{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!trouver\+Mini\+Vect@{trouver\+Mini\+Vect}}
+\index{trouver\+Mini\+Vect@{trouver\+Mini\+Vect}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{trouver\+Mini\+Vect()}{trouverMiniVect()}}
+{\footnotesize\ttfamily Vector3 List\+Vector\+Gun.\+trouver\+Mini\+Vect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Trouver le vecteur minimal (x et y de valeur minimal) 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em v} & un vecteur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+le vecteur minimal trouve 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c_icgraph}
+\end{center}
+\end{figure}

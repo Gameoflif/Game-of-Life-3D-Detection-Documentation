@@ -1,0 +1,6 @@
+<map id="Simulation2.HideVizualisation" name="Simulation2.HideVizualisation">
+<area shape="rect" id="node2" href="$class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="251,23,427,65"/>
+<area shape="rect" id="node5" href="$class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="MenuVisualizationUI.Toggle\lShowOrHide" alt="" coords="248,89,431,130"/>
+<area shape="rect" id="node3" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="479,5,669,32"/>
+<area shape="rect" id="node4" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="485,56,663,83"/>
+</map>

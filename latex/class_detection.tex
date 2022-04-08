@@ -1,0 +1,210 @@
+\hypertarget{class_detection}{}\section{Référence de la classe Detection}
+\label{class_detection}\index{Detection@{Detection}}
+
+
+Classe contenant les méthodes associées à la détection automatique des structures particulières.  
+
+
+
+
+Graphe d\textquotesingle{}héritage de Detection\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_detection__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Detection\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_detection__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}{Set\+Size}} (int h, int w, int l)
+\begin{DoxyCompactList}\small\item\em Initialise les dimensuins du volume. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}{set\+Detect}} (bool can\+Detect, bool use\+Stable, bool use\+Oscill, bool use\+Glider, bool use\+Canon, int period\+Max, bool use\+Dependencies, bool toro)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}indiquer quelles sont les types de structures à detecter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092}{Add\+Gen\+Zero}} (int max\+Gen, int\mbox{[},,\mbox{]} gen\+Zero, Voisinage2 voisinnage)
+\begin{DoxyCompactList}\small\item\em Modifie la génération zéro (départ). Initialise les variables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a70084049883e8e2ebecce5d24e84a196}{Change\+Ind\+Gen}} (int ind)
+\begin{DoxyCompactList}\small\item\em Appelé par \mbox{\hyperlink{class_simulation}{Simulation}} dans le cas où la génération a déjà été parcouru, change l\textquotesingle{}indice de génération ind. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a92c60be1a69ea74b7f7bef04a0e53238}{Addgen}} (int\mbox{[},,\mbox{]} gen)
+\begin{DoxyCompactList}\small\item\em Ajoute une nouvelle génération à stock\+Gen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_aa21c434f39d4e9d901635d9db2a4bbca}{trouve\+Glider\+Gun}} ()
+\begin{DoxyCompactList}\small\item\em Déterminer le nombre de canons par leur période \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe contenant les méthodes associées à la détection automatique des structures particulières. 
+
+\begin{DoxyAuthor}{Auteur}
+G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent,T\+I\+AN Ning,Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/04/2022 
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_detection_a92c60be1a69ea74b7f7bef04a0e53238}\label{class_detection_a92c60be1a69ea74b7f7bef04a0e53238}} 
+\index{Detection@{Detection}!Addgen@{Addgen}}
+\index{Addgen@{Addgen}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Addgen()}{Addgen()}}
+{\footnotesize\ttfamily void Detection.\+Addgen (\begin{DoxyParamCaption}\item[{int}]{gen\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajoute une nouvelle génération à stock\+Gen. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em gen} & La génération à ajouter.\\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_detection_a92c60be1a69ea74b7f7bef04a0e53238_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a92c60be1a69ea74b7f7bef04a0e53238_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092}\label{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092}} 
+\index{Detection@{Detection}!Add\+Gen\+Zero@{Add\+Gen\+Zero}}
+\index{Add\+Gen\+Zero@{Add\+Gen\+Zero}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Add\+Gen\+Zero()}{AddGenZero()}}
+{\footnotesize\ttfamily void Detection.\+Add\+Gen\+Zero (\begin{DoxyParamCaption}\item[{int}]{max\+Gen,  }\item[{int}]{gen\+Zero\mbox{[},,\mbox{]},  }\item[{Voisinage2}]{voisinnage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Modifie la génération zéro (départ). Initialise les variables. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em max\+Gen} & Nombre maximale de génération.\\
+\hline
+{\em gen\+Zero} & La première génération.\\
+\hline
+{\em voisinnage} & Voisinnage utilisée.\\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a70084049883e8e2ebecce5d24e84a196}\label{class_detection_a70084049883e8e2ebecce5d24e84a196}} 
+\index{Detection@{Detection}!Change\+Ind\+Gen@{Change\+Ind\+Gen}}
+\index{Change\+Ind\+Gen@{Change\+Ind\+Gen}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Change\+Ind\+Gen()}{ChangeIndGen()}}
+{\footnotesize\ttfamily void Detection.\+Change\+Ind\+Gen (\begin{DoxyParamCaption}\item[{int}]{ind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Appelé par \mbox{\hyperlink{class_simulation}{Simulation}} dans le cas où la génération a déjà été parcouru, change l\textquotesingle{}indice de génération ind. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em ind} & Le nouvelle indice de la génération.\\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a70084049883e8e2ebecce5d24e84a196_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a70084049883e8e2ebecce5d24e84a196_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}\label{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}} 
+\index{Detection@{Detection}!set\+Detect@{set\+Detect}}
+\index{set\+Detect@{set\+Detect}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{set\+Detect()}{setDetect()}}
+{\footnotesize\ttfamily void Detection.\+set\+Detect (\begin{DoxyParamCaption}\item[{bool}]{can\+Detect,  }\item[{bool}]{use\+Stable,  }\item[{bool}]{use\+Oscill,  }\item[{bool}]{use\+Glider,  }\item[{bool}]{use\+Canon,  }\item[{int}]{period\+Max,  }\item[{bool}]{use\+Dependencies,  }\item[{bool}]{toro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet d\textquotesingle{}indiquer quelles sont les types de structures à detecter. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em can\+Detect} & true si la détection est activée, false sinon.\\
+\hline
+{\em use\+Stable} & true si la détection des structures stables est activée, false sinon.\\
+\hline
+{\em use\+Oscill} & true si la détection des structures oscillantes est activée, false sinon.\\
+\hline
+{\em use\+Glider} & true si la détection des vaisseaux est activée, false sinon.\\
+\hline
+{\em period\+Max} & La période d\textquotesingle{}oscillation maximale des structures.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}\label{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}} 
+\index{Detection@{Detection}!Set\+Size@{Set\+Size}}
+\index{Set\+Size@{Set\+Size}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Set\+Size()}{SetSize()}}
+{\footnotesize\ttfamily void Detection.\+Set\+Size (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialise les dimensuins du volume. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & Hauteur\\
+\hline
+{\em w} & Largeur\\
+\hline
+{\em l} & Longueur\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_detection_aa21c434f39d4e9d901635d9db2a4bbca}\label{class_detection_aa21c434f39d4e9d901635d9db2a4bbca}} 
+\index{Detection@{Detection}!trouve\+Glider\+Gun@{trouve\+Glider\+Gun}}
+\index{trouve\+Glider\+Gun@{trouve\+Glider\+Gun}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{trouve\+Glider\+Gun()}{trouveGliderGun()}}
+{\footnotesize\ttfamily void Detection.\+trouve\+Glider\+Gun (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Déterminer le nombre de canons par leur période 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_aa21c434f39d4e9d901635d9db2a4bbca_cgraph}
+\end{center}
+\end{figure}

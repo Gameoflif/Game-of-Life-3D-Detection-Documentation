@@ -1,0 +1,5 @@
+<map id="Simulation2.PauseOrPlay" name="Simulation2.PauseOrPlay">
+<area shape="rect" id="node2" href="$class_menu_visualization_u_i.html#a9affc75173b7b9e70340b2b934398464" title="Mets en pause ou lance la simulation. " alt="" coords="224,23,405,65"/>
+<area shape="rect" id="node3" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="453,5,644,32"/>
+<area shape="rect" id="node4" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="459,56,638,83"/>
+</map>

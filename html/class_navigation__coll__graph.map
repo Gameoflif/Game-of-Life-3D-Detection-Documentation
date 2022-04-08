@@ -1,0 +1,7 @@
+<map id="Navigation" name="Navigation">
+<area shape="rect" id="node3" href="$class_camera_control.html" title="La classe permettant le control de la caméra " alt="" coords="5,95,113,121"/>
+<area shape="rect" id="node4" href="$class_menu_visualization_u_i.html" title="Classe contenant les méthodes associées au UI de la simulation et à l&#39;intéraction avec le script géra..." alt="" coords="120,196,260,223"/>
+<area shape="rect" id="node5" href="$class_simulation.html" title="Simulation" alt="" coords="138,95,221,121"/>
+<area shape="rect" id="node7" href="$class_edit_mode_manager.html" title="Cette classe regroupe les méthodes liées à l&#39;éditeur de structure. " alt="" coords="332,145,459,172"/>
+<area shape="rect" id="node6" href="$class_local_storage.html" title="LocalStorage" alt="" coords="89,5,187,32"/>
+</map>

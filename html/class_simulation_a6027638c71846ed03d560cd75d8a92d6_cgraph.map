@@ -1,0 +1,8 @@
+<map id="Simulation.NextGen" name="Simulation.NextGen">
+<area shape="rect" id="node2" href="$class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="192,5,355,32"/>
+<area shape="rect" id="node3" href="$class_simulation.html#a1ba6581d305c2d60d174e0cffd917719" title="Méthode permettant le passage à la génération suivante. " alt="" coords="193,56,353,83"/>
+<area shape="rect" id="node7" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="214,107,333,133"/>
+<area shape="rect" id="node4" href="$class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="403,31,569,57"/>
+<area shape="rect" id="node6" href="$class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="423,81,549,108"/>
+<area shape="rect" id="node5" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="617,56,776,83"/>
+</map>

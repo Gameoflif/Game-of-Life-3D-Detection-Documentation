@@ -1,0 +1,9 @@
+<map id="DetectionGun.Compare" name="DetectionGun.Compare">
+<area shape="rect" id="node2" href="$class_detection_gun.html#a0a14866d2727aea5d457121bd646f3bb" title="Obtenir la structure dans la sous&#45;structure &quot;struc&quot; qui correspond à la taille spécifiée par l&#39;utilis..." alt="" coords="211,19,433,45"/>
+<area shape="rect" id="node3" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="233,69,411,96"/>
+<area shape="rect" id="node7" href="$class_detection_gun.html#af0283c67f8fe041c2ff8ded541054d56" title="si c&#39;est la premiere forme retourner true " alt="" coords="226,132,418,159"/>
+<area shape="rect" id="node4" href="$class_list_vector_gun.html#a2969c469590b46d382af86ffbffe46c4" title="ListVectorGun.Add" alt="" coords="515,5,647,32"/>
+<area shape="rect" id="node5" href="$class_list_vector_gun.html#a305381e8b2d20184c1894c89d2726b2c" title="Trouver le vecteur minimal (x et y de valeur minimal) " alt="" coords="481,56,680,83"/>
+<area shape="rect" id="node6" href="$class_list_vector_gun.html#afacf0a838223ed57e72abcc7c21594ae" title="ListVectorGun.Contains" alt="" coords="728,132,888,159"/>
+<area shape="rect" id="node8" href="$class_list_vector_gun.html#a73d0b1fca681bce5aaf680873b071827" title="Retourner la même structure à partir de deux listes " alt="" coords="485,157,676,184"/>
+</map>

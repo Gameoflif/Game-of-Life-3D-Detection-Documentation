@@ -1,0 +1,4 @@
+<map id="EditModeManager.ResetStruct" name="EditModeManager.ResetStruct">
+<area shape="rect" id="node2" href="$class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris..." alt="" coords="253,5,432,47"/>
+<area shape="rect" id="node3" href="$class_edit_mode_cell.html#a85064e1ba44195ce0a8fa8c66f8e5ffa" title="Initialisation de variable. " alt="" coords="480,13,631,39"/>
+</map>

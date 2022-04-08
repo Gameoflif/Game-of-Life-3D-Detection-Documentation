@@ -1,0 +1,95 @@
+\hypertarget{class_camera_control}{}\section{RÃ©fÃ©rence de la classe Camera\+Control}
+\label{class_camera_control}\index{Camera\+Control@{Camera\+Control}}
+
+
+La classe permettant le control de la caméra  
+
+
+
+
+Graphe d\textquotesingle{}hÃ©ritage de Camera\+Control\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_camera_control__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Camera\+Control\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_camera_control__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b}{Act\+Or\+Dea\+Movement}} (bool can\+Move)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}activer ou de désactiver le mouvement de la caméra. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}{restart\+Center}} (int h, int w, int l)
+\begin{DoxyCompactList}\small\item\em Recentre la caméra en fonction des dimensions du volume. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description dÃ©taillÃ©e}
+La classe permettant le control de la caméra 
+
+\begin{DoxyAuthor}{Auteur}
+T\+I\+AN Ning,Q\+IN Yi, correction \+: Dorian G\+R\+O\+U\+T\+E\+AU 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/04/2022\+Keys\+: zqsd / fleches \+: mouvements (haut,gauche,bas,droite). maintenir shift \+: augmente la vitesse de déplacement en avant. 134628 \+: positions prédéfinies. maintient clique droit \+: rotation ~\newline
+
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b}\label{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b}} 
+\index{Camera\+Control@{Camera\+Control}!Act\+Or\+Dea\+Movement@{Act\+Or\+Dea\+Movement}}
+\index{Act\+Or\+Dea\+Movement@{Act\+Or\+Dea\+Movement}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{Act\+Or\+Dea\+Movement()}{ActOrDeaMovement()}}
+{\footnotesize\ttfamily void Camera\+Control.\+Act\+Or\+Dea\+Movement (\begin{DoxyParamCaption}\item[{bool}]{can\+Move }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet d\textquotesingle{}activer ou de désactiver le mouvement de la caméra. 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em can\+Move} & Booléen, true s\textquotesingle{}il faut activer le mouvement, false sinon\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}\label{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}} 
+\index{Camera\+Control@{Camera\+Control}!restart\+Center@{restart\+Center}}
+\index{restart\+Center@{restart\+Center}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{restart\+Center()}{restartCenter()}}
+{\footnotesize\ttfamily void Camera\+Control.\+restart\+Center (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Recentre la caméra en fonction des dimensions du volume. 
+
+
+\begin{DoxyParams}{ParamÃ¨tres}
+{\em h} & La hauteur du volume.\\
+\hline
+{\em w} & La largeur du volume.\\
+\hline
+{\em l} & La longueur du volume.\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2_icgraph}
+\end{center}
+\end{figure}

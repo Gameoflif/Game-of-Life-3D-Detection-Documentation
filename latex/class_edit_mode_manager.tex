@@ -1,0 +1,240 @@
+\hypertarget{class_edit_mode_manager}{}\section{Référence de la classe Edit\+Mode\+Manager}
+\label{class_edit_mode_manager}\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+
+
+Cette classe regroupe les méthodes liées à l\textquotesingle{}éditeur de structure.  
+
+
+
+
+Graphe d\textquotesingle{}héritage de Edit\+Mode\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_edit_mode_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Edit\+Mode\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_edit_mode_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_edit_mode_manager_acab9d2ee3853d18b73e82135d800c341}{Change\+Size}} (int h, int w, int l)
+\begin{DoxyCompactList}\small\item\em Change la taille du volume et met à jour les cellules. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15}{Initialize\+Cells}} ()
+\begin{DoxyCompactList}\small\item\em Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_ad64498838abd29826c929cad104924be}{Hide\+Or\+Show\+Dead\+Cells}} ()
+\begin{DoxyCompactList}\small\item\em Active ou désactive la visualisation des cellules mortes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_a9f9fbe57f5bbb6b90dc1dc321d411c54}{Add\+Cell}} (Vector3 pos)
+\begin{DoxyCompactList}\small\item\em Ajoute la position de la cellule comme position d\textquotesingle{}une cellule vivante dans cells\+Volume\+Life. A la position de la cellule dans le tableau, la valeur devient 1. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_a8a8c1a3a9558fbbcfa7c15d8ce48a264}{Remove\+Cell}} (Vector3 pos)
+\begin{DoxyCompactList}\small\item\em Ajoute la position de la cellule comme position d\textquotesingle{}une cellule morte dans cells\+Volume\+Life. A la position de la cellule dans le tableau, la valeur devient 0. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_afc8be75da1a5042fcf78b0e9bf1e2108}{Reset\+Struct}} ()
+\begin{DoxyCompactList}\small\item\em Toutes les cellules redeviennent mortes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_aacc30d9cdb3d747fbad20130903ec24e}{Hide}} ()
+\begin{DoxyCompactList}\small\item\em Cache les objets de l\textquotesingle{}éditeur de structure. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_acf80baac30f6611bcb1bf97b61ffc1ca}{Show}} ()
+\begin{DoxyCompactList}\small\item\em Montre les objets de l\textquotesingle{}éditeur de structure. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_manager_ac1d4e4f292d17b4364054f05ddc13bee}{Apply\+Structure}} ()
+\begin{DoxyCompactList}\small\item\em Transmet la structure (le tableau contenant des cellules vivantes \+: cells\+Volume\+Life) à l\textquotesingle{}outil de simulation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Cette classe regroupe les méthodes liées à l\textquotesingle{}éditeur de structure. 
+
+\begin{DoxyAuthor}{Auteur}
+G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/04/2022 
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_edit_mode_manager_a9f9fbe57f5bbb6b90dc1dc321d411c54}\label{class_edit_mode_manager_a9f9fbe57f5bbb6b90dc1dc321d411c54}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Add\+Cell@{Add\+Cell}}
+\index{Add\+Cell@{Add\+Cell}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Add\+Cell()}{AddCell()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Add\+Cell (\begin{DoxyParamCaption}\item[{Vector3}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajoute la position de la cellule comme position d\textquotesingle{}une cellule vivante dans cells\+Volume\+Life. A la position de la cellule dans le tableau, la valeur devient 1. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pos} & Position de la cellule à ajouter\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_a9f9fbe57f5bbb6b90dc1dc321d411c54_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_manager_ac1d4e4f292d17b4364054f05ddc13bee}\label{class_edit_mode_manager_ac1d4e4f292d17b4364054f05ddc13bee}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Apply\+Structure@{Apply\+Structure}}
+\index{Apply\+Structure@{Apply\+Structure}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Apply\+Structure()}{ApplyStructure()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Apply\+Structure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Transmet la structure (le tableau contenant des cellules vivantes \+: cells\+Volume\+Life) à l\textquotesingle{}outil de simulation. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_ac1d4e4f292d17b4364054f05ddc13bee_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_manager_acab9d2ee3853d18b73e82135d800c341}\label{class_edit_mode_manager_acab9d2ee3853d18b73e82135d800c341}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Change\+Size@{Change\+Size}}
+\index{Change\+Size@{Change\+Size}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Change\+Size()}{ChangeSize()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Change\+Size (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Change la taille du volume et met à jour les cellules. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & La hauteur\\
+\hline
+{\em w} & La largeur\\
+\hline
+{\em l} & La longueur\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_edit_mode_manager_aacc30d9cdb3d747fbad20130903ec24e}\label{class_edit_mode_manager_aacc30d9cdb3d747fbad20130903ec24e}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Hide@{Hide}}
+\index{Hide@{Hide}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Hide()}{Hide()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Hide (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cache les objets de l\textquotesingle{}éditeur de structure. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_aacc30d9cdb3d747fbad20130903ec24e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_manager_ad64498838abd29826c929cad104924be}\label{class_edit_mode_manager_ad64498838abd29826c929cad104924be}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Hide\+Or\+Show\+Dead\+Cells@{Hide\+Or\+Show\+Dead\+Cells}}
+\index{Hide\+Or\+Show\+Dead\+Cells@{Hide\+Or\+Show\+Dead\+Cells}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Hide\+Or\+Show\+Dead\+Cells()}{HideOrShowDeadCells()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Hide\+Or\+Show\+Dead\+Cells (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Active ou désactive la visualisation des cellules mortes. 
+
+\mbox{\Hypertarget{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15}\label{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Initialize\+Cells@{Initialize\+Cells}}
+\index{Initialize\+Cells@{Initialize\+Cells}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Initialize\+Cells()}{InitializeCells()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Initialize\+Cells (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_manager_a8a8c1a3a9558fbbcfa7c15d8ce48a264}\label{class_edit_mode_manager_a8a8c1a3a9558fbbcfa7c15d8ce48a264}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Remove\+Cell@{Remove\+Cell}}
+\index{Remove\+Cell@{Remove\+Cell}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Remove\+Cell()}{RemoveCell()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Remove\+Cell (\begin{DoxyParamCaption}\item[{Vector3}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajoute la position de la cellule comme position d\textquotesingle{}une cellule morte dans cells\+Volume\+Life. A la position de la cellule dans le tableau, la valeur devient 0. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pos} & Position de la cellule à supprimer\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_a8a8c1a3a9558fbbcfa7c15d8ce48a264_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_manager_afc8be75da1a5042fcf78b0e9bf1e2108}\label{class_edit_mode_manager_afc8be75da1a5042fcf78b0e9bf1e2108}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Reset\+Struct@{Reset\+Struct}}
+\index{Reset\+Struct@{Reset\+Struct}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Reset\+Struct()}{ResetStruct()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Reset\+Struct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Toutes les cellules redeviennent mortes. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_afc8be75da1a5042fcf78b0e9bf1e2108_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_manager_acf80baac30f6611bcb1bf97b61ffc1ca}\label{class_edit_mode_manager_acf80baac30f6611bcb1bf97b61ffc1ca}} 
+\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Show@{Show}}
+\index{Show@{Show}!Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
+\subsubsection{\texorpdfstring{Show()}{Show()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Manager.\+Show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Montre les objets de l\textquotesingle{}éditeur de structure. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_acf80baac30f6611bcb1bf97b61ffc1ca_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_manager_acf80baac30f6611bcb1bf97b61ffc1ca_icgraph}
+\end{center}
+\end{figure}

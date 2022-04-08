@@ -1,0 +1,1155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Jeu de la vie 3D Detection: Référence de la classe Simulation</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Jeu de la vie 3D Detection
+   </div>
+   <div id="projectbrief">Ce projet porte sur la détection automatique de structures particulières dans le jeu de la vie en 3D. Auteurs : Dorian GROUTEAU, Vincent TU, Yi QIN et Ning TIAN.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_simulation.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-attribs">Attributs publics</a> &#124;
+<a href="class_simulation-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe Simulation</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p> 
+ <a href="class_simulation.html#details">Plus de détails...</a></p>
+<div class="dynheader">
+Graphe d'héritage de Simulation:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation__inherit__graph.png" border="0" usemap="#_simulation_inherit__map" alt="Inheritance graph"/></div>
+<map name="_simulation_inherit__map" id="_simulation_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
+<div class="dynheader">
+Graphe de collaboration de Simulation:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation__coll__graph.png" border="0" usemap="#_simulation_coll__map" alt="Collaboration graph"/></div>
+<map name="_simulation_coll__map" id="_simulation_coll__map">
+<area shape="rect" id="node3" href="class_local_storage.html" title="LocalStorage" alt="" coords="141,5,239,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af1580cd4ce5cb935c5f55ad4ce4f94de">SetVariablesParameters</a> (bool changeVolume, int h, int w, int l, int maxGen, bool random, float threshhold, Voisinage2 voisinage, int[] bornRule, int[] surviveRule, bool <a class="el" href="class_simulation.html#a0d34073239ee6afd6c15327ae9f249bb">toro</a>, bool useDetection, bool useDetectionStable, bool useDetectionOscill, bool useDetectionGlider, bool <a class="el" href="class_simulation.html#a2106f84d6bf1aec6e3d852e4a4432217">useDetectCanon</a>, int periodMax, bool useDependencies)</td></tr>
+<tr class="memdesc:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de transmettre de <a class="el" href="class_parameters.html">Parameters</a> à Simulation2 les différentes valeurs des variables.  <a href="#af1580cd4ce5cb935c5f55ad4ce4f94de">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b96b4354d41349e367d282cc4e88aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a19b96b4354d41349e367d282cc4e88aa">setStructDectT</a> (int h, int w, int l, int periode, int[][,,] structDect)</td></tr>
+<tr class="separator:a19b96b4354d41349e367d282cc4e88aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ab4fa0107498061196ce3a051d292d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a93ab4fa0107498061196ce3a051d292d">setStructDectF</a> ()</td></tr>
+<tr class="separator:a93ab4fa0107498061196ce3a051d292d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba6581d305c2d60d174e0cffd917719"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a1ba6581d305c2d60d174e0cffd917719">StepForward</a> ()</td></tr>
+<tr class="memdesc:a1ba6581d305c2d60d174e0cffd917719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Méthode permettant le passage à la génération suivante.  <a href="#a1ba6581d305c2d60d174e0cffd917719">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1ba6581d305c2d60d174e0cffd917719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8ad1d9fe429a08bf0d42f52b08b71b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aff8ad1d9fe429a08bf0d42f52b08b71b">RandomVolume</a> ()</td></tr>
+<tr class="memdesc:aff8ad1d9fe429a08bf0d42f52b08b71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la génération) à 0.  <a href="#aff8ad1d9fe429a08bf0d42f52b08b71b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aff8ad1d9fe429a08bf0d42f52b08b71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5fd57d6f657f07bc0fac7085832dc82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82">Show</a> ()</td></tr>
+<tr class="memdesc:af5fd57d6f657f07bc0fac7085832dc82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Montre les cubes et changent leur couleur en fonction de leur age.  <a href="#af5fd57d6f657f07bc0fac7085832dc82">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af5fd57d6f657f07bc0fac7085832dc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab668bfea667549d1295fc55f5ccfbc4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ab668bfea667549d1295fc55f5ccfbc4a">PauseOrPlay</a> (bool pause)</td></tr>
+<tr class="memdesc:ab668bfea667549d1295fc55f5ccfbc4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mets en pause ou en play la simulation.  <a href="#ab668bfea667549d1295fc55f5ccfbc4a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab668bfea667549d1295fc55f5ccfbc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a9e0a93e05353ff243f4c48afa67d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a71a9e0a93e05353ff243f4c48afa67d0">HideVizualisation</a> ()</td></tr>
+<tr class="memdesc:a71a9e0a93e05353ff243f4c48afa67d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache les objets 3D de la visualisation.  <a href="#a71a9e0a93e05353ff243f4c48afa67d0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a71a9e0a93e05353ff243f4c48afa67d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3c641f3874f1805c3a13d2153b6023"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#acc3c641f3874f1805c3a13d2153b6023">ShowVizualisation</a> ()</td></tr>
+<tr class="memdesc:acc3c641f3874f1805c3a13d2153b6023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Montre les objets 3D de la visualisation.  <a href="#acc3c641f3874f1805c3a13d2153b6023">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acc3c641f3874f1805c3a13d2153b6023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775498931843884fbc6c08de3b2b1afd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd">SetStructure</a> (int[,,] volumePosition)</td></tr>
+<tr class="memdesc:a775498931843884fbc6c08de3b2b1afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utilisé pour obtenir les positions de départ des cellules vivantes (première génération).  <a href="#a775498931843884fbc6c08de3b2b1afd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a775498931843884fbc6c08de3b2b1afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fde1a020def21f5f41794735b76c686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a3fde1a020def21f5f41794735b76c686">ChangeSpeed</a> (float speed)</td></tr>
+<tr class="memdesc:a3fde1a020def21f5f41794735b76c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change la vitesse de simulation.  <a href="#a3fde1a020def21f5f41794735b76c686">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3fde1a020def21f5f41794735b76c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500982098740ae238f349a6fed0affd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a500982098740ae238f349a6fed0affd8">RestartSimulation</a> ()</td></tr>
+<tr class="memdesc:a500982098740ae238f349a6fed0affd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recommence la simulation.  <a href="#a500982098740ae238f349a6fed0affd8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a500982098740ae238f349a6fed0affd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1bd1d93c293257a921a8a8935095b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6">DeactivateAll</a> ()</td></tr>
+<tr class="memdesc:abc1bd1d93c293257a921a8a8935095b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Désactive toutes les cellules (et cubes).  <a href="#abc1bd1d93c293257a921a8a8935095b6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abc1bd1d93c293257a921a8a8935095b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6027638c71846ed03d560cd75d8a92d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6">NextGen</a> ()</td></tr>
+<tr class="memdesc:a6027638c71846ed03d560cd75d8a92d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passage à la prochaine génération.  <a href="#a6027638c71846ed03d560cd75d8a92d6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6027638c71846ed03d560cd75d8a92d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9238f4dcd56a4945017fda48a76a3dc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8">setVoisinage</a> (Voisinage2 voisin, bool t)</td></tr>
+<tr class="separator:a9238f4dcd56a4945017fda48a76a3dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af29808f03940f4a8824c926f8c8cf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9">PreviousGen</a> ()</td></tr>
+<tr class="memdesc:a2af29808f03940f4a8824c926f8c8cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passage à la génération précédente.  <a href="#a2af29808f03940f4a8824c926f8c8cf9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2af29808f03940f4a8824c926f8c8cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee60f7c0cce0789d82fe7a324f1fbffd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aee60f7c0cce0789d82fe7a324f1fbffd">applySave</a> ()</td></tr>
+<tr class="memdesc:aee60f7c0cce0789d82fe7a324f1fbffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">pour permettre à l'utilisateur de enregistre les structure  <a href="#aee60f7c0cce0789d82fe7a324f1fbffd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aee60f7c0cce0789d82fe7a324f1fbffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Attributs publics</h2></td></tr>
+<tr class="memitem:a2766dce78dbc1f3c20353f02f57103e1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a2766dce78dbc1f3c20353f02f57103e1">nu</a></td></tr>
+<tr class="separator:a2766dce78dbc1f3c20353f02f57103e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e91933fc69c6696543f44cdc5489eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ab4e91933fc69c6696543f44cdc5489eb">openPanel</a> = false</td></tr>
+<tr class="separator:ab4e91933fc69c6696543f44cdc5489eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7009e8c0768bac6a8056db7b9614a040"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_local_storage.html">LocalStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a7009e8c0768bac6a8056db7b9614a040">ls</a></td></tr>
+<tr class="separator:a7009e8c0768bac6a8056db7b9614a040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac581af6c4b31a61b95a1c11c1d4ed38b"><td class="memItemLeft" align="right" valign="top">int [][,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ac581af6c4b31a61b95a1c11c1d4ed38b">structDec</a></td></tr>
+<tr class="separator:ac581af6c4b31a61b95a1c11c1d4ed38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4efe47214d16664ea0c43bcc437af3"><td class="memItemLeft" align="right" valign="top">int [][,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a4a4efe47214d16664ea0c43bcc437af3">position</a></td></tr>
+<tr class="separator:a4a4efe47214d16664ea0c43bcc437af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9945c13b481c81bfb75ad26e730a78d4"><td class="memItemLeft" align="right" valign="top">int [,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a9945c13b481c81bfb75ad26e730a78d4">pp</a></td></tr>
+<tr class="separator:a9945c13b481c81bfb75ad26e730a78d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d34073239ee6afd6c15327ae9f249bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a0d34073239ee6afd6c15327ae9f249bb">toro</a></td></tr>
+<tr class="separator:a0d34073239ee6afd6c15327ae9f249bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fd8bb7eb15c0462da5f0615d293e404"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a4fd8bb7eb15c0462da5f0615d293e404">ficheNumber</a></td></tr>
+<tr class="separator:a4fd8bb7eb15c0462da5f0615d293e404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2106f84d6bf1aec6e3d852e4a4432217"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a2106f84d6bf1aec6e3d852e4a4432217">useDetectCanon</a> = false</td></tr>
+<tr class="separator:a2106f84d6bf1aec6e3d852e4a4432217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><dl class="section author"><dt>Auteur</dt><dd>Dorian Grouteau,Vincent Tu, TIAN Ning,QIN Yi </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>08/04/2022</dd></dl>
+</div><h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="aee60f7c0cce0789d82fe7a324f1fbffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee60f7c0cce0789d82fe7a324f1fbffd">&#9670;&nbsp;</a></span>applySave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.applySave </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>pour permettre à l'utilisateur de enregistre les structure </p>
+<dl class="section author"><dt>Auteur</dt><dd>$username$ QIN Yi , TIAN Ning </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 </dd></dl>
+
+</div>
+</div>
+<a id="a3fde1a020def21f5f41794735b76c686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fde1a020def21f5f41794735b76c686">&#9670;&nbsp;</a></span>ChangeSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.ChangeSpeed </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change la vitesse de simulation. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speed</td><td>La nouvelle vitesse de simulation.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph.png" border="0" usemap="#class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph" alt=""/></div>
+<map name="class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph" id="class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph">
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#abae4f4813543053bd5fc9d68ed4916d5" title="Permets de modifier la vitesse de simulation. " alt="" coords="221,5,409,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abc1bd1d93c293257a921a8a8935095b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1bd1d93c293257a921a8a8935095b6">&#9670;&nbsp;</a></span>DeactivateAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.DeactivateAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Désactive toutes les cellules (et cubes). </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph.png" border="0" usemap="#class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph" alt=""/></div>
+<map name="class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph" id="class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="231,56,391,83"/>
+<area shape="rect" id="node5" href="class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="216,107,407,133"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="455,5,672,32"/>
+<area shape="rect" id="node4" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="460,56,667,83"/>
+<area shape="rect" id="node6" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="470,107,657,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a71a9e0a93e05353ff243f4c48afa67d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a9e0a93e05353ff243f4c48afa67d0">&#9670;&nbsp;</a></span>HideVizualisation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.HideVizualisation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cache les objets 3D de la visualisation. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph.png" border="0" usemap="#class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph" alt=""/></div>
+<map name="class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph" id="class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph">
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="243,23,419,65"/>
+<area shape="rect" id="node5" href="class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="MenuVisualizationUI.Toggle\lShowOrHide" alt="" coords="240,89,423,130"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="471,5,661,32"/>
+<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="477,56,655,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6027638c71846ed03d560cd75d8a92d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6027638c71846ed03d560cd75d8a92d6">&#9670;&nbsp;</a></span>NextGen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.NextGen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Passage à la prochaine génération. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph.png" border="0" usemap="#class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph" alt=""/></div>
+<map name="class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph" id="class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="192,5,355,32"/>
+<area shape="rect" id="node3" href="class_simulation.html#a1ba6581d305c2d60d174e0cffd917719" title="Méthode permettant le passage à la génération suivante. " alt="" coords="193,56,353,83"/>
+<area shape="rect" id="node7" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="214,107,333,133"/>
+<area shape="rect" id="node4" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="403,31,569,57"/>
+<area shape="rect" id="node6" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="423,81,549,108"/>
+<area shape="rect" id="node5" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="617,56,776,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab668bfea667549d1295fc55f5ccfbc4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab668bfea667549d1295fc55f5ccfbc4a">&#9670;&nbsp;</a></span>PauseOrPlay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.PauseOrPlay </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pause</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mets en pause ou en play la simulation. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pause</td><td>true si en pause, false sinon.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph.png" border="0" usemap="#class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph" alt=""/></div>
+<map name="class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph" id="class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph">
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#a9affc75173b7b9e70340b2b934398464" title="Mets en pause ou lance la simulation. " alt="" coords="217,23,399,65"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="447,5,637,32"/>
+<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="453,56,631,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2af29808f03940f4a8824c926f8c8cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af29808f03940f4a8824c926f8c8cf9">&#9670;&nbsp;</a></span>PreviousGen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.PreviousGen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Passage à la génération précédente. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph.png" border="0" usemap="#class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph" alt=""/></div>
+<map name="class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph" id="class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph">
+<area shape="rect" id="node2" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="213,5,380,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="237,56,356,83"/>
+<area shape="rect" id="node5" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="234,107,359,133"/>
+<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="428,56,587,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aff8ad1d9fe429a08bf0d42f52b08b71b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8ad1d9fe429a08bf0d42f52b08b71b">&#9670;&nbsp;</a></span>RandomVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.RandomVolume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la génération) à 0. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph.png" border="0" usemap="#class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph" alt=""/></div>
+<map name="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph" id="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph">
+<area shape="rect" id="node2" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="232,31,385,57"/>
+<area shape="rect" id="node5" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="249,81,368,108"/>
+<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="433,5,592,32"/>
+<area shape="rect" id="node4" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="438,56,587,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a500982098740ae238f349a6fed0affd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500982098740ae238f349a6fed0affd8">&#9670;&nbsp;</a></span>RestartSimulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.RestartSimulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recommence la simulation. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a500982098740ae238f349a6fed0affd8_cgraph.png" border="0" usemap="#class_simulation_a500982098740ae238f349a6fed0affd8_cgraph" alt=""/></div>
+<map name="class_simulation_a500982098740ae238f349a6fed0affd8_cgraph" id="class_simulation_a500982098740ae238f349a6fed0affd8_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="246,5,409,32"/>
+<area shape="rect" id="node3" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="244,56,411,83"/>
+<area shape="rect" id="node5" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="265,107,390,133"/>
+<area shape="rect" id="node6" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="268,157,387,184"/>
+<area shape="rect" id="node4" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="459,81,617,108"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a500982098740ae238f349a6fed0affd8_icgraph.png" border="0" usemap="#class_simulation_a500982098740ae238f349a6fed0affd8_icgraph" alt=""/></div>
+<map name="class_simulation_a500982098740ae238f349a6fed0affd8_icgraph" id="class_simulation_a500982098740ae238f349a6fed0affd8_icgraph">
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="244,5,431,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a93ab4fa0107498061196ce3a051d292d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ab4fa0107498061196ce3a051d292d">&#9670;&nbsp;</a></span>setStructDectF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.setStructDectF </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section author"><dt>Auteur</dt><dd>$username$ TIAN Ning, QIN Yi </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 </dd></dl>
+
+</div>
+</div>
+<a id="a19b96b4354d41349e367d282cc4e88aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19b96b4354d41349e367d282cc4e88aa">&#9670;&nbsp;</a></span>setStructDectT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.setStructDectT </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>periode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>structDect</em>[][,,]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section author"><dt>Auteur</dt><dd>$username$ TIAN Ning, QIN Yi </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 </dd></dl>
+
+</div>
+</div>
+<a id="a775498931843884fbc6c08de3b2b1afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775498931843884fbc6c08de3b2b1afd">&#9670;&nbsp;</a></span>SetStructure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.SetStructure </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>volumePosition</em>[,,]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volumePosition</td><td>Les positions des cellules.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph.png" border="0" usemap="#class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph" alt=""/></div>
+<map name="class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph" id="class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="213,5,376,32"/>
+<area shape="rect" id="node3" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="218,56,371,83"/>
+<area shape="rect" id="node6" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="235,107,354,133"/>
+<area shape="rect" id="node4" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="424,31,583,57"/>
+<area shape="rect" id="node5" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="429,81,578,108"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph.png" border="0" usemap="#class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph" alt=""/></div>
+<map name="class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph" id="class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph">
+<area shape="rect" id="node2" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="213,5,431,32"/>
+<area shape="rect" id="node3" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="219,56,425,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af1580cd4ce5cb935c5f55ad4ce4f94de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1580cd4ce5cb935c5f55ad4ce4f94de">&#9670;&nbsp;</a></span>SetVariablesParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.SetVariablesParameters </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>changeVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxGen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>random</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>threshhold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Voisinage2&#160;</td>
+          <td class="paramname"><em>voisinage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>bornRule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>surviveRule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toro</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useDetection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useDetectionStable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useDetectionOscill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useDetectionGlider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useDetectCanon</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>periodMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useDependencies</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de transmettre de <a class="el" href="class_parameters.html">Parameters</a> à Simulation2 les différentes valeurs des variables. </p>
+<dl class="section author"><dt>Auteur</dt><dd>$username$ Dorian Grouteau,Vincent Tu, TIAN Ning, QIN Yi </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 <dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">h</td><td>heigh</td></tr>
+    <tr><td class="paramname">w</td><td>widht</td></tr>
+    <tr><td class="paramname">l</td><td></td></tr>
+    <tr><td class="paramname">maxGen</td><td>Le nombre maximal de génération.</td></tr>
+    <tr><td class="paramname">random</td><td>True si les cellules sont générées aléatoirement, false sinon.</td></tr>
+    <tr><td class="paramname">threshhold</td><td>Compris entre 0 et 1, représente la probabilité qu'une cellule soit en vie à la génération 0.</td></tr>
+    <tr><td class="paramname">voisinage</td><td>Le type de voisinage.</td></tr>
+    <tr><td class="paramname">bornRule</td><td>Les règles de naissances.</td></tr>
+    <tr><td class="paramname">surviveRule</td><td>Les règles de survies.</td></tr>
+  </table>
+  </dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+<a id="a9238f4dcd56a4945017fda48a76a3dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9238f4dcd56a4945017fda48a76a3dc8">&#9670;&nbsp;</a></span>setVoisinage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.setVoisinage </td>
+          <td>(</td>
+          <td class="paramtype">Voisinage2&#160;</td>
+          <td class="paramname"><em>voisin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p></p>
+<dl class="section author"><dt>Auteur</dt><dd>$username$ TIAN Ning </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voisinage</td><td></td></tr>
+    <tr><td class="paramname">t</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>if true, active: toroïdal </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph.png" border="0" usemap="#class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph" alt=""/></div>
+<map name="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph" id="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="216,5,355,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af5fd57d6f657f07bc0fac7085832dc82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5fd57d6f657f07bc0fac7085832dc82">&#9670;&nbsp;</a></span>Show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.Show </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Montre les cubes et changent leur couleur en fonction de leur age. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph.png" border="0" usemap="#class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph" alt=""/></div>
+<map name="class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph" id="class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#aff8ad1d9fe429a08bf0d42f52b08b71b" title="Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la généra..." alt="" coords="178,5,357,32"/>
+<area shape="rect" id="node3" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="187,56,347,83"/>
+<area shape="rect" id="node6" href="class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="172,107,363,133"/>
+<area shape="rect" id="node8" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="198,157,337,184"/>
+<area shape="rect" id="node9" href="class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9" title="Passage à la génération précédente. " alt="" coords="187,208,347,235"/>
+<area shape="rect" id="node4" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="411,5,628,32"/>
+<area shape="rect" id="node5" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="416,56,623,83"/>
+<area shape="rect" id="node7" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="426,107,613,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acc3c641f3874f1805c3a13d2153b6023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3c641f3874f1805c3a13d2153b6023">&#9670;&nbsp;</a></span>ShowVizualisation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.ShowVizualisation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Montre les objets 3D de la visualisation. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph.png" border="0" usemap="#class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph" alt=""/></div>
+<map name="class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph" id="class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph">
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="250,23,426,65"/>
+<area shape="rect" id="node5" href="class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="MenuVisualizationUI.Toggle\lShowOrHide" alt="" coords="247,89,429,130"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="477,5,668,32"/>
+<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="483,56,662,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1ba6581d305c2d60d174e0cffd917719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba6581d305c2d60d174e0cffd917719">&#9670;&nbsp;</a></span>StepForward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.StepForward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Méthode permettant le passage à la génération suivante. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph.png" border="0" usemap="#class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph" alt=""/></div>
+<map name="class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph" id="class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph">
+<area shape="rect" id="node2" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="213,5,380,32"/>
+<area shape="rect" id="node4" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="234,56,359,83"/>
+<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="428,31,587,57"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph.png" border="0" usemap="#class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph" alt=""/></div>
+<map name="class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph" id="class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="213,5,352,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a4fd8bb7eb15c0462da5f0615d293e404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fd8bb7eb15c0462da5f0615d293e404">&#9670;&nbsp;</a></span>ficheNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.ficheNumber</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7009e8c0768bac6a8056db7b9614a040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7009e8c0768bac6a8056db7b9614a040">&#9670;&nbsp;</a></span>ls</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_local_storage.html">LocalStorage</a> Simulation.ls</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2766dce78dbc1f3c20353f02f57103e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2766dce78dbc1f3c20353f02f57103e1">&#9670;&nbsp;</a></span>nu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Simulation.nu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4e91933fc69c6696543f44cdc5489eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e91933fc69c6696543f44cdc5489eb">&#9670;&nbsp;</a></span>openPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.openPanel = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a4efe47214d16664ea0c43bcc437af3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a4efe47214d16664ea0c43bcc437af3">&#9670;&nbsp;</a></span>position</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [][,,] Simulation.position</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9945c13b481c81bfb75ad26e730a78d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9945c13b481c81bfb75ad26e730a78d4">&#9670;&nbsp;</a></span>pp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [,,] Simulation.pp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac581af6c4b31a61b95a1c11c1d4ed38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac581af6c4b31a61b95a1c11c1d4ed38b">&#9670;&nbsp;</a></span>structDec</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [][,,] Simulation.structDec</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d34073239ee6afd6c15327ae9f249bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d34073239ee6afd6c15327ae9f249bb">&#9670;&nbsp;</a></span>toro</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.toro</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2106f84d6bf1aec6e3d852e4a4432217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2106f84d6bf1aec6e3d852e4a4432217">&#9670;&nbsp;</a></span>useDetectCanon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.useDetectCanon = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_simulation.html">Simulation</a></li>
+    <li class="footer">Généré par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

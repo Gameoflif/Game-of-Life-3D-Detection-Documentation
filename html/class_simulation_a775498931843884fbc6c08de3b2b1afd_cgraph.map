@@ -1,0 +1,7 @@
+<map id="Simulation.SetStructure" name="Simulation.SetStructure">
+<area shape="rect" id="node2" href="$class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="213,5,376,32"/>
+<area shape="rect" id="node3" href="$class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="218,56,371,83"/>
+<area shape="rect" id="node6" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="235,107,354,133"/>
+<area shape="rect" id="node4" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="424,31,583,57"/>
+<area shape="rect" id="node5" href="$class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="429,81,578,108"/>
+</map>

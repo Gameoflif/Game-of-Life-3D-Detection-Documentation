@@ -1,0 +1,9 @@
+<map id="ListVectorGun.Contains" name="ListVectorGun.Contains">
+<area shape="rect" id="node2" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="459,5,637,32"/>
+<area shape="rect" id="node5" href="$class_list_vector_gun.html#a73d0b1fca681bce5aaf680873b071827" title="Retourner la même structure à partir de deux listes " alt="" coords="213,56,404,83"/>
+<area shape="rect" id="node7" href="$class_list_vector_gun.html#a23dabaffda742276390b578c091d101a" title="Savoir combien de points d&#39;entre deux structures ont les mêmes coordonnées " alt="" coords="215,107,403,133"/>
+<area shape="rect" id="node3" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="Déterminer la présence ou l&#39;absence de canons " alt="" coords="715,56,872,83"/>
+<area shape="rect" id="node4" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période " alt="" coords="943,81,1116,108"/>
+<area shape="rect" id="node6" href="$class_detection_gun.html#af0283c67f8fe041c2ff8ded541054d56" title="si c&#39;est la premiere forme retourner true " alt="" coords="452,56,644,83"/>
+<area shape="rect" id="node8" href="$class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d" title="DetectionGun.trouverModelGun" alt="" coords="692,107,895,133"/>
+</map>

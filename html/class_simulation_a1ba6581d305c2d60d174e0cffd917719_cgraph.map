@@ -1,0 +1,5 @@
+<map id="Simulation.StepForward" name="Simulation.StepForward">
+<area shape="rect" id="node2" href="$class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="213,5,380,32"/>
+<area shape="rect" id="node4" href="$class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="234,56,359,83"/>
+<area shape="rect" id="node3" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="428,31,587,57"/>
+</map>

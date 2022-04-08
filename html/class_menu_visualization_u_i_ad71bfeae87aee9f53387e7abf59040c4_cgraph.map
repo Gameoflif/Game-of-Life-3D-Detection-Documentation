@@ -1,0 +1,8 @@
+<map id="MenuVisualizationUI.Restart" name="MenuVisualizationUI.Restart">
+<area shape="rect" id="node2" href="$class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="240,81,431,108"/>
+<area shape="rect" id="node3" href="$class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="481,5,643,32"/>
+<area shape="rect" id="node4" href="$class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="479,56,645,83"/>
+<area shape="rect" id="node6" href="$class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="499,107,625,133"/>
+<area shape="rect" id="node7" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="503,157,621,184"/>
+<area shape="rect" id="node5" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="693,81,852,108"/>
+</map>

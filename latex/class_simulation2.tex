@@ -1,0 +1,770 @@
+\hypertarget{class_simulation2}{}\section{Référence de la classe Simulation2}
+\label{class_simulation2}\index{Simulation2@{Simulation2}}
+
+
+Graphe d\textquotesingle{}héritage de Simulation2\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_simulation2__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Simulation2\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{class_simulation2__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_simulation2_ac4ade01f70c0b453d51a62be9d50e2ae}{Set\+Variables\+Parameters}} (bool change\+Volume, int \mbox{\hyperlink{class_simulation2_af29275bd4a0258f40145571332bcbfe7}{h}}, int \mbox{\hyperlink{class_simulation2_a2c5f8ea5bdf25da6011b47228df3fbf8}{w}}, int \mbox{\hyperlink{class_simulation2_a3c066b4b23080953fcce80b1fc2c56b4}{l}}, int \mbox{\hyperlink{class_simulation2_a37f3b0f46bf617f526d81ca01fac23e2}{max\+Gen}}, bool \mbox{\hyperlink{class_simulation2_a48db27680b5deaf8e913924a75b6916c}{random}}, float \mbox{\hyperlink{class_simulation2_a17803d7383b2bbd62c96572cd3370d06}{threshhold}}, Voisinage2 \mbox{\hyperlink{class_simulation2_a0f278d8340b3920e0aeb9aafccf9daec}{voisinage}}, int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_simulation2_a4cb820ddd8658778f36723fa0e5dec50}{born\+Rule}}, int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_simulation2_a8e264ac14adf969b72d37a3006c9981f}{survive\+Rule}}, bool \mbox{\hyperlink{class_simulation2_abefcdee48ca39bb47d28984bcf033ca4}{toro}}, bool use\+Detection, bool use\+Detection\+Stable, bool use\+Detection\+Oscill, bool use\+Detection\+Glider, bool \mbox{\hyperlink{class_simulation2_ae390b35abb2471abc8e257633896404a}{use\+Detect\+Canon}}, int period\+Max, bool use\+Dependencies)
+\begin{DoxyCompactList}\small\item\em Permet de transmettre de \mbox{\hyperlink{class_parameters}{Parameters}} à \mbox{\hyperlink{class_simulation2}{Simulation2}} les différentes valeurs des variables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a4d1dfe65ceaf3256baba8a57efdabdd2}{set\+Struct\+DectT}} (int \mbox{\hyperlink{class_simulation2_af29275bd4a0258f40145571332bcbfe7}{h}}, int \mbox{\hyperlink{class_simulation2_a2c5f8ea5bdf25da6011b47228df3fbf8}{w}}, int \mbox{\hyperlink{class_simulation2_a3c066b4b23080953fcce80b1fc2c56b4}{l}}, int \mbox{\hyperlink{class_simulation2_a65e50727f755df30407afa8b931e10c0}{periode}}, int\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} struct\+Dect)
+\item 
+void \mbox{\hyperlink{class_simulation2_a68881bc6b234067ccb956b04d1f59e90}{set\+Struct\+DectF}} ()
+\item 
+void \mbox{\hyperlink{class_simulation2_a2df629e8c95d93ca5955df4b3369f16f}{Pause\+Or\+Play}} (bool pause)
+\begin{DoxyCompactList}\small\item\em Mets en pause ou en play la simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_ac1bb1640dae3927d80ec43c8f7707759}{Hide\+Vizualisation}} ()
+\begin{DoxyCompactList}\small\item\em Cache les objets 3D de la visualisation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a039dde8f4d11ff8998e438051166f8b2}{Show\+Vizualisation}} ()
+\begin{DoxyCompactList}\small\item\em Montre les objets 3D de la visualisation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a8508ba06258751760b848e98c57ce06d}{Set\+Structure}} (int\mbox{[},,\mbox{]} volume\+Position)
+\begin{DoxyCompactList}\small\item\em Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_ad962236b5b5316310e2db253a6ffecee}{Change\+Speed}} (float \mbox{\hyperlink{class_simulation2_ad5211ec4fe39100128b77239da0aae3f}{speed}})
+\begin{DoxyCompactList}\small\item\em Change la vitesse de simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a151637139908a2546fcf9dd5203aa247}{Restart\+Simulation}} ()
+\begin{DoxyCompactList}\small\item\em Recommence la simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a71a0bbd4c453b30461173f6fc5f1ea86}{Deactivate\+All}} ()
+\begin{DoxyCompactList}\small\item\em Désactive toutes les cellules (et cubes). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a15b6e3294aeb571c31ea98e80b0f061e}{Next\+Gen}} ()
+\begin{DoxyCompactList}\small\item\em Passage à la prochaine génération. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a38cbad0a856c0163b19960e72842363d}{set\+Voisinage}} (Voisinage2 voisin, bool t)
+\item 
+void \mbox{\hyperlink{class_simulation2_addae6faec11353c1a1184c535cf3764c}{Previous\+Gen}} ()
+\begin{DoxyCompactList}\small\item\em Passage à la génération précédente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation2_a5a15f114f03b61aec33f641c49e0734c}{apply\+Save}} ()
+\begin{DoxyCompactList}\small\item\em pour permettre à l\textquotesingle{}utilisateur de enregistre les structure \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_simulation2_a0a82650af5163435eb703b67df1407fb}{show\+Intransparent\+Cell}} = false
+\begin{DoxyCompactList}\small\item\em true si les cellules mortes doivent etre visibles en transparent, false sinon. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_simulation2_a79dc4cff4a20f5e7f32f56a3f636f264}{cell\+Colortransparent}}
+\begin{DoxyCompactList}\small\item\em La couleur des cellules mortes. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_simulation2_a2d6fba893f6adaf94a2329d903a4ec35}{force\+Visual\+Deactivation}} = false
+\begin{DoxyCompactList}\small\item\em force la désactivation de la visualisation si le nombre de cellule excede 30$\ast$30$\ast$30 \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_simulation2_af29275bd4a0258f40145571332bcbfe7}{h}} = 30
+\item 
+int \mbox{\hyperlink{class_simulation2_a2c5f8ea5bdf25da6011b47228df3fbf8}{w}} = 30
+\item 
+int \mbox{\hyperlink{class_simulation2_a3c066b4b23080953fcce80b1fc2c56b4}{l}} = 30
+\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_simulation2_a4cb820ddd8658778f36723fa0e5dec50}{born\+Rule}} = new int\mbox{[}$\,$\mbox{]} \{ 5, 6, 7 \}
+\begin{DoxyCompactList}\small\item\em Régles de naissance. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_simulation2_a8e264ac14adf969b72d37a3006c9981f}{survive\+Rule}} = new int\mbox{[}$\,$\mbox{]} \{ 6 \}
+\begin{DoxyCompactList}\small\item\em Régles de mort. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_simulation2_ad5211ec4fe39100128b77239da0aae3f}{speed}} = 0.\+5f
+\begin{DoxyCompactList}\small\item\em Vitesse de simulation. \end{DoxyCompactList}\item 
+Material \mbox{\hyperlink{class_simulation2_a2ec94d393d26bf7926018f93ef544ef0}{the\+Material}}
+\begin{DoxyCompactList}\small\item\em Le material appliqué aux cellules. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_simulation2_a004598afd4765dd3b66ad0fb1628c8d6}{young\+Color}} = Color.\+green
+\begin{DoxyCompactList}\small\item\em La couleur de naissance d\textquotesingle{}une cellule, à l\textquotesingle{}age 0. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_simulation2_aa0dd7ba94b0363c6de0f9d4f35db4689}{old\+Color}} = Color.\+blue
+\begin{DoxyCompactList}\small\item\em La couleur d\textquotesingle{}une cellule à l\textquotesingle{}age max\+Age\+Cell\+Color. \end{DoxyCompactList}\item 
+Transform \mbox{\hyperlink{class_simulation2_a19e139de68ecbb0b30e9f13bd4da6ae5}{parent}}
+\begin{DoxyCompactList}\small\item\em Le parent des cubes. \end{DoxyCompactList}\item 
+Voisinage2 \mbox{\hyperlink{class_simulation2_a0f278d8340b3920e0aeb9aafccf9daec}{voisinage}}
+\begin{DoxyCompactList}\small\item\em Le type de voisinnage utilisé. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_simulation2_ac69e02052c567c7f3b27cdbb141fd8ee}{gen}} = 0
+\begin{DoxyCompactList}\small\item\em Le nombre de génération. \end{DoxyCompactList}\item 
+Text\+Mesh\+Pro\+U\+G\+UI \mbox{\hyperlink{class_simulation2_aed7deed0c048995375e87ba8ee74955c}{nb\+Gen}}
+\begin{DoxyCompactList}\small\item\em Afficher le nombre de génération. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_simulation2_ae39c9077019822d56529bafcba2727c1}{in\+Pause}} = true
+\begin{DoxyCompactList}\small\item\em true si en pause, false sinon. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_simulation2_a37f3b0f46bf617f526d81ca01fac23e2}{max\+Gen}} = 10000
+\begin{DoxyCompactList}\small\item\em Le nombre maximal de génération. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_simulation2_a17803d7383b2bbd62c96572cd3370d06}{threshhold}}
+\begin{DoxyCompactList}\small\item\em La probabilité d\textquotesingle{}apparition d\textquotesingle{}une cellule (quand random dans initial structure dans les parametres est activé). \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_simulation2_a48db27680b5deaf8e913924a75b6916c}{random}}
+\begin{DoxyCompactList}\small\item\em true s\textquotesingle{}il faut créer des cellules aléatoirement, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_simulation2_afcd6fde8b8c81ef7d832b60cd1b0c6a6}{show}} = true
+\begin{DoxyCompactList}\small\item\em Vrai s\textquotesingle{}il y a la visualisation des cellules (les cubes) false sinon. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_detection}{Detection}} \mbox{\hyperlink{class_simulation2_a0d4f89afd07a433b02633bf25c82f2a6}{detection}}
+\item 
+Game\+Object \mbox{\hyperlink{class_simulation2_adfadcc7cb6f6be95e7280e4bdafb8eaa}{panel\+Save}}
+\begin{DoxyCompactList}\small\item\em Le panel pour permettre à l\textquotesingle{}utilisateur de saisir le nom de la structure \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_simulation2_ae3c3d1bfed4939037239dc36e4f48c01}{panel\+Text}}
+\begin{DoxyCompactList}\small\item\em Le panel pour permettre à afficher les informations d\textquotesingle{}aide \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_simulation2_a3aa2513e53b3020ee37f02b2cde141b5}{name\+Structure}}
+\begin{DoxyCompactList}\small\item\em le nom du ficher \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_simulation2_aa7e4143d785bbe0d82854ddb143a3585}{nameS}}
+\begin{DoxyCompactList}\small\item\em le nom du ficher \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_simulation2_ad12f8511d6f40bb36c7c6a59f54dde8c}{numero}}
+\begin{DoxyCompactList}\small\item\em le indicateur \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_simulation2_a65e50727f755df30407afa8b931e10c0}{periode}}
+\begin{DoxyCompactList}\small\item\em la periode que l\textquotesingle{}utilisateur veut enregister le fichier \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_simulation2_aca35383d89ed51e965122457e8808d56}{nu}}
+\item 
+bool \mbox{\hyperlink{class_simulation2_a72c067338ece18bf0182f9e5e97ebbe0}{open\+Panel}} = false
+\item 
+\mbox{\hyperlink{class_local_storage}{Local\+Storage}} \mbox{\hyperlink{class_simulation2_ab6caf75542f3e7779466d98dafe3043f}{ls}}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_simulation2_ad4246f77655a4f827a7f22ffa4d95d97}{struct\+Dec}}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_simulation2_ac598aba18865c6b3dccbbd8f7126e134}{position}}
+\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_simulation2_a3ee6c95cd49428c222b8d1370c49bf96}{pp}}
+\item 
+bool \mbox{\hyperlink{class_simulation2_abefcdee48ca39bb47d28984bcf033ca4}{toro}}
+\item 
+int \mbox{\hyperlink{class_simulation2_ac73e8ee231cc7ebeabcac9ad3c903810}{fiche\+Number}}
+\item 
+bool \mbox{\hyperlink{class_simulation2_ae390b35abb2471abc8e257633896404a}{use\+Detect\+Canon}} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 07/04/2022 
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_simulation2_a5a15f114f03b61aec33f641c49e0734c}\label{class_simulation2_a5a15f114f03b61aec33f641c49e0734c}} 
+\index{Simulation2@{Simulation2}!apply\+Save@{apply\+Save}}
+\index{apply\+Save@{apply\+Save}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{apply\+Save()}{applySave()}}
+{\footnotesize\ttfamily void Simulation2.\+apply\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+pour permettre à l\textquotesingle{}utilisateur de enregistre les structure 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Q\+IN Yi , T\+I\+AN Ning 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_ad962236b5b5316310e2db253a6ffecee}\label{class_simulation2_ad962236b5b5316310e2db253a6ffecee}} 
+\index{Simulation2@{Simulation2}!Change\+Speed@{Change\+Speed}}
+\index{Change\+Speed@{Change\+Speed}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Change\+Speed()}{ChangeSpeed()}}
+{\footnotesize\ttfamily void Simulation2.\+Change\+Speed (\begin{DoxyParamCaption}\item[{float}]{speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Change la vitesse de simulation. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\begin{DoxyParams}{Paramètres}
+{\em speed} & La nouvelle vitesse de simulation.\\
+\hline
+\end{DoxyParams}
+
+\end{DoxyDate}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation2_ad962236b5b5316310e2db253a6ffecee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation2_a71a0bbd4c453b30461173f6fc5f1ea86}\label{class_simulation2_a71a0bbd4c453b30461173f6fc5f1ea86}} 
+\index{Simulation2@{Simulation2}!Deactivate\+All@{Deactivate\+All}}
+\index{Deactivate\+All@{Deactivate\+All}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Deactivate\+All()}{DeactivateAll()}}
+{\footnotesize\ttfamily void Simulation2.\+Deactivate\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Désactive toutes les cellules (et cubes). 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_ac1bb1640dae3927d80ec43c8f7707759}\label{class_simulation2_ac1bb1640dae3927d80ec43c8f7707759}} 
+\index{Simulation2@{Simulation2}!Hide\+Vizualisation@{Hide\+Vizualisation}}
+\index{Hide\+Vizualisation@{Hide\+Vizualisation}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Hide\+Vizualisation()}{HideVizualisation()}}
+{\footnotesize\ttfamily void Simulation2.\+Hide\+Vizualisation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cache les objets 3D de la visualisation. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\end{DoxyDate}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation2_ac1bb1640dae3927d80ec43c8f7707759_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation2_a15b6e3294aeb571c31ea98e80b0f061e}\label{class_simulation2_a15b6e3294aeb571c31ea98e80b0f061e}} 
+\index{Simulation2@{Simulation2}!Next\+Gen@{Next\+Gen}}
+\index{Next\+Gen@{Next\+Gen}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Next\+Gen()}{NextGen()}}
+{\footnotesize\ttfamily void Simulation2.\+Next\+Gen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Passage à la prochaine génération. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_a2df629e8c95d93ca5955df4b3369f16f}\label{class_simulation2_a2df629e8c95d93ca5955df4b3369f16f}} 
+\index{Simulation2@{Simulation2}!Pause\+Or\+Play@{Pause\+Or\+Play}}
+\index{Pause\+Or\+Play@{Pause\+Or\+Play}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Pause\+Or\+Play()}{PauseOrPlay()}}
+{\footnotesize\ttfamily void Simulation2.\+Pause\+Or\+Play (\begin{DoxyParamCaption}\item[{bool}]{pause }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mets en pause ou en play la simulation. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\begin{DoxyParams}{Paramètres}
+{\em pause} & true si en pause, false sinon.\\
+\hline
+\end{DoxyParams}
+
+\end{DoxyDate}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation2_a2df629e8c95d93ca5955df4b3369f16f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation2_addae6faec11353c1a1184c535cf3764c}\label{class_simulation2_addae6faec11353c1a1184c535cf3764c}} 
+\index{Simulation2@{Simulation2}!Previous\+Gen@{Previous\+Gen}}
+\index{Previous\+Gen@{Previous\+Gen}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Previous\+Gen()}{PreviousGen()}}
+{\footnotesize\ttfamily void Simulation2.\+Previous\+Gen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Passage à la génération précédente. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_a151637139908a2546fcf9dd5203aa247}\label{class_simulation2_a151637139908a2546fcf9dd5203aa247}} 
+\index{Simulation2@{Simulation2}!Restart\+Simulation@{Restart\+Simulation}}
+\index{Restart\+Simulation@{Restart\+Simulation}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Restart\+Simulation()}{RestartSimulation()}}
+{\footnotesize\ttfamily void Simulation2.\+Restart\+Simulation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Recommence la simulation. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\end{DoxyDate}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation2_a151637139908a2546fcf9dd5203aa247_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation2_a68881bc6b234067ccb956b04d1f59e90}\label{class_simulation2_a68881bc6b234067ccb956b04d1f59e90}} 
+\index{Simulation2@{Simulation2}!set\+Struct\+DectF@{set\+Struct\+DectF}}
+\index{set\+Struct\+DectF@{set\+Struct\+DectF}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{set\+Struct\+Dect\+F()}{setStructDectF()}}
+{\footnotesize\ttfamily void Simulation2.\+set\+Struct\+DectF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning, Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_a4d1dfe65ceaf3256baba8a57efdabdd2}\label{class_simulation2_a4d1dfe65ceaf3256baba8a57efdabdd2}} 
+\index{Simulation2@{Simulation2}!set\+Struct\+DectT@{set\+Struct\+DectT}}
+\index{set\+Struct\+DectT@{set\+Struct\+DectT}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{set\+Struct\+Dect\+T()}{setStructDectT()}}
+{\footnotesize\ttfamily void Simulation2.\+set\+Struct\+DectT (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{periode,  }\item[{int}]{struct\+Dect\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning, Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_a8508ba06258751760b848e98c57ce06d}\label{class_simulation2_a8508ba06258751760b848e98c57ce06d}} 
+\index{Simulation2@{Simulation2}!Set\+Structure@{Set\+Structure}}
+\index{Set\+Structure@{Set\+Structure}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Set\+Structure()}{SetStructure()}}
+{\footnotesize\ttfamily void Simulation2.\+Set\+Structure (\begin{DoxyParamCaption}\item[{int}]{volume\+Position\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\begin{DoxyParams}{Paramètres}
+{\em volume\+Position} & Les positions des cellules.\\
+\hline
+\end{DoxyParams}
+
+\end{DoxyDate}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation2_a8508ba06258751760b848e98c57ce06d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation2_ac4ade01f70c0b453d51a62be9d50e2ae}\label{class_simulation2_ac4ade01f70c0b453d51a62be9d50e2ae}} 
+\index{Simulation2@{Simulation2}!Set\+Variables\+Parameters@{Set\+Variables\+Parameters}}
+\index{Set\+Variables\+Parameters@{Set\+Variables\+Parameters}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Set\+Variables\+Parameters()}{SetVariablesParameters()}}
+{\footnotesize\ttfamily void Simulation2.\+Set\+Variables\+Parameters (\begin{DoxyParamCaption}\item[{bool}]{change\+Volume,  }\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{max\+Gen,  }\item[{bool}]{random,  }\item[{float}]{threshhold,  }\item[{Voisinage2}]{voisinage,  }\item[{int \mbox{[}$\,$\mbox{]}}]{born\+Rule,  }\item[{int \mbox{[}$\,$\mbox{]}}]{survive\+Rule,  }\item[{bool}]{toro,  }\item[{bool}]{use\+Detection,  }\item[{bool}]{use\+Detection\+Stable,  }\item[{bool}]{use\+Detection\+Oscill,  }\item[{bool}]{use\+Detection\+Glider,  }\item[{bool}]{use\+Detect\+Canon,  }\item[{int}]{period\+Max,  }\item[{bool}]{use\+Dependencies }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet de transmettre de \mbox{\hyperlink{class_parameters}{Parameters}} à \mbox{\hyperlink{class_simulation2}{Simulation2}} les différentes valeurs des variables. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu, T\+I\+AN Ning, Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\begin{DoxyParams}{Paramètres}
+{\em h} & heigh\\
+\hline
+{\em w} & widht\\
+\hline
+{\em l} & \\
+\hline
+{\em max\+Gen} & Le nombre maximal de génération.\\
+\hline
+{\em random} & True si les cellules sont générées aléatoirement, false sinon.\\
+\hline
+{\em threshhold} & Compris entre 0 et 1, représente la probabilité qu\textquotesingle{}une cellule soit en vie à la génération 0.\\
+\hline
+{\em voisinage} & Le type de voisinage.\\
+\hline
+{\em born\+Rule} & Les règles de naissances.\\
+\hline
+{\em survive\+Rule} & Les règles de survies.\\
+\hline
+\end{DoxyParams}
+
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation2_a38cbad0a856c0163b19960e72842363d}\label{class_simulation2_a38cbad0a856c0163b19960e72842363d}} 
+\index{Simulation2@{Simulation2}!set\+Voisinage@{set\+Voisinage}}
+\index{set\+Voisinage@{set\+Voisinage}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{set\+Voisinage()}{setVoisinage()}}
+{\footnotesize\ttfamily void Simulation2.\+set\+Voisinage (\begin{DoxyParamCaption}\item[{Voisinage2}]{voisin,  }\item[{bool}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022
+\end{DoxyDate}
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em voisinage} & \\
+\hline
+{\em t} & \\
+\hline
+\end{DoxyParams}
+if true, active\+: toroïdal \mbox{\Hypertarget{class_simulation2_a039dde8f4d11ff8998e438051166f8b2}\label{class_simulation2_a039dde8f4d11ff8998e438051166f8b2}} 
+\index{Simulation2@{Simulation2}!Show\+Vizualisation@{Show\+Vizualisation}}
+\index{Show\+Vizualisation@{Show\+Vizualisation}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{Show\+Vizualisation()}{ShowVizualisation()}}
+{\footnotesize\ttfamily void Simulation2.\+Show\+Vizualisation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Montre les objets 3D de la visualisation. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 
+\end{DoxyDate}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation2_a039dde8f4d11ff8998e438051166f8b2_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_simulation2_a4cb820ddd8658778f36723fa0e5dec50}\label{class_simulation2_a4cb820ddd8658778f36723fa0e5dec50}} 
+\index{Simulation2@{Simulation2}!born\+Rule@{born\+Rule}}
+\index{born\+Rule@{born\+Rule}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{born\+Rule}{bornRule}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Simulation2.\+born\+Rule = new int\mbox{[}$\,$\mbox{]} \{ 5, 6, 7 \}}
+
+
+
+Régles de naissance. 
+
+\mbox{\Hypertarget{class_simulation2_a79dc4cff4a20f5e7f32f56a3f636f264}\label{class_simulation2_a79dc4cff4a20f5e7f32f56a3f636f264}} 
+\index{Simulation2@{Simulation2}!cell\+Colortransparent@{cell\+Colortransparent}}
+\index{cell\+Colortransparent@{cell\+Colortransparent}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{cell\+Colortransparent}{cellColortransparent}}
+{\footnotesize\ttfamily Color Simulation2.\+cell\+Colortransparent}
+
+
+
+La couleur des cellules mortes. 
+
+\mbox{\Hypertarget{class_simulation2_a0d4f89afd07a433b02633bf25c82f2a6}\label{class_simulation2_a0d4f89afd07a433b02633bf25c82f2a6}} 
+\index{Simulation2@{Simulation2}!detection@{detection}}
+\index{detection@{detection}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{detection}{detection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_detection}{Detection}} Simulation2.\+detection}
+
+\mbox{\Hypertarget{class_simulation2_ac73e8ee231cc7ebeabcac9ad3c903810}\label{class_simulation2_ac73e8ee231cc7ebeabcac9ad3c903810}} 
+\index{Simulation2@{Simulation2}!fiche\+Number@{fiche\+Number}}
+\index{fiche\+Number@{fiche\+Number}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{fiche\+Number}{ficheNumber}}
+{\footnotesize\ttfamily int Simulation2.\+fiche\+Number}
+
+\mbox{\Hypertarget{class_simulation2_a2d6fba893f6adaf94a2329d903a4ec35}\label{class_simulation2_a2d6fba893f6adaf94a2329d903a4ec35}} 
+\index{Simulation2@{Simulation2}!force\+Visual\+Deactivation@{force\+Visual\+Deactivation}}
+\index{force\+Visual\+Deactivation@{force\+Visual\+Deactivation}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{force\+Visual\+Deactivation}{forceVisualDeactivation}}
+{\footnotesize\ttfamily bool Simulation2.\+force\+Visual\+Deactivation = false}
+
+
+
+force la désactivation de la visualisation si le nombre de cellule excede 30$\ast$30$\ast$30 
+
+\mbox{\Hypertarget{class_simulation2_ac69e02052c567c7f3b27cdbb141fd8ee}\label{class_simulation2_ac69e02052c567c7f3b27cdbb141fd8ee}} 
+\index{Simulation2@{Simulation2}!gen@{gen}}
+\index{gen@{gen}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{gen}{gen}}
+{\footnotesize\ttfamily int Simulation2.\+gen = 0}
+
+
+
+Le nombre de génération. 
+
+\mbox{\Hypertarget{class_simulation2_af29275bd4a0258f40145571332bcbfe7}\label{class_simulation2_af29275bd4a0258f40145571332bcbfe7}} 
+\index{Simulation2@{Simulation2}!h@{h}}
+\index{h@{h}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int Simulation2.\+h = 30}
+
+\mbox{\Hypertarget{class_simulation2_ae39c9077019822d56529bafcba2727c1}\label{class_simulation2_ae39c9077019822d56529bafcba2727c1}} 
+\index{Simulation2@{Simulation2}!in\+Pause@{in\+Pause}}
+\index{in\+Pause@{in\+Pause}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{in\+Pause}{inPause}}
+{\footnotesize\ttfamily bool Simulation2.\+in\+Pause = true}
+
+
+
+true si en pause, false sinon. 
+
+\mbox{\Hypertarget{class_simulation2_a3c066b4b23080953fcce80b1fc2c56b4}\label{class_simulation2_a3c066b4b23080953fcce80b1fc2c56b4}} 
+\index{Simulation2@{Simulation2}!l@{l}}
+\index{l@{l}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{l}{l}}
+{\footnotesize\ttfamily int Simulation2.\+l = 30}
+
+\mbox{\Hypertarget{class_simulation2_ab6caf75542f3e7779466d98dafe3043f}\label{class_simulation2_ab6caf75542f3e7779466d98dafe3043f}} 
+\index{Simulation2@{Simulation2}!ls@{ls}}
+\index{ls@{ls}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{ls}{ls}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_local_storage}{Local\+Storage}} Simulation2.\+ls}
+
+\mbox{\Hypertarget{class_simulation2_a37f3b0f46bf617f526d81ca01fac23e2}\label{class_simulation2_a37f3b0f46bf617f526d81ca01fac23e2}} 
+\index{Simulation2@{Simulation2}!max\+Gen@{max\+Gen}}
+\index{max\+Gen@{max\+Gen}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{max\+Gen}{maxGen}}
+{\footnotesize\ttfamily int Simulation2.\+max\+Gen = 10000}
+
+
+
+Le nombre maximal de génération. 
+
+\mbox{\Hypertarget{class_simulation2_aa7e4143d785bbe0d82854ddb143a3585}\label{class_simulation2_aa7e4143d785bbe0d82854ddb143a3585}} 
+\index{Simulation2@{Simulation2}!nameS@{nameS}}
+\index{nameS@{nameS}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{nameS}{nameS}}
+{\footnotesize\ttfamily string Simulation2.\+nameS}
+
+
+
+le nom du ficher 
+
+\mbox{\Hypertarget{class_simulation2_a3aa2513e53b3020ee37f02b2cde141b5}\label{class_simulation2_a3aa2513e53b3020ee37f02b2cde141b5}} 
+\index{Simulation2@{Simulation2}!name\+Structure@{name\+Structure}}
+\index{name\+Structure@{name\+Structure}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{name\+Structure}{nameStructure}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Simulation2.\+name\+Structure}
+
+
+
+le nom du ficher 
+
+\mbox{\Hypertarget{class_simulation2_aed7deed0c048995375e87ba8ee74955c}\label{class_simulation2_aed7deed0c048995375e87ba8ee74955c}} 
+\index{Simulation2@{Simulation2}!nb\+Gen@{nb\+Gen}}
+\index{nb\+Gen@{nb\+Gen}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{nb\+Gen}{nbGen}}
+{\footnotesize\ttfamily Text\+Mesh\+Pro\+U\+G\+UI Simulation2.\+nb\+Gen}
+
+
+
+Afficher le nombre de génération. 
+
+\mbox{\Hypertarget{class_simulation2_aca35383d89ed51e965122457e8808d56}\label{class_simulation2_aca35383d89ed51e965122457e8808d56}} 
+\index{Simulation2@{Simulation2}!nu@{nu}}
+\index{nu@{nu}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{nu}{nu}}
+{\footnotesize\ttfamily string Simulation2.\+nu}
+
+\mbox{\Hypertarget{class_simulation2_ad12f8511d6f40bb36c7c6a59f54dde8c}\label{class_simulation2_ad12f8511d6f40bb36c7c6a59f54dde8c}} 
+\index{Simulation2@{Simulation2}!numero@{numero}}
+\index{numero@{numero}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{numero}{numero}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Simulation2.\+numero}
+
+
+
+le indicateur 
+
+\mbox{\Hypertarget{class_simulation2_aa0dd7ba94b0363c6de0f9d4f35db4689}\label{class_simulation2_aa0dd7ba94b0363c6de0f9d4f35db4689}} 
+\index{Simulation2@{Simulation2}!old\+Color@{old\+Color}}
+\index{old\+Color@{old\+Color}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{old\+Color}{oldColor}}
+{\footnotesize\ttfamily Color Simulation2.\+old\+Color = Color.\+blue}
+
+
+
+La couleur d\textquotesingle{}une cellule à l\textquotesingle{}age max\+Age\+Cell\+Color. 
+
+\mbox{\Hypertarget{class_simulation2_a72c067338ece18bf0182f9e5e97ebbe0}\label{class_simulation2_a72c067338ece18bf0182f9e5e97ebbe0}} 
+\index{Simulation2@{Simulation2}!open\+Panel@{open\+Panel}}
+\index{open\+Panel@{open\+Panel}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{open\+Panel}{openPanel}}
+{\footnotesize\ttfamily bool Simulation2.\+open\+Panel = false}
+
+\mbox{\Hypertarget{class_simulation2_adfadcc7cb6f6be95e7280e4bdafb8eaa}\label{class_simulation2_adfadcc7cb6f6be95e7280e4bdafb8eaa}} 
+\index{Simulation2@{Simulation2}!panel\+Save@{panel\+Save}}
+\index{panel\+Save@{panel\+Save}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{panel\+Save}{panelSave}}
+{\footnotesize\ttfamily Game\+Object Simulation2.\+panel\+Save}
+
+
+
+Le panel pour permettre à l\textquotesingle{}utilisateur de saisir le nom de la structure 
+
+\mbox{\Hypertarget{class_simulation2_ae3c3d1bfed4939037239dc36e4f48c01}\label{class_simulation2_ae3c3d1bfed4939037239dc36e4f48c01}} 
+\index{Simulation2@{Simulation2}!panel\+Text@{panel\+Text}}
+\index{panel\+Text@{panel\+Text}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{panel\+Text}{panelText}}
+{\footnotesize\ttfamily Game\+Object Simulation2.\+panel\+Text}
+
+
+
+Le panel pour permettre à afficher les informations d\textquotesingle{}aide 
+
+\mbox{\Hypertarget{class_simulation2_a19e139de68ecbb0b30e9f13bd4da6ae5}\label{class_simulation2_a19e139de68ecbb0b30e9f13bd4da6ae5}} 
+\index{Simulation2@{Simulation2}!parent@{parent}}
+\index{parent@{parent}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{parent}{parent}}
+{\footnotesize\ttfamily Transform Simulation2.\+parent}
+
+
+
+Le parent des cubes. 
+
+\mbox{\Hypertarget{class_simulation2_a65e50727f755df30407afa8b931e10c0}\label{class_simulation2_a65e50727f755df30407afa8b931e10c0}} 
+\index{Simulation2@{Simulation2}!periode@{periode}}
+\index{periode@{periode}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{periode}{periode}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Simulation2.\+periode}
+
+
+
+la periode que l\textquotesingle{}utilisateur veut enregister le fichier 
+
+\mbox{\Hypertarget{class_simulation2_ac598aba18865c6b3dccbbd8f7126e134}\label{class_simulation2_ac598aba18865c6b3dccbbd8f7126e134}} 
+\index{Simulation2@{Simulation2}!position@{position}}
+\index{position@{position}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Simulation2.\+position}
+
+\mbox{\Hypertarget{class_simulation2_a3ee6c95cd49428c222b8d1370c49bf96}\label{class_simulation2_a3ee6c95cd49428c222b8d1370c49bf96}} 
+\index{Simulation2@{Simulation2}!pp@{pp}}
+\index{pp@{pp}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{pp}{pp}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Simulation2.\+pp}
+
+\mbox{\Hypertarget{class_simulation2_a48db27680b5deaf8e913924a75b6916c}\label{class_simulation2_a48db27680b5deaf8e913924a75b6916c}} 
+\index{Simulation2@{Simulation2}!random@{random}}
+\index{random@{random}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{random}{random}}
+{\footnotesize\ttfamily bool Simulation2.\+random}
+
+
+
+true s\textquotesingle{}il faut créer des cellules aléatoirement, false sinon. 
+
+\mbox{\Hypertarget{class_simulation2_afcd6fde8b8c81ef7d832b60cd1b0c6a6}\label{class_simulation2_afcd6fde8b8c81ef7d832b60cd1b0c6a6}} 
+\index{Simulation2@{Simulation2}!show@{show}}
+\index{show@{show}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{show}{show}}
+{\footnotesize\ttfamily bool Simulation2.\+show = true}
+
+
+
+Vrai s\textquotesingle{}il y a la visualisation des cellules (les cubes) false sinon. 
+
+\mbox{\Hypertarget{class_simulation2_a0a82650af5163435eb703b67df1407fb}\label{class_simulation2_a0a82650af5163435eb703b67df1407fb}} 
+\index{Simulation2@{Simulation2}!show\+Intransparent\+Cell@{show\+Intransparent\+Cell}}
+\index{show\+Intransparent\+Cell@{show\+Intransparent\+Cell}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{show\+Intransparent\+Cell}{showIntransparentCell}}
+{\footnotesize\ttfamily bool Simulation2.\+show\+Intransparent\+Cell = false}
+
+
+
+true si les cellules mortes doivent etre visibles en transparent, false sinon. 
+
+\mbox{\Hypertarget{class_simulation2_ad5211ec4fe39100128b77239da0aae3f}\label{class_simulation2_ad5211ec4fe39100128b77239da0aae3f}} 
+\index{Simulation2@{Simulation2}!speed@{speed}}
+\index{speed@{speed}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily float Simulation2.\+speed = 0.\+5f}
+
+
+
+Vitesse de simulation. 
+
+\mbox{\Hypertarget{class_simulation2_ad4246f77655a4f827a7f22ffa4d95d97}\label{class_simulation2_ad4246f77655a4f827a7f22ffa4d95d97}} 
+\index{Simulation2@{Simulation2}!struct\+Dec@{struct\+Dec}}
+\index{struct\+Dec@{struct\+Dec}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{struct\+Dec}{structDec}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Simulation2.\+struct\+Dec}
+
+\mbox{\Hypertarget{class_simulation2_a8e264ac14adf969b72d37a3006c9981f}\label{class_simulation2_a8e264ac14adf969b72d37a3006c9981f}} 
+\index{Simulation2@{Simulation2}!survive\+Rule@{survive\+Rule}}
+\index{survive\+Rule@{survive\+Rule}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{survive\+Rule}{surviveRule}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Simulation2.\+survive\+Rule = new int\mbox{[}$\,$\mbox{]} \{ 6 \}}
+
+
+
+Régles de mort. 
+
+\mbox{\Hypertarget{class_simulation2_a2ec94d393d26bf7926018f93ef544ef0}\label{class_simulation2_a2ec94d393d26bf7926018f93ef544ef0}} 
+\index{Simulation2@{Simulation2}!the\+Material@{the\+Material}}
+\index{the\+Material@{the\+Material}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{the\+Material}{theMaterial}}
+{\footnotesize\ttfamily Material Simulation2.\+the\+Material}
+
+
+
+Le material appliqué aux cellules. 
+
+\mbox{\Hypertarget{class_simulation2_a17803d7383b2bbd62c96572cd3370d06}\label{class_simulation2_a17803d7383b2bbd62c96572cd3370d06}} 
+\index{Simulation2@{Simulation2}!threshhold@{threshhold}}
+\index{threshhold@{threshhold}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{threshhold}{threshhold}}
+{\footnotesize\ttfamily float Simulation2.\+threshhold}
+
+
+
+La probabilité d\textquotesingle{}apparition d\textquotesingle{}une cellule (quand random dans initial structure dans les parametres est activé). 
+
+\mbox{\Hypertarget{class_simulation2_abefcdee48ca39bb47d28984bcf033ca4}\label{class_simulation2_abefcdee48ca39bb47d28984bcf033ca4}} 
+\index{Simulation2@{Simulation2}!toro@{toro}}
+\index{toro@{toro}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{toro}{toro}}
+{\footnotesize\ttfamily bool Simulation2.\+toro}
+
+\mbox{\Hypertarget{class_simulation2_ae390b35abb2471abc8e257633896404a}\label{class_simulation2_ae390b35abb2471abc8e257633896404a}} 
+\index{Simulation2@{Simulation2}!use\+Detect\+Canon@{use\+Detect\+Canon}}
+\index{use\+Detect\+Canon@{use\+Detect\+Canon}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{use\+Detect\+Canon}{useDetectCanon}}
+{\footnotesize\ttfamily bool Simulation2.\+use\+Detect\+Canon = false}
+
+\mbox{\Hypertarget{class_simulation2_a0f278d8340b3920e0aeb9aafccf9daec}\label{class_simulation2_a0f278d8340b3920e0aeb9aafccf9daec}} 
+\index{Simulation2@{Simulation2}!voisinage@{voisinage}}
+\index{voisinage@{voisinage}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{voisinage}{voisinage}}
+{\footnotesize\ttfamily Voisinage2 Simulation2.\+voisinage}
+
+
+
+Le type de voisinnage utilisé. 
+
+\mbox{\Hypertarget{class_simulation2_a2c5f8ea5bdf25da6011b47228df3fbf8}\label{class_simulation2_a2c5f8ea5bdf25da6011b47228df3fbf8}} 
+\index{Simulation2@{Simulation2}!w@{w}}
+\index{w@{w}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int Simulation2.\+w = 30}
+
+\mbox{\Hypertarget{class_simulation2_a004598afd4765dd3b66ad0fb1628c8d6}\label{class_simulation2_a004598afd4765dd3b66ad0fb1628c8d6}} 
+\index{Simulation2@{Simulation2}!young\+Color@{young\+Color}}
+\index{young\+Color@{young\+Color}!Simulation2@{Simulation2}}
+\subsubsection{\texorpdfstring{young\+Color}{youngColor}}
+{\footnotesize\ttfamily Color Simulation2.\+young\+Color = Color.\+green}
+
+
+
+La couleur de naissance d\textquotesingle{}une cellule, à l\textquotesingle{}age 0. 
+

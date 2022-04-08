@@ -1,0 +1,4 @@
+<map id="DetectionGun.compareGun" name="DetectionGun.compareGun">
+<area shape="rect" id="node2" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="Déterminer la présence ou l&#39;absence de canons " alt="" coords="232,5,389,32"/>
+<area shape="rect" id="node3" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période " alt="" coords="437,5,611,32"/>
+</map>

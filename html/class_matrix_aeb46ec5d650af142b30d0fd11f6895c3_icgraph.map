@@ -1,0 +1,5 @@
+<map id="Matrix.GetCell" name="Matrix.GetCell">
+<area shape="rect" id="node2" href="$class_matrix.html#af7b27f62f9cc10b69fd583dea958573f" title="Comparer deux matrices en direction verticale. " alt="" coords="159,5,364,32"/>
+<area shape="rect" id="node3" href="$class_matrix.html#a7cf375802501629eb82697c090c03383" title="Comparer deux matrices en direction horizontale. " alt="" coords="171,56,351,83"/>
+<area shape="rect" id="node4" href="$class_matrix.html#adfbbe521a0688e507a05f5590daf9ea4" title="Comparer deux matrices apres 4 rotations. " alt="" coords="168,107,355,133"/>
+</map>

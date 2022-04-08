@@ -1,0 +1,554 @@
+\hypertarget{class_local_storage}{}\section{Référence de la classe Local\+Storage}
+\label{class_local_storage}\index{Local\+Storage@{Local\+Storage}}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_local_storage_ad926dd8fdacba87487812c2063aee8dc}{write\+To\+File}} (Voisinage2 vos, int\mbox{[}$\,$\mbox{]} born\+Rule, int\mbox{[}$\,$\mbox{]} survive\+Rule, int\mbox{[},,\mbox{]} position\+Initial, string name\+File, int \mbox{\hyperlink{class_local_storage_ab025e3ab66a812167b739de8f636e72f}{h}}, int \mbox{\hyperlink{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}{w}}, int \mbox{\hyperlink{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}{l}}, int\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_local_storage_a135431eb0ae788b698b206b3cf12130d}{position}}, bool toro)
+\begin{DoxyCompactList}\small\item\em Methode permettant d\textquotesingle{}ecrire une structure dans un fichier. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_local_storage_a20e7dd1d1990599a38017e986944fada}{get\+Suivre\+Rule}} (int\mbox{[}$\,$\mbox{]} survive\+Rule)
+\begin{DoxyCompactList}\small\item\em transmettre les regles de survire choisies par l\textquotesingle{}utilisateur en string. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_local_storage_a64ead0288876a2aa3fbb7d86d3d68cc5}{get\+Born\+Rule}} (int\mbox{[}$\,$\mbox{]} born\+Rule)
+\begin{DoxyCompactList}\small\item\em transmettre les regles de vie choisies par l\textquotesingle{}utilisateur en string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_local_storage_a734f343d76b672b65a1dd211dcdca087}{get\+Position\+Intiale}} (int \mbox{\hyperlink{class_local_storage_ab025e3ab66a812167b739de8f636e72f}{h}}, int \mbox{\hyperlink{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}{w}}, int \mbox{\hyperlink{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}{l}}, int\mbox{[},,\mbox{]} position\+Initial)
+\begin{DoxyCompactList}\small\item\em transmettre les valeurs de cellule (age ou generation) a chaque position en string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_local_storage_ab5a516f6f13a01e683b6b1c56b373937}{get\+Position}} (int \mbox{\hyperlink{class_local_storage_ab025e3ab66a812167b739de8f636e72f}{h}}, int \mbox{\hyperlink{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}{w}}, int \mbox{\hyperlink{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}{l}}, int\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_local_storage_a135431eb0ae788b698b206b3cf12130d}{position}})
+\begin{DoxyCompactList}\small\item\em transmettre les valeurs de cellule (age ou generation) a chaque position d\textquotesingle{}une structure oscillante ayant plusieurs generations en string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_local_storage_aca462b162e1e7185526f4282a7838f40}{set\+Struct}} (int \mbox{\hyperlink{class_local_storage_ab025e3ab66a812167b739de8f636e72f}{h}}, int \mbox{\hyperlink{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}{w}}, int \mbox{\hyperlink{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}{l}}, int periode)
+\begin{DoxyCompactList}\small\item\em Position d\textquotesingle{}initialisation \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_local_storage_ab0e31baa14b85dc8a8bd21aa1d53ab09}{read\+From\+FileH}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir la valeur de hauteur enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_local_storage_aef684ee38f8d4dccf157503ec6d04a7a}{read\+From\+FileW}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir la valeur de largeur enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_local_storage_a2216bc871c8298023f62119bcdf7edb4}{read\+From\+FileL}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir la valeur de longueur enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_local_storage_a8e862054e8b3f3c33dd64ed44d5983c4}{read\+From\+Periode}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir la valeur de la période enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+Voisinage2 \mbox{\hyperlink{class_local_storage_afbd7328c28fa47b11fcc174da3cc8ec1}{read\+From\+Regle}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir la règle de la voisinage enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_local_storage_aa66a98dccf6cb550c5a38c25b9712898}{read\+From\+Born}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir les règles de la naissance enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_local_storage_a0c0003569be45cff5fda794e42243c1e}{read\+From\+Suivre}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Obtenir les règles de la survie enregistrée dans le document spécifié \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_local_storage_a9197311a356432fa7a9480c69f42dd9c}{read\+Toroidal}} (string file\+Name)
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_local_storage_a200c8f22ceed88238703411e2c0f1e05}{read\+From\+File}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Lire une structure d\textquotesingle{}un fichier dans le logiciel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+Voisinage2 \mbox{\hyperlink{class_local_storage_a7c3473a8ec5d422f95955875319acb8d}{voisinage}}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_local_storage_a135431eb0ae788b698b206b3cf12130d}{position}}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_local_storage_ac396dd43ace1f6497cdf099e14475921}{position\+Intiales}}
+\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_local_storage_a44b63fd921b38784a7055d5d2f115ffd}{suivre\+Regle}}
+\item 
+int \mbox{\hyperlink{class_local_storage_afd19ccbc719dd24bc66d271ca12f9917}{p}} = 0
+\item 
+int \mbox{\hyperlink{class_local_storage_ab55c19c1538c44a375aba42a518db233}{H}} = 0
+\item 
+int \mbox{\hyperlink{class_local_storage_af57f31509b004adeedf1b2df90f3a57b}{Y}}
+\item 
+int \mbox{\hyperlink{class_local_storage_a815d0b2c4b2cfc16fdfbbd5d2c7198bf}{Z}}
+\item 
+int \mbox{\hyperlink{class_local_storage_aa0b0024033d7e584459a0f278c1214c7}{m}}
+\item 
+int \mbox{\hyperlink{class_local_storage_a0e0c067f1347bf30ce06b9a3da2ce1f4}{counter}} = 0
+\item 
+string \mbox{\hyperlink{class_local_storage_a87f119194a8416674899540e1457d3f1}{regle}}
+\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_local_storage_ae6bc493dae6af4907a7a406e0b8b382c}{born\+Regle}}
+\item 
+bool \mbox{\hyperlink{class_local_storage_aa9eacf4614847e9fa89306018c36457a}{Bb}} = false
+\item 
+int \mbox{\hyperlink{class_local_storage_ab025e3ab66a812167b739de8f636e72f}{h}} = 0
+\item 
+int \mbox{\hyperlink{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}{w}} = 0
+\item 
+int \mbox{\hyperlink{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}{l}} = 0
+\item 
+int \mbox{\hyperlink{class_local_storage_a6ec9529fe0a479acbf1275d5bbcdeefb}{P}} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning,Q\+IN Yi, Dorian G\+R\+O\+U\+T\+E\+AU, Vincent TU 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 03/04/2022 
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_local_storage_a64ead0288876a2aa3fbb7d86d3d68cc5}\label{class_local_storage_a64ead0288876a2aa3fbb7d86d3d68cc5}} 
+\index{Local\+Storage@{Local\+Storage}!get\+Born\+Rule@{get\+Born\+Rule}}
+\index{get\+Born\+Rule@{get\+Born\+Rule}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{get\+Born\+Rule()}{getBornRule()}}
+{\footnotesize\ttfamily string Local\+Storage.\+get\+Born\+Rule (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{born\+Rule }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+transmettre les regles de vie choisies par l\textquotesingle{}utilisateur en string. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em born\+Rule} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a64ead0288876a2aa3fbb7d86d3d68cc5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_ab5a516f6f13a01e683b6b1c56b373937}\label{class_local_storage_ab5a516f6f13a01e683b6b1c56b373937}} 
+\index{Local\+Storage@{Local\+Storage}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily void Local\+Storage.\+get\+Position (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{position\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+transmettre les valeurs de cellule (age ou generation) a chaque position d\textquotesingle{}une structure oscillante ayant plusieurs generations en string. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & \\
+\hline
+{\em w} & \\
+\hline
+{\em l} & \\
+\hline
+{\em position} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_local_storage_a734f343d76b672b65a1dd211dcdca087}\label{class_local_storage_a734f343d76b672b65a1dd211dcdca087}} 
+\index{Local\+Storage@{Local\+Storage}!get\+Position\+Intiale@{get\+Position\+Intiale}}
+\index{get\+Position\+Intiale@{get\+Position\+Intiale}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{get\+Position\+Intiale()}{getPositionIntiale()}}
+{\footnotesize\ttfamily void Local\+Storage.\+get\+Position\+Intiale (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{position\+Initial\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+transmettre les valeurs de cellule (age ou generation) a chaque position en string. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & \\
+\hline
+{\em w} & \\
+\hline
+{\em l} & \\
+\hline
+{\em position\+Initial} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_local_storage_a20e7dd1d1990599a38017e986944fada}\label{class_local_storage_a20e7dd1d1990599a38017e986944fada}} 
+\index{Local\+Storage@{Local\+Storage}!get\+Suivre\+Rule@{get\+Suivre\+Rule}}
+\index{get\+Suivre\+Rule@{get\+Suivre\+Rule}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{get\+Suivre\+Rule()}{getSuivreRule()}}
+{\footnotesize\ttfamily string Local\+Storage.\+get\+Suivre\+Rule (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{survive\+Rule }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+transmettre les regles de survire choisies par l\textquotesingle{}utilisateur en string. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em survive\+Rule} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a20e7dd1d1990599a38017e986944fada_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_aa66a98dccf6cb550c5a38c25b9712898}\label{class_local_storage_aa66a98dccf6cb550c5a38c25b9712898}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+Born@{read\+From\+Born}}
+\index{read\+From\+Born@{read\+From\+Born}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+Born()}{readFromBorn()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Local\+Storage.\+read\+From\+Born (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir les règles de la naissance enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_aa66a98dccf6cb550c5a38c25b9712898_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_aa66a98dccf6cb550c5a38c25b9712898_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_a200c8f22ceed88238703411e2c0f1e05}\label{class_local_storage_a200c8f22ceed88238703411e2c0f1e05}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+File@{read\+From\+File}}
+\index{read\+From\+File@{read\+From\+File}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+File()}{readFromFile()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Local\+Storage.\+read\+From\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Lire une structure d\textquotesingle{}un fichier dans le logiciel. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & nom du fichier.\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a200c8f22ceed88238703411e2c0f1e05_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_ab0e31baa14b85dc8a8bd21aa1d53ab09}\label{class_local_storage_ab0e31baa14b85dc8a8bd21aa1d53ab09}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+FileH@{read\+From\+FileH}}
+\index{read\+From\+FileH@{read\+From\+FileH}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+File\+H()}{readFromFileH()}}
+{\footnotesize\ttfamily int Local\+Storage.\+read\+From\+FileH (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir la valeur de hauteur enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_ab0e31baa14b85dc8a8bd21aa1d53ab09_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_a2216bc871c8298023f62119bcdf7edb4}\label{class_local_storage_a2216bc871c8298023f62119bcdf7edb4}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+FileL@{read\+From\+FileL}}
+\index{read\+From\+FileL@{read\+From\+FileL}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+File\+L()}{readFromFileL()}}
+{\footnotesize\ttfamily int Local\+Storage.\+read\+From\+FileL (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir la valeur de longueur enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a2216bc871c8298023f62119bcdf7edb4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_aef684ee38f8d4dccf157503ec6d04a7a}\label{class_local_storage_aef684ee38f8d4dccf157503ec6d04a7a}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+FileW@{read\+From\+FileW}}
+\index{read\+From\+FileW@{read\+From\+FileW}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+File\+W()}{readFromFileW()}}
+{\footnotesize\ttfamily int Local\+Storage.\+read\+From\+FileW (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir la valeur de largeur enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_aef684ee38f8d4dccf157503ec6d04a7a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_a8e862054e8b3f3c33dd64ed44d5983c4}\label{class_local_storage_a8e862054e8b3f3c33dd64ed44d5983c4}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+Periode@{read\+From\+Periode}}
+\index{read\+From\+Periode@{read\+From\+Periode}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+Periode()}{readFromPeriode()}}
+{\footnotesize\ttfamily int Local\+Storage.\+read\+From\+Periode (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir la valeur de la période enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_local_storage_afbd7328c28fa47b11fcc174da3cc8ec1}\label{class_local_storage_afbd7328c28fa47b11fcc174da3cc8ec1}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+Regle@{read\+From\+Regle}}
+\index{read\+From\+Regle@{read\+From\+Regle}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+Regle()}{readFromRegle()}}
+{\footnotesize\ttfamily Voisinage2 Local\+Storage.\+read\+From\+Regle (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir la règle de la voisinage enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_afbd7328c28fa47b11fcc174da3cc8ec1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_a0c0003569be45cff5fda794e42243c1e}\label{class_local_storage_a0c0003569be45cff5fda794e42243c1e}} 
+\index{Local\+Storage@{Local\+Storage}!read\+From\+Suivre@{read\+From\+Suivre}}
+\index{read\+From\+Suivre@{read\+From\+Suivre}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+From\+Suivre()}{readFromSuivre()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Local\+Storage.\+read\+From\+Suivre (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir les règles de la survie enregistrée dans le document spécifié 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a0c0003569be45cff5fda794e42243c1e_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a0c0003569be45cff5fda794e42243c1e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_a9197311a356432fa7a9480c69f42dd9c}\label{class_local_storage_a9197311a356432fa7a9480c69f42dd9c}} 
+\index{Local\+Storage@{Local\+Storage}!read\+Toroidal@{read\+Toroidal}}
+\index{read\+Toroidal@{read\+Toroidal}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{read\+Toroidal()}{readToroidal()}}
+{\footnotesize\ttfamily bool Local\+Storage.\+read\+Toroidal (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_local_storage_a9197311a356432fa7a9480c69f42dd9c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_local_storage_aca462b162e1e7185526f4282a7838f40}\label{class_local_storage_aca462b162e1e7185526f4282a7838f40}} 
+\index{Local\+Storage@{Local\+Storage}!set\+Struct@{set\+Struct}}
+\index{set\+Struct@{set\+Struct}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{set\+Struct()}{setStruct()}}
+{\footnotesize\ttfamily void Local\+Storage.\+set\+Struct (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{periode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Position d\textquotesingle{}initialisation 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & \\
+\hline
+{\em w} & \\
+\hline
+{\em l} & \\
+\hline
+{\em periode} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_local_storage_ad926dd8fdacba87487812c2063aee8dc}\label{class_local_storage_ad926dd8fdacba87487812c2063aee8dc}} 
+\index{Local\+Storage@{Local\+Storage}!write\+To\+File@{write\+To\+File}}
+\index{write\+To\+File@{write\+To\+File}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{write\+To\+File()}{writeToFile()}}
+{\footnotesize\ttfamily void Local\+Storage.\+write\+To\+File (\begin{DoxyParamCaption}\item[{Voisinage2}]{vos,  }\item[{int \mbox{[}$\,$\mbox{]}}]{born\+Rule,  }\item[{int \mbox{[}$\,$\mbox{]}}]{survive\+Rule,  }\item[{int}]{position\+Initial\mbox{[},,\mbox{]},  }\item[{string}]{name\+File,  }\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{position\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]},  }\item[{bool}]{toro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Methode permettant d\textquotesingle{}ecrire une structure dans un fichier. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em vos} & regle de voisinage.\\
+\hline
+{\em born\+Rule} & regles de vie permettant une cellule morte devient vivante.\\
+\hline
+{\em survive\+Rule} & regles de vie permettant une cellule vivante de survivre.\\
+\hline
+{\em name\+File} & nom du fichie.\+r\\
+\hline
+{\em h} & height de la structure.\\
+\hline
+{\em w} & width de la structure.\\
+\hline
+{\em l} & length de la structure.\\
+\hline
+{\em position} & une liste de structures.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_local_storage_aa9eacf4614847e9fa89306018c36457a}\label{class_local_storage_aa9eacf4614847e9fa89306018c36457a}} 
+\index{Local\+Storage@{Local\+Storage}!Bb@{Bb}}
+\index{Bb@{Bb}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{Bb}{Bb}}
+{\footnotesize\ttfamily bool Local\+Storage.\+Bb = false}
+
+\mbox{\Hypertarget{class_local_storage_ae6bc493dae6af4907a7a406e0b8b382c}\label{class_local_storage_ae6bc493dae6af4907a7a406e0b8b382c}} 
+\index{Local\+Storage@{Local\+Storage}!born\+Regle@{born\+Regle}}
+\index{born\+Regle@{born\+Regle}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{born\+Regle}{bornRegle}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Local\+Storage.\+born\+Regle}
+
+\mbox{\Hypertarget{class_local_storage_a0e0c067f1347bf30ce06b9a3da2ce1f4}\label{class_local_storage_a0e0c067f1347bf30ce06b9a3da2ce1f4}} 
+\index{Local\+Storage@{Local\+Storage}!counter@{counter}}
+\index{counter@{counter}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{counter}{counter}}
+{\footnotesize\ttfamily int Local\+Storage.\+counter = 0}
+
+\mbox{\Hypertarget{class_local_storage_ab55c19c1538c44a375aba42a518db233}\label{class_local_storage_ab55c19c1538c44a375aba42a518db233}} 
+\index{Local\+Storage@{Local\+Storage}!H@{H}}
+\index{H@{H}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{H}{H}}
+{\footnotesize\ttfamily int Local\+Storage.\+H = 0}
+
+\mbox{\Hypertarget{class_local_storage_ab025e3ab66a812167b739de8f636e72f}\label{class_local_storage_ab025e3ab66a812167b739de8f636e72f}} 
+\index{Local\+Storage@{Local\+Storage}!h@{h}}
+\index{h@{h}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int Local\+Storage.\+h = 0}
+
+\mbox{\Hypertarget{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}\label{class_local_storage_a37e93f37b061a398e9d3cbfaf4c7fecd}} 
+\index{Local\+Storage@{Local\+Storage}!l@{l}}
+\index{l@{l}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{l}{l}}
+{\footnotesize\ttfamily int Local\+Storage.\+l = 0}
+
+\mbox{\Hypertarget{class_local_storage_aa0b0024033d7e584459a0f278c1214c7}\label{class_local_storage_aa0b0024033d7e584459a0f278c1214c7}} 
+\index{Local\+Storage@{Local\+Storage}!m@{m}}
+\index{m@{m}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{m}{m}}
+{\footnotesize\ttfamily int Local\+Storage.\+m}
+
+\mbox{\Hypertarget{class_local_storage_afd19ccbc719dd24bc66d271ca12f9917}\label{class_local_storage_afd19ccbc719dd24bc66d271ca12f9917}} 
+\index{Local\+Storage@{Local\+Storage}!p@{p}}
+\index{p@{p}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{p}{p}}
+{\footnotesize\ttfamily int Local\+Storage.\+p = 0}
+
+\mbox{\Hypertarget{class_local_storage_a6ec9529fe0a479acbf1275d5bbcdeefb}\label{class_local_storage_a6ec9529fe0a479acbf1275d5bbcdeefb}} 
+\index{Local\+Storage@{Local\+Storage}!P@{P}}
+\index{P@{P}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{P}{P}}
+{\footnotesize\ttfamily int Local\+Storage.\+P = 0}
+
+\mbox{\Hypertarget{class_local_storage_a135431eb0ae788b698b206b3cf12130d}\label{class_local_storage_a135431eb0ae788b698b206b3cf12130d}} 
+\index{Local\+Storage@{Local\+Storage}!position@{position}}
+\index{position@{position}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Local\+Storage.\+position}
+
+\mbox{\Hypertarget{class_local_storage_ac396dd43ace1f6497cdf099e14475921}\label{class_local_storage_ac396dd43ace1f6497cdf099e14475921}} 
+\index{Local\+Storage@{Local\+Storage}!position\+Intiales@{position\+Intiales}}
+\index{position\+Intiales@{position\+Intiales}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{position\+Intiales}{positionIntiales}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Local\+Storage.\+position\+Intiales}
+
+\mbox{\Hypertarget{class_local_storage_a87f119194a8416674899540e1457d3f1}\label{class_local_storage_a87f119194a8416674899540e1457d3f1}} 
+\index{Local\+Storage@{Local\+Storage}!regle@{regle}}
+\index{regle@{regle}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{regle}{regle}}
+{\footnotesize\ttfamily string Local\+Storage.\+regle}
+
+\mbox{\Hypertarget{class_local_storage_a44b63fd921b38784a7055d5d2f115ffd}\label{class_local_storage_a44b63fd921b38784a7055d5d2f115ffd}} 
+\index{Local\+Storage@{Local\+Storage}!suivre\+Regle@{suivre\+Regle}}
+\index{suivre\+Regle@{suivre\+Regle}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{suivre\+Regle}{suivreRegle}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Local\+Storage.\+suivre\+Regle}
+
+\mbox{\Hypertarget{class_local_storage_a7c3473a8ec5d422f95955875319acb8d}\label{class_local_storage_a7c3473a8ec5d422f95955875319acb8d}} 
+\index{Local\+Storage@{Local\+Storage}!voisinage@{voisinage}}
+\index{voisinage@{voisinage}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{voisinage}{voisinage}}
+{\footnotesize\ttfamily Voisinage2 Local\+Storage.\+voisinage}
+
+\mbox{\Hypertarget{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}\label{class_local_storage_abac4c0cb7803f4f4438aba6a02a9eba2}} 
+\index{Local\+Storage@{Local\+Storage}!w@{w}}
+\index{w@{w}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int Local\+Storage.\+w = 0}
+
+\mbox{\Hypertarget{class_local_storage_af57f31509b004adeedf1b2df90f3a57b}\label{class_local_storage_af57f31509b004adeedf1b2df90f3a57b}} 
+\index{Local\+Storage@{Local\+Storage}!Y@{Y}}
+\index{Y@{Y}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{Y}{Y}}
+{\footnotesize\ttfamily int Local\+Storage.\+Y}
+
+\mbox{\Hypertarget{class_local_storage_a815d0b2c4b2cfc16fdfbbd5d2c7198bf}\label{class_local_storage_a815d0b2c4b2cfc16fdfbbd5d2c7198bf}} 
+\index{Local\+Storage@{Local\+Storage}!Z@{Z}}
+\index{Z@{Z}!Local\+Storage@{Local\+Storage}}
+\subsubsection{\texorpdfstring{Z}{Z}}
+{\footnotesize\ttfamily int Local\+Storage.\+Z}
+

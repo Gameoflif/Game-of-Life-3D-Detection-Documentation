@@ -1,0 +1,208 @@
+\hypertarget{class_matrix}{}\section{Référence de la classe Matrix}
+\label{class_matrix}\index{Matrix@{Matrix}}
+
+
+Classe definissant une matrice.  
+
+
+
+
+Graphe d\textquotesingle{}héritage de Matrix\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_matrix__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Matrix\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_matrix__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_matrix_a7fc9206cb63f27154b47f5a4d7e413f0}{Matrix}} (int \mbox{\hyperlink{class_matrix_a4b79d8649f64d752e88114a86dc6a91b}{nb\+Colone}}, int \mbox{\hyperlink{class_matrix_ac6dd4dae973f7c67ae6fd6c2938d9ac5}{nb\+Ligne}})
+\item 
+void \mbox{\hyperlink{class_matrix_aa3ca21c6dd7c9a3b69d53e35c4cdebf3}{add}} (int y\+Position, int z\+Position, Cell cel)
+\begin{DoxyCompactList}\small\item\em Ajouter une cellule dans la matrice. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_matrix_aeb46ec5d650af142b30d0fd11f6895c3}{Get\+Cell}} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Obtenir l\textquotesingle{}etat d\textquotesingle{}une cellule. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_matrix_af7b27f62f9cc10b69fd583dea958573f}{compare\+Matrix\+Uptodown}} (\mbox{\hyperlink{class_matrix}{Matrix}} A)
+\begin{DoxyCompactList}\small\item\em Comparer deux matrices en direction verticale. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_matrix_a7cf375802501629eb82697c090c03383}{compare\+Matrix\+Ortho}} (\mbox{\hyperlink{class_matrix}{Matrix}} A)
+\begin{DoxyCompactList}\small\item\em Comparer deux matrices en direction horizontale. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_matrix_adfbbe521a0688e507a05f5590daf9ea4}{compare\+Matrix\+Quatre}} (\mbox{\hyperlink{class_matrix}{Matrix}} A)
+\begin{DoxyCompactList}\small\item\em Comparer deux matrices apres 4 rotations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_matrix_a4b79d8649f64d752e88114a86dc6a91b}{nb\+Colone}}
+\item 
+int \mbox{\hyperlink{class_matrix_ac6dd4dae973f7c67ae6fd6c2938d9ac5}{nb\+Ligne}}
+\item 
+Cell \mbox{[},\mbox{]} \mbox{\hyperlink{class_matrix_a4733446eb00eb5c1b56955185354bc00}{matrix}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe definissant une matrice. 
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_matrix_a7fc9206cb63f27154b47f5a4d7e413f0}\label{class_matrix_a7fc9206cb63f27154b47f5a4d7e413f0}} 
+\index{Matrix@{Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{Matrix()}{Matrix()}}
+{\footnotesize\ttfamily Matrix.\+Matrix (\begin{DoxyParamCaption}\item[{int}]{nb\+Colone,  }\item[{int}]{nb\+Ligne }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_matrix_aa3ca21c6dd7c9a3b69d53e35c4cdebf3}\label{class_matrix_aa3ca21c6dd7c9a3b69d53e35c4cdebf3}} 
+\index{Matrix@{Matrix}!add@{add}}
+\index{add@{add}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Matrix.\+add (\begin{DoxyParamCaption}\item[{int}]{y\+Position,  }\item[{int}]{z\+Position,  }\item[{Cell}]{cel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une cellule dans la matrice. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em y\+Position} & Coordonnee y.\\
+\hline
+{\em z\+Position} & Coordonnee x.\\
+\hline
+{\em cel} & Une cellule\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_matrix_a7cf375802501629eb82697c090c03383}\label{class_matrix_a7cf375802501629eb82697c090c03383}} 
+\index{Matrix@{Matrix}!compare\+Matrix\+Ortho@{compare\+Matrix\+Ortho}}
+\index{compare\+Matrix\+Ortho@{compare\+Matrix\+Ortho}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{compare\+Matrix\+Ortho()}{compareMatrixOrtho()}}
+{\footnotesize\ttfamily bool Matrix.\+compare\+Matrix\+Ortho (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{A }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Comparer deux matrices en direction horizontale. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & Matrice.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Si elles sont identiques.
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_matrix_a7cf375802501629eb82697c090c03383_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_matrix_adfbbe521a0688e507a05f5590daf9ea4}\label{class_matrix_adfbbe521a0688e507a05f5590daf9ea4}} 
+\index{Matrix@{Matrix}!compare\+Matrix\+Quatre@{compare\+Matrix\+Quatre}}
+\index{compare\+Matrix\+Quatre@{compare\+Matrix\+Quatre}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{compare\+Matrix\+Quatre()}{compareMatrixQuatre()}}
+{\footnotesize\ttfamily bool Matrix.\+compare\+Matrix\+Quatre (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{A }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Comparer deux matrices apres 4 rotations. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & Matrice.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Si elles sont identiques.
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_matrix_adfbbe521a0688e507a05f5590daf9ea4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_matrix_af7b27f62f9cc10b69fd583dea958573f}\label{class_matrix_af7b27f62f9cc10b69fd583dea958573f}} 
+\index{Matrix@{Matrix}!compare\+Matrix\+Uptodown@{compare\+Matrix\+Uptodown}}
+\index{compare\+Matrix\+Uptodown@{compare\+Matrix\+Uptodown}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{compare\+Matrix\+Uptodown()}{compareMatrixUptodown()}}
+{\footnotesize\ttfamily bool Matrix.\+compare\+Matrix\+Uptodown (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{A }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Comparer deux matrices en direction verticale. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & Matrice.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Si elles sont identiques.
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{class_matrix_af7b27f62f9cc10b69fd583dea958573f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_matrix_aeb46ec5d650af142b30d0fd11f6895c3}\label{class_matrix_aeb46ec5d650af142b30d0fd11f6895c3}} 
+\index{Matrix@{Matrix}!Get\+Cell@{Get\+Cell}}
+\index{Get\+Cell@{Get\+Cell}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{Get\+Cell()}{GetCell()}}
+{\footnotesize\ttfamily bool Matrix.\+Get\+Cell (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtenir l\textquotesingle{}etat d\textquotesingle{}une cellule. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em i} & coordonnee y.\\
+\hline
+{\em j} & coordonnee z.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{class_matrix_aeb46ec5d650af142b30d0fd11f6895c3_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_matrix_a4733446eb00eb5c1b56955185354bc00}\label{class_matrix_a4733446eb00eb5c1b56955185354bc00}} 
+\index{Matrix@{Matrix}!matrix@{matrix}}
+\index{matrix@{matrix}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{matrix}{matrix}}
+{\footnotesize\ttfamily Cell \mbox{[},\mbox{]} Matrix.\+matrix}
+
+\mbox{\Hypertarget{class_matrix_a4b79d8649f64d752e88114a86dc6a91b}\label{class_matrix_a4b79d8649f64d752e88114a86dc6a91b}} 
+\index{Matrix@{Matrix}!nb\+Colone@{nb\+Colone}}
+\index{nb\+Colone@{nb\+Colone}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{nb\+Colone}{nbColone}}
+{\footnotesize\ttfamily int Matrix.\+nb\+Colone}
+
+\mbox{\Hypertarget{class_matrix_ac6dd4dae973f7c67ae6fd6c2938d9ac5}\label{class_matrix_ac6dd4dae973f7c67ae6fd6c2938d9ac5}} 
+\index{Matrix@{Matrix}!nb\+Ligne@{nb\+Ligne}}
+\index{nb\+Ligne@{nb\+Ligne}!Matrix@{Matrix}}
+\subsubsection{\texorpdfstring{nb\+Ligne}{nbLigne}}
+{\footnotesize\ttfamily int Matrix.\+nb\+Ligne}
+

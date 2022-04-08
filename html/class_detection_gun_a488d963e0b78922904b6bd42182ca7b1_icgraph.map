@@ -1,0 +1,4 @@
+<map id="DetectionGun.getStructureAlive" name="DetectionGun.getStructureAlive">
+<area shape="rect" id="node2" href="$class_detection_gun.html#af804b47fcbcc2c89bbe17b47eb8f7c47" title="Verifier si la sous&#45;structure est la structure cible de detection " alt="" coords="229,13,416,39"/>
+<area shape="rect" id="node3" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période " alt="" coords="464,13,637,39"/>
+</map>

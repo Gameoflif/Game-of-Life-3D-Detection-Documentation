@@ -1,0 +1,6 @@
+<map id="Simulation.RandomVolume" name="Simulation.RandomVolume">
+<area shape="rect" id="node2" href="$class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="232,31,385,57"/>
+<area shape="rect" id="node5" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="249,81,368,108"/>
+<area shape="rect" id="node3" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="433,5,592,32"/>
+<area shape="rect" id="node4" href="$class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="438,56,587,83"/>
+</map>

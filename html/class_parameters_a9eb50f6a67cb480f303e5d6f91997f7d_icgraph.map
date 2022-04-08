@@ -1,0 +1,4 @@
+<map id="Parameters.CompeteurR" name="Parameters.CompeteurR">
+<area shape="rect" id="node2" href="$class_parameters.html#ae90c0f90420620d98950ac50b9f24782" title="méthode lancée quand click sur les boutons pour les règles de vie. " alt="" coords="219,5,404,32"/>
+<area shape="rect" id="node3" href="$class_parameters.html#af62c0383d55e0653fcd2384b9d49d42f" title="méthode lancée quand click sur les boutons pour les règles de mort. " alt="" coords="223,57,399,98"/>
+</map>

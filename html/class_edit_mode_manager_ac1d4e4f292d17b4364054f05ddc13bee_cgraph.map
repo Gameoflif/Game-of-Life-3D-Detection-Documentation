@@ -1,0 +1,8 @@
+<map id="EditModeManager.ApplyStructure" name="EditModeManager.ApplyStructure">
+<area shape="rect" id="node2" href="$class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="271,56,431,83"/>
+<area shape="rect" id="node3" href="$class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="479,5,641,32"/>
+<area shape="rect" id="node4" href="$class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="483,56,637,83"/>
+<area shape="rect" id="node7" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="501,107,619,133"/>
+<area shape="rect" id="node5" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="689,31,848,57"/>
+<area shape="rect" id="node6" href="$class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="694,81,843,108"/>
+</map>

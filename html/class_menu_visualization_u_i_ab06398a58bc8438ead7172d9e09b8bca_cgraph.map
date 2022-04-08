@@ -1,0 +1,4 @@
+<map id="MenuVisualizationUI.ShowOrHideVizualisation" name="MenuVisualizationUI.ShowOrHideVizualisation">
+<area shape="rect" id="node2" href="$class_simulation.html#a71a9e0a93e05353ff243f4c48afa67d0" title="Cache les objets 3D de la visualisation. " alt="" coords="233,5,419,32"/>
+<area shape="rect" id="node3" href="$class_simulation.html#acc3c641f3874f1805c3a13d2153b6023" title="Montre les objets 3D de la visualisation. " alt="" coords="229,56,423,83"/>
+</map>

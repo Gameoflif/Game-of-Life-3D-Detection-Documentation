@@ -1,0 +1,7 @@
+<map id="Simulation.RestartSimulation" name="Simulation.RestartSimulation">
+<area shape="rect" id="node2" href="$class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="246,5,409,32"/>
+<area shape="rect" id="node3" href="$class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="244,56,411,83"/>
+<area shape="rect" id="node5" href="$class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="265,107,390,133"/>
+<area shape="rect" id="node6" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="268,157,387,184"/>
+<area shape="rect" id="node4" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="459,81,617,108"/>
+</map>

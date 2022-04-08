@@ -1,0 +1,5 @@
+<map id="Parameters" name="Parameters">
+<area shape="rect" id="node3" href="$class_detection.html" title="Classe contenant les méthodes associées à la détection automatique des structures particulières..." alt="" coords="22,81,99,108"/>
+<area shape="rect" id="node4" href="$class_camera_control.html" title="La classe permettant le control de la caméra " alt="" coords="124,81,232,108"/>
+<area shape="rect" id="node5" href="$class_local_storage.html" title="LocalStorage" alt="" coords="257,81,355,108"/>
+</map>

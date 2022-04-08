@@ -1,0 +1,521 @@
+\hypertarget{class_simulation}{}\section{Référence de la classe Simulation}
+\label{class_simulation}\index{Simulation@{Simulation}}
+
+
+ 
+
+
+
+
+Graphe d\textquotesingle{}héritage de Simulation\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_simulation__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Simulation\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{class_simulation__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de}{Set\+Variables\+Parameters}} (bool change\+Volume, int h, int w, int l, int max\+Gen, bool random, float threshhold, Voisinage2 voisinage, int\mbox{[}$\,$\mbox{]} born\+Rule, int\mbox{[}$\,$\mbox{]} survive\+Rule, bool \mbox{\hyperlink{class_simulation_a0d34073239ee6afd6c15327ae9f249bb}{toro}}, bool use\+Detection, bool use\+Detection\+Stable, bool use\+Detection\+Oscill, bool use\+Detection\+Glider, bool \mbox{\hyperlink{class_simulation_a2106f84d6bf1aec6e3d852e4a4432217}{use\+Detect\+Canon}}, int period\+Max, bool use\+Dependencies)
+\begin{DoxyCompactList}\small\item\em Permet de transmettre de \mbox{\hyperlink{class_parameters}{Parameters}} à Simulation2 les différentes valeurs des variables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a19b96b4354d41349e367d282cc4e88aa}{set\+Struct\+DectT}} (int h, int w, int l, int periode, int\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} struct\+Dect)
+\item 
+void \mbox{\hyperlink{class_simulation_a93ab4fa0107498061196ce3a051d292d}{set\+Struct\+DectF}} ()
+\item 
+void \mbox{\hyperlink{class_simulation_a1ba6581d305c2d60d174e0cffd917719}{Step\+Forward}} ()
+\begin{DoxyCompactList}\small\item\em Méthode permettant le passage à la génération suivante. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b}{Random\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la génération) à 0. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_af5fd57d6f657f07bc0fac7085832dc82}{Show}} ()
+\begin{DoxyCompactList}\small\item\em Montre les cubes et changent leur couleur en fonction de leur age. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_ab668bfea667549d1295fc55f5ccfbc4a}{Pause\+Or\+Play}} (bool pause)
+\begin{DoxyCompactList}\small\item\em Mets en pause ou en play la simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a71a9e0a93e05353ff243f4c48afa67d0}{Hide\+Vizualisation}} ()
+\begin{DoxyCompactList}\small\item\em Cache les objets 3D de la visualisation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_acc3c641f3874f1805c3a13d2153b6023}{Show\+Vizualisation}} ()
+\begin{DoxyCompactList}\small\item\em Montre les objets 3D de la visualisation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a775498931843884fbc6c08de3b2b1afd}{Set\+Structure}} (int\mbox{[},,\mbox{]} volume\+Position)
+\begin{DoxyCompactList}\small\item\em Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a3fde1a020def21f5f41794735b76c686}{Change\+Speed}} (float speed)
+\begin{DoxyCompactList}\small\item\em Change la vitesse de simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a500982098740ae238f349a6fed0affd8}{Restart\+Simulation}} ()
+\begin{DoxyCompactList}\small\item\em Recommence la simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_abc1bd1d93c293257a921a8a8935095b6}{Deactivate\+All}} ()
+\begin{DoxyCompactList}\small\item\em Désactive toutes les cellules (et cubes). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a6027638c71846ed03d560cd75d8a92d6}{Next\+Gen}} ()
+\begin{DoxyCompactList}\small\item\em Passage à la prochaine génération. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_a9238f4dcd56a4945017fda48a76a3dc8}{set\+Voisinage}} (Voisinage2 voisin, bool t)
+\item 
+void \mbox{\hyperlink{class_simulation_a2af29808f03940f4a8824c926f8c8cf9}{Previous\+Gen}} ()
+\begin{DoxyCompactList}\small\item\em Passage à la génération précédente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd}{apply\+Save}} ()
+\begin{DoxyCompactList}\small\item\em pour permettre à l\textquotesingle{}utilisateur de enregistre les structure \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_simulation_a2766dce78dbc1f3c20353f02f57103e1}{nu}}
+\item 
+bool \mbox{\hyperlink{class_simulation_ab4e91933fc69c6696543f44cdc5489eb}{open\+Panel}} = false
+\item 
+\mbox{\hyperlink{class_local_storage}{Local\+Storage}} \mbox{\hyperlink{class_simulation_a7009e8c0768bac6a8056db7b9614a040}{ls}}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_simulation_ac581af6c4b31a61b95a1c11c1d4ed38b}{struct\+Dec}}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_simulation_a4a4efe47214d16664ea0c43bcc437af3}{position}}
+\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_simulation_a9945c13b481c81bfb75ad26e730a78d4}{pp}}
+\item 
+bool \mbox{\hyperlink{class_simulation_a0d34073239ee6afd6c15327ae9f249bb}{toro}}
+\item 
+int \mbox{\hyperlink{class_simulation_a4fd8bb7eb15c0462da5f0615d293e404}{fiche\+Number}}
+\item 
+bool \mbox{\hyperlink{class_simulation_a2106f84d6bf1aec6e3d852e4a4432217}{use\+Detect\+Canon}} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+
+
+\begin{DoxyAuthor}{Auteur}
+Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/04/2022
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd}\label{class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd}} 
+\index{Simulation@{Simulation}!apply\+Save@{apply\+Save}}
+\index{apply\+Save@{apply\+Save}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{apply\+Save()}{applySave()}}
+{\footnotesize\ttfamily void Simulation.\+apply\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+pour permettre à l\textquotesingle{}utilisateur de enregistre les structure 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Q\+IN Yi , T\+I\+AN Ning 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation_a3fde1a020def21f5f41794735b76c686}\label{class_simulation_a3fde1a020def21f5f41794735b76c686}} 
+\index{Simulation@{Simulation}!Change\+Speed@{Change\+Speed}}
+\index{Change\+Speed@{Change\+Speed}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Change\+Speed()}{ChangeSpeed()}}
+{\footnotesize\ttfamily void Simulation.\+Change\+Speed (\begin{DoxyParamCaption}\item[{float}]{speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Change la vitesse de simulation. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em speed} & La nouvelle vitesse de simulation.\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_abc1bd1d93c293257a921a8a8935095b6}\label{class_simulation_abc1bd1d93c293257a921a8a8935095b6}} 
+\index{Simulation@{Simulation}!Deactivate\+All@{Deactivate\+All}}
+\index{Deactivate\+All@{Deactivate\+All}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Deactivate\+All()}{DeactivateAll()}}
+{\footnotesize\ttfamily void Simulation.\+Deactivate\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Désactive toutes les cellules (et cubes). 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_a71a9e0a93e05353ff243f4c48afa67d0}\label{class_simulation_a71a9e0a93e05353ff243f4c48afa67d0}} 
+\index{Simulation@{Simulation}!Hide\+Vizualisation@{Hide\+Vizualisation}}
+\index{Hide\+Vizualisation@{Hide\+Vizualisation}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Hide\+Vizualisation()}{HideVizualisation()}}
+{\footnotesize\ttfamily void Simulation.\+Hide\+Vizualisation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cache les objets 3D de la visualisation. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_a6027638c71846ed03d560cd75d8a92d6}\label{class_simulation_a6027638c71846ed03d560cd75d8a92d6}} 
+\index{Simulation@{Simulation}!Next\+Gen@{Next\+Gen}}
+\index{Next\+Gen@{Next\+Gen}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Next\+Gen()}{NextGen()}}
+{\footnotesize\ttfamily void Simulation.\+Next\+Gen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Passage à la prochaine génération. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_ab668bfea667549d1295fc55f5ccfbc4a}\label{class_simulation_ab668bfea667549d1295fc55f5ccfbc4a}} 
+\index{Simulation@{Simulation}!Pause\+Or\+Play@{Pause\+Or\+Play}}
+\index{Pause\+Or\+Play@{Pause\+Or\+Play}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Pause\+Or\+Play()}{PauseOrPlay()}}
+{\footnotesize\ttfamily void Simulation.\+Pause\+Or\+Play (\begin{DoxyParamCaption}\item[{bool}]{pause }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mets en pause ou en play la simulation. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em pause} & true si en pause, false sinon.\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_a2af29808f03940f4a8824c926f8c8cf9}\label{class_simulation_a2af29808f03940f4a8824c926f8c8cf9}} 
+\index{Simulation@{Simulation}!Previous\+Gen@{Previous\+Gen}}
+\index{Previous\+Gen@{Previous\+Gen}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Previous\+Gen()}{PreviousGen()}}
+{\footnotesize\ttfamily void Simulation.\+Previous\+Gen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Passage à la génération précédente. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b}\label{class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b}} 
+\index{Simulation@{Simulation}!Random\+Volume@{Random\+Volume}}
+\index{Random\+Volume@{Random\+Volume}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Random\+Volume()}{RandomVolume()}}
+{\footnotesize\ttfamily void Simulation.\+Random\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la génération) à 0. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_a500982098740ae238f349a6fed0affd8}\label{class_simulation_a500982098740ae238f349a6fed0affd8}} 
+\index{Simulation@{Simulation}!Restart\+Simulation@{Restart\+Simulation}}
+\index{Restart\+Simulation@{Restart\+Simulation}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Restart\+Simulation()}{RestartSimulation()}}
+{\footnotesize\ttfamily void Simulation.\+Restart\+Simulation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Recommence la simulation. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a500982098740ae238f349a6fed0affd8_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a500982098740ae238f349a6fed0affd8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_a93ab4fa0107498061196ce3a051d292d}\label{class_simulation_a93ab4fa0107498061196ce3a051d292d}} 
+\index{Simulation@{Simulation}!set\+Struct\+DectF@{set\+Struct\+DectF}}
+\index{set\+Struct\+DectF@{set\+Struct\+DectF}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{set\+Struct\+Dect\+F()}{setStructDectF()}}
+{\footnotesize\ttfamily void Simulation.\+set\+Struct\+DectF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning, Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation_a19b96b4354d41349e367d282cc4e88aa}\label{class_simulation_a19b96b4354d41349e367d282cc4e88aa}} 
+\index{Simulation@{Simulation}!set\+Struct\+DectT@{set\+Struct\+DectT}}
+\index{set\+Struct\+DectT@{set\+Struct\+DectT}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{set\+Struct\+Dect\+T()}{setStructDectT()}}
+{\footnotesize\ttfamily void Simulation.\+set\+Struct\+DectT (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{periode,  }\item[{int}]{struct\+Dect\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning, Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation_a775498931843884fbc6c08de3b2b1afd}\label{class_simulation_a775498931843884fbc6c08de3b2b1afd}} 
+\index{Simulation@{Simulation}!Set\+Structure@{Set\+Structure}}
+\index{Set\+Structure@{Set\+Structure}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Set\+Structure()}{SetStructure()}}
+{\footnotesize\ttfamily void Simulation.\+Set\+Structure (\begin{DoxyParamCaption}\item[{int}]{volume\+Position\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em volume\+Position} & Les positions des cellules.\\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de}\label{class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de}} 
+\index{Simulation@{Simulation}!Set\+Variables\+Parameters@{Set\+Variables\+Parameters}}
+\index{Set\+Variables\+Parameters@{Set\+Variables\+Parameters}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Set\+Variables\+Parameters()}{SetVariablesParameters()}}
+{\footnotesize\ttfamily void Simulation.\+Set\+Variables\+Parameters (\begin{DoxyParamCaption}\item[{bool}]{change\+Volume,  }\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{max\+Gen,  }\item[{bool}]{random,  }\item[{float}]{threshhold,  }\item[{Voisinage2}]{voisinage,  }\item[{int \mbox{[}$\,$\mbox{]}}]{born\+Rule,  }\item[{int \mbox{[}$\,$\mbox{]}}]{survive\+Rule,  }\item[{bool}]{toro,  }\item[{bool}]{use\+Detection,  }\item[{bool}]{use\+Detection\+Stable,  }\item[{bool}]{use\+Detection\+Oscill,  }\item[{bool}]{use\+Detection\+Glider,  }\item[{bool}]{use\+Detect\+Canon,  }\item[{int}]{period\+Max,  }\item[{bool}]{use\+Dependencies }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet de transmettre de \mbox{\hyperlink{class_parameters}{Parameters}} à Simulation2 les différentes valeurs des variables. 
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ Dorian Grouteau,Vincent Tu, T\+I\+AN Ning, Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022 
+\begin{DoxyParams}{Paramètres}
+{\em h} & heigh\\
+\hline
+{\em w} & widht\\
+\hline
+{\em l} & \\
+\hline
+{\em max\+Gen} & Le nombre maximal de génération.\\
+\hline
+{\em random} & True si les cellules sont générées aléatoirement, false sinon.\\
+\hline
+{\em threshhold} & Compris entre 0 et 1, représente la probabilité qu\textquotesingle{}une cellule soit en vie à la génération 0.\\
+\hline
+{\em voisinage} & Le type de voisinage.\\
+\hline
+{\em born\+Rule} & Les règles de naissances.\\
+\hline
+{\em survive\+Rule} & Les règles de survies.\\
+\hline
+\end{DoxyParams}
+
+\end{DoxyDate}
+\mbox{\Hypertarget{class_simulation_a9238f4dcd56a4945017fda48a76a3dc8}\label{class_simulation_a9238f4dcd56a4945017fda48a76a3dc8}} 
+\index{Simulation@{Simulation}!set\+Voisinage@{set\+Voisinage}}
+\index{set\+Voisinage@{set\+Voisinage}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{set\+Voisinage()}{setVoisinage()}}
+{\footnotesize\ttfamily void Simulation.\+set\+Voisinage (\begin{DoxyParamCaption}\item[{Voisinage2}]{voisin,  }\item[{bool}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+
+
+\begin{DoxyAuthor}{Auteur}
+\$username\$ T\+I\+AN Ning 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+-\/ \$time\$ 23/03/2022
+\end{DoxyDate}
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em voisinage} & \\
+\hline
+{\em t} & \\
+\hline
+\end{DoxyParams}
+if true, active\+: toroïdal Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_af5fd57d6f657f07bc0fac7085832dc82}\label{class_simulation_af5fd57d6f657f07bc0fac7085832dc82}} 
+\index{Simulation@{Simulation}!Show@{Show}}
+\index{Show@{Show}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Show()}{Show()}}
+{\footnotesize\ttfamily void Simulation.\+Show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Montre les cubes et changent leur couleur en fonction de leur age. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_acc3c641f3874f1805c3a13d2153b6023}\label{class_simulation_acc3c641f3874f1805c3a13d2153b6023}} 
+\index{Simulation@{Simulation}!Show\+Vizualisation@{Show\+Vizualisation}}
+\index{Show\+Vizualisation@{Show\+Vizualisation}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Show\+Vizualisation()}{ShowVizualisation()}}
+{\footnotesize\ttfamily void Simulation.\+Show\+Vizualisation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Montre les objets 3D de la visualisation. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_simulation_a1ba6581d305c2d60d174e0cffd917719}\label{class_simulation_a1ba6581d305c2d60d174e0cffd917719}} 
+\index{Simulation@{Simulation}!Step\+Forward@{Step\+Forward}}
+\index{Step\+Forward@{Step\+Forward}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{Step\+Forward()}{StepForward()}}
+{\footnotesize\ttfamily void Simulation.\+Step\+Forward (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Méthode permettant le passage à la génération suivante. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_simulation_a4fd8bb7eb15c0462da5f0615d293e404}\label{class_simulation_a4fd8bb7eb15c0462da5f0615d293e404}} 
+\index{Simulation@{Simulation}!fiche\+Number@{fiche\+Number}}
+\index{fiche\+Number@{fiche\+Number}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{fiche\+Number}{ficheNumber}}
+{\footnotesize\ttfamily int Simulation.\+fiche\+Number}
+
+\mbox{\Hypertarget{class_simulation_a7009e8c0768bac6a8056db7b9614a040}\label{class_simulation_a7009e8c0768bac6a8056db7b9614a040}} 
+\index{Simulation@{Simulation}!ls@{ls}}
+\index{ls@{ls}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{ls}{ls}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_local_storage}{Local\+Storage}} Simulation.\+ls}
+
+\mbox{\Hypertarget{class_simulation_a2766dce78dbc1f3c20353f02f57103e1}\label{class_simulation_a2766dce78dbc1f3c20353f02f57103e1}} 
+\index{Simulation@{Simulation}!nu@{nu}}
+\index{nu@{nu}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{nu}{nu}}
+{\footnotesize\ttfamily string Simulation.\+nu}
+
+\mbox{\Hypertarget{class_simulation_ab4e91933fc69c6696543f44cdc5489eb}\label{class_simulation_ab4e91933fc69c6696543f44cdc5489eb}} 
+\index{Simulation@{Simulation}!open\+Panel@{open\+Panel}}
+\index{open\+Panel@{open\+Panel}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{open\+Panel}{openPanel}}
+{\footnotesize\ttfamily bool Simulation.\+open\+Panel = false}
+
+\mbox{\Hypertarget{class_simulation_a4a4efe47214d16664ea0c43bcc437af3}\label{class_simulation_a4a4efe47214d16664ea0c43bcc437af3}} 
+\index{Simulation@{Simulation}!position@{position}}
+\index{position@{position}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Simulation.\+position}
+
+\mbox{\Hypertarget{class_simulation_a9945c13b481c81bfb75ad26e730a78d4}\label{class_simulation_a9945c13b481c81bfb75ad26e730a78d4}} 
+\index{Simulation@{Simulation}!pp@{pp}}
+\index{pp@{pp}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{pp}{pp}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Simulation.\+pp}
+
+\mbox{\Hypertarget{class_simulation_ac581af6c4b31a61b95a1c11c1d4ed38b}\label{class_simulation_ac581af6c4b31a61b95a1c11c1d4ed38b}} 
+\index{Simulation@{Simulation}!struct\+Dec@{struct\+Dec}}
+\index{struct\+Dec@{struct\+Dec}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{struct\+Dec}{structDec}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Simulation.\+struct\+Dec}
+
+\mbox{\Hypertarget{class_simulation_a0d34073239ee6afd6c15327ae9f249bb}\label{class_simulation_a0d34073239ee6afd6c15327ae9f249bb}} 
+\index{Simulation@{Simulation}!toro@{toro}}
+\index{toro@{toro}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{toro}{toro}}
+{\footnotesize\ttfamily bool Simulation.\+toro}
+
+\mbox{\Hypertarget{class_simulation_a2106f84d6bf1aec6e3d852e4a4432217}\label{class_simulation_a2106f84d6bf1aec6e3d852e4a4432217}} 
+\index{Simulation@{Simulation}!use\+Detect\+Canon@{use\+Detect\+Canon}}
+\index{use\+Detect\+Canon@{use\+Detect\+Canon}!Simulation@{Simulation}}
+\subsubsection{\texorpdfstring{use\+Detect\+Canon}{useDetectCanon}}
+{\footnotesize\ttfamily bool Simulation.\+use\+Detect\+Canon = false}
+

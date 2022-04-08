@@ -1,0 +1,3 @@
+<map id="EditModeCell.Activate" name="EditModeCell.Activate">
+<area shape="rect" id="node2" href="$class_edit_mode_manager.html#a9f9fbe57f5bbb6b90dc1dc321d411c54" title="Ajoute la position de la cellule comme position d&#39;une cellule vivante dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 1. " alt="" coords="203,5,379,32"/>
+</map>
