@@ -2,6 +2,11 @@
 \label{class_parameters}\index{Parameters@{Parameters}}
 
 
+Gestion des paramÃ¨tres du logiciel.  
+
+
+
+
 Graphe d\textquotesingle{}héritage de Parameters\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
@@ -11,87 +16,64 @@ Graphe d\textquotesingle{}héritage de Parameters\+:\nopagebreak
 \end{figure}
 
 
-Graphe de collaboration de Parameters\+:\nopagebreak
+Graphe de collaboration de Parameters\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=343pt]{class_parameters__coll__graph}
+\includegraphics[width=350pt]{class_parameters__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_parameters_af47f2d06943667d50ffbc35743ad522c}{Rule\+Of\+Neighbors\+Selected}} (int val)
-\begin{DoxyCompactList}\small\item\em récupérer la règle de voisinage sélectionné et rand interragissable sles boutons en conséquence. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em RÃ©cupÃ©re la rÃ¨gle de voisinage sÃ©lectionnÃ© et rend l\textquotesingle{}interaction impossible avec les boutons en consÃ©quence. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_aed80d6c22fb47d55466f2feff304c87b}{Active\+Or\+Deactivetoroidal}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Active oÃ¹ dÃ©sactive le toroÃ¯dal. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a4566221c7993c122d2d32682530f1083}{Active\+Or\+Deactive\+Import\+With\+Parameters}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Active oÃ¹ dÃ©sactive l\textquotesingle{}importation des paramÃ¨tres lors de l\textquotesingle{}importation du fichier texte. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a23cd831787b627f7ec96da88a774838d}{Active\+Or\+Deactive\+Find\+Fependencies}} ()
-\begin{DoxyCompactList}\small\item\em Active où désactive la recherche de dépendance entre les cellules vivantes. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Active oÃ¹ dÃ©sactive la recherche de dÃ©pendance entre les cellules vivantes. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_parameters_aa6714e2b56d3511340476f682a51e677}{get\+Toroidal}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em RÃ©cupÃ¨re la valeur de toroÃ¯dal. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_parameters_a9eb50f6a67cb480f303e5d6f91997f7d}{CompeteurR}} (int\mbox{[}$\,$\mbox{]} tab)
-\item 
+\begin{DoxyCompactList}\small\item\em Le nombre d\textquotesingle{}Ã©lÃ©ments ayant pour valeur 1. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_ae90c0f90420620d98950ac50b9f24782}{Rule\+Life\+On\+Click}} (int ind\+Rule\+Life)
-\begin{DoxyCompactList}\small\item\em méthode lancée quand click sur les boutons pour les règles de vie. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em MÃ©thode lancÃ©e quand click sur les boutons pour les rÃ¨gles de naissances. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_af62c0383d55e0653fcd2384b9d49d42f}{Rule\+Survive\+On\+Click}} (int ind\+Rule\+Survive)
-\begin{DoxyCompactList}\small\item\em méthode lancée quand click sur les boutons pour les règles de mort. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em MÃ©thode lancÃ©e quand clic sur les boutons pour les rÃ¨gles de survies. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a1db238650db0f62fade69c0da51a0e83}{Active\+Or\+Deactive\+Number\+Max\+Gen}} ()
-\begin{DoxyCompactList}\small\item\em Active ou désactive \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Active ou dÃ©sactive la gÃ©nÃ©ration limite. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_af21422abe34305567b0d9ef4982c9ea8}{Active\+Or\+Deactiverand\+Number\+Cell}} ()
-\begin{DoxyCompactList}\small\item\em Active ou désactive le bouton permettant de générer un nombre aléatoire de cellule. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Active ou dÃ©sactive le bouton permettant de gÃ©nÃ©rer un nombre alÃ©atoire de cellule. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_parameters_a92f68fa9992b1066153a6175dd37dc36}{Volume\+Dimensions}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em VÃ©rifie si les valeurs entrÃ©es dans les inputfield sont correctes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_aea7e3963fed0681d7a9f756a5deb52d1}{Type\+Of\+Detection\+Selected}} (int val)
-\begin{DoxyCompactList}\small\item\em Active ou désactive la détection. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em RÃ©cupÃ©re le type de detection sÃ©lectionnÃ©. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_ad62219d943618c3b970a46239ae443ae}{On\+Click\+Detection\+Struct}} (int ind)
-\begin{DoxyCompactList}\small\item\em Méthode appellée lors de l\textquotesingle{}appuis sur les boutons du panel\+Inf1\mbox{[}1\mbox{]}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em MÃ©thode appellÃ©e lors de l\textquotesingle{}appui sur les boutons du panel\+Inf1\mbox{[}1\mbox{]}. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a4167680889821ca1d2f3bc487b0bebae}{On\+End\+Number\+Maxgen\+Edition}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em RÃ©cupÃ¨re la valeur entrÃ©e dans inputfield\+Max\+Gen. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_ad3db64cd1a228cb925a9afd7f32332a5}{On\+End\+Name\+Fiche\+Edition}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em RÃ©cupÃ¨re tous les fichiers textes disponibles dans le dossier du logiciel pour les afficher dans dropdown\+Files. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_aa0a97bc80e6c1cdf8a43513c187f33aa}{On\+Pointer\+Enter}} (int ind\+Panel)
 \begin{DoxyCompactList}\small\item\em Active le panel lors du passage de la souris sur le bouton correspondant. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a711df8be88106725f5e1cf4bf74a5e21}{On\+Pointer\+Exit}} (int ind\+Panel)
-\begin{DoxyCompactList}\small\item\em Deactive le panel lorsque la souris n\textquotesingle{}est plus le bouton correspondant. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em DÃ©sactive le panel lorsque la souris n\textquotesingle{}est plus le bouton correspondant. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a95a34ed3f54953655b8caf704caff1f5}{Import\+Close}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em DÃ©sactive le panel Import. \end{DoxyCompactList}\item 
 int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_parameters_a5e16007361a29535bbad70f4f0a466bc}{get\+Volume}} (int h, int w, int l, int\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_parameters_ad01c1db17d90b97c666abf21a9c6fcd1}{position}})
-\item 
+\begin{DoxyCompactList}\small\item\em RÃ©cupÃ¨re le volume. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a8438e2686a572fc6d1cc2947489da01d}{Apply\+Import\+Onclick}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Applique Ã  la simulation le fichier importÃ©. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_a8702daf046aa4d1c44a284c78f6ff058}{Apply\+Button\+Onclick}} (bool change\+Volume)
-\begin{DoxyCompactList}\small\item\em Méthode appelée lors de l\textquotesingle{}appui sur le bouton Apply. Affiche Les différents paramètres entrés par l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em MÃ©thode appelÃ©e lors de l\textquotesingle{}appui sur le bouton Apply. Affiche Les diffÃ©rents paramÃ¨tres entrÃ©s par l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_parameters_abc57bdbb6a4e2f78c7d71f1fa26b5fe8}{Give\+Parameters}} (bool change\+Volume)
-\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}envoyer les parametres aux diff�rents outils. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}envoyer les parametres aux diffÃ©rents outils. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Attributs publics}
 \begin{DoxyCompactItemize}
 \item 
-int \mbox{\hyperlink{class_parameters_a0c0451581ea7d4705f895a49a20519a8}{type\+Detection}}
-\item 
-Game\+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a21e4cca4e061b650741354680361136c}{panel\+Info1}}
-\item 
-T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_a70300043b336ebaf786ae92efe9d215f}{name\+File}}
-\item 
-int \mbox{\hyperlink{class_parameters_a701b55ad59ff4744ae7e95139c703145}{b}}
-\item 
-\mbox{\hyperlink{class_detection}{Detection}} \mbox{\hyperlink{class_parameters_a9b194f58924fececb4ffef5afb6d7334}{detection}}
-\item 
-bool \mbox{\hyperlink{class_parameters_a9cee3a4a38b1085ad46833289acf1336}{detect\+Struct\+Stable}} = false
-\begin{DoxyCompactList}\small\item\em Vrai si la détection des structures stables est activée, faux sinon. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_parameters_a861434feae8c97b839615973c0e0e2ec}{detect\+Struct\+Oscill}} = false
-\begin{DoxyCompactList}\small\item\em Vrai si la détection des structures oscillatoire est activée, faux sinon. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_parameters_a4785fe04733d4ef9e76e314ca2fc120c}{detect\+Struct\+Glider}} = false
-\begin{DoxyCompactList}\small\item\em Vrai si la détection des vaisseaux est activée, faux sinon. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_parameters_a87a3d90929121cd0f27d1aeb55551dcc}{detect\+Struct\+Canon}} = false
-\begin{DoxyCompactList}\small\item\em Vrai si la détection des canon est activée, faux sinon. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_parameters_a69b261ceea3746beb517d7082a8fc810}{activ\+Dependencies}} = false
-\begin{DoxyCompactList}\small\item\em true si la recherche de dépendence entre les cellules vivantes est activées, false sinon. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_parameters_a2b7e1fe1403da019b5762792e4ea302b}{import\+With\+Parameters}} = false
-\begin{DoxyCompactList}\small\item\em true si la recherche de dépendence entre les cellules vivantes est activées, false sinon. \end{DoxyCompactList}\item 
-T\+M\+P\+\_\+\+Dropdown \mbox{\hyperlink{class_parameters_a9bb907abb659026dbf7b4f64343aefa1}{dropdown\+Rule\+Of\+Neighbors}}
-\begin{DoxyCompactList}\small\item\em Contient le dropdown des regles de voisinnage. \end{DoxyCompactList}\item 
 string \mbox{\hyperlink{class_parameters_abbfa8fa8cae3b3c7db55b2c23ec747d5}{file\+Name}} = \char`\"{}\char`\"{}
 \item 
 \mbox{\hyperlink{class_local_storage}{Local\+Storage}} \mbox{\hyperlink{class_parameters_ab63c98cfc7508243010978c7c4d515a5}{ls}}
@@ -110,14 +92,112 @@ bool \mbox{\hyperlink{class_parameters_a8aec5ef7f7bdb0497b9de3ddce353c88}{toroid
 \item 
 Game\+Object \mbox{\hyperlink{class_parameters_a9039782e9b57b1cca98f109c8bd22928}{panel\+Import}}
 \end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_parameters_aa31bc8929b4008944bd7f720bfac9a62}{Start}} ()
+\begin{DoxyCompactList}\small\item\em mÃ©thode appelÃ©e lors du chargement de la scÃ¨ne. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} \mbox{\hyperlink{class_parameters_ac7a257a7373d1889a8bdf4eca25e6574}{edit\+Mode\+Manager}}
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance pour l\textquotesingle{}Ã©diteur de structure. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_simulation}{Simulation}} \mbox{\hyperlink{class_parameters_ae0b748fde33ea353527d677ad10598dc}{simulation}}
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de la simulation. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_a5dfd90d9127f6ac54d0fc72ce5aeaf89}{inputfield\+Max\+Gen}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la gÃ©nÃ©ration maximale. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_a25554c9b16cf4851153f94ded0c9506a}{inputfield\+Random\+Percentage}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour le nombre minimal de cellule. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_a144f3907a5a97b677777c361e1732d87}{inputfield\+AxeX}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la valeur de l\textquotesingle{}axe X. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_a7a8f81335eea4caef79b5b2aee17e473}{inputfield\+AxeY}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la valeur de l\textquotesingle{}axe Y \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_aa791b4cf0b210915f89c2d302a4e7512}{inputfield\+AxeZ}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la valeur de l\textquotesingle{}axe Z. \end{DoxyCompactList}\item 
+Game\+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a8548a9cf76e7157e3722468f7fa4c275}{panel\+Inf}}
+\begin{DoxyCompactList}\small\item\em Liste des panneaux contenants les informations pour chaque panel. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_parameters_a92c93b0d5d39d8c9eaf80b9aacb6d560}{panel\+Apply\+Button}}
+\begin{DoxyCompactList}\small\item\em Variable contenant le panel affichable en appuyant sur le bouton. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Text \mbox{\hyperlink{class_parameters_a872fa6362cb90ff7531c6b6a9dcf38b2}{text}}
+\begin{DoxyCompactList}\small\item\em Le texte affichÃ© sur le panel panel\+Apply\+Button. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_acf7e3f320861b82f33752991e1dc2468}{max\+Gen}} = false
+\begin{DoxyCompactList}\small\item\em true s\textquotesingle{}il y a un nombre maximal de gÃ©nÃ©rations, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_aeee7bae840964c99195e90c1a0486e46}{rand\+Number\+Cell}} = false
+\begin{DoxyCompactList}\small\item\em true si un nombre alÃ©atoire de cellule est choisi, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_ada09985fa2537e0d28f616e0d9b86fb4}{activate\+Detection}} = false
+\begin{DoxyCompactList}\small\item\em true si la dÃ©tection est activÃ©e, false sinon. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_parameters_a169d89f0e1954fe0dd8a588db68bc5d3}{val\+Max\+Gen}}
+\begin{DoxyCompactList}\small\item\em Valeur de la derniÃ¨re gÃ©nÃ©ration. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_parameters_ad1ebedc3a59e983f8bb3f4816cbe0969}{axeX}}
+\begin{DoxyCompactList}\small\item\em Valeur des axes x,y et z du volume. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_parameters_a30e0f9fdc5cff2253f40ab0206f1b748}{axeY}}
+\item 
+int \mbox{\hyperlink{class_parameters_a0259b6b9e73302fb43a80b6756422596}{axeZ}}
+\item 
+int \mbox{\hyperlink{class_parameters_ae93c8919d298fca6d55246e5f2d68f64}{rule\+Of\+Neighbors\+Chosen}} = 0
+\begin{DoxyCompactList}\small\item\em RÃ¨gle de voisinage choisie. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a9900b1e54888301a55408bf4308a6017}{rule\+Of\+Neighbors}}
+\begin{DoxyCompactList}\small\item\em Contient les rÃ¨gles de voisinages. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_parameters_ab2aae264b2829322043e1b23394bc996}{max\+Gen\+Number}}
+\begin{DoxyCompactList}\small\item\em La gÃ©nÃ©ration limite. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_parameters_a35b50b196bd5e9bfde42d8cc69642bfb}{random}}
+\begin{DoxyCompactList}\small\item\em Le taux d\textquotesingle{}apparition d\textquotesingle{}une cellule vivante. \end{DoxyCompactList}\item 
+Voisinage2 \mbox{\hyperlink{class_parameters_ad6693ced27cf9d3ebe6d35400ee1bdd5}{voisinage}}
+\begin{DoxyCompactList}\small\item\em Variable contenant le voisinage. \end{DoxyCompactList}\item 
+Button \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a8f92648a7ee23e4e0b57a1a03c70615d}{button\+Rule\+Life}}
+\begin{DoxyCompactList}\small\item\em Tableau contenant l\textquotesingle{}ensemble des boutons. \end{DoxyCompactList}\item 
+Button \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a2649c58bc9e1fea496719ad146d272fe}{button\+Rule\+Survive}}
+\begin{DoxyCompactList}\small\item\em Tableau contenant l\textquotesingle{}ensemble des boutons. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a69cb36fa8095b0a0b37a035e2dc21d2f}{rule\+Life\+Choose}}
+\begin{DoxyCompactList}\small\item\em Tableau contenant les rÃ¨gles de naissances choisies. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_abd8a872a3447aa8cf784a98cf211a7c3}{rule\+Survive\+Choose}}
+\begin{DoxyCompactList}\small\item\em Tableau contenant les rÃ¨gles de survies choisies. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_parameters_a9f5c0caa798160b623118c5c81932daa}{number\+Of\+Rule\+Life\+And\+Survive}}
+\begin{DoxyCompactList}\small\item\em Nombre de rÃ¨gles de naissances et de survie. \end{DoxyCompactList}\item 
+Game\+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a21e4cca4e061b650741354680361136c}{panel\+Info1}}
+\begin{DoxyCompactList}\small\item\em Contient les panels. \end{DoxyCompactList}\item 
+Button \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_parameters_a0976e55ec506eb31b8be9d56d66a98c7}{detect}}
+\begin{DoxyCompactList}\small\item\em Boutons du panel dÃ©tection lors de l\textquotesingle{}activation de la dÃ©tection automatique. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_parameters_a9e5e6a9e22f6324e6373feba6b311808}{inputfield\+Period\+Max}}
+\begin{DoxyCompactList}\small\item\em Zone de text pour la pÃ©riode maximale. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_a9cee3a4a38b1085ad46833289acf1336}{detect\+Struct\+Stable}} = false
+\begin{DoxyCompactList}\small\item\em true si la dÃ©tection des structures stables est activÃ©e, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_a861434feae8c97b839615973c0e0e2ec}{detect\+Struct\+Oscill}} = false
+\begin{DoxyCompactList}\small\item\em true si la dÃ©tection des structures oscillatoires est activÃ©e, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_a4785fe04733d4ef9e76e314ca2fc120c}{detect\+Struct\+Glider}} = false
+\begin{DoxyCompactList}\small\item\em true si la dÃ©tection des vaisseaux est activÃ©e, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_a87a3d90929121cd0f27d1aeb55551dcc}{detect\+Struct\+Canon}} = false
+\begin{DoxyCompactList}\small\item\em true si la dÃ©tection des canons est activÃ©e, false sinon. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_parameters_a5f6937553d6c12a654fb93e1b6838d53}{period\+Max}}
+\begin{DoxyCompactList}\small\item\em PÃ©riode d\textquotesingle{}oscillation maximale. \end{DoxyCompactList}\item 
+Toggle \mbox{\hyperlink{class_parameters_a90f764b548eabcd6bb826cfb8ccd750f}{toggle\+Find\+Dependencies}}
+\begin{DoxyCompactList}\small\item\em Variable contenant le toggle pour les dÃ©pendances. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_a69b261ceea3746beb517d7082a8fc810}{activ\+Dependencies}} = false
+\begin{DoxyCompactList}\small\item\em true si la recherche de dÃ©pendance entre les cellules vivantes est activÃ©es, false sinon. \end{DoxyCompactList}\item 
+Toggle \mbox{\hyperlink{class_parameters_a1de1921a55ef745c4ab25ac46a98c1d8}{toggle\+Import\+With\+Parameters}}
+\begin{DoxyCompactList}\small\item\em Variable contenant le toggle pour savoir si l\textquotesingle{}import, import les paramÃ¨tres Ã©galement. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_parameters_a2b7e1fe1403da019b5762792e4ea302b}{import\+With\+Parameters}} = false
+\begin{DoxyCompactList}\small\item\em true si la recherche de dÃ©pendance entre les cellules vivantes est activÃ©es, false sinon. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Dropdown \mbox{\hyperlink{class_parameters_a9bb907abb659026dbf7b4f64343aefa1}{dropdown\+Rule\+Of\+Neighbors}}
+\begin{DoxyCompactList}\small\item\em Contient le dropdown des rÃ¨gles de voisinage. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Dropdown \mbox{\hyperlink{class_parameters_ae4cea23bda0b2bc3955516a37e9d9993}{dropdown\+Files}}
+\begin{DoxyCompactList}\small\item\em Contient le dropdown du panel import. \end{DoxyCompactList}\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_parameters_a0d8550932a58f49a60370eec0c4700d1}{cells\+Volume}}
+\item 
+string \mbox{\hyperlink{class_parameters_a83b35077082784a379d79db7e1b96e06}{rulelife\+To\+Str}} = \char`\"{}\char`\"{}
+\item 
+string \mbox{\hyperlink{class_parameters_a89dcaef13a4d9b7a41631b16c2e901a7}{rule\+Survive\+To\+Str}} = \char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
+Gestion des paramÃ¨tres du logiciel. 
+
 \begin{DoxyAuthor}{Auteur}
-\$username\$ Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
+Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
 \end{DoxyAuthor}
 \begin{DoxyDate}{Date}
--\/ \$time\$ 07/04/2022 
+10/04/2022 
 \end{DoxyDate}
 
 
@@ -130,13 +210,17 @@ Game\+Object \mbox{\hyperlink{class_parameters_a9039782e9b57b1cca98f109c8bd22928
 
 
 
-Active où désactive la recherche de dépendance entre les cellules vivantes. 
+Active oÃ¹ dÃ©sactive la recherche de dÃ©pendance entre les cellules vivantes. 
 
 \mbox{\Hypertarget{class_parameters_a4566221c7993c122d2d32682530f1083}\label{class_parameters_a4566221c7993c122d2d32682530f1083}} 
 \index{Parameters@{Parameters}!Active\+Or\+Deactive\+Import\+With\+Parameters@{Active\+Or\+Deactive\+Import\+With\+Parameters}}
 \index{Active\+Or\+Deactive\+Import\+With\+Parameters@{Active\+Or\+Deactive\+Import\+With\+Parameters}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{Active\+Or\+Deactive\+Import\+With\+Parameters()}{ActiveOrDeactiveImportWithParameters()}}
 {\footnotesize\ttfamily void Parameters.\+Active\+Or\+Deactive\+Import\+With\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Active oÃ¹ dÃ©sactive l\textquotesingle{}importation des paramÃ¨tres lors de l\textquotesingle{}importation du fichier texte. 
 
 \mbox{\Hypertarget{class_parameters_a1db238650db0f62fade69c0da51a0e83}\label{class_parameters_a1db238650db0f62fade69c0da51a0e83}} 
 \index{Parameters@{Parameters}!Active\+Or\+Deactive\+Number\+Max\+Gen@{Active\+Or\+Deactive\+Number\+Max\+Gen}}
@@ -146,7 +230,7 @@ Active où désactive la recherche de dépendance entre les cellules vivantes.
 
 
 
-Active ou désactive 
+Active ou dÃ©sactive la gÃ©nÃ©ration limite. 
 
 \mbox{\Hypertarget{class_parameters_af21422abe34305567b0d9ef4982c9ea8}\label{class_parameters_af21422abe34305567b0d9ef4982c9ea8}} 
 \index{Parameters@{Parameters}!Active\+Or\+Deactiverand\+Number\+Cell@{Active\+Or\+Deactiverand\+Number\+Cell}}
@@ -156,7 +240,7 @@ Active ou désactive
 
 
 
-Active ou désactive le bouton permettant de générer un nombre aléatoire de cellule. 
+Active ou dÃ©sactive le bouton permettant de gÃ©nÃ©rer un nombre alÃ©atoire de cellule. 
 
 \mbox{\Hypertarget{class_parameters_aed80d6c22fb47d55466f2feff304c87b}\label{class_parameters_aed80d6c22fb47d55466f2feff304c87b}} 
 \index{Parameters@{Parameters}!Active\+Or\+Deactivetoroidal@{Active\+Or\+Deactivetoroidal}}
@@ -164,12 +248,10 @@ Active ou désactive le bouton permettant de générer un nombre aléatoire de c
 \subsubsection{\texorpdfstring{Active\+Or\+Deactivetoroidal()}{ActiveOrDeactivetoroidal()}}
 {\footnotesize\ttfamily void Parameters.\+Active\+Or\+Deactivetoroidal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ T\+I\+AN Ning 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 23/03/2022 
-\end{DoxyDate}
+
+
+Active oÃ¹ dÃ©sactive le toroÃ¯dal. 
+
 \mbox{\Hypertarget{class_parameters_a8702daf046aa4d1c44a284c78f6ff058}\label{class_parameters_a8702daf046aa4d1c44a284c78f6ff058}} 
 \index{Parameters@{Parameters}!Apply\+Button\+Onclick@{Apply\+Button\+Onclick}}
 \index{Apply\+Button\+Onclick@{Apply\+Button\+Onclick}!Parameters@{Parameters}}
@@ -178,26 +260,25 @@ Active ou désactive le bouton permettant de générer un nombre aléatoire de c
 
 
 
-Méthode appelée lors de l\textquotesingle{}appui sur le bouton Apply. Affiche Les différents paramètres entrés par l\textquotesingle{}utilisateur. 
+MÃ©thode appelÃ©e lors de l\textquotesingle{}appui sur le bouton Apply. Affiche Les diffÃ©rents paramÃ¨tres entrÃ©s par l\textquotesingle{}utilisateur. 
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 23/03/2022 
-\end{DoxyDate}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parameters_a8702daf046aa4d1c44a284c78f6ff058_cgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_parameters_a8438e2686a572fc6d1cc2947489da01d}\label{class_parameters_a8438e2686a572fc6d1cc2947489da01d}} 
 \index{Parameters@{Parameters}!Apply\+Import\+Onclick@{Apply\+Import\+Onclick}}
 \index{Apply\+Import\+Onclick@{Apply\+Import\+Onclick}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{Apply\+Import\+Onclick()}{ApplyImportOnclick()}}
 {\footnotesize\ttfamily void Parameters.\+Apply\+Import\+Onclick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ T\+I\+AN Ning,Q\+IN Yi 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 26/03/2022 
-\end{DoxyDate}
+
+
+Applique Ã  la simulation le fichier importÃ©. 
+
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \nopagebreak
 \begin{figure}[H]
@@ -212,6 +293,18 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \subsubsection{\texorpdfstring{Competeur\+R()}{CompeteurR()}}
 {\footnotesize\ttfamily int Parameters.\+CompeteurR (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{tab }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+
+
+Le nombre d\textquotesingle{}Ã©lÃ©ments ayant pour valeur 1. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em tab} & Tableau\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+compteur
+\end{DoxyReturn}
 Voici le graphe des appelants de cette fonction \+:
 \nopagebreak
 \begin{figure}[H]
@@ -226,24 +319,37 @@ Voici le graphe des appelants de cette fonction \+:
 \subsubsection{\texorpdfstring{get\+Toroidal()}{getToroidal()}}
 {\footnotesize\ttfamily bool Parameters.\+get\+Toroidal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ T\+I\+AN Ning 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 23/03/2022 
-\end{DoxyDate}
+
+
+RÃ©cupÃ¨re la valeur de toroÃ¯dal. 
+
+\begin{DoxyReturn}{Renvoie}
+toroidal
+\end{DoxyReturn}
 \mbox{\Hypertarget{class_parameters_a5e16007361a29535bbad70f4f0a466bc}\label{class_parameters_a5e16007361a29535bbad70f4f0a466bc}} 
 \index{Parameters@{Parameters}!get\+Volume@{get\+Volume}}
 \index{get\+Volume@{get\+Volume}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{get\+Volume()}{getVolume()}}
 {\footnotesize\ttfamily int \mbox{[},,\mbox{]} Parameters.\+get\+Volume (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{int}]{position\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ T\+I\+AN Ning,Q\+IN Yi 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 26/03/2022 
-\end{DoxyDate}
+
+
+RÃ©cupÃ¨re le volume. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & Longeur\\
+\hline
+{\em w} & Largueur\\
+\hline
+{\em l} & Hauteur\\
+\hline
+{\em position} & Position\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
 Voici le graphe des appelants de cette fonction \+:
 \nopagebreak
 \begin{figure}[H]
@@ -260,14 +366,16 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Permet d\textquotesingle{}envoyer les parametres aux diff�rents outils. 
+Permet d\textquotesingle{}envoyer les parametres aux diffÃ©rents outils. 
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 23/03/2022 
-\end{DoxyDate}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parameters_abc57bdbb6a4e2f78c7d71f1fa26b5fe8_cgraph}
+\end{center}
+\end{figure}
 Voici le graphe des appelants de cette fonction \+:
 \nopagebreak
 \begin{figure}[H]
@@ -282,12 +390,10 @@ Voici le graphe des appelants de cette fonction \+:
 \subsubsection{\texorpdfstring{Import\+Close()}{ImportClose()}}
 {\footnotesize\ttfamily void Parameters.\+Import\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-\begin{DoxyAuthor}{Auteur}
-\$username\$ T\+I\+AN Ning 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 25/03/2022 
-\end{DoxyDate}
+
+
+DÃ©sactive le panel Import. 
+
 \mbox{\Hypertarget{class_parameters_ad62219d943618c3b970a46239ae443ae}\label{class_parameters_ad62219d943618c3b970a46239ae443ae}} 
 \index{Parameters@{Parameters}!On\+Click\+Detection\+Struct@{On\+Click\+Detection\+Struct}}
 \index{On\+Click\+Detection\+Struct@{On\+Click\+Detection\+Struct}!Parameters@{Parameters}}
@@ -296,7 +402,7 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Méthode appellée lors de l\textquotesingle{}appuis sur les boutons du panel\+Inf1\mbox{[}1\mbox{]}. 
+MÃ©thode appellÃ©e lors de l\textquotesingle{}appui sur les boutons du panel\+Inf1\mbox{[}1\mbox{]}. 
 
 \mbox{\Hypertarget{class_parameters_ad3db64cd1a228cb925a9afd7f32332a5}\label{class_parameters_ad3db64cd1a228cb925a9afd7f32332a5}} 
 \index{Parameters@{Parameters}!On\+End\+Name\+Fiche\+Edition@{On\+End\+Name\+Fiche\+Edition}}
@@ -306,14 +412,8 @@ Méthode appellée lors de l\textquotesingle{}appuis sur les boutons du panel\+I
 
 
 
+RÃ©cupÃ¨re tous les fichiers textes disponibles dans le dossier du logiciel pour les afficher dans dropdown\+Files. 
 
-
-\begin{DoxyAuthor}{Auteur}
-\$username\$ Q\+IN Yi 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
--\/ \$time\$ 23/03/2022
-\end{DoxyDate}
 \mbox{\Hypertarget{class_parameters_a4167680889821ca1d2f3bc487b0bebae}\label{class_parameters_a4167680889821ca1d2f3bc487b0bebae}} 
 \index{Parameters@{Parameters}!On\+End\+Number\+Maxgen\+Edition@{On\+End\+Number\+Maxgen\+Edition}}
 \index{On\+End\+Number\+Maxgen\+Edition@{On\+End\+Number\+Maxgen\+Edition}!Parameters@{Parameters}}
@@ -322,7 +422,7 @@ Méthode appellée lors de l\textquotesingle{}appuis sur les boutons du panel\+I
 
 
 
-
+RÃ©cupÃ¨re la valeur entrÃ©e dans inputfield\+Max\+Gen. 
 
 \mbox{\Hypertarget{class_parameters_aa0a97bc80e6c1cdf8a43513c187f33aa}\label{class_parameters_aa0a97bc80e6c1cdf8a43513c187f33aa}} 
 \index{Parameters@{Parameters}!On\+Pointer\+Enter@{On\+Pointer\+Enter}}
@@ -347,7 +447,7 @@ Active le panel lors du passage de la souris sur le bouton correspondant.
 
 
 
-Deactive le panel lorsque la souris n\textquotesingle{}est plus le bouton correspondant. 
+DÃ©sactive le panel lorsque la souris n\textquotesingle{}est plus le bouton correspondant. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -362,7 +462,7 @@ Deactive le panel lorsque la souris n\textquotesingle{}est plus le bouton corres
 
 
 
-méthode lancée quand click sur les boutons pour les règles de vie. 
+MÃ©thode lancÃ©e quand click sur les boutons pour les rÃ¨gles de naissances. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -385,11 +485,11 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-récupérer la règle de voisinage sélectionné et rand interragissable sles boutons en conséquence. 
+RÃ©cupÃ©re la rÃ¨gle de voisinage sÃ©lectionnÃ© et rend l\textquotesingle{}interaction impossible avec les boutons en consÃ©quence. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em ind\+Rule} & règle de voisinage choisie\\
+{\em ind\+Rule} & RÃ¨gle de voisinage choisie\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_parameters_af62c0383d55e0653fcd2384b9d49d42f}\label{class_parameters_af62c0383d55e0653fcd2384b9d49d42f}} 
@@ -400,7 +500,7 @@ récupérer la règle de voisinage sélectionné et rand interragissable sles bo
 
 
 
-méthode lancée quand click sur les boutons pour les règles de mort. 
+MÃ©thode lancÃ©e quand clic sur les boutons pour les rÃ¨gles de survies. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -415,6 +515,24 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \includegraphics[width=350pt]{class_parameters_af62c0383d55e0653fcd2384b9d49d42f_cgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{class_parameters_aa31bc8929b4008944bd7f720bfac9a62}\label{class_parameters_aa31bc8929b4008944bd7f720bfac9a62}} 
+\index{Parameters@{Parameters}!Start@{Start}}
+\index{Start@{Start}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Parameters.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+mÃ©thode appelÃ©e lors du chargement de la scÃ¨ne. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parameters_aa31bc8929b4008944bd7f720bfac9a62_cgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_parameters_aea7e3963fed0681d7a9f756a5deb52d1}\label{class_parameters_aea7e3963fed0681d7a9f756a5deb52d1}} 
 \index{Parameters@{Parameters}!Type\+Of\+Detection\+Selected@{Type\+Of\+Detection\+Selected}}
 \index{Type\+Of\+Detection\+Selected@{Type\+Of\+Detection\+Selected}!Parameters@{Parameters}}
@@ -423,15 +541,11 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-Active ou désactive la détection. 
-
-/// 
-
-récupérer la type de detection sélectionné. 
+RÃ©cupÃ©re le type de detection sÃ©lectionnÃ©. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em ind\+Rule} & la type de detection choisie\\
+{\em ind\+Rule} & le type de detection choisie\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_parameters_a92f68fa9992b1066153a6175dd37dc36}\label{class_parameters_a92f68fa9992b1066153a6175dd37dc36}} 
@@ -442,26 +556,83 @@ récupérer la type de detection sélectionné.
 
 
 
+VÃ©rifie si les valeurs entrÃ©es dans les inputfield sont correctes. 
 
+\begin{DoxyReturn}{Renvoie}
 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parameters_a92f68fa9992b1066153a6175dd37dc36_icgraph}
+\end{center}
+\end{figure}
 
 
 \subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_parameters_ada09985fa2537e0d28f616e0d9b86fb4}\label{class_parameters_ada09985fa2537e0d28f616e0d9b86fb4}} 
+\index{Parameters@{Parameters}!activate\+Detection@{activate\+Detection}}
+\index{activate\+Detection@{activate\+Detection}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{activate\+Detection}{activateDetection}}
+{\footnotesize\ttfamily bool Parameters.\+activate\+Detection = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si la dÃ©tection est activÃ©e, false sinon. 
+
 \mbox{\Hypertarget{class_parameters_a69b261ceea3746beb517d7082a8fc810}\label{class_parameters_a69b261ceea3746beb517d7082a8fc810}} 
 \index{Parameters@{Parameters}!activ\+Dependencies@{activ\+Dependencies}}
 \index{activ\+Dependencies@{activ\+Dependencies}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{activ\+Dependencies}{activDependencies}}
-{\footnotesize\ttfamily bool Parameters.\+activ\+Dependencies = false}
+{\footnotesize\ttfamily bool Parameters.\+activ\+Dependencies = false\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-true si la recherche de dépendence entre les cellules vivantes est activées, false sinon. 
+true si la recherche de dÃ©pendance entre les cellules vivantes est activÃ©es, false sinon. 
 
-\mbox{\Hypertarget{class_parameters_a701b55ad59ff4744ae7e95139c703145}\label{class_parameters_a701b55ad59ff4744ae7e95139c703145}} 
-\index{Parameters@{Parameters}!b@{b}}
-\index{b@{b}!Parameters@{Parameters}}
-\subsubsection{\texorpdfstring{b}{b}}
-{\footnotesize\ttfamily int Parameters.\+b}
+\mbox{\Hypertarget{class_parameters_ad1ebedc3a59e983f8bb3f4816cbe0969}\label{class_parameters_ad1ebedc3a59e983f8bb3f4816cbe0969}} 
+\index{Parameters@{Parameters}!axeX@{axeX}}
+\index{axeX@{axeX}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{axeX}{axeX}}
+{\footnotesize\ttfamily int Parameters.\+axeX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valeur des axes x,y et z du volume. 
+
+\mbox{\Hypertarget{class_parameters_a30e0f9fdc5cff2253f40ab0206f1b748}\label{class_parameters_a30e0f9fdc5cff2253f40ab0206f1b748}} 
+\index{Parameters@{Parameters}!axeY@{axeY}}
+\index{axeY@{axeY}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{axeY}{axeY}}
+{\footnotesize\ttfamily int Parameters.\+axeY\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_parameters_a0259b6b9e73302fb43a80b6756422596}\label{class_parameters_a0259b6b9e73302fb43a80b6756422596}} 
+\index{Parameters@{Parameters}!axeZ@{axeZ}}
+\index{axeZ@{axeZ}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{axeZ}{axeZ}}
+{\footnotesize\ttfamily int Parameters.\+axeZ\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_parameters_a8f92648a7ee23e4e0b57a1a03c70615d}\label{class_parameters_a8f92648a7ee23e4e0b57a1a03c70615d}} 
+\index{Parameters@{Parameters}!button\+Rule\+Life@{button\+Rule\+Life}}
+\index{button\+Rule\+Life@{button\+Rule\+Life}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{button\+Rule\+Life}{buttonRuleLife}}
+{\footnotesize\ttfamily Button \mbox{[}$\,$\mbox{]} Parameters.\+button\+Rule\+Life\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tableau contenant l\textquotesingle{}ensemble des boutons. 
+
+\mbox{\Hypertarget{class_parameters_a2649c58bc9e1fea496719ad146d272fe}\label{class_parameters_a2649c58bc9e1fea496719ad146d272fe}} 
+\index{Parameters@{Parameters}!button\+Rule\+Survive@{button\+Rule\+Survive}}
+\index{button\+Rule\+Survive@{button\+Rule\+Survive}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{button\+Rule\+Survive}{buttonRuleSurvive}}
+{\footnotesize\ttfamily Button \mbox{[}$\,$\mbox{]} Parameters.\+button\+Rule\+Survive\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tableau contenant l\textquotesingle{}ensemble des boutons. 
 
 \mbox{\Hypertarget{class_parameters_aac3a7af7ad68f30d87e89debcb137c1f}\label{class_parameters_aac3a7af7ad68f30d87e89debcb137c1f}} 
 \index{Parameters@{Parameters}!c@{c}}
@@ -469,61 +640,91 @@ true si la recherche de dépendence entre les cellules vivantes est activées, f
 \subsubsection{\texorpdfstring{c}{c}}
 {\footnotesize\ttfamily \mbox{\hyperlink{class_camera_control}{Camera\+Control}} Parameters.\+c}
 
-\mbox{\Hypertarget{class_parameters_a9b194f58924fececb4ffef5afb6d7334}\label{class_parameters_a9b194f58924fececb4ffef5afb6d7334}} 
-\index{Parameters@{Parameters}!detection@{detection}}
-\index{detection@{detection}!Parameters@{Parameters}}
-\subsubsection{\texorpdfstring{detection}{detection}}
-{\footnotesize\ttfamily \mbox{\hyperlink{class_detection}{Detection}} Parameters.\+detection}
+\mbox{\Hypertarget{class_parameters_a0d8550932a58f49a60370eec0c4700d1}\label{class_parameters_a0d8550932a58f49a60370eec0c4700d1}} 
+\index{Parameters@{Parameters}!cells\+Volume@{cells\+Volume}}
+\index{cells\+Volume@{cells\+Volume}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{cells\+Volume}{cellsVolume}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Parameters.\+cells\+Volume\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_parameters_a0976e55ec506eb31b8be9d56d66a98c7}\label{class_parameters_a0976e55ec506eb31b8be9d56d66a98c7}} 
+\index{Parameters@{Parameters}!detect@{detect}}
+\index{detect@{detect}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{detect}{detect}}
+{\footnotesize\ttfamily Button \mbox{[}$\,$\mbox{]} Parameters.\+detect\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Boutons du panel dÃ©tection lors de l\textquotesingle{}activation de la dÃ©tection automatique. 
 
 \mbox{\Hypertarget{class_parameters_a87a3d90929121cd0f27d1aeb55551dcc}\label{class_parameters_a87a3d90929121cd0f27d1aeb55551dcc}} 
 \index{Parameters@{Parameters}!detect\+Struct\+Canon@{detect\+Struct\+Canon}}
 \index{detect\+Struct\+Canon@{detect\+Struct\+Canon}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{detect\+Struct\+Canon}{detectStructCanon}}
-{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Canon = false}
+{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Canon = false\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Vrai si la détection des canon est activée, faux sinon. 
+true si la dÃ©tection des canons est activÃ©e, false sinon. 
 
 \mbox{\Hypertarget{class_parameters_a4785fe04733d4ef9e76e314ca2fc120c}\label{class_parameters_a4785fe04733d4ef9e76e314ca2fc120c}} 
 \index{Parameters@{Parameters}!detect\+Struct\+Glider@{detect\+Struct\+Glider}}
 \index{detect\+Struct\+Glider@{detect\+Struct\+Glider}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{detect\+Struct\+Glider}{detectStructGlider}}
-{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Glider = false}
+{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Glider = false\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Vrai si la détection des vaisseaux est activée, faux sinon. 
+true si la dÃ©tection des vaisseaux est activÃ©e, false sinon. 
 
 \mbox{\Hypertarget{class_parameters_a861434feae8c97b839615973c0e0e2ec}\label{class_parameters_a861434feae8c97b839615973c0e0e2ec}} 
 \index{Parameters@{Parameters}!detect\+Struct\+Oscill@{detect\+Struct\+Oscill}}
 \index{detect\+Struct\+Oscill@{detect\+Struct\+Oscill}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{detect\+Struct\+Oscill}{detectStructOscill}}
-{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Oscill = false}
+{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Oscill = false\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Vrai si la détection des structures oscillatoire est activée, faux sinon. 
+true si la dÃ©tection des structures oscillatoires est activÃ©e, false sinon. 
 
 \mbox{\Hypertarget{class_parameters_a9cee3a4a38b1085ad46833289acf1336}\label{class_parameters_a9cee3a4a38b1085ad46833289acf1336}} 
 \index{Parameters@{Parameters}!detect\+Struct\+Stable@{detect\+Struct\+Stable}}
 \index{detect\+Struct\+Stable@{detect\+Struct\+Stable}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{detect\+Struct\+Stable}{detectStructStable}}
-{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Stable = false}
+{\footnotesize\ttfamily bool Parameters.\+detect\+Struct\+Stable = false\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Vrai si la détection des structures stables est activée, faux sinon. 
+true si la dÃ©tection des structures stables est activÃ©e, false sinon. 
+
+\mbox{\Hypertarget{class_parameters_ae4cea23bda0b2bc3955516a37e9d9993}\label{class_parameters_ae4cea23bda0b2bc3955516a37e9d9993}} 
+\index{Parameters@{Parameters}!dropdown\+Files@{dropdown\+Files}}
+\index{dropdown\+Files@{dropdown\+Files}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{dropdown\+Files}{dropdownFiles}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Dropdown Parameters.\+dropdown\+Files\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contient le dropdown du panel import. 
 
 \mbox{\Hypertarget{class_parameters_a9bb907abb659026dbf7b4f64343aefa1}\label{class_parameters_a9bb907abb659026dbf7b4f64343aefa1}} 
 \index{Parameters@{Parameters}!dropdown\+Rule\+Of\+Neighbors@{dropdown\+Rule\+Of\+Neighbors}}
 \index{dropdown\+Rule\+Of\+Neighbors@{dropdown\+Rule\+Of\+Neighbors}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{dropdown\+Rule\+Of\+Neighbors}{dropdownRuleOfNeighbors}}
-{\footnotesize\ttfamily T\+M\+P\+\_\+\+Dropdown Parameters.\+dropdown\+Rule\+Of\+Neighbors}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Dropdown Parameters.\+dropdown\+Rule\+Of\+Neighbors\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Contient le dropdown des regles de voisinnage. 
+Contient le dropdown des rÃ¨gles de voisinage. 
+
+\mbox{\Hypertarget{class_parameters_ac7a257a7373d1889a8bdf4eca25e6574}\label{class_parameters_ac7a257a7373d1889a8bdf4eca25e6574}} 
+\index{Parameters@{Parameters}!edit\+Mode\+Manager@{edit\+Mode\+Manager}}
+\index{edit\+Mode\+Manager@{edit\+Mode\+Manager}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{edit\+Mode\+Manager}{editModeManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} Parameters.\+edit\+Mode\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke l\textquotesingle{}instance pour l\textquotesingle{}Ã©diteur de structure. 
 
 \mbox{\Hypertarget{class_parameters_abbfa8fa8cae3b3c7db55b2c23ec747d5}\label{class_parameters_abbfa8fa8cae3b3c7db55b2c23ec747d5}} 
 \index{Parameters@{Parameters}!file\+Name@{file\+Name}}
@@ -535,11 +736,71 @@ Contient le dropdown des regles de voisinnage.
 \index{Parameters@{Parameters}!import\+With\+Parameters@{import\+With\+Parameters}}
 \index{import\+With\+Parameters@{import\+With\+Parameters}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{import\+With\+Parameters}{importWithParameters}}
-{\footnotesize\ttfamily bool Parameters.\+import\+With\+Parameters = false}
+{\footnotesize\ttfamily bool Parameters.\+import\+With\+Parameters = false\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-true si la recherche de dépendence entre les cellules vivantes est activées, false sinon. 
+true si la recherche de dÃ©pendance entre les cellules vivantes est activÃ©es, false sinon. 
+
+\mbox{\Hypertarget{class_parameters_a144f3907a5a97b677777c361e1732d87}\label{class_parameters_a144f3907a5a97b677777c361e1732d87}} 
+\index{Parameters@{Parameters}!inputfield\+AxeX@{inputfield\+AxeX}}
+\index{inputfield\+AxeX@{inputfield\+AxeX}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{inputfield\+AxeX}{inputfieldAxeX}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+inputfield\+AxeX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la valeur de l\textquotesingle{}axe X. 
+
+\mbox{\Hypertarget{class_parameters_a7a8f81335eea4caef79b5b2aee17e473}\label{class_parameters_a7a8f81335eea4caef79b5b2aee17e473}} 
+\index{Parameters@{Parameters}!inputfield\+AxeY@{inputfield\+AxeY}}
+\index{inputfield\+AxeY@{inputfield\+AxeY}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{inputfield\+AxeY}{inputfieldAxeY}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+inputfield\+AxeY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la valeur de l\textquotesingle{}axe Y 
+
+\mbox{\Hypertarget{class_parameters_aa791b4cf0b210915f89c2d302a4e7512}\label{class_parameters_aa791b4cf0b210915f89c2d302a4e7512}} 
+\index{Parameters@{Parameters}!inputfield\+AxeZ@{inputfield\+AxeZ}}
+\index{inputfield\+AxeZ@{inputfield\+AxeZ}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{inputfield\+AxeZ}{inputfieldAxeZ}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+inputfield\+AxeZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la valeur de l\textquotesingle{}axe Z. 
+
+\mbox{\Hypertarget{class_parameters_a5dfd90d9127f6ac54d0fc72ce5aeaf89}\label{class_parameters_a5dfd90d9127f6ac54d0fc72ce5aeaf89}} 
+\index{Parameters@{Parameters}!inputfield\+Max\+Gen@{inputfield\+Max\+Gen}}
+\index{inputfield\+Max\+Gen@{inputfield\+Max\+Gen}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{inputfield\+Max\+Gen}{inputfieldMaxGen}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+inputfield\+Max\+Gen\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la gÃ©nÃ©ration maximale. 
+
+\mbox{\Hypertarget{class_parameters_a9e5e6a9e22f6324e6373feba6b311808}\label{class_parameters_a9e5e6a9e22f6324e6373feba6b311808}} 
+\index{Parameters@{Parameters}!inputfield\+Period\+Max@{inputfield\+Period\+Max}}
+\index{inputfield\+Period\+Max@{inputfield\+Period\+Max}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{inputfield\+Period\+Max}{inputfieldPeriodMax}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+inputfield\+Period\+Max\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de text pour la pÃ©riode maximale. 
+
+\mbox{\Hypertarget{class_parameters_a25554c9b16cf4851153f94ded0c9506a}\label{class_parameters_a25554c9b16cf4851153f94ded0c9506a}} 
+\index{Parameters@{Parameters}!inputfield\+Random\+Percentage@{inputfield\+Random\+Percentage}}
+\index{inputfield\+Random\+Percentage@{inputfield\+Random\+Percentage}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{inputfield\+Random\+Percentage}{inputfieldRandomPercentage}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+inputfield\+Random\+Percentage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour le nombre minimal de cellule. 
 
 \mbox{\Hypertarget{class_parameters_a978bf381c1fd3f17e4289f182b7d647b}\label{class_parameters_a978bf381c1fd3f17e4289f182b7d647b}} 
 \index{Parameters@{Parameters}!line@{line}}
@@ -553,11 +814,45 @@ true si la recherche de dépendence entre les cellules vivantes est activées, f
 \subsubsection{\texorpdfstring{ls}{ls}}
 {\footnotesize\ttfamily \mbox{\hyperlink{class_local_storage}{Local\+Storage}} Parameters.\+ls}
 
-\mbox{\Hypertarget{class_parameters_a70300043b336ebaf786ae92efe9d215f}\label{class_parameters_a70300043b336ebaf786ae92efe9d215f}} 
-\index{Parameters@{Parameters}!name\+File@{name\+File}}
-\index{name\+File@{name\+File}!Parameters@{Parameters}}
-\subsubsection{\texorpdfstring{name\+File}{nameFile}}
-{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Parameters.\+name\+File}
+\mbox{\Hypertarget{class_parameters_acf7e3f320861b82f33752991e1dc2468}\label{class_parameters_acf7e3f320861b82f33752991e1dc2468}} 
+\index{Parameters@{Parameters}!max\+Gen@{max\+Gen}}
+\index{max\+Gen@{max\+Gen}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{max\+Gen}{maxGen}}
+{\footnotesize\ttfamily bool Parameters.\+max\+Gen = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true s\textquotesingle{}il y a un nombre maximal de gÃ©nÃ©rations, false sinon. 
+
+\mbox{\Hypertarget{class_parameters_ab2aae264b2829322043e1b23394bc996}\label{class_parameters_ab2aae264b2829322043e1b23394bc996}} 
+\index{Parameters@{Parameters}!max\+Gen\+Number@{max\+Gen\+Number}}
+\index{max\+Gen\+Number@{max\+Gen\+Number}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{max\+Gen\+Number}{maxGenNumber}}
+{\footnotesize\ttfamily int Parameters.\+max\+Gen\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La gÃ©nÃ©ration limite. 
+
+\mbox{\Hypertarget{class_parameters_a9f5c0caa798160b623118c5c81932daa}\label{class_parameters_a9f5c0caa798160b623118c5c81932daa}} 
+\index{Parameters@{Parameters}!number\+Of\+Rule\+Life\+And\+Survive@{number\+Of\+Rule\+Life\+And\+Survive}}
+\index{number\+Of\+Rule\+Life\+And\+Survive@{number\+Of\+Rule\+Life\+And\+Survive}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{number\+Of\+Rule\+Life\+And\+Survive}{numberOfRuleLifeAndSurvive}}
+{\footnotesize\ttfamily int Parameters.\+number\+Of\+Rule\+Life\+And\+Survive\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de rÃ¨gles de naissances et de survie. 
+
+\mbox{\Hypertarget{class_parameters_a92c93b0d5d39d8c9eaf80b9aacb6d560}\label{class_parameters_a92c93b0d5d39d8c9eaf80b9aacb6d560}} 
+\index{Parameters@{Parameters}!panel\+Apply\+Button@{panel\+Apply\+Button}}
+\index{panel\+Apply\+Button@{panel\+Apply\+Button}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{panel\+Apply\+Button}{panelApplyButton}}
+{\footnotesize\ttfamily Game\+Object Parameters.\+panel\+Apply\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable contenant le panel affichable en appuyant sur le bouton. 
 
 \mbox{\Hypertarget{class_parameters_a9039782e9b57b1cca98f109c8bd22928}\label{class_parameters_a9039782e9b57b1cca98f109c8bd22928}} 
 \index{Parameters@{Parameters}!panel\+Import@{panel\+Import}}
@@ -565,11 +860,35 @@ true si la recherche de dépendence entre les cellules vivantes est activées, f
 \subsubsection{\texorpdfstring{panel\+Import}{panelImport}}
 {\footnotesize\ttfamily Game\+Object Parameters.\+panel\+Import}
 
+\mbox{\Hypertarget{class_parameters_a8548a9cf76e7157e3722468f7fa4c275}\label{class_parameters_a8548a9cf76e7157e3722468f7fa4c275}} 
+\index{Parameters@{Parameters}!panel\+Inf@{panel\+Inf}}
+\index{panel\+Inf@{panel\+Inf}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{panel\+Inf}{panelInf}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Parameters.\+panel\+Inf\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Liste des panneaux contenants les informations pour chaque panel. 
+
 \mbox{\Hypertarget{class_parameters_a21e4cca4e061b650741354680361136c}\label{class_parameters_a21e4cca4e061b650741354680361136c}} 
 \index{Parameters@{Parameters}!panel\+Info1@{panel\+Info1}}
 \index{panel\+Info1@{panel\+Info1}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{panel\+Info1}{panelInfo1}}
-{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Parameters.\+panel\+Info1}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Parameters.\+panel\+Info1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contient les panels. 
+
+\mbox{\Hypertarget{class_parameters_a5f6937553d6c12a654fb93e1b6838d53}\label{class_parameters_a5f6937553d6c12a654fb93e1b6838d53}} 
+\index{Parameters@{Parameters}!period\+Max@{period\+Max}}
+\index{period\+Max@{period\+Max}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{period\+Max}{periodMax}}
+{\footnotesize\ttfamily int Parameters.\+period\+Max\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+PÃ©riode d\textquotesingle{}oscillation maximale. 
 
 \mbox{\Hypertarget{class_parameters_ad01c1db17d90b97c666abf21a9c6fcd1}\label{class_parameters_ad01c1db17d90b97c666abf21a9c6fcd1}} 
 \index{Parameters@{Parameters}!position@{position}}
@@ -577,11 +896,123 @@ true si la recherche de dépendence entre les cellules vivantes est activées, f
 \subsubsection{\texorpdfstring{position}{position}}
 {\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Parameters.\+position}
 
+\mbox{\Hypertarget{class_parameters_aeee7bae840964c99195e90c1a0486e46}\label{class_parameters_aeee7bae840964c99195e90c1a0486e46}} 
+\index{Parameters@{Parameters}!rand\+Number\+Cell@{rand\+Number\+Cell}}
+\index{rand\+Number\+Cell@{rand\+Number\+Cell}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rand\+Number\+Cell}{randNumberCell}}
+{\footnotesize\ttfamily bool Parameters.\+rand\+Number\+Cell = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si un nombre alÃ©atoire de cellule est choisi, false sinon. 
+
+\mbox{\Hypertarget{class_parameters_a35b50b196bd5e9bfde42d8cc69642bfb}\label{class_parameters_a35b50b196bd5e9bfde42d8cc69642bfb}} 
+\index{Parameters@{Parameters}!random@{random}}
+\index{random@{random}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{random}{random}}
+{\footnotesize\ttfamily float Parameters.\+random\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le taux d\textquotesingle{}apparition d\textquotesingle{}une cellule vivante. 
+
+\mbox{\Hypertarget{class_parameters_a69cb36fa8095b0a0b37a035e2dc21d2f}\label{class_parameters_a69cb36fa8095b0a0b37a035e2dc21d2f}} 
+\index{Parameters@{Parameters}!rule\+Life\+Choose@{rule\+Life\+Choose}}
+\index{rule\+Life\+Choose@{rule\+Life\+Choose}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rule\+Life\+Choose}{ruleLifeChoose}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Parameters.\+rule\+Life\+Choose\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tableau contenant les rÃ¨gles de naissances choisies. 
+
+\mbox{\Hypertarget{class_parameters_a83b35077082784a379d79db7e1b96e06}\label{class_parameters_a83b35077082784a379d79db7e1b96e06}} 
+\index{Parameters@{Parameters}!rulelife\+To\+Str@{rulelife\+To\+Str}}
+\index{rulelife\+To\+Str@{rulelife\+To\+Str}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rulelife\+To\+Str}{rulelifeToStr}}
+{\footnotesize\ttfamily string Parameters.\+rulelife\+To\+Str = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_parameters_a9900b1e54888301a55408bf4308a6017}\label{class_parameters_a9900b1e54888301a55408bf4308a6017}} 
+\index{Parameters@{Parameters}!rule\+Of\+Neighbors@{rule\+Of\+Neighbors}}
+\index{rule\+Of\+Neighbors@{rule\+Of\+Neighbors}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rule\+Of\+Neighbors}{ruleOfNeighbors}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Parameters.\+rule\+Of\+Neighbors\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contient les rÃ¨gles de voisinages. 
+
+\mbox{\Hypertarget{class_parameters_ae93c8919d298fca6d55246e5f2d68f64}\label{class_parameters_ae93c8919d298fca6d55246e5f2d68f64}} 
+\index{Parameters@{Parameters}!rule\+Of\+Neighbors\+Chosen@{rule\+Of\+Neighbors\+Chosen}}
+\index{rule\+Of\+Neighbors\+Chosen@{rule\+Of\+Neighbors\+Chosen}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rule\+Of\+Neighbors\+Chosen}{ruleOfNeighborsChosen}}
+{\footnotesize\ttfamily int Parameters.\+rule\+Of\+Neighbors\+Chosen = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+RÃ¨gle de voisinage choisie. 
+
+\mbox{\Hypertarget{class_parameters_abd8a872a3447aa8cf784a98cf211a7c3}\label{class_parameters_abd8a872a3447aa8cf784a98cf211a7c3}} 
+\index{Parameters@{Parameters}!rule\+Survive\+Choose@{rule\+Survive\+Choose}}
+\index{rule\+Survive\+Choose@{rule\+Survive\+Choose}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rule\+Survive\+Choose}{ruleSurviveChoose}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Parameters.\+rule\+Survive\+Choose\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tableau contenant les rÃ¨gles de survies choisies. 
+
+\mbox{\Hypertarget{class_parameters_a89dcaef13a4d9b7a41631b16c2e901a7}\label{class_parameters_a89dcaef13a4d9b7a41631b16c2e901a7}} 
+\index{Parameters@{Parameters}!rule\+Survive\+To\+Str@{rule\+Survive\+To\+Str}}
+\index{rule\+Survive\+To\+Str@{rule\+Survive\+To\+Str}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{rule\+Survive\+To\+Str}{ruleSurviveToStr}}
+{\footnotesize\ttfamily string Parameters.\+rule\+Survive\+To\+Str = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_parameters_ae0b748fde33ea353527d677ad10598dc}\label{class_parameters_ae0b748fde33ea353527d677ad10598dc}} 
+\index{Parameters@{Parameters}!simulation@{simulation}}
+\index{simulation@{simulation}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{simulation}{simulation}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_simulation}{Simulation}} Parameters.\+simulation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke l\textquotesingle{}instance de la simulation. 
+
 \mbox{\Hypertarget{class_parameters_ab34fbc511ef46943e88471495d3b37c0}\label{class_parameters_ab34fbc511ef46943e88471495d3b37c0}} 
 \index{Parameters@{Parameters}!t@{t}}
 \index{t@{t}!Parameters@{Parameters}}
 \subsubsection{\texorpdfstring{t}{t}}
 {\footnotesize\ttfamily T\+M\+P\+\_\+\+Text Parameters.\+t}
+
+\mbox{\Hypertarget{class_parameters_a872fa6362cb90ff7531c6b6a9dcf38b2}\label{class_parameters_a872fa6362cb90ff7531c6b6a9dcf38b2}} 
+\index{Parameters@{Parameters}!text@{text}}
+\index{text@{text}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{text}{text}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Text Parameters.\+text\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le texte affichÃ© sur le panel panel\+Apply\+Button. 
+
+\mbox{\Hypertarget{class_parameters_a90f764b548eabcd6bb826cfb8ccd750f}\label{class_parameters_a90f764b548eabcd6bb826cfb8ccd750f}} 
+\index{Parameters@{Parameters}!toggle\+Find\+Dependencies@{toggle\+Find\+Dependencies}}
+\index{toggle\+Find\+Dependencies@{toggle\+Find\+Dependencies}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{toggle\+Find\+Dependencies}{toggleFindDependencies}}
+{\footnotesize\ttfamily Toggle Parameters.\+toggle\+Find\+Dependencies\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable contenant le toggle pour les dÃ©pendances. 
+
+\mbox{\Hypertarget{class_parameters_a1de1921a55ef745c4ab25ac46a98c1d8}\label{class_parameters_a1de1921a55ef745c4ab25ac46a98c1d8}} 
+\index{Parameters@{Parameters}!toggle\+Import\+With\+Parameters@{toggle\+Import\+With\+Parameters}}
+\index{toggle\+Import\+With\+Parameters@{toggle\+Import\+With\+Parameters}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{toggle\+Import\+With\+Parameters}{toggleImportWithParameters}}
+{\footnotesize\ttfamily Toggle Parameters.\+toggle\+Import\+With\+Parameters\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable contenant le toggle pour savoir si l\textquotesingle{}import, import les paramÃ¨tres Ã©galement. 
 
 \mbox{\Hypertarget{class_parameters_a8aec5ef7f7bdb0497b9de3ddce353c88}\label{class_parameters_a8aec5ef7f7bdb0497b9de3ddce353c88}} 
 \index{Parameters@{Parameters}!toroidal@{toroidal}}
@@ -595,9 +1026,23 @@ true si la recherche de dépendence entre les cellules vivantes est activées, f
 \subsubsection{\texorpdfstring{toroidal\+Toggle}{toroidalToggle}}
 {\footnotesize\ttfamily Toggle Parameters.\+toroidal\+Toggle}
 
-\mbox{\Hypertarget{class_parameters_a0c0451581ea7d4705f895a49a20519a8}\label{class_parameters_a0c0451581ea7d4705f895a49a20519a8}} 
-\index{Parameters@{Parameters}!type\+Detection@{type\+Detection}}
-\index{type\+Detection@{type\+Detection}!Parameters@{Parameters}}
-\subsubsection{\texorpdfstring{type\+Detection}{typeDetection}}
-{\footnotesize\ttfamily int Parameters.\+type\+Detection}
+\mbox{\Hypertarget{class_parameters_a169d89f0e1954fe0dd8a588db68bc5d3}\label{class_parameters_a169d89f0e1954fe0dd8a588db68bc5d3}} 
+\index{Parameters@{Parameters}!val\+Max\+Gen@{val\+Max\+Gen}}
+\index{val\+Max\+Gen@{val\+Max\+Gen}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{val\+Max\+Gen}{valMaxGen}}
+{\footnotesize\ttfamily int Parameters.\+val\+Max\+Gen\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valeur de la derniÃ¨re gÃ©nÃ©ration. 
+
+\mbox{\Hypertarget{class_parameters_ad6693ced27cf9d3ebe6d35400ee1bdd5}\label{class_parameters_ad6693ced27cf9d3ebe6d35400ee1bdd5}} 
+\index{Parameters@{Parameters}!voisinage@{voisinage}}
+\index{voisinage@{voisinage}!Parameters@{Parameters}}
+\subsubsection{\texorpdfstring{voisinage}{voisinage}}
+{\footnotesize\ttfamily Voisinage2 Parameters.\+voisinage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable contenant le voisinage. 
 

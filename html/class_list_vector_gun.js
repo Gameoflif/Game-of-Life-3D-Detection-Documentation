@@ -17,5 +17,7 @@ var class_list_vector_gun =
     [ "RemoveAt", "class_list_vector_gun.html#a1ffc9f3c2ac48631dcd05ba8061ba9c7", null ],
     [ "removeList", "class_list_vector_gun.html#a81d2c8a06d61648f274eb644901f1959", null ],
     [ "supp", "class_list_vector_gun.html#a92aa301df19a9b1cd5f6e635e6a0c86f", null ],
-    [ "trouverMiniVect", "class_list_vector_gun.html#a305381e8b2d20184c1894c89d2726b2c", null ]
+    [ "trouverMiniVect", "class_list_vector_gun.html#a305381e8b2d20184c1894c89d2726b2c", null ],
+    [ "structure", "class_list_vector_gun.html#a2cdf82f24fbd46a3705bb6a3887f53c4", null ],
+    [ "trouveMini", "class_list_vector_gun.html#af6572c296759eb4bf06e96275ce75c77", null ]
 ];

@@ -1,5 +1,7 @@
 <map id="EditModeManager.InitializeCells" name="EditModeManager.InitializeCells">
 <area shape="rect" id="node2" href="$class_edit_mode_manager.html#afc8be75da1a5042fcf78b0e9bf1e2108" title="Toutes les cellules redeviennent mortes. " alt="" coords="232,5,432,32"/>
-<area shape="rect" id="node3" href="$class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;éditeur de structure. " alt="" coords="251,56,413,83"/>
-<area shape="rect" id="node4" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="480,56,659,83"/>
+<area shape="rect" id="node3" href="$class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;Ã©diteur de structure. " alt="" coords="251,56,413,83"/>
+<area shape="rect" id="node4" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="480,56,659,83"/>
+<area shape="rect" id="node5" href="$class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="715,27,882,53"/>
+<area shape="rect" id="node6" href="$class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="707,78,891,119"/>
 </map>

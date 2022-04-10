@@ -6,5 +6,7 @@ var class_inf_struct =
       [ "glider", "class_inf_struct.html#a8ae868ec37f73a12d478505a728fcbfdaa44ded313558535d901ed69e8c16d6ab", null ]
     ] ],
     [ "InfStruct", "class_inf_struct.html#a6f047bafac021b8e3bf0db31f0715292", null ],
-    [ "GiveDetails", "class_inf_struct.html#a56a6c689c22b39d642a9e44deab28c01", null ]
+    [ "GiveDetails", "class_inf_struct.html#a56a6c689c22b39d642a9e44deab28c01", null ],
+    [ "period", "class_inf_struct.html#aca18a5c2da38d672b4129d46a2250a8a", null ],
+    [ "type", "class_inf_struct.html#ab5f36d712d31a76be0d829cc8cc55fa6", null ]
 ];

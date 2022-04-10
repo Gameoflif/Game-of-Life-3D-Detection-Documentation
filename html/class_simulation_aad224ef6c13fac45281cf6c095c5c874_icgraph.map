@@ -1,0 +1,5 @@
+<map id="Simulation.Moore" name="Simulation.Moore">
+<area shape="rect" id="node2" href="$class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="176,31,339,57"/>
+<area shape="rect" id="node3" href="$class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="392,5,520,32"/>
+<area shape="rect" id="node4" href="$class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="387,56,525,83"/>
+</map>

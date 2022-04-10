@@ -1,10 +1,14 @@
 <map id="ListVectorGun.Add" name="ListVectorGun.Add">
-<area shape="rect" id="node2" href="$class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d" title="DetectionGun.trouverModelGun" alt="" coords="420,34,623,61"/>
-<area shape="rect" id="node4" href="$class_detection_gun.html#a488d963e0b78922904b6bd42182ca7b1" title="Obtenir les cellules vivantes. " alt="" coords="191,85,367,127"/>
-<area shape="rect" id="node6" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="189,151,368,178"/>
-<area shape="rect" id="node8" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génér..." alt="" coords="185,34,372,61"/>
-<area shape="rect" id="node9" href="$class_list_vector_gun.html#a1c5fc4ed92b846e08616d83971605241" title="ListVectorGun.gunModel" alt="" coords="196,202,361,229"/>
-<area shape="rect" id="node3" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période " alt="" coords="671,93,844,119"/>
-<area shape="rect" id="node5" href="$class_detection_gun.html#af804b47fcbcc2c89bbe17b47eb8f7c47" title="Verifier si la sous&#45;structure est la structure cible de detection " alt="" coords="428,93,615,119"/>
-<area shape="rect" id="node7" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="Déterminer la présence ou l&#39;absence de canons " alt="" coords="443,147,600,174"/>
+<area shape="rect" id="node2" href="$class_detection_gun.html#a488d963e0b78922904b6bd42182ca7b1" title="Obtenir les cellules vivantes. " alt="" coords="440,126,616,167"/>
+<area shape="rect" id="node6" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="199,5,378,32"/>
+<area shape="rect" id="node8" href="$class_detection_gun.html#a6699b4b7269779a62a69bd56422128c1" title="Obtenir les positions de tous les voisins d&#39;une cellule selon les regles de voisinage toroidal ..." alt="" coords="185,123,392,149"/>
+<area shape="rect" id="node9" href="$class_detection_gun.html#a244439efd16406706a55f545b56a2500" title="Obtenir les positions de tous les voisins d&#39;une cellule selon les regles de voisinage ..." alt="" coords="185,57,392,98"/>
+<area shape="rect" id="node11" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une g..." alt="" coords="195,224,382,251"/>
+<area shape="rect" id="node13" href="$class_list_vector_gun.html#a1c5fc4ed92b846e08616d83971605241" title="ListVectorGun.gunModel" alt="" coords="206,275,371,301"/>
+<area shape="rect" id="node3" href="$class_detection_gun.html#af804b47fcbcc2c89bbe17b47eb8f7c47" title="Verifier si la sous&#45;structure est la structure cible de detection " alt="" coords="672,113,859,140"/>
+<area shape="rect" id="node4" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="DÃ©terminer le nombre de canons par leur pÃ©riode. " alt="" coords="915,113,1088,140"/>
+<area shape="rect" id="node5" href="$class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="1136,113,1264,140"/>
+<area shape="rect" id="node7" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="DÃ©terminer la prÃ©sence ou l&#39;absence de canons " alt="" coords="687,33,844,60"/>
+<area shape="rect" id="node10" href="$class_detection_gun.html#acac3e59304ebc04b56925511108ecae2" title="L&#39;algorithme DFS pour trouver une structure connexe " alt="" coords="466,69,590,96"/>
+<area shape="rect" id="node12" href="$class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d" title="DetectionGun.trouverModelGun" alt="" coords="664,168,867,195"/>
 </map>

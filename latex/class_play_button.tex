@@ -2,7 +2,7 @@
 \label{class_play_button}\index{Play\+Button@{Play\+Button}}
 
 
-Une classe determinant tous les buttons et ses fonctions.  
+Une classe determinant tous les boutons et ses fonctions.  
 
 
 
@@ -27,30 +27,42 @@ Graphe de collaboration de Play\+Button\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_play_button_ae50ebca92c570fc8eb2cdaa79eff1865}{Onclick}} ()
-\begin{DoxyCompactList}\small\item\em Si on clique sur le button \char`\"{}play\char`\"{}, la scene parametre sera affichee. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Si on clique sur le button \char`\"{}play\char`\"{}, le menu parameters sera affiché. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_play_button_a53fd8894bbfa2d9ee15aab0d619e2bf0}{close}} ()
-\begin{DoxyCompactList}\small\item\em Terminer le logiciel. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_play_button_aeb219e1c299a10bfe56234689cc9baf5}{Apply}} ()
-\begin{DoxyCompactList}\small\item\em Si on clique le button \char`\"{}\+Apply\char`\"{}, la scene visualisation sera affichee. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_play_button_ac5294990a15a4265444183ddf5fa2c58}{retour}} ()
-\begin{DoxyCompactList}\small\item\em Si on clique le button \char`\"{}\+Apply\char`\"{}, on va retourna a la scene begin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Ferme le logiciel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_play_button_a3ad21762e32cca95a7e7b1979aea4fc0}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Méthode pour initialiser les attributs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Button \mbox{\hyperlink{class_play_button_a2c13864ecb338779b949a59c3294b038}{this\+Button}}
+\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-Une classe determinant tous les buttons et ses fonctions. 
+Une classe determinant tous les boutons et ses fonctions. 
 
+\begin{DoxyAuthor}{Auteur}
+Dorian Grouteau,Vincent Tu, T\+I\+AN Ning,Q\+IN Yi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+10/04/2022 
+\end{DoxyDate}
 
 
 \subsection{Documentation des fonctions membres}
-\mbox{\Hypertarget{class_play_button_aeb219e1c299a10bfe56234689cc9baf5}\label{class_play_button_aeb219e1c299a10bfe56234689cc9baf5}} 
-\index{Play\+Button@{Play\+Button}!Apply@{Apply}}
-\index{Apply@{Apply}!Play\+Button@{Play\+Button}}
-\subsubsection{\texorpdfstring{Apply()}{Apply()}}
-{\footnotesize\ttfamily void Play\+Button.\+Apply (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+\mbox{\Hypertarget{class_play_button_a3ad21762e32cca95a7e7b1979aea4fc0}\label{class_play_button_a3ad21762e32cca95a7e7b1979aea4fc0}} 
+\index{Play\+Button@{Play\+Button}!Awake@{Awake}}
+\index{Awake@{Awake}!Play\+Button@{Play\+Button}}
+\subsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Play\+Button.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
 
 
-Si on clique le button \char`\"{}\+Apply\char`\"{}, la scene visualisation sera affichee. 
+Méthode pour initialiser les attributs. 
 
 \mbox{\Hypertarget{class_play_button_a53fd8894bbfa2d9ee15aab0d619e2bf0}\label{class_play_button_a53fd8894bbfa2d9ee15aab0d619e2bf0}} 
 \index{Play\+Button@{Play\+Button}!close@{close}}
@@ -60,7 +72,7 @@ Si on clique le button \char`\"{}\+Apply\char`\"{}, la scene visualisation sera 
 
 
 
-Terminer le logiciel. 
+Ferme le logiciel. 
 
 \mbox{\Hypertarget{class_play_button_ae50ebca92c570fc8eb2cdaa79eff1865}\label{class_play_button_ae50ebca92c570fc8eb2cdaa79eff1865}} 
 \index{Play\+Button@{Play\+Button}!Onclick@{Onclick}}
@@ -70,15 +82,14 @@ Terminer le logiciel.
 
 
 
-Si on clique sur le button \char`\"{}play\char`\"{}, la scene parametre sera affichee. 
-
-\mbox{\Hypertarget{class_play_button_ac5294990a15a4265444183ddf5fa2c58}\label{class_play_button_ac5294990a15a4265444183ddf5fa2c58}} 
-\index{Play\+Button@{Play\+Button}!retour@{retour}}
-\index{retour@{retour}!Play\+Button@{Play\+Button}}
-\subsubsection{\texorpdfstring{retour()}{retour()}}
-{\footnotesize\ttfamily void Play\+Button.\+retour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+Si on clique sur le button \char`\"{}play\char`\"{}, le menu parameters sera affiché. 
 
 
 
-Si on clique le button \char`\"{}\+Apply\char`\"{}, on va retourna a la scene begin. 
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_play_button_a2c13864ecb338779b949a59c3294b038}\label{class_play_button_a2c13864ecb338779b949a59c3294b038}} 
+\index{Play\+Button@{Play\+Button}!this\+Button@{this\+Button}}
+\index{this\+Button@{this\+Button}!Play\+Button@{Play\+Button}}
+\subsubsection{\texorpdfstring{this\+Button}{thisButton}}
+{\footnotesize\ttfamily Button Play\+Button.\+this\+Button\hspace{0.3cm}{\ttfamily [private]}}
 

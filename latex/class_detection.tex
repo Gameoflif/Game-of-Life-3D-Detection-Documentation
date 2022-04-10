@@ -2,7 +2,7 @@
 \label{class_detection}\index{Detection@{Detection}}
 
 
-Classe contenant les méthodes associées à la détection automatique des structures particulières.  
+Classe contenant les mÃ©thodes associÃ©es Ã  la dÃ©tection automatique des structures particuliÃ¨res.  
 
 
 
@@ -16,32 +16,141 @@ Graphe d\textquotesingle{}héritage de Detection\+:\nopagebreak
 \end{figure}
 
 
-Graphe de collaboration de Detection\+:\nopagebreak
+Graphe de collaboration de Detection\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=163pt]{class_detection__coll__graph}
+\includegraphics[width=350pt]{class_detection__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}{Set\+Size}} (int h, int w, int l)
+void \mbox{\hyperlink{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}{Set\+Size}} (int \mbox{\hyperlink{class_detection_ae2432d029788c3aa58e832716a7832e4}{h}}, int \mbox{\hyperlink{class_detection_a15fdbc0a47657ec7c4bf5228a950079d}{w}}, int \mbox{\hyperlink{class_detection_a22ac4a8c7bfff75ddde6599e2868383d}{l}})
 \begin{DoxyCompactList}\small\item\em Initialise les dimensuins du volume. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}{set\+Detect}} (bool can\+Detect, bool use\+Stable, bool use\+Oscill, bool use\+Glider, bool use\+Canon, int period\+Max, bool use\+Dependencies, bool toro)
-\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}indiquer quelles sont les types de structures à detecter. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092}{Add\+Gen\+Zero}} (int max\+Gen, int\mbox{[},,\mbox{]} gen\+Zero, Voisinage2 voisinnage)
-\begin{DoxyCompactList}\small\item\em Modifie la génération zéro (départ). Initialise les variables. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_detection_a70084049883e8e2ebecce5d24e84a196}{Change\+Ind\+Gen}} (int ind)
-\begin{DoxyCompactList}\small\item\em Appelé par \mbox{\hyperlink{class_simulation}{Simulation}} dans le cas où la génération a déjà été parcouru, change l\textquotesingle{}indice de génération ind. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}{set\+Detect}} (bool \mbox{\hyperlink{class_detection_a699901c5a7439b08e8ac5c36942bb61b}{can\+Detect}}, bool \mbox{\hyperlink{class_detection_a78bb8c89cca9479bb2bb4ef0f5e96945}{use\+Stable}}, bool \mbox{\hyperlink{class_detection_a9597ce1e1dea98c61902d891c1f1c7e0}{use\+Oscill}}, bool \mbox{\hyperlink{class_detection_af1181c7a5cdf8fe0f94e2e6526a1ffb1}{use\+Glider}}, bool \mbox{\hyperlink{class_detection_a3fe2d8aec9ad4e2a8f11902ba873db52}{use\+Canon}}, int period\+Max, bool \mbox{\hyperlink{class_detection_abe71ec7aa825173786fd273323343c11}{use\+Dependencies}}, bool \mbox{\hyperlink{class_detection_a2f87015f257584e33ceacc6d326fe5af}{toro}})
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}indiquer quelles sont les types de structures Ã  detecter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a96c6d9a8e299f137a4fb84d2ea80e092}{Add\+Gen\+Zero}} (int max\+Gen, int\mbox{[},,\mbox{]} gen\+Zero, Voisinage2 \mbox{\hyperlink{class_detection_a6f99794fd28f6f79dedfc541f8b78154}{voisinnage}})
+\begin{DoxyCompactList}\small\item\em Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a70084049883e8e2ebecce5d24e84a196}{Change\+Ind\+Gen}} (int \mbox{\hyperlink{class_detection_ac2c7885d3e4d086504e66eb365207c1e}{ind}})
+\begin{DoxyCompactList}\small\item\em AppelÃ© par \mbox{\hyperlink{class_simulation}{Simulation}} dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l\textquotesingle{}indice de gÃ©nÃ©ration ind. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_detection_a92c60be1a69ea74b7f7bef04a0e53238}{Addgen}} (int\mbox{[},,\mbox{]} gen)
-\begin{DoxyCompactList}\small\item\em Ajoute une nouvelle génération à stock\+Gen. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Ajoute une nouvelle gÃ©nÃ©ration Ã  stock\+Gen. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_detection_aa21c434f39d4e9d901635d9db2a4bbca}{trouve\+Glider\+Gun}} ()
-\begin{DoxyCompactList}\small\item\em Déterminer le nombre de canons par leur période \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em DÃ©terminer le nombre de canons par leur pÃ©riode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ List$<$ Vector3 $>$ $>$ \mbox{\hyperlink{class_detection_a168b07e1ffdca2d91d8c5e251a470a25}{Relative\+Position\+Structure}} ()
+\begin{DoxyCompactList}\small\item\em Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de la structure). UtilisÃ© pour la dÃ©tection de vaisseau. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a2d43ae8dc03c4247fd0d39787b72213a}{Detect}} ()
+\begin{DoxyCompactList}\small\item\em MÃ©thode s\textquotesingle{}occupant de la dÃ©tection des diffÃ©rents types de structures. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a88c0afc7566ffe8ac32fe1c21da192df}{Detect\+Glider}} (int\mbox{[}$\,$\mbox{]} ind\+Struct\+Already\+Find)
+\begin{DoxyCompactList}\small\item\em AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_a2d8aeb536aa1051f0522f8317b14b36e}{Check\+List}} (List$<$ Vector3 $>$ l1, List$<$ Vector3 $>$ l2)
+\begin{DoxyCompactList}\small\item\em Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure, pour avoir la mÃªme structure mais Ã  une position diffÃ©rente. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_a56dffa1e7a06c20bfaa24ac287a9883f}{Get\+All\+Structures}} (int\mbox{[},,\mbox{]} generation)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir toutes les structures individuelles d\textquotesingle{}une gÃ©nÃ©ration. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a7a133b5ef43e949260afb4685766e0ca}{Combine\+Structure}} (int indJ, int indk)
+\begin{DoxyCompactList}\small\item\em Combine les deux structures de structure\+By\+Generation de la gÃ©nÃ©ration ind (actuelle) des indices indJ et indk. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_a018511f85c3fb9eca82fc06c9f4eb031}{Find\+Dead\+Cells\+In\+Structures\+Moore}} ()
+\begin{DoxyCompactList}\small\item\em Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utilisant Moore. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_ac836468018dc40fd2261136a035eb25a}{Find\+Dead\+Cells\+In\+Structures\+Hex\+Life}} ()
+\begin{DoxyCompactList}\small\item\em Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utilisant Hex\+Life. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_aeea8bac4d15d3dd92d6b907b357c1680}{Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann}} ()
+\begin{DoxyCompactList}\small\item\em Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utilisant von Neumann. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_detection_a0f5d7b85c0daaf07503132a2faa23bcf}{Find\+Dependencies}} ()
+\begin{DoxyCompactList}\small\item\em Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pendantes lorsqu\textquotesingle{}elles impactent au moins une mÃªme cellule morte. \end{DoxyCompactList}\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_a3d3b6bfd7fe37149108908d230fcc9f1}{Moore\+Find\+Structure}} (int i, int j, int k, int\mbox{[},,\mbox{]} generation)
+\begin{DoxyCompactList}\small\item\em Obtention des voisins de maniÃ¨res non rÃ©cursives d\textquotesingle{}une cellule pour obtenir une structure en utilisant la rÃ¨gle de voisinage de Moore. \end{DoxyCompactList}\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_a5fa3f90802c6cc9eb57c9ca7bcf417b8}{Hex\+Life\+Find\+Structure}} (int i, int j, int k, int\mbox{[},,\mbox{]} generation)
+\begin{DoxyCompactList}\small\item\em Obtention des voisins de maniÃ¨res non rÃ©cursives d\textquotesingle{}une cellule pour obtenir une structure en utilisant la rÃ¨gle de voisinage de Hex Life. \end{DoxyCompactList}\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_a1909fbb1d96dbc6fed37fabc89444945}{Von\+Neumann\+Find\+Structure}} (int i, int j, int k, int\mbox{[},,\mbox{]} generation)
+\begin{DoxyCompactList}\small\item\em Obtention des voisins de maniÃ¨res non rÃ©cursives d\textquotesingle{}une cellule pour obtenir une structure en utilisant la rÃ¨gle de voisinage de von Neumann. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_ad90b57df50e957490ef10ec0ca151680}{stockgen}}
+\begin{DoxyCompactList}\small\item\em Stocke les gÃ©nÃ©rations. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_ac2c7885d3e4d086504e66eb365207c1e}{ind}} = 0
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}indice de la derniÃ¨re gÃ©nÃ©ration ajoutÃ©e Ã  stockgen. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_ae2432d029788c3aa58e832716a7832e4}{h}} = 10
+\begin{DoxyCompactList}\small\item\em Hauteur du volume. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a15fdbc0a47657ec7c4bf5228a950079d}{w}} = 10
+\begin{DoxyCompactList}\small\item\em Largeur du volume. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a22ac4a8c7bfff75ddde6599e2868383d}{l}} = 10
+\begin{DoxyCompactList}\small\item\em Longueur du volume. \end{DoxyCompactList}\item 
+int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_a87b658cb3620885f810fb260efbb4b10}{structure}}
+\begin{DoxyCompactList}\small\item\em Stocke une structure (la structure recherchÃ© par exemple) \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} \mbox{\hyperlink{class_detection_abdc02d1290b7db51b15359c23b7d8b7a}{structure\+By\+Generation}}
+\begin{DoxyCompactList}\small\item\em Stocke les structures de chaque gÃ©nÃ©ration. \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_detection_a7cffb153fd4b42ba87d6a099e31a424e}{ind\+Struct\+By\+Gen}}
+\begin{DoxyCompactList}\small\item\em Stocke pour chaque gÃ©nÃ©ration s\textquotesingle{}il y a ou non une structure. Pour une gÃ©nÃ©ration on a par exemple\+: 0 0 0 0 1 0 0, cela veut dire qu\textquotesingle{}il y a une structure Ã  l\textquotesingle{}indice 4 de cette gÃ©nÃ©ration dans structure\+By\+Generation. \end{DoxyCompactList}\item 
+Voisinage2 \mbox{\hyperlink{class_detection_a6f99794fd28f6f79dedfc541f8b78154}{voisinnage}}
+\begin{DoxyCompactList}\small\item\em Type de voisinnage. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_detection_u_i}{Detection\+UI}} \mbox{\hyperlink{class_detection_a2cb88a432e8b2083f27a286a32daf936}{detection\+UI}}
+\begin{DoxyCompactList}\small\item\em Permet la mise Ã  jour des informations mise Ã  l\textquotesingle{}Ã©cran. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a4b49d7d01d7b807387f89bbc03dc66b4}{nb\+Stable}}
+\begin{DoxyCompactList}\small\item\em Nombre de structure stable actuelle. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a0e0f6dbe71d5d7a5103416b6c5455faa}{nb\+Oscillante}}
+\begin{DoxyCompactList}\small\item\em Nombre de structure oscillante actuelle. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a7371f2754fb19faeee7e7711a42b6092}{nb\+Vaisseau}}
+\begin{DoxyCompactList}\small\item\em Nombre de structure vaisseau actuelle. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_aa7929b2a7e34d53f93ed02da7a3d1ec8}{nb\+Cannon}}
+\begin{DoxyCompactList}\small\item\em Nombre de structure cannon actuelle. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a3cb9e6ab5eb48c7352b5402e9d46c4e6}{nb\+Max\+Structure}}
+\begin{DoxyCompactList}\small\item\em Le nombre maximal de structure qu\textquotesingle{}il peut y avoir dans le volume. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_a699901c5a7439b08e8ac5c36942bb61b}{can\+Detect}} = true
+\begin{DoxyCompactList}\small\item\em true si on utilise la detection, false sinon \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_abe71ec7aa825173786fd273323343c11}{use\+Dependencies}} = false
+\begin{DoxyCompactList}\small\item\em true si on utilise les dÃ©pendences entre structure, false \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_a78bb8c89cca9479bb2bb4ef0f5e96945}{use\+Stable}} = false
+\begin{DoxyCompactList}\small\item\em true si dÃ©tection des structures stables, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_a9597ce1e1dea98c61902d891c1f1c7e0}{use\+Oscill}} = false
+\begin{DoxyCompactList}\small\item\em true si dÃ©tection des structures oscillatoires, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_af1181c7a5cdf8fe0f94e2e6526a1ffb1}{use\+Glider}} = false
+\begin{DoxyCompactList}\small\item\em true si dÃ©tection des vaisseaux, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_a3fe2d8aec9ad4e2a8f11902ba873db52}{use\+Canon}} = false
+\item 
+int \mbox{\hyperlink{class_detection_a98167fc0f3e26398cfd51f95b6a64e72}{max\+Period\+Detection}}
+\begin{DoxyCompactList}\small\item\em PÃ©riode d\textquotesingle{}oscillation maximale. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_a2f87015f257584e33ceacc6d326fe5af}{toro}}
+\begin{DoxyCompactList}\small\item\em true si toroidal, false sinon. \end{DoxyCompactList}\item 
+List$<$ List$<$ Vector3 $>$ $>$ \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_detection_a8fb631a5ff0dfc9604e0efb5662b98ad}{list\+Struct\+Relative\+Pos}}
+\begin{DoxyCompactList}\small\item\em Tableau de liste, chaque liste reprÃ©sente une gÃ©nÃ©ration et chaque sous liste reprÃ©sente une structure. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_inf_struct}{Inf\+Struct}} $>$ \mbox{\hyperlink{class_detection_a33e61516c561856189732c12d7182b1e}{inf\+Struct}}
+\begin{DoxyCompactList}\small\item\em Liste des informations des structures. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_details_structure}{Details\+Structure}} \mbox{\hyperlink{class_detection_aa183bc717a4ba8c4371e319eb16fcd23}{details\+Structure}}
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}envoyer la liste des informations des structures pour permettre la visualisation de ces informations. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a8b4cfe5136dffcd0f3196db073042fbe}{itmp}} = 0
+\item 
+\mbox{\hyperlink{class_detection_gun}{Detection\+Gun}} \mbox{\hyperlink{class_detection_a87f5c7e3ca25b83485fd648d0a512ae5}{dg}}
+\begin{DoxyCompactList}\small\item\em UtilisÃ© pour detecter les structure Glider\+Gun. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_detection_a530b494dd9b9cc7b028c1ba3334cab5f}{indice}} = 0
+\item 
+bool \mbox{\hyperlink{class_detection_a960ba0a4d4dce18672dd81aecb63a76c}{test\+Stable}} = false
+\item 
+bool \mbox{\hyperlink{class_detection_a0f5366777c01d08b01e83e11c1399224}{trouveG}} = true
+\item 
+int \mbox{\hyperlink{class_detection_afa1d30c1e85af8e9f22288c871a80e27}{dimension}} = 3
+\item 
+int \mbox{\hyperlink{class_detection_afa6a24f82533b8f55ad0d7ff325f62fd}{nb\+Periode}} = 0
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_a938e31196e8d2c8a7449d2b92dd3dc0f}{actuel\+Sous\+Structure}} = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_a2854566b0e9b52fde71352bd8d3e7ef5}{ancien\+Sous\+Structure1}} = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_a5cc275445061be79380716942235b51b}{ancien\+Sous\+Structure2}} = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_a3020aaba1943a1f3e42220ede1b1e7c4}{ancien\+Sous\+Structure3}} = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_ae14cf1144858a30db9892e36723e9795}{model\+Gun}} = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()
+\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-Classe contenant les méthodes associées à la détection automatique des structures particulières. 
+Classe contenant les mÃ©thodes associÃ©es Ã  la dÃ©tection automatique des structures particuliÃ¨res. 
 
 \begin{DoxyAuthor}{Auteur}
 G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent,T\+I\+AN Ning,Q\+IN Yi 
@@ -60,18 +169,19 @@ G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent,T\+I\+AN Ning,Q\+IN Yi
 
 
 
-Ajoute une nouvelle génération à stock\+Gen. 
+Ajoute une nouvelle gÃ©nÃ©ration Ã  stock\+Gen. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em gen} & La génération à ajouter.\\
+{\em gen} & La gÃ©nÃ©ration Ã  ajouter.\\
 \hline
 \end{DoxyParams}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=329pt]{class_detection_a92c60be1a69ea74b7f7bef04a0e53238_cgraph}
+\includegraphics[width=350pt]{class_detection_a92c60be1a69ea74b7f7bef04a0e53238_cgraph}
 \end{center}
 \end{figure}
 Voici le graphe des appelants de cette fonction \+:
@@ -90,15 +200,15 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Modifie la génération zéro (départ). Initialise les variables. 
+Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em max\+Gen} & Nombre maximale de génération.\\
+{\em max\+Gen} & Nombre maximale de gÃ©nÃ©ration.\\
 \hline
-{\em gen\+Zero} & La première génération.\\
+{\em gen\+Zero} & La premiÃ¨re gÃ©nÃ©ration.\\
 \hline
-{\em voisinnage} & Voisinnage utilisée.\\
+{\em voisinnage} & Voisinnage utilisÃ©e.\\
 \hline
 \end{DoxyParams}
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
@@ -125,11 +235,11 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Appelé par \mbox{\hyperlink{class_simulation}{Simulation}} dans le cas où la génération a déjà été parcouru, change l\textquotesingle{}indice de génération ind. 
+AppelÃ© par \mbox{\hyperlink{class_simulation}{Simulation}} dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l\textquotesingle{}indice de gÃ©nÃ©ration ind. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em ind} & Le nouvelle indice de la génération.\\
+{\em ind} & Le nouvelle indice de la gÃ©nÃ©ration.\\
 \hline
 \end{DoxyParams}
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
@@ -148,6 +258,324 @@ Voici le graphe des appelants de cette fonction \+:
 \includegraphics[width=350pt]{class_detection_a70084049883e8e2ebecce5d24e84a196_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{class_detection_a2d8aeb536aa1051f0522f8317b14b36e}\label{class_detection_a2d8aeb536aa1051f0522f8317b14b36e}} 
+\index{Detection@{Detection}!Check\+List@{Check\+List}}
+\index{Check\+List@{Check\+List}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Check\+List()}{CheckList()}}
+{\footnotesize\ttfamily bool Detection.\+Check\+List (\begin{DoxyParamCaption}\item[{List$<$ Vector3 $>$}]{l1,  }\item[{List$<$ Vector3 $>$}]{l2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure, pour avoir la mÃªme structure mais Ã  une position diffÃ©rente. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em l1} & PremiÃ¨re liste.\\
+\hline
+{\em l2} & DeuxiÃ¨me liste.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si les listes sont identiques, false sinon.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a2d8aeb536aa1051f0522f8317b14b36e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a7a133b5ef43e949260afb4685766e0ca}\label{class_detection_a7a133b5ef43e949260afb4685766e0ca}} 
+\index{Detection@{Detection}!Combine\+Structure@{Combine\+Structure}}
+\index{Combine\+Structure@{Combine\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Combine\+Structure()}{CombineStructure()}}
+{\footnotesize\ttfamily void Detection.\+Combine\+Structure (\begin{DoxyParamCaption}\item[{int}]{indJ,  }\item[{int}]{indk }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Combine les deux structures de structure\+By\+Generation de la gÃ©nÃ©ration ind (actuelle) des indices indJ et indk. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em indJ} & Indice de la premiÃ¨re structure.\\
+\hline
+{\em indk} & Indice de la deuxiÃ¨me structure.\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a7a133b5ef43e949260afb4685766e0ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a2d43ae8dc03c4247fd0d39787b72213a}\label{class_detection_a2d43ae8dc03c4247fd0d39787b72213a}} 
+\index{Detection@{Detection}!Detect@{Detect}}
+\index{Detect@{Detect}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Detect()}{Detect()}}
+{\footnotesize\ttfamily void Detection.\+Detect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+MÃ©thode s\textquotesingle{}occupant de la dÃ©tection des diffÃ©rents types de structures. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a2d43ae8dc03c4247fd0d39787b72213a_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a2d43ae8dc03c4247fd0d39787b72213a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a88c0afc7566ffe8ac32fe1c21da192df}\label{class_detection_a88c0afc7566ffe8ac32fe1c21da192df}} 
+\index{Detection@{Detection}!Detect\+Glider@{Detect\+Glider}}
+\index{Detect\+Glider@{Detect\+Glider}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Detect\+Glider()}{DetectGlider()}}
+{\footnotesize\ttfamily void Detection.\+Detect\+Glider (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{ind\+Struct\+Already\+Find }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em ind\+Struct\+Already\+Find} & Les indices des structures dÃ©jÃ  trouvÃ©es.\\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_detection_a88c0afc7566ffe8ac32fe1c21da192df_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a88c0afc7566ffe8ac32fe1c21da192df_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_ac836468018dc40fd2261136a035eb25a}\label{class_detection_ac836468018dc40fd2261136a035eb25a}} 
+\index{Detection@{Detection}!Find\+Dead\+Cells\+In\+Structures\+Hex\+Life@{Find\+Dead\+Cells\+In\+Structures\+Hex\+Life}}
+\index{Find\+Dead\+Cells\+In\+Structures\+Hex\+Life@{Find\+Dead\+Cells\+In\+Structures\+Hex\+Life}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Find\+Dead\+Cells\+In\+Structures\+Hex\+Life()}{FindDeadCellsInStructuresHexLife()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Detection.\+Find\+Dead\+Cells\+In\+Structures\+Hex\+Life (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utilisant Hex\+Life. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste des cellules mortes voisines de chaque structure.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_ac836468018dc40fd2261136a035eb25a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a018511f85c3fb9eca82fc06c9f4eb031}\label{class_detection_a018511f85c3fb9eca82fc06c9f4eb031}} 
+\index{Detection@{Detection}!Find\+Dead\+Cells\+In\+Structures\+Moore@{Find\+Dead\+Cells\+In\+Structures\+Moore}}
+\index{Find\+Dead\+Cells\+In\+Structures\+Moore@{Find\+Dead\+Cells\+In\+Structures\+Moore}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Find\+Dead\+Cells\+In\+Structures\+Moore()}{FindDeadCellsInStructuresMoore()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Detection.\+Find\+Dead\+Cells\+In\+Structures\+Moore (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utilisant Moore. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste des cellules mortes voisines de chaque structure.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a018511f85c3fb9eca82fc06c9f4eb031_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_aeea8bac4d15d3dd92d6b907b357c1680}\label{class_detection_aeea8bac4d15d3dd92d6b907b357c1680}} 
+\index{Detection@{Detection}!Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann@{Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann}}
+\index{Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann@{Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann()}{FindDeadCellsInStructuresVonNeumann()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Detection.\+Find\+Dead\+Cells\+In\+Structures\+Von\+Neumann (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utilisant von Neumann. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste des cellules mortes voisines de chaque structure.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_aeea8bac4d15d3dd92d6b907b357c1680_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a0f5d7b85c0daaf07503132a2faa23bcf}\label{class_detection_a0f5d7b85c0daaf07503132a2faa23bcf}} 
+\index{Detection@{Detection}!Find\+Dependencies@{Find\+Dependencies}}
+\index{Find\+Dependencies@{Find\+Dependencies}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Find\+Dependencies()}{FindDependencies()}}
+{\footnotesize\ttfamily void Detection.\+Find\+Dependencies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pendantes lorsqu\textquotesingle{}elles impactent au moins une mÃªme cellule morte. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a0f5d7b85c0daaf07503132a2faa23bcf_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a0f5d7b85c0daaf07503132a2faa23bcf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a56dffa1e7a06c20bfaa24ac287a9883f}\label{class_detection_a56dffa1e7a06c20bfaa24ac287a9883f}} 
+\index{Detection@{Detection}!Get\+All\+Structures@{Get\+All\+Structures}}
+\index{Get\+All\+Structures@{Get\+All\+Structures}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Get\+All\+Structures()}{GetAllStructures()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Detection.\+Get\+All\+Structures (\begin{DoxyParamCaption}\item[{int}]{generation\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Permet d\textquotesingle{}obtenir toutes les structures individuelles d\textquotesingle{}une gÃ©nÃ©ration. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em generation} & La gÃ©nÃ©ration.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Les structures de la gÃ©nÃ©ration.
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a56dffa1e7a06c20bfaa24ac287a9883f_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a56dffa1e7a06c20bfaa24ac287a9883f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a5fa3f90802c6cc9eb57c9ca7bcf417b8}\label{class_detection_a5fa3f90802c6cc9eb57c9ca7bcf417b8}} 
+\index{Detection@{Detection}!Hex\+Life\+Find\+Structure@{Hex\+Life\+Find\+Structure}}
+\index{Hex\+Life\+Find\+Structure@{Hex\+Life\+Find\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Hex\+Life\+Find\+Structure()}{HexLifeFindStructure()}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Detection.\+Hex\+Life\+Find\+Structure (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{int}]{k,  }\item[{int}]{generation\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Obtention des voisins de maniÃ¨res non rÃ©cursives d\textquotesingle{}une cellule pour obtenir une structure en utilisant la rÃ¨gle de voisinage de Hex Life. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em i} & Position de la cellule en x.\\
+\hline
+{\em j} & Position de la cellule en y.\\
+\hline
+{\em k} & Position de la cellule en z.\\
+\hline
+{\em generation} & GÃ©nÃ©ration actuelle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+La structure.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a5fa3f90802c6cc9eb57c9ca7bcf417b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a3d3b6bfd7fe37149108908d230fcc9f1}\label{class_detection_a3d3b6bfd7fe37149108908d230fcc9f1}} 
+\index{Detection@{Detection}!Moore\+Find\+Structure@{Moore\+Find\+Structure}}
+\index{Moore\+Find\+Structure@{Moore\+Find\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Moore\+Find\+Structure()}{MooreFindStructure()}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Detection.\+Moore\+Find\+Structure (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{int}]{k,  }\item[{int}]{generation\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Obtention des voisins de maniÃ¨res non rÃ©cursives d\textquotesingle{}une cellule pour obtenir une structure en utilisant la rÃ¨gle de voisinage de Moore. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em i} & Position de la cellule en x.\\
+\hline
+{\em j} & Position de la cellule en y.\\
+\hline
+{\em k} & Position de la cellule en z.\\
+\hline
+{\em generation} & GÃ©nÃ©ration actuelle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+La structure.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a3d3b6bfd7fe37149108908d230fcc9f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a168b07e1ffdca2d91d8c5e251a470a25}\label{class_detection_a168b07e1ffdca2d91d8c5e251a470a25}} 
+\index{Detection@{Detection}!Relative\+Position\+Structure@{Relative\+Position\+Structure}}
+\index{Relative\+Position\+Structure@{Relative\+Position\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Relative\+Position\+Structure()}{RelativePositionStructure()}}
+{\footnotesize\ttfamily List$<$List$<$Vector3$>$ $>$ Detection.\+Relative\+Position\+Structure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de la structure). UtilisÃ© pour la dÃ©tection de vaisseau. 
+
+\begin{DoxyReturn}{Renvoie}
+La liste contenant les structures sous forme de liste.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a168b07e1ffdca2d91d8c5e251a470a25_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}\label{class_detection_a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0}} 
 \index{Detection@{Detection}!set\+Detect@{set\+Detect}}
 \index{set\+Detect@{set\+Detect}!Detection@{Detection}}
@@ -156,19 +584,19 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Permet d\textquotesingle{}indiquer quelles sont les types de structures à detecter. 
+Permet d\textquotesingle{}indiquer quelles sont les types de structures Ã  detecter. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em can\+Detect} & true si la détection est activée, false sinon.\\
+{\em can\+Detect} & true si la dÃ©tection est activÃ©e, false sinon.\\
 \hline
-{\em use\+Stable} & true si la détection des structures stables est activée, false sinon.\\
+{\em use\+Stable} & true si la dÃ©tection des structures stables est activÃ©e, false sinon.\\
 \hline
-{\em use\+Oscill} & true si la détection des structures oscillantes est activée, false sinon.\\
+{\em use\+Oscill} & true si la dÃ©tection des structures oscillantes est activÃ©e, false sinon.\\
 \hline
-{\em use\+Glider} & true si la détection des vaisseaux est activée, false sinon.\\
+{\em use\+Glider} & true si la dÃ©tection des vaisseaux est activÃ©e, false sinon.\\
 \hline
-{\em period\+Max} & La période d\textquotesingle{}oscillation maximale des structures.\\
+{\em period\+Max} & La pÃ©riode d\textquotesingle{}oscillation maximale des structures.\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}\label{class_detection_a43ce2bcef47db14aa4a5a2ff39fee974}} 
@@ -198,7 +626,7 @@ Initialise les dimensuins du volume.
 
 
 
-Déterminer le nombre de canons par leur période 
+DÃ©terminer le nombre de canons par leur pÃ©riode. 
 
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \nopagebreak
@@ -208,3 +636,378 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \includegraphics[width=350pt]{class_detection_aa21c434f39d4e9d901635d9db2a4bbca_cgraph}
 \end{center}
 \end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_detection_aa21c434f39d4e9d901635d9db2a4bbca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_a1909fbb1d96dbc6fed37fabc89444945}\label{class_detection_a1909fbb1d96dbc6fed37fabc89444945}} 
+\index{Detection@{Detection}!Von\+Neumann\+Find\+Structure@{Von\+Neumann\+Find\+Structure}}
+\index{Von\+Neumann\+Find\+Structure@{Von\+Neumann\+Find\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{Von\+Neumann\+Find\+Structure()}{VonNeumannFindStructure()}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Detection.\+Von\+Neumann\+Find\+Structure (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{int}]{k,  }\item[{int}]{generation\mbox{[},,\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Obtention des voisins de maniÃ¨res non rÃ©cursives d\textquotesingle{}une cellule pour obtenir une structure en utilisant la rÃ¨gle de voisinage de von Neumann. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em i} & Position de la cellule en x.\\
+\hline
+{\em j} & Position de la cellule en y.\\
+\hline
+{\em k} & Position de la cellule en z.\\
+\hline
+{\em generation} & GÃ©nÃ©ration actuelle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+La structure.
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_a1909fbb1d96dbc6fed37fabc89444945_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_detection_a938e31196e8d2c8a7449d2b92dd3dc0f}\label{class_detection_a938e31196e8d2c8a7449d2b92dd3dc0f}} 
+\index{Detection@{Detection}!actuel\+Sous\+Structure@{actuel\+Sous\+Structure}}
+\index{actuel\+Sous\+Structure@{actuel\+Sous\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{actuel\+Sous\+Structure}{actuelSousStructure}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection.\+actuel\+Sous\+Structure = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a2854566b0e9b52fde71352bd8d3e7ef5}\label{class_detection_a2854566b0e9b52fde71352bd8d3e7ef5}} 
+\index{Detection@{Detection}!ancien\+Sous\+Structure1@{ancien\+Sous\+Structure1}}
+\index{ancien\+Sous\+Structure1@{ancien\+Sous\+Structure1}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{ancien\+Sous\+Structure1}{ancienSousStructure1}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection.\+ancien\+Sous\+Structure1 = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a5cc275445061be79380716942235b51b}\label{class_detection_a5cc275445061be79380716942235b51b}} 
+\index{Detection@{Detection}!ancien\+Sous\+Structure2@{ancien\+Sous\+Structure2}}
+\index{ancien\+Sous\+Structure2@{ancien\+Sous\+Structure2}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{ancien\+Sous\+Structure2}{ancienSousStructure2}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection.\+ancien\+Sous\+Structure2 = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a3020aaba1943a1f3e42220ede1b1e7c4}\label{class_detection_a3020aaba1943a1f3e42220ede1b1e7c4}} 
+\index{Detection@{Detection}!ancien\+Sous\+Structure3@{ancien\+Sous\+Structure3}}
+\index{ancien\+Sous\+Structure3@{ancien\+Sous\+Structure3}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{ancien\+Sous\+Structure3}{ancienSousStructure3}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection.\+ancien\+Sous\+Structure3 = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a699901c5a7439b08e8ac5c36942bb61b}\label{class_detection_a699901c5a7439b08e8ac5c36942bb61b}} 
+\index{Detection@{Detection}!can\+Detect@{can\+Detect}}
+\index{can\+Detect@{can\+Detect}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{can\+Detect}{canDetect}}
+{\footnotesize\ttfamily bool Detection.\+can\+Detect = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si on utilise la detection, false sinon 
+
+\mbox{\Hypertarget{class_detection_aa183bc717a4ba8c4371e319eb16fcd23}\label{class_detection_aa183bc717a4ba8c4371e319eb16fcd23}} 
+\index{Detection@{Detection}!details\+Structure@{details\+Structure}}
+\index{details\+Structure@{details\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{details\+Structure}{detailsStructure}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_details_structure}{Details\+Structure}} Detection.\+details\+Structure\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Permet d\textquotesingle{}envoyer la liste des informations des structures pour permettre la visualisation de ces informations. 
+
+\mbox{\Hypertarget{class_detection_a2cb88a432e8b2083f27a286a32daf936}\label{class_detection_a2cb88a432e8b2083f27a286a32daf936}} 
+\index{Detection@{Detection}!detection\+UI@{detection\+UI}}
+\index{detection\+UI@{detection\+UI}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{detection\+UI}{detectionUI}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_detection_u_i}{Detection\+UI}} Detection.\+detection\+UI\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Permet la mise Ã  jour des informations mise Ã  l\textquotesingle{}Ã©cran. 
+
+\mbox{\Hypertarget{class_detection_a87f5c7e3ca25b83485fd648d0a512ae5}\label{class_detection_a87f5c7e3ca25b83485fd648d0a512ae5}} 
+\index{Detection@{Detection}!dg@{dg}}
+\index{dg@{dg}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{dg}{dg}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_detection_gun}{Detection\+Gun}} Detection.\+dg\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+UtilisÃ© pour detecter les structure Glider\+Gun. 
+
+\mbox{\Hypertarget{class_detection_afa1d30c1e85af8e9f22288c871a80e27}\label{class_detection_afa1d30c1e85af8e9f22288c871a80e27}} 
+\index{Detection@{Detection}!dimension@{dimension}}
+\index{dimension@{dimension}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{dimension}{dimension}}
+{\footnotesize\ttfamily int Detection.\+dimension = 3\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_ae2432d029788c3aa58e832716a7832e4}\label{class_detection_ae2432d029788c3aa58e832716a7832e4}} 
+\index{Detection@{Detection}!h@{h}}
+\index{h@{h}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int Detection.\+h = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hauteur du volume. 
+
+\mbox{\Hypertarget{class_detection_ac2c7885d3e4d086504e66eb365207c1e}\label{class_detection_ac2c7885d3e4d086504e66eb365207c1e}} 
+\index{Detection@{Detection}!ind@{ind}}
+\index{ind@{ind}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{ind}{ind}}
+{\footnotesize\ttfamily int Detection.\+ind = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+L\textquotesingle{}indice de la derniÃ¨re gÃ©nÃ©ration ajoutÃ©e Ã  stockgen. 
+
+\mbox{\Hypertarget{class_detection_a530b494dd9b9cc7b028c1ba3334cab5f}\label{class_detection_a530b494dd9b9cc7b028c1ba3334cab5f}} 
+\index{Detection@{Detection}!indice@{indice}}
+\index{indice@{indice}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{indice}{indice}}
+{\footnotesize\ttfamily int Detection.\+indice = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a7cffb153fd4b42ba87d6a099e31a424e}\label{class_detection_a7cffb153fd4b42ba87d6a099e31a424e}} 
+\index{Detection@{Detection}!ind\+Struct\+By\+Gen@{ind\+Struct\+By\+Gen}}
+\index{ind\+Struct\+By\+Gen@{ind\+Struct\+By\+Gen}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{ind\+Struct\+By\+Gen}{indStructByGen}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Detection.\+ind\+Struct\+By\+Gen\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke pour chaque gÃ©nÃ©ration s\textquotesingle{}il y a ou non une structure. Pour une gÃ©nÃ©ration on a par exemple\+: 0 0 0 0 1 0 0, cela veut dire qu\textquotesingle{}il y a une structure Ã  l\textquotesingle{}indice 4 de cette gÃ©nÃ©ration dans structure\+By\+Generation. 
+
+\mbox{\Hypertarget{class_detection_a33e61516c561856189732c12d7182b1e}\label{class_detection_a33e61516c561856189732c12d7182b1e}} 
+\index{Detection@{Detection}!inf\+Struct@{inf\+Struct}}
+\index{inf\+Struct@{inf\+Struct}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{inf\+Struct}{infStruct}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_inf_struct}{Inf\+Struct}}$>$ Detection.\+inf\+Struct\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Liste des informations des structures. 
+
+\mbox{\Hypertarget{class_detection_a8b4cfe5136dffcd0f3196db073042fbe}\label{class_detection_a8b4cfe5136dffcd0f3196db073042fbe}} 
+\index{Detection@{Detection}!itmp@{itmp}}
+\index{itmp@{itmp}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{itmp}{itmp}}
+{\footnotesize\ttfamily int Detection.\+itmp = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a22ac4a8c7bfff75ddde6599e2868383d}\label{class_detection_a22ac4a8c7bfff75ddde6599e2868383d}} 
+\index{Detection@{Detection}!l@{l}}
+\index{l@{l}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{l}{l}}
+{\footnotesize\ttfamily int Detection.\+l = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Longueur du volume. 
+
+\mbox{\Hypertarget{class_detection_a8fb631a5ff0dfc9604e0efb5662b98ad}\label{class_detection_a8fb631a5ff0dfc9604e0efb5662b98ad}} 
+\index{Detection@{Detection}!list\+Struct\+Relative\+Pos@{list\+Struct\+Relative\+Pos}}
+\index{list\+Struct\+Relative\+Pos@{list\+Struct\+Relative\+Pos}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{list\+Struct\+Relative\+Pos}{listStructRelativePos}}
+{\footnotesize\ttfamily List$<$List$<$Vector3$>$ $>$ \mbox{[}$\,$\mbox{]} Detection.\+list\+Struct\+Relative\+Pos\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tableau de liste, chaque liste reprÃ©sente une gÃ©nÃ©ration et chaque sous liste reprÃ©sente une structure. 
+
+\mbox{\Hypertarget{class_detection_a98167fc0f3e26398cfd51f95b6a64e72}\label{class_detection_a98167fc0f3e26398cfd51f95b6a64e72}} 
+\index{Detection@{Detection}!max\+Period\+Detection@{max\+Period\+Detection}}
+\index{max\+Period\+Detection@{max\+Period\+Detection}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{max\+Period\+Detection}{maxPeriodDetection}}
+{\footnotesize\ttfamily int Detection.\+max\+Period\+Detection\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+PÃ©riode d\textquotesingle{}oscillation maximale. 
+
+\mbox{\Hypertarget{class_detection_ae14cf1144858a30db9892e36723e9795}\label{class_detection_ae14cf1144858a30db9892e36723e9795}} 
+\index{Detection@{Detection}!model\+Gun@{model\+Gun}}
+\index{model\+Gun@{model\+Gun}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{model\+Gun}{modelGun}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection.\+model\+Gun = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_aa7929b2a7e34d53f93ed02da7a3d1ec8}\label{class_detection_aa7929b2a7e34d53f93ed02da7a3d1ec8}} 
+\index{Detection@{Detection}!nb\+Cannon@{nb\+Cannon}}
+\index{nb\+Cannon@{nb\+Cannon}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{nb\+Cannon}{nbCannon}}
+{\footnotesize\ttfamily int Detection.\+nb\+Cannon\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de structure cannon actuelle. 
+
+\mbox{\Hypertarget{class_detection_a3cb9e6ab5eb48c7352b5402e9d46c4e6}\label{class_detection_a3cb9e6ab5eb48c7352b5402e9d46c4e6}} 
+\index{Detection@{Detection}!nb\+Max\+Structure@{nb\+Max\+Structure}}
+\index{nb\+Max\+Structure@{nb\+Max\+Structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{nb\+Max\+Structure}{nbMaxStructure}}
+{\footnotesize\ttfamily int Detection.\+nb\+Max\+Structure\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le nombre maximal de structure qu\textquotesingle{}il peut y avoir dans le volume. 
+
+\mbox{\Hypertarget{class_detection_a0e0f6dbe71d5d7a5103416b6c5455faa}\label{class_detection_a0e0f6dbe71d5d7a5103416b6c5455faa}} 
+\index{Detection@{Detection}!nb\+Oscillante@{nb\+Oscillante}}
+\index{nb\+Oscillante@{nb\+Oscillante}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{nb\+Oscillante}{nbOscillante}}
+{\footnotesize\ttfamily int Detection.\+nb\+Oscillante\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de structure oscillante actuelle. 
+
+\mbox{\Hypertarget{class_detection_afa6a24f82533b8f55ad0d7ff325f62fd}\label{class_detection_afa6a24f82533b8f55ad0d7ff325f62fd}} 
+\index{Detection@{Detection}!nb\+Periode@{nb\+Periode}}
+\index{nb\+Periode@{nb\+Periode}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{nb\+Periode}{nbPeriode}}
+{\footnotesize\ttfamily int Detection.\+nb\+Periode = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a4b49d7d01d7b807387f89bbc03dc66b4}\label{class_detection_a4b49d7d01d7b807387f89bbc03dc66b4}} 
+\index{Detection@{Detection}!nb\+Stable@{nb\+Stable}}
+\index{nb\+Stable@{nb\+Stable}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{nb\+Stable}{nbStable}}
+{\footnotesize\ttfamily int Detection.\+nb\+Stable\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de structure stable actuelle. 
+
+\mbox{\Hypertarget{class_detection_a7371f2754fb19faeee7e7711a42b6092}\label{class_detection_a7371f2754fb19faeee7e7711a42b6092}} 
+\index{Detection@{Detection}!nb\+Vaisseau@{nb\+Vaisseau}}
+\index{nb\+Vaisseau@{nb\+Vaisseau}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{nb\+Vaisseau}{nbVaisseau}}
+{\footnotesize\ttfamily int Detection.\+nb\+Vaisseau\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de structure vaisseau actuelle. 
+
+\mbox{\Hypertarget{class_detection_ad90b57df50e957490ef10ec0ca151680}\label{class_detection_ad90b57df50e957490ef10ec0ca151680}} 
+\index{Detection@{Detection}!stockgen@{stockgen}}
+\index{stockgen@{stockgen}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{stockgen}{stockgen}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Detection.\+stockgen\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke les gÃ©nÃ©rations. 
+
+\mbox{\Hypertarget{class_detection_a87b658cb3620885f810fb260efbb4b10}\label{class_detection_a87b658cb3620885f810fb260efbb4b10}} 
+\index{Detection@{Detection}!structure@{structure}}
+\index{structure@{structure}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{structure}{structure}}
+{\footnotesize\ttfamily int \mbox{[},,\mbox{]} Detection.\+structure\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke une structure (la structure recherchÃ© par exemple) 
+
+\mbox{\Hypertarget{class_detection_abdc02d1290b7db51b15359c23b7d8b7a}\label{class_detection_abdc02d1290b7db51b15359c23b7d8b7a}} 
+\index{Detection@{Detection}!structure\+By\+Generation@{structure\+By\+Generation}}
+\index{structure\+By\+Generation@{structure\+By\+Generation}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{structure\+By\+Generation}{structureByGeneration}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[},,\mbox{]} Detection.\+structure\+By\+Generation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke les structures de chaque gÃ©nÃ©ration. 
+
+\mbox{\Hypertarget{class_detection_a960ba0a4d4dce18672dd81aecb63a76c}\label{class_detection_a960ba0a4d4dce18672dd81aecb63a76c}} 
+\index{Detection@{Detection}!test\+Stable@{test\+Stable}}
+\index{test\+Stable@{test\+Stable}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{test\+Stable}{testStable}}
+{\footnotesize\ttfamily bool Detection.\+test\+Stable = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a2f87015f257584e33ceacc6d326fe5af}\label{class_detection_a2f87015f257584e33ceacc6d326fe5af}} 
+\index{Detection@{Detection}!toro@{toro}}
+\index{toro@{toro}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{toro}{toro}}
+{\footnotesize\ttfamily bool Detection.\+toro\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si toroidal, false sinon. 
+
+\mbox{\Hypertarget{class_detection_a0f5366777c01d08b01e83e11c1399224}\label{class_detection_a0f5366777c01d08b01e83e11c1399224}} 
+\index{Detection@{Detection}!trouveG@{trouveG}}
+\index{trouveG@{trouveG}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{trouveG}{trouveG}}
+{\footnotesize\ttfamily bool Detection.\+trouveG = true\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_a3fe2d8aec9ad4e2a8f11902ba873db52}\label{class_detection_a3fe2d8aec9ad4e2a8f11902ba873db52}} 
+\index{Detection@{Detection}!use\+Canon@{use\+Canon}}
+\index{use\+Canon@{use\+Canon}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{use\+Canon}{useCanon}}
+{\footnotesize\ttfamily bool Detection.\+use\+Canon = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_abe71ec7aa825173786fd273323343c11}\label{class_detection_abe71ec7aa825173786fd273323343c11}} 
+\index{Detection@{Detection}!use\+Dependencies@{use\+Dependencies}}
+\index{use\+Dependencies@{use\+Dependencies}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{use\+Dependencies}{useDependencies}}
+{\footnotesize\ttfamily bool Detection.\+use\+Dependencies = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si on utilise les dÃ©pendences entre structure, false 
+
+\mbox{\Hypertarget{class_detection_af1181c7a5cdf8fe0f94e2e6526a1ffb1}\label{class_detection_af1181c7a5cdf8fe0f94e2e6526a1ffb1}} 
+\index{Detection@{Detection}!use\+Glider@{use\+Glider}}
+\index{use\+Glider@{use\+Glider}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{use\+Glider}{useGlider}}
+{\footnotesize\ttfamily bool Detection.\+use\+Glider = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si dÃ©tection des vaisseaux, false sinon. 
+
+\mbox{\Hypertarget{class_detection_a9597ce1e1dea98c61902d891c1f1c7e0}\label{class_detection_a9597ce1e1dea98c61902d891c1f1c7e0}} 
+\index{Detection@{Detection}!use\+Oscill@{use\+Oscill}}
+\index{use\+Oscill@{use\+Oscill}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{use\+Oscill}{useOscill}}
+{\footnotesize\ttfamily bool Detection.\+use\+Oscill = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si dÃ©tection des structures oscillatoires, false sinon. 
+
+\mbox{\Hypertarget{class_detection_a78bb8c89cca9479bb2bb4ef0f5e96945}\label{class_detection_a78bb8c89cca9479bb2bb4ef0f5e96945}} 
+\index{Detection@{Detection}!use\+Stable@{use\+Stable}}
+\index{use\+Stable@{use\+Stable}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{use\+Stable}{useStable}}
+{\footnotesize\ttfamily bool Detection.\+use\+Stable = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si dÃ©tection des structures stables, false sinon. 
+
+\mbox{\Hypertarget{class_detection_a6f99794fd28f6f79dedfc541f8b78154}\label{class_detection_a6f99794fd28f6f79dedfc541f8b78154}} 
+\index{Detection@{Detection}!voisinnage@{voisinnage}}
+\index{voisinnage@{voisinnage}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{voisinnage}{voisinnage}}
+{\footnotesize\ttfamily Voisinage2 Detection.\+voisinnage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Type de voisinnage. 
+
+\mbox{\Hypertarget{class_detection_a15fdbc0a47657ec7c4bf5228a950079d}\label{class_detection_a15fdbc0a47657ec7c4bf5228a950079d}} 
+\index{Detection@{Detection}!w@{w}}
+\index{w@{w}!Detection@{Detection}}
+\subsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int Detection.\+w = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Largeur du volume. 
+

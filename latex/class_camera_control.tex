@@ -2,7 +2,7 @@
 \label{class_camera_control}\index{Camera\+Control@{Camera\+Control}}
 
 
-La classe permettant le control de la cam�ra  
+La classe permettant le control de la caméra  
 
 
 
@@ -26,20 +26,90 @@ Graphe de collaboration de Camera\+Control\+:\nopagebreak
 \subsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b}{Act\+Or\+Dea\+Movement}} (bool can\+Move)
-\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}activer ou de d�sactiver le mouvement de la cam�ra. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}{restart\+Center}} (int h, int w, int l)
-\begin{DoxyCompactList}\small\item\em Recentre la cam�ra en fonction des dimensions du volume. \end{DoxyCompactList}\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b}{Act\+Or\+Dea\+Movement}} (bool \mbox{\hyperlink{class_camera_control_a0c3fa77bacbeb5a6735e6d572dbbce67}{can\+Move}})
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}activer ou de désactiver le mouvement de la caméra. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}{restart\+Center}} (int \mbox{\hyperlink{class_camera_control_aee06e1c0a46ffd42fcd8abe1c2f5a40a}{h}}, int \mbox{\hyperlink{class_camera_control_a4080a1d529cac09e1384bb0420ba87d3}{w}}, int \mbox{\hyperlink{class_camera_control_a0e883a505f663ed202947cb60995ded6}{l}})
+\begin{DoxyCompactList}\small\item\em Recentre la caméra en fonction des dimensions du volume. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_camera_control_af93c098f6ebf3501a41912d88accc1f2}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_camera_control_a93058e0f26583cc7355f31467287d374}{Late\+Update}} ()
+\item 
+void \mbox{\hyperlink{class_camera_control_a408c4548730cdc6b96c177898f222635}{Move\+And\+Rotate}} ()
+\begin{DoxyCompactList}\small\item\em Bouge et réalise la rotation de la caméra en fonction des entrées de l\textquotesingle{}utilisateur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_camera_control_a0c3fa77bacbeb5a6735e6d572dbbce67}{can\+Move}} = false
+\begin{DoxyCompactList}\small\item\em true si on peut bouger la caméra, false sinon. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_camera_control_a24aa30171f6590bed8ed45679a3bc385}{inputfield\+AxeX}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la valeur de l\textquotesingle{}axe X. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_camera_control_a780f2ed07f0991caeced5645adfc44f3}{inputfield\+AxeY}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la valeur de l\textquotesingle{}axe Y \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_camera_control_a341e48bda7a5a7117d90ae30643ad006}{inputfield\+AxeZ}}
+\begin{DoxyCompactList}\small\item\em Zone de texte pour la valeur de l\textquotesingle{}axe Z. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_aee03964cb85279922b7a0dac9395f8d7}{angle\+Wand\+LX}}
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}angle entre les coordonnées mondiales et locales pour l\textquotesingle{}axe X. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a07fe5546ad908b642ef5c96f810db6b3}{angle\+Wand\+LY}}
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}angle entre les coordonnées mondiales et locales pour l\textquotesingle{}axe Y. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a05cde63cd5df67764f7932695731a71f}{Dist\+Target}}
+\begin{DoxyCompactList}\small\item\em La distance de la la caméra par rapport à la cible. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a9d3c95bbc5b16383e99c07b5239ff070}{new\+Dist\+Target}}
+\begin{DoxyCompactList}\small\item\em Distance actuelle de la caméra par rapport à la cible. \end{DoxyCompactList}\item 
+Quaternion \mbox{\hyperlink{class_camera_control_a0a2bfdf7b029eeb53e96ed5d8c0b84a1}{Rot\+Target}}
+\begin{DoxyCompactList}\small\item\em Orientation cible de la caméra \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_ae37f465a1005c089ee7962aaf8aec76e}{sensitivity\+Movement}}
+\begin{DoxyCompactList}\small\item\em La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a16be738f9e3af72fbcf8ab2444c188a7}{sensitivity\+Movement\+Fast}}
+\begin{DoxyCompactList}\small\item\em La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. en mode fast de la souris. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_adcc51409a2ce333ddd86f86ed5acdd41}{camera\+Speed}}
+\begin{DoxyCompactList}\small\item\em La vitesse de la caméra. \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a691c217272275657d242c27b496964b6}{v}}
+\begin{DoxyCompactList}\small\item\em La position de la cible. \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a3d18c8c72678abfe638f07483c437b92}{vbegin}}
+\begin{DoxyCompactList}\small\item\em Position de départ. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a116fb7ac920ed4c84894420690b15174}{min\+DegreX}}
+\begin{DoxyCompactList}\small\item\em Angle limite minimum pour l\textquotesingle{}axe X \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_ad9804e1cf6d924768e6484ab8a0c34fa}{max\+DegreX}}
+\begin{DoxyCompactList}\small\item\em Angle limite maximal sur l\textquotesingle{}axe X \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a7e187cb1ebfb3675d77110a8f1b99d83}{min\+DegreY}}
+\begin{DoxyCompactList}\small\item\em Angle limite minimum pour l\textquotesingle{}axe Y \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a08f75fdf96fae8ac44850764c10085ac}{max\+DegreY}}
+\begin{DoxyCompactList}\small\item\em Angle limite maximal sur l\textquotesingle{}axe Y \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_camera_control_aee06e1c0a46ffd42fcd8abe1c2f5a40a}{h}} = 10
+\item 
+int \mbox{\hyperlink{class_camera_control_a4080a1d529cac09e1384bb0420ba87d3}{w}} = 10
+\item 
+int \mbox{\hyperlink{class_camera_control_a0e883a505f663ed202947cb60995ded6}{l}} = 10
+\item 
+Vector3 \mbox{\hyperlink{class_camera_control_abd85110007706858516ca14f5bfc130b}{target}}
+\begin{DoxyCompactList}\small\item\em La position de la cible. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_control_a9f3b5fd423d7a84a3014b7fd1d9ec254}{move\+Speed}}
+\begin{DoxyCompactList}\small\item\em La vitesse de déplacement de la caméra (zqsd). \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a63413261e7373457a03491dacfede5d0}{v\+Right}}
+\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a7e71f599bbb8a0bf0bb072980445ea07}{v\+Left}}
+\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a8bf52cc7231378a27f7f5f0805ee0145}{v\+Down}}
+\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a7c3cf2f772a682994001bec237f91d49}{v\+Up}}
+\item 
+Vector3 \mbox{\hyperlink{class_camera_control_a92b1ad2e8e5572f2f4058a4124583a40}{v\+Forward}}
+\item 
+Vector3 \mbox{\hyperlink{class_camera_control_ada86d34c3703c6f9aec6552343aec7c0}{v\+Back}}
+\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-La classe permettant le control de la cam�ra 
+La classe permettant le control de la caméra 
 
 \begin{DoxyAuthor}{Auteur}
 T\+I\+AN Ning,Q\+IN Yi, correction \+: Dorian G\+R\+O\+U\+T\+E\+AU 
 \end{DoxyAuthor}
 \begin{DoxyDate}{Date}
-08/04/2022\+Keys\+: zqsd / fleches \+: mouvements (haut,gauche,bas,droite). maintenir shift \+: augmente la vitesse de d�placement en avant. 134628 \+: positions pr�d�finies. maintient clique droit \+: rotation ~\newline
+08/04/2022\+Keys\+: zqsd / fleches \+: mouvements (haut,gauche,bas,droite). maintenir shift \+: augmente la vitesse de déplacement en avant. 134628 \+: positions prédéfinies. maintient clique droit \+: rotation ~\newline
 
 \end{DoxyDate}
 
@@ -53,11 +123,11 @@ T\+I\+AN Ning,Q\+IN Yi, correction \+: Dorian G\+R\+O\+U\+T\+E\+AU
 
 
 
-Permet d\textquotesingle{}activer ou de d�sactiver le mouvement de la cam�ra. 
+Permet d\textquotesingle{}activer ou de désactiver le mouvement de la caméra. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em can\+Move} & Bool�en, true s\textquotesingle{}il faut activer le mouvement, false sinon\\
+{\em can\+Move} & Booléen, true s\textquotesingle{}il faut activer le mouvement, false sinon\\
 \hline
 \end{DoxyParams}
 Voici le graphe des appelants de cette fonction \+:\nopagebreak
@@ -65,6 +135,38 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_camera_control_a879e70766aaa6eec8be532ab6712dd6b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_control_a93058e0f26583cc7355f31467287d374}\label{class_camera_control_a93058e0f26583cc7355f31467287d374}} 
+\index{Camera\+Control@{Camera\+Control}!Late\+Update@{Late\+Update}}
+\index{Late\+Update@{Late\+Update}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{Late\+Update()}{LateUpdate()}}
+{\footnotesize\ttfamily void Camera\+Control.\+Late\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_control_a93058e0f26583cc7355f31467287d374_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_control_a408c4548730cdc6b96c177898f222635}\label{class_camera_control_a408c4548730cdc6b96c177898f222635}} 
+\index{Camera\+Control@{Camera\+Control}!Move\+And\+Rotate@{Move\+And\+Rotate}}
+\index{Move\+And\+Rotate@{Move\+And\+Rotate}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{Move\+And\+Rotate()}{MoveAndRotate()}}
+{\footnotesize\ttfamily void Camera\+Control.\+Move\+And\+Rotate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Bouge et réalise la rotation de la caméra en fonction des entrées de l\textquotesingle{}utilisateur. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_control_a408c4548730cdc6b96c177898f222635_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}\label{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2}} 
@@ -75,7 +177,7 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 
 
 
-Recentre la cam�ra en fonction des dimensions du volume. 
+Recentre la caméra en fonction des dimensions du volume. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -86,10 +188,274 @@ Recentre la cam�ra en fonction des dimensions du volume.
 {\em l} & La longueur du volume.\\
 \hline
 \end{DoxyParams}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{class_camera_control_af93c098f6ebf3501a41912d88accc1f2}\label{class_camera_control_af93c098f6ebf3501a41912d88accc1f2}} 
+\index{Camera\+Control@{Camera\+Control}!Start@{Start}}
+\index{Start@{Start}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Camera\+Control.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_camera_control_aee03964cb85279922b7a0dac9395f8d7}\label{class_camera_control_aee03964cb85279922b7a0dac9395f8d7}} 
+\index{Camera\+Control@{Camera\+Control}!angle\+Wand\+LX@{angle\+Wand\+LX}}
+\index{angle\+Wand\+LX@{angle\+Wand\+LX}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{angle\+Wand\+LX}{angleWandLX}}
+{\footnotesize\ttfamily float Camera\+Control.\+angle\+Wand\+LX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+L\textquotesingle{}angle entre les coordonnées mondiales et locales pour l\textquotesingle{}axe X. 
+
+\mbox{\Hypertarget{class_camera_control_a07fe5546ad908b642ef5c96f810db6b3}\label{class_camera_control_a07fe5546ad908b642ef5c96f810db6b3}} 
+\index{Camera\+Control@{Camera\+Control}!angle\+Wand\+LY@{angle\+Wand\+LY}}
+\index{angle\+Wand\+LY@{angle\+Wand\+LY}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{angle\+Wand\+LY}{angleWandLY}}
+{\footnotesize\ttfamily float Camera\+Control.\+angle\+Wand\+LY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+L\textquotesingle{}angle entre les coordonnées mondiales et locales pour l\textquotesingle{}axe Y. 
+
+\mbox{\Hypertarget{class_camera_control_adcc51409a2ce333ddd86f86ed5acdd41}\label{class_camera_control_adcc51409a2ce333ddd86f86ed5acdd41}} 
+\index{Camera\+Control@{Camera\+Control}!camera\+Speed@{camera\+Speed}}
+\index{camera\+Speed@{camera\+Speed}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{camera\+Speed}{cameraSpeed}}
+{\footnotesize\ttfamily float Camera\+Control.\+camera\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La vitesse de la caméra. 
+
+\mbox{\Hypertarget{class_camera_control_a0c3fa77bacbeb5a6735e6d572dbbce67}\label{class_camera_control_a0c3fa77bacbeb5a6735e6d572dbbce67}} 
+\index{Camera\+Control@{Camera\+Control}!can\+Move@{can\+Move}}
+\index{can\+Move@{can\+Move}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{can\+Move}{canMove}}
+{\footnotesize\ttfamily bool Camera\+Control.\+can\+Move = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si on peut bouger la caméra, false sinon. 
+
+\mbox{\Hypertarget{class_camera_control_a05cde63cd5df67764f7932695731a71f}\label{class_camera_control_a05cde63cd5df67764f7932695731a71f}} 
+\index{Camera\+Control@{Camera\+Control}!Dist\+Target@{Dist\+Target}}
+\index{Dist\+Target@{Dist\+Target}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{Dist\+Target}{DistTarget}}
+{\footnotesize\ttfamily float Camera\+Control.\+Dist\+Target\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La distance de la la caméra par rapport à la cible. 
+
+\mbox{\Hypertarget{class_camera_control_aee06e1c0a46ffd42fcd8abe1c2f5a40a}\label{class_camera_control_aee06e1c0a46ffd42fcd8abe1c2f5a40a}} 
+\index{Camera\+Control@{Camera\+Control}!h@{h}}
+\index{h@{h}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int Camera\+Control.\+h = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a24aa30171f6590bed8ed45679a3bc385}\label{class_camera_control_a24aa30171f6590bed8ed45679a3bc385}} 
+\index{Camera\+Control@{Camera\+Control}!inputfield\+AxeX@{inputfield\+AxeX}}
+\index{inputfield\+AxeX@{inputfield\+AxeX}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{inputfield\+AxeX}{inputfieldAxeX}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Camera\+Control.\+inputfield\+AxeX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la valeur de l\textquotesingle{}axe X. 
+
+\mbox{\Hypertarget{class_camera_control_a780f2ed07f0991caeced5645adfc44f3}\label{class_camera_control_a780f2ed07f0991caeced5645adfc44f3}} 
+\index{Camera\+Control@{Camera\+Control}!inputfield\+AxeY@{inputfield\+AxeY}}
+\index{inputfield\+AxeY@{inputfield\+AxeY}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{inputfield\+AxeY}{inputfieldAxeY}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Camera\+Control.\+inputfield\+AxeY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la valeur de l\textquotesingle{}axe Y 
+
+\mbox{\Hypertarget{class_camera_control_a341e48bda7a5a7117d90ae30643ad006}\label{class_camera_control_a341e48bda7a5a7117d90ae30643ad006}} 
+\index{Camera\+Control@{Camera\+Control}!inputfield\+AxeZ@{inputfield\+AxeZ}}
+\index{inputfield\+AxeZ@{inputfield\+AxeZ}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{inputfield\+AxeZ}{inputfieldAxeZ}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Input\+Field Camera\+Control.\+inputfield\+AxeZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zone de texte pour la valeur de l\textquotesingle{}axe Z. 
+
+\mbox{\Hypertarget{class_camera_control_a0e883a505f663ed202947cb60995ded6}\label{class_camera_control_a0e883a505f663ed202947cb60995ded6}} 
+\index{Camera\+Control@{Camera\+Control}!l@{l}}
+\index{l@{l}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{l}{l}}
+{\footnotesize\ttfamily int Camera\+Control.\+l = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_ad9804e1cf6d924768e6484ab8a0c34fa}\label{class_camera_control_ad9804e1cf6d924768e6484ab8a0c34fa}} 
+\index{Camera\+Control@{Camera\+Control}!max\+DegreX@{max\+DegreX}}
+\index{max\+DegreX@{max\+DegreX}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{max\+DegreX}{maxDegreX}}
+{\footnotesize\ttfamily float Camera\+Control.\+max\+DegreX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle limite maximal sur l\textquotesingle{}axe X 
+
+\mbox{\Hypertarget{class_camera_control_a08f75fdf96fae8ac44850764c10085ac}\label{class_camera_control_a08f75fdf96fae8ac44850764c10085ac}} 
+\index{Camera\+Control@{Camera\+Control}!max\+DegreY@{max\+DegreY}}
+\index{max\+DegreY@{max\+DegreY}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{max\+DegreY}{maxDegreY}}
+{\footnotesize\ttfamily float Camera\+Control.\+max\+DegreY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle limite maximal sur l\textquotesingle{}axe Y 
+
+\mbox{\Hypertarget{class_camera_control_a116fb7ac920ed4c84894420690b15174}\label{class_camera_control_a116fb7ac920ed4c84894420690b15174}} 
+\index{Camera\+Control@{Camera\+Control}!min\+DegreX@{min\+DegreX}}
+\index{min\+DegreX@{min\+DegreX}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{min\+DegreX}{minDegreX}}
+{\footnotesize\ttfamily float Camera\+Control.\+min\+DegreX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle limite minimum pour l\textquotesingle{}axe X 
+
+\mbox{\Hypertarget{class_camera_control_a7e187cb1ebfb3675d77110a8f1b99d83}\label{class_camera_control_a7e187cb1ebfb3675d77110a8f1b99d83}} 
+\index{Camera\+Control@{Camera\+Control}!min\+DegreY@{min\+DegreY}}
+\index{min\+DegreY@{min\+DegreY}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{min\+DegreY}{minDegreY}}
+{\footnotesize\ttfamily float Camera\+Control.\+min\+DegreY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle limite minimum pour l\textquotesingle{}axe Y 
+
+\mbox{\Hypertarget{class_camera_control_a9f3b5fd423d7a84a3014b7fd1d9ec254}\label{class_camera_control_a9f3b5fd423d7a84a3014b7fd1d9ec254}} 
+\index{Camera\+Control@{Camera\+Control}!move\+Speed@{move\+Speed}}
+\index{move\+Speed@{move\+Speed}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{move\+Speed}{moveSpeed}}
+{\footnotesize\ttfamily float Camera\+Control.\+move\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La vitesse de déplacement de la caméra (zqsd). 
+
+\mbox{\Hypertarget{class_camera_control_a9d3c95bbc5b16383e99c07b5239ff070}\label{class_camera_control_a9d3c95bbc5b16383e99c07b5239ff070}} 
+\index{Camera\+Control@{Camera\+Control}!new\+Dist\+Target@{new\+Dist\+Target}}
+\index{new\+Dist\+Target@{new\+Dist\+Target}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{new\+Dist\+Target}{newDistTarget}}
+{\footnotesize\ttfamily float Camera\+Control.\+new\+Dist\+Target\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distance actuelle de la caméra par rapport à la cible. 
+
+\mbox{\Hypertarget{class_camera_control_a0a2bfdf7b029eeb53e96ed5d8c0b84a1}\label{class_camera_control_a0a2bfdf7b029eeb53e96ed5d8c0b84a1}} 
+\index{Camera\+Control@{Camera\+Control}!Rot\+Target@{Rot\+Target}}
+\index{Rot\+Target@{Rot\+Target}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{Rot\+Target}{RotTarget}}
+{\footnotesize\ttfamily Quaternion Camera\+Control.\+Rot\+Target\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Orientation cible de la caméra 
+
+\mbox{\Hypertarget{class_camera_control_ae37f465a1005c089ee7962aaf8aec76e}\label{class_camera_control_ae37f465a1005c089ee7962aaf8aec76e}} 
+\index{Camera\+Control@{Camera\+Control}!sensitivity\+Movement@{sensitivity\+Movement}}
+\index{sensitivity\+Movement@{sensitivity\+Movement}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{sensitivity\+Movement}{sensitivityMovement}}
+{\footnotesize\ttfamily float Camera\+Control.\+sensitivity\+Movement\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. 
+
+\mbox{\Hypertarget{class_camera_control_a16be738f9e3af72fbcf8ab2444c188a7}\label{class_camera_control_a16be738f9e3af72fbcf8ab2444c188a7}} 
+\index{Camera\+Control@{Camera\+Control}!sensitivity\+Movement\+Fast@{sensitivity\+Movement\+Fast}}
+\index{sensitivity\+Movement\+Fast@{sensitivity\+Movement\+Fast}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{sensitivity\+Movement\+Fast}{sensitivityMovementFast}}
+{\footnotesize\ttfamily float Camera\+Control.\+sensitivity\+Movement\+Fast\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. en mode fast de la souris. 
+
+\mbox{\Hypertarget{class_camera_control_abd85110007706858516ca14f5bfc130b}\label{class_camera_control_abd85110007706858516ca14f5bfc130b}} 
+\index{Camera\+Control@{Camera\+Control}!target@{target}}
+\index{target@{target}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+target\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La position de la cible. 
+
+\mbox{\Hypertarget{class_camera_control_a691c217272275657d242c27b496964b6}\label{class_camera_control_a691c217272275657d242c27b496964b6}} 
+\index{Camera\+Control@{Camera\+Control}!v@{v}}
+\index{v@{v}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v}{v}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La position de la cible. 
+
+\mbox{\Hypertarget{class_camera_control_ada86d34c3703c6f9aec6552343aec7c0}\label{class_camera_control_ada86d34c3703c6f9aec6552343aec7c0}} 
+\index{Camera\+Control@{Camera\+Control}!v\+Back@{v\+Back}}
+\index{v\+Back@{v\+Back}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v\+Back}{vBack}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\+Back\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a3d18c8c72678abfe638f07483c437b92}\label{class_camera_control_a3d18c8c72678abfe638f07483c437b92}} 
+\index{Camera\+Control@{Camera\+Control}!vbegin@{vbegin}}
+\index{vbegin@{vbegin}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{vbegin}{vbegin}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+vbegin\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Position de départ. 
+
+\mbox{\Hypertarget{class_camera_control_a8bf52cc7231378a27f7f5f0805ee0145}\label{class_camera_control_a8bf52cc7231378a27f7f5f0805ee0145}} 
+\index{Camera\+Control@{Camera\+Control}!v\+Down@{v\+Down}}
+\index{v\+Down@{v\+Down}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v\+Down}{vDown}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\+Down\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a92b1ad2e8e5572f2f4058a4124583a40}\label{class_camera_control_a92b1ad2e8e5572f2f4058a4124583a40}} 
+\index{Camera\+Control@{Camera\+Control}!v\+Forward@{v\+Forward}}
+\index{v\+Forward@{v\+Forward}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v\+Forward}{vForward}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\+Forward\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a7e71f599bbb8a0bf0bb072980445ea07}\label{class_camera_control_a7e71f599bbb8a0bf0bb072980445ea07}} 
+\index{Camera\+Control@{Camera\+Control}!v\+Left@{v\+Left}}
+\index{v\+Left@{v\+Left}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v\+Left}{vLeft}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\+Left\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a63413261e7373457a03491dacfede5d0}\label{class_camera_control_a63413261e7373457a03491dacfede5d0}} 
+\index{Camera\+Control@{Camera\+Control}!v\+Right@{v\+Right}}
+\index{v\+Right@{v\+Right}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v\+Right}{vRight}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\+Right\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a7c3cf2f772a682994001bec237f91d49}\label{class_camera_control_a7c3cf2f772a682994001bec237f91d49}} 
+\index{Camera\+Control@{Camera\+Control}!v\+Up@{v\+Up}}
+\index{v\+Up@{v\+Up}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{v\+Up}{vUp}}
+{\footnotesize\ttfamily Vector3 Camera\+Control.\+v\+Up\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_control_a4080a1d529cac09e1384bb0420ba87d3}\label{class_camera_control_a4080a1d529cac09e1384bb0420ba87d3}} 
+\index{Camera\+Control@{Camera\+Control}!w@{w}}
+\index{w@{w}!Camera\+Control@{Camera\+Control}}
+\subsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int Camera\+Control.\+w = 10\hspace{0.3cm}{\ttfamily [private]}}
+

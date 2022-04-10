@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['toggleshoworhide',['ToggleShowOrHide',['../class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a',1,'MenuVisualizationUI']]],
-  ['trouveglidergun',['trouveGliderGun',['../class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca',1,'Detection']]],
-  ['trouverminivect',['trouverMiniVect',['../class_list_vector_gun.html#a305381e8b2d20184c1894c89d2726b2c',1,'ListVectorGun']]],
-  ['trouvermodelgun',['trouverModelGun',['../class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d',1,'DetectionGun']]],
-  ['typeofdetectionselected',['TypeOfDetectionSelected',['../class_parameters.html#aea7e3963fed0681d7a9f756a5deb52d1',1,'Parameters']]]
+  ['scalethis',['ScaleThis',['../class_text_change.html#a4fa76be59683626a930fc35f76a9c203',1,'TextChange']]],
+  ['setcolor',['setColor',['../class_edit_mode_cell.html#a38e231f9ad9dbee905d575660b77cfe2',1,'EditModeCell']]],
+  ['setdetect',['setDetect',['../class_detection.html#a31fe39fdfc2f5b8c9e92bcfe1c5d6cc0',1,'Detection']]],
+  ['setsize',['SetSize',['../class_detection.html#a43ce2bcef47db14aa4a5a2ff39fee974',1,'Detection']]],
+  ['setstruct',['setStruct',['../class_local_storage.html#aca462b162e1e7185526f4282a7838f40',1,'LocalStorage']]],
+  ['setstructdectf',['setStructDectF',['../class_simulation.html#a93ab4fa0107498061196ce3a051d292d',1,'Simulation']]],
+  ['setstructdectt',['setStructDectT',['../class_simulation.html#a19b96b4354d41349e367d282cc4e88aa',1,'Simulation']]],
+  ['setstructure',['SetStructure',['../class_simulation.html#a775498931843884fbc6c08de3b2b1afd',1,'Simulation']]],
+  ['setvariablesparameters',['SetVariablesParameters',['../class_simulation.html#af1580cd4ce5cb935c5f55ad4ce4f94de',1,'Simulation']]],
+  ['setvoisinage',['setVoisinage',['../class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8',1,'Simulation']]],
+  ['show',['Show',['../class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca',1,'EditModeManager.Show()'],['../class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82',1,'Simulation.Show()']]],
+  ['showdetails',['ShowDetails',['../class_details_structure.html#a43f45ec1bc3888d7db09407d52964352',1,'DetailsStructure']]],
+  ['showorhidevizualisation',['ShowOrHideVizualisation',['../class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca',1,'MenuVisualizationUI']]],
+  ['showsavepanel',['ShowSavePanel',['../class_menu_visualization_u_i.html#aabfef8a72ef59e04916f6d95a1274431',1,'MenuVisualizationUI']]],
+  ['showvizualisation',['ShowVizualisation',['../class_simulation.html#acc3c641f3874f1805c3a13d2153b6023',1,'Simulation']]],
+  ['sousstructure',['sousStructure',['../class_detection_gun.html#af804b47fcbcc2c89bbe17b47eb8f7c47',1,'DetectionGun']]],
+  ['start',['Start',['../class_camera_control.html#af93c098f6ebf3501a41912d88accc1f2',1,'CameraControl.Start()'],['../class_edit_mode_cell.html#a1bdddfef680e9c75c18773d958c9ae82',1,'EditModeCell.Start()'],['../class_edit_mode_manager.html#a4f5385630cfd8a65e1aac37f79b4f8d3',1,'EditModeManager.Start()'],['../class_parameters.html#aa31bc8929b4008944bd7f720bfac9a62',1,'Parameters.Start()'],['../class_text_change.html#a2c9022c92c5bc0756fe5c8196b309b38',1,'TextChange.Start()']]],
+  ['stepforward',['StepForward',['../class_simulation.html#a1ba6581d305c2d60d174e0cffd917719',1,'Simulation']]],
+  ['supp',['supp',['../class_list_vector_gun.html#a92aa301df19a9b1cd5f6e635e6a0c86f',1,'ListVectorGun']]]
 ];

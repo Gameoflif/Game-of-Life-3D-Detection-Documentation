@@ -1,4 +1,5 @@
 <map id="DetectionGun.compareStable" name="DetectionGun.compareStable">
-<area shape="rect" id="node2" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="Déterminer la présence ou l&#39;absence de canons " alt="" coords="245,5,403,32"/>
-<area shape="rect" id="node3" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période " alt="" coords="451,5,624,32"/>
+<area shape="rect" id="node2" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="DÃ©terminer la prÃ©sence ou l&#39;absence de canons " alt="" coords="245,5,403,32"/>
+<area shape="rect" id="node3" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="DÃ©terminer le nombre de canons par leur pÃ©riode. " alt="" coords="451,5,624,32"/>
+<area shape="rect" id="node4" href="$class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="672,5,800,32"/>
 </map>

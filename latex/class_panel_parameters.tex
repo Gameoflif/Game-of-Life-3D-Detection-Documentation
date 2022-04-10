@@ -2,7 +2,7 @@
 \label{class_panel_parameters}\index{Panel\+Parameters@{Panel\+Parameters}}
 
 
-Classe s\textquotesingle{}occupant de l\textquotesingle{}affichage des panneaux sur le panel parameters.  
+Classe s\textquotesingle{}occupant de l\textquotesingle{}affichage des pannels sur le panel parameters.  
 
 
 
@@ -27,18 +27,33 @@ Graphe de collaboration de Panel\+Parameters\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_panel_parameters_aec94ac0de16ac853bd93ee2059e65e78}{Open}} (int ind\+Panel)
-\begin{DoxyCompactList}\small\item\em DÈsactive le panel actuel et active le panel ‡ l\textquotesingle{}indice en paramËtre. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em D√©sactive le panel actuel et active le panel √† l\textquotesingle{}indice en param√®tre. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_panel_parameters_aa39f1cebfe55f942b67b3c5c85d89fe8}{Button\+Close\+On\+Click}} (int ind\+Panel)
-\begin{DoxyCompactList}\small\item\em DÈsactive la panel actuel est active le panel Rule of life. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em D√©sactive la panel actuel est active le panel Rule of life. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_panel_parameters_a649a132c50df46f39a340b3668bddda1}{Close}} (int ind\+Panel)
-\item 
+\begin{DoxyCompactList}\small\item\em Ferme le panel √† l\textquotesingle{}indice entr√©. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_panel_parameters_acd85be34f18d47bef829a55a0acd76bf}{Close\+All}} ()
+\begin{DoxyCompactList}\small\item\em Ferme tous les panels. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs priv√©s}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_panel_parameters_a3acf3dbb1cd826f3c73e8111b5cf8049}{panels}}
+\begin{DoxyCompactList}\small\item\em Liste contenant les indices de tous les pannels du panel parameters. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_panel_parameters_ad8f000554f0e689f3147268570ab50e7}{past\+Panel\+Activ}} = 0
+\begin{DoxyCompactList}\small\item\em Indice du dernier panel actif. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_panel_parameters_a3adf5d5f6e86c189cace2e20f15e3c95}{apply\+Total}}
 \end{DoxyCompactItemize}
 
 
 \subsection{Description d√©taill√©e}
-Classe s\textquotesingle{}occupant de l\textquotesingle{}affichage des panneaux sur le panel parameters. 
+Classe s\textquotesingle{}occupant de l\textquotesingle{}affichage des pannels sur le panel parameters. 
 
+\begin{DoxyAuthor}{Auteur}
+Vincent TU 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+10/04/2022 
+\end{DoxyDate}
 
 
 \subsection{Documentation des fonctions membres}
@@ -50,11 +65,11 @@ Classe s\textquotesingle{}occupant de l\textquotesingle{}affichage des panneaux 
 
 
 
-DÈsactive la panel actuel est active le panel Rule of life. 
+D√©sactive la panel actuel est active le panel Rule of life. 
 
 
 \begin{DoxyParams}{Param√®tres}
-{\em ind\+Panel} & indice du panel ‡ activÈ\\
+{\em ind\+Panel} & indice du panel √† activ√©\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_panel_parameters_a649a132c50df46f39a340b3668bddda1}\label{class_panel_parameters_a649a132c50df46f39a340b3668bddda1}} 
@@ -63,11 +78,24 @@ DÈsactive la panel actuel est active le panel Rule of life.
 \subsubsection{\texorpdfstring{Close()}{Close()}}
 {\footnotesize\ttfamily void Panel\+Parameters.\+Close (\begin{DoxyParamCaption}\item[{int}]{ind\+Panel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+
+
+Ferme le panel √† l\textquotesingle{}indice entr√©. 
+
+
+\begin{DoxyParams}{Param√®tres}
+{\em ind\+Panel} & Indice du panel\\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{class_panel_parameters_acd85be34f18d47bef829a55a0acd76bf}\label{class_panel_parameters_acd85be34f18d47bef829a55a0acd76bf}} 
 \index{Panel\+Parameters@{Panel\+Parameters}!Close\+All@{Close\+All}}
 \index{Close\+All@{Close\+All}!Panel\+Parameters@{Panel\+Parameters}}
 \subsubsection{\texorpdfstring{Close\+All()}{CloseAll()}}
 {\footnotesize\ttfamily void Panel\+Parameters.\+Close\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ferme tous les panels. 
 
 \mbox{\Hypertarget{class_panel_parameters_aec94ac0de16ac853bd93ee2059e65e78}\label{class_panel_parameters_aec94ac0de16ac853bd93ee2059e65e78}} 
 \index{Panel\+Parameters@{Panel\+Parameters}!Open@{Open}}
@@ -77,10 +105,39 @@ DÈsactive la panel actuel est active le panel Rule of life.
 
 
 
-DÈsactive le panel actuel et active le panel ‡ l\textquotesingle{}indice en paramËtre. 
+D√©sactive le panel actuel et active le panel √† l\textquotesingle{}indice en param√®tre. 
 
 
 \begin{DoxyParams}{Param√®tres}
-{\em ind\+Panel} & indice du panel ‡ activÈ\\
+{\em ind\+Panel} & indice du panel √† activ√©\\
 \hline
 \end{DoxyParams}
+
+
+\subsection{Documentation des donn√©es membres}
+\mbox{\Hypertarget{class_panel_parameters_a3adf5d5f6e86c189cace2e20f15e3c95}\label{class_panel_parameters_a3adf5d5f6e86c189cace2e20f15e3c95}} 
+\index{Panel\+Parameters@{Panel\+Parameters}!apply\+Total@{apply\+Total}}
+\index{apply\+Total@{apply\+Total}!Panel\+Parameters@{Panel\+Parameters}}
+\subsubsection{\texorpdfstring{apply\+Total}{applyTotal}}
+{\footnotesize\ttfamily Game\+Object Panel\+Parameters.\+apply\+Total\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_panel_parameters_a3acf3dbb1cd826f3c73e8111b5cf8049}\label{class_panel_parameters_a3acf3dbb1cd826f3c73e8111b5cf8049}} 
+\index{Panel\+Parameters@{Panel\+Parameters}!panels@{panels}}
+\index{panels@{panels}!Panel\+Parameters@{Panel\+Parameters}}
+\subsubsection{\texorpdfstring{panels}{panels}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Panel\+Parameters.\+panels\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Liste contenant les indices de tous les pannels du panel parameters. 
+
+\mbox{\Hypertarget{class_panel_parameters_ad8f000554f0e689f3147268570ab50e7}\label{class_panel_parameters_ad8f000554f0e689f3147268570ab50e7}} 
+\index{Panel\+Parameters@{Panel\+Parameters}!past\+Panel\+Activ@{past\+Panel\+Activ}}
+\index{past\+Panel\+Activ@{past\+Panel\+Activ}!Panel\+Parameters@{Panel\+Parameters}}
+\subsubsection{\texorpdfstring{past\+Panel\+Activ}{pastPanelActiv}}
+{\footnotesize\ttfamily int Panel\+Parameters.\+past\+Panel\+Activ = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indice du dernier panel actif. 
+

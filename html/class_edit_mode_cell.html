@@ -88,13 +88,15 @@ $(document).ready(function(){initNavTree('class_edit_mode_cell.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
 <a href="class_edit_mode_cell-members.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
 <div class="title">Référence de la classe EditModeCell</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Classe repr�sentant la cellule dans l'�diteur de structure. Permet le changement de couleur, de d�tecter si la souris appuie sur la cellule et de transmettre l'information de l'�tat (vivante ou morte) de la structure � <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les méthodes liées à l&#39;éditeur de structure. ">EditModeManager</a>.  
+<p>Classe représentant la cellule dans l'éditeur de structure. Permet le changement de couleur, de détecter si la souris appuie sur la cellule et de transmettre l'information de l'état (vivante ou morte) de la structure à <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les mÃ©thodes liÃ©es Ã  l&#39;Ã©diteur de structure. ">EditModeManager</a>.  
  <a href="class_edit_mode_cell.html#details">Plus de détails...</a></p>
 <div class="dynheader">
 Graphe d'héritage de EditModeCell:</div>
@@ -105,24 +107,83 @@ Graphe d'héritage de EditModeCell:</div>
 Graphe de collaboration de EditModeCell:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_edit_mode_cell__coll__graph.png" border="0" usemap="#_edit_mode_cell_coll__map" alt="Collaboration graph"/></div>
+<map name="_edit_mode_cell_coll__map" id="_edit_mode_cell_coll__map">
+<area shape="rect" id="node3" href="class_edit_mode_manager.html" title="Cette classe regroupe les mÃ©thodes liÃ©es Ã  l&#39;Ã©diteur de structure. " alt="" coords="109,480,235,507"/>
+<area shape="rect" id="node4" href="class_simulation.html" title="Contient toutes les methodes en liens avec la simulation. " alt="" coords="412,391,495,417"/>
+<area shape="rect" id="node5" href="class_detection.html" title="Classe contenant les mÃ©thodes associÃ©es Ã  la dÃ©tection automatique des structures particuliÃ¨res..." alt="" coords="477,301,555,328"/>
+<area shape="rect" id="node6" href="class_details_structure.html" title="Classe permettant de stocker les informations d&#39;une structure. " alt="" coords="553,212,668,239"/>
+<area shape="rect" id="node7" href="class_detection_u_i.html" title="Classe dédié à l&#39;affichage des informations de détéction. " alt="" coords="389,212,478,239"/>
+<area shape="rect" id="node11" href="class_menu_visualization_u_i.html" title="Classe contenant les mÃ©thodes associÃ©es au UI de la simulation et Ã  l&#39;interaction avec le script g..." alt="" coords="474,480,614,507"/>
+<area shape="rect" id="node12" href="class_camera_control.html" title="La classe permettant le control de la caméra " alt="" coords="210,391,318,417"/>
+<area shape="rect" id="node8" href="class_detection_gun.html" title="DetectionGun" alt="" coords="743,212,844,239"/>
+<area shape="rect" id="node9" href="class_list_vector_gun.html" title="Classe outil pour détecter la structure Canon. " alt="" coords="741,5,846,32"/>
+<area shape="rect" id="node10" href="class_local_storage.html" title="LocalStorage" alt="" coords="291,301,389,328"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
-<tr class="memitem:a85064e1ba44195ce0a8fa8c66f8e5ffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a85064e1ba44195ce0a8fa8c66f8e5ffa">Initialize</a> (<a class="el" href="class_edit_mode_manager.html">EditModeManager</a> editModeManager)</td></tr>
+<tr class="memitem:ad4e948c25ee58224ae23fa3288c4f2a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#ad4e948c25ee58224ae23fa3288c4f2a1">OnMouseExit</a> ()</td></tr>
+<tr class="memdesc:ad4e948c25ee58224ae23fa3288c4f2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change la couleur de la cellule lorsque la souris sort du modèle 3D.  <a href="#ad4e948c25ee58224ae23fa3288c4f2a1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad4e948c25ee58224ae23fa3288c4f2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e231f9ad9dbee905d575660b77cfe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a38e231f9ad9dbee905d575660b77cfe2">setColor</a> ()</td></tr>
+<tr class="separator:a38e231f9ad9dbee905d575660b77cfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692f6272d4ef7a51092aef52a599233d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d">OnMouseDown</a> ()</td></tr>
+<tr class="memdesc:a692f6272d4ef7a51092aef52a599233d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Active ou désactive la cellule lors d'un appui avec la souris.  <a href="#a692f6272d4ef7a51092aef52a599233d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a692f6272d4ef7a51092aef52a599233d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85064e1ba44195ce0a8fa8c66f8e5ffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a85064e1ba44195ce0a8fa8c66f8e5ffa">Initialize</a> (<a class="el" href="class_edit_mode_manager.html">EditModeManager</a> <a class="el" href="class_edit_mode_cell.html#ae252461bd35c4e41657659411196652e">editModeManager</a>)</td></tr>
 <tr class="memdesc:a85064e1ba44195ce0a8fa8c66f8e5ffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation de variable.  <a href="#a85064e1ba44195ce0a8fa8c66f8e5ffa">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a85064e1ba44195ce0a8fa8c66f8e5ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a972bc99f957f4a37dcd482162e9762c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a972bc99f957f4a37dcd482162e9762c8">Deactivate</a> ()</td></tr>
-<tr class="memdesc:a972bc99f957f4a37dcd482162e9762c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">D�sactive la cellule et transmet l'information � editModeManager.  <a href="#a972bc99f957f4a37dcd482162e9762c8">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:a972bc99f957f4a37dcd482162e9762c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Désactive la cellule et transmet l'information à editModeManager.  <a href="#a972bc99f957f4a37dcd482162e9762c8">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a972bc99f957f4a37dcd482162e9762c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab29acfb84a03e3d04805cb16ba5b4af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#ab29acfb84a03e3d04805cb16ba5b4af8">Activate</a> ()</td></tr>
-<tr class="memdesc:ab29acfb84a03e3d04805cb16ba5b4af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Active la cellule et transmet l'information � editModeManager.  <a href="#ab29acfb84a03e3d04805cb16ba5b4af8">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:ab29acfb84a03e3d04805cb16ba5b4af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Active la cellule et transmet l'information à editModeManager.  <a href="#ab29acfb84a03e3d04805cb16ba5b4af8">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab29acfb84a03e3d04805cb16ba5b4af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a2438766a46d0b93aba3e92340f51bd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a2438766a46d0b93aba3e92340f51bd10">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a2438766a46d0b93aba3e92340f51bd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lorsque l'objet est désactivé, remet ses variables aux valeurs de défaut.  <a href="#a2438766a46d0b93aba3e92340f51bd10">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2438766a46d0b93aba3e92340f51bd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bdddfef680e9c75c18773d958c9ae82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a1bdddfef680e9c75c18773d958c9ae82">Start</a> ()</td></tr>
+<tr class="separator:a1bdddfef680e9c75c18773d958c9ae82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6101c61c85633c91eee689ebc72536f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#ac6101c61c85633c91eee689ebc72536f">OnMouseEnter</a> ()</td></tr>
+<tr class="memdesc:ac6101c61c85633c91eee689ebc72536f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change la couleur de la cellule lorsque la souris entre dans le modèle 3D.  <a href="#ac6101c61c85633c91eee689ebc72536f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac6101c61c85633c91eee689ebc72536f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:aaf24556f8b30ffb1e373083d8493a899"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#aaf24556f8b30ffb1e373083d8493a899">basicColor</a></td></tr>
+<tr class="memdesc:aaf24556f8b30ffb1e373083d8493a899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Les différentes couleurs de la cellule.  <a href="#aaf24556f8b30ffb1e373083d8493a899">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aaf24556f8b30ffb1e373083d8493a899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e856d0c65c55a1ac98a55b40223b6a"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a62e856d0c65c55a1ac98a55b40223b6a">mouseOnColor</a></td></tr>
+<tr class="separator:a62e856d0c65c55a1ac98a55b40223b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3484f6806cd24f384b787990336fae"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a2e3484f6806cd24f384b787990336fae">activColor</a></td></tr>
+<tr class="separator:a2e3484f6806cd24f384b787990336fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb3699318ad91cdc03c0927f288bedc8"><td class="memItemLeft" align="right" valign="top">Renderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#acb3699318ad91cdc03c0927f288bedc8">rende</a></td></tr>
+<tr class="memdesc:acb3699318ad91cdc03c0927f288bedc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le Renderer permettant d'accéder au material.  <a href="#acb3699318ad91cdc03c0927f288bedc8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acb3699318ad91cdc03c0927f288bedc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae89eac1aaea10fb850196b612fe87943"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#ae89eac1aaea10fb850196b612fe87943">isActiv</a></td></tr>
+<tr class="memdesc:ae89eac1aaea10fb850196b612fe87943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booléen, true lorsque la cellule est vivante, false sinon.  <a href="#ae89eac1aaea10fb850196b612fe87943">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae89eac1aaea10fb850196b612fe87943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ebd1044db2dccb93529443dae41e3e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a4ebd1044db2dccb93529443dae41e3e8">onMouse</a></td></tr>
+<tr class="memdesc:a4ebd1044db2dccb93529443dae41e3e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booléen, true lorsque la souris est sur la cellule false sinon.  <a href="#a4ebd1044db2dccb93529443dae41e3e8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4ebd1044db2dccb93529443dae41e3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae252461bd35c4e41657659411196652e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_edit_mode_manager.html">EditModeManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#ae252461bd35c4e41657659411196652e">editModeManager</a></td></tr>
+<tr class="memdesc:ae252461bd35c4e41657659411196652e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stocke l'instance de la classe <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les mÃ©thodes liÃ©es Ã  l&#39;Ã©diteur de structure. ">EditModeManager</a> pour pouvoir signaler que la cellule est devenu vivante.  <a href="#ae252461bd35c4e41657659411196652e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae252461bd35c4e41657659411196652e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218a9e576e1ad84cd0268f0f0009d628"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a218a9e576e1ad84cd0268f0f0009d628">deadScale</a> = 0.5f</td></tr>
+<tr class="memdesc:a218a9e576e1ad84cd0268f0f0009d628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taille de la cellule morte.  <a href="#a218a9e576e1ad84cd0268f0f0009d628">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a218a9e576e1ad84cd0268f0f0009d628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c89ea3030a80cb4f2e26accd00c2cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_edit_mode_cell.html#a80c89ea3030a80cb4f2e26accd00c2cb">lifeScale</a> = 1</td></tr>
+<tr class="memdesc:a80c89ea3030a80cb4f2e26accd00c2cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taille de la cellule en vie.  <a href="#a80c89ea3030a80cb4f2e26accd00c2cb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a80c89ea3030a80cb4f2e26accd00c2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
-<div class="textblock"><p>Classe repr�sentant la cellule dans l'�diteur de structure. Permet le changement de couleur, de d�tecter si la souris appuie sur la cellule et de transmettre l'information de l'�tat (vivante ou morte) de la structure � <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les méthodes liées à l&#39;éditeur de structure. ">EditModeManager</a>. </p>
-<dl class="section author"><dt>Auteur</dt><dd>GROUTEAU Dorian, TU Vincent </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08/04/2022 </dd></dl>
+<div class="textblock"><p>Classe représentant la cellule dans l'éditeur de structure. Permet le changement de couleur, de détecter si la souris appuie sur la cellule et de transmettre l'information de l'état (vivante ou morte) de la structure à <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les mÃ©thodes liÃ©es Ã  l&#39;Ã©diteur de structure. ">EditModeManager</a>. </p>
+<dl class="section author"><dt>Auteur</dt><dd>GROUTEAU Dorian, TU Vincent,TIAN Ning, QIN Yi </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09/04/2022 </dd></dl>
 </div><h2 class="groupheader">Documentation des fonctions membres</h2>
 <a id="ab29acfb84a03e3d04805cb16ba5b4af8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab29acfb84a03e3d04805cb16ba5b4af8">&#9670;&nbsp;</a></span>Activate()</h2>
@@ -147,13 +208,23 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Active la cellule et transmet l'information � editModeManager. </p>
+<p>Active la cellule et transmet l'information à editModeManager. </p>
 <div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_cgraph.png" border="0" usemap="#class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_cgraph" alt=""/></div>
 <map name="class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_cgraph" id="class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_cgraph">
 <area shape="rect" id="node2" href="class_edit_mode_manager.html#a9f9fbe57f5bbb6b90dc1dc321d411c54" title="Ajoute la position de la cellule comme position d&#39;une cellule vivante dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 1. " alt="" coords="203,5,379,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_icgraph.png" border="0" usemap="#class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_icgraph" alt=""/></div>
+<map name="class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_icgraph" id="class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_icgraph">
+<area shape="rect" id="node2" href="class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d" title="Active ou désactive la cellule lors d&#39;un appui avec la souris. " alt="" coords="203,42,393,69"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="448,5,628,47"/>
+<area shape="rect" id="node4" href="class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="441,71,635,98"/>
 </map>
 </div>
 
@@ -182,13 +253,23 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>D�sactive la cellule et transmet l'information � editModeManager. </p>
+<p>Désactive la cellule et transmet l'information à editModeManager. </p>
 <div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_cgraph.png" border="0" usemap="#class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_cgraph" alt=""/></div>
 <map name="class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_cgraph" id="class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_cgraph">
 <area shape="rect" id="node2" href="class_edit_mode_manager.html#a8a8c1a3a9558fbbcfa7c15d8ce48a264" title="Ajoute la position de la cellule comme position d&#39;une cellule morte dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 0. " alt="" coords="216,5,415,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_icgraph.png" border="0" usemap="#class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_icgraph" alt=""/></div>
+<map name="class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_icgraph" id="class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_icgraph">
+<area shape="rect" id="node2" href="class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d" title="Active ou désactive la cellule lors d&#39;un appui avec la souris. " alt="" coords="216,42,407,69"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="461,5,641,47"/>
+<area shape="rect" id="node4" href="class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="455,71,648,98"/>
 </map>
 </div>
 
@@ -221,7 +302,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <p>Initialisation de variable. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">editModeManager</td><td>L'instance de <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les méthodes liées à l&#39;éditeur de structure. ">EditModeManager</a>.</td></tr>
+    <tr><td class="paramname">editModeManager</td><td>L'instance de <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les mÃ©thodes liÃ©es Ã  l&#39;Ã©diteur de structure. ">EditModeManager</a>.</td></tr>
   </table>
   </dd>
 </dl>
@@ -230,12 +311,414 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa_icgraph.png" border="0" usemap="#class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa_icgraph" alt=""/></div>
 <map name="class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa_icgraph" id="class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa_icgraph">
-<area shape="rect" id="node2" href="class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris..." alt="" coords="204,23,383,65"/>
+<area shape="rect" id="node2" href="class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intÃ©raction avec la souris..." alt="" coords="204,23,383,65"/>
 <area shape="rect" id="node3" href="class_edit_mode_manager.html#afc8be75da1a5042fcf78b0e9bf1e2108" title="Toutes les cellules redeviennent mortes. " alt="" coords="431,5,631,32"/>
-<area shape="rect" id="node4" href="class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;éditeur de structure. " alt="" coords="449,56,612,83"/>
-<area shape="rect" id="node5" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="679,56,857,83"/>
+<area shape="rect" id="node4" href="class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;Ã©diteur de structure. " alt="" coords="449,56,612,83"/>
+<area shape="rect" id="node5" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="679,56,857,83"/>
+<area shape="rect" id="node6" href="class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="914,27,1081,53"/>
+<area shape="rect" id="node7" href="class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="905,78,1089,119"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a2438766a46d0b93aba3e92340f51bd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2438766a46d0b93aba3e92340f51bd10">&#9670;&nbsp;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditModeCell.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lorsque l'objet est désactivé, remet ses variables aux valeurs de défaut. </p>
+
+</div>
+</div>
+<a id="a692f6272d4ef7a51092aef52a599233d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692f6272d4ef7a51092aef52a599233d">&#9670;&nbsp;</a></span>OnMouseDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditModeCell.OnMouseDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Active ou désactive la cellule lors d'un appui avec la souris. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_cgraph.png" border="0" usemap="#class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_cgraph" alt=""/></div>
+<map name="class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_cgraph" id="class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_cgraph">
+<area shape="rect" id="node2" href="class_edit_mode_cell.html#ab29acfb84a03e3d04805cb16ba5b4af8" title="Active la cellule et transmet l&#39;information à editModeManager. " alt="" coords="251,5,400,32"/>
+<area shape="rect" id="node4" href="class_edit_mode_cell.html#a972bc99f957f4a37dcd482162e9762c8" title="Désactive la cellule et transmet l&#39;information à editModeManager. " alt="" coords="244,56,407,83"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#a9f9fbe57f5bbb6b90dc1dc321d411c54" title="Ajoute la position de la cellule comme position d&#39;une cellule vivante dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 1. " alt="" coords="466,5,642,32"/>
+<area shape="rect" id="node5" href="class_edit_mode_manager.html#a8a8c1a3a9558fbbcfa7c15d8ce48a264" title="Ajoute la position de la cellule comme position d&#39;une cellule morte dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 0. " alt="" coords="455,56,653,83"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_icgraph.png" border="0" usemap="#class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_icgraph" alt=""/></div>
+<map name="class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_icgraph" id="class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_icgraph">
+<area shape="rect" id="node2" href="class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="251,5,431,47"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="244,71,437,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac6101c61c85633c91eee689ebc72536f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6101c61c85633c91eee689ebc72536f">&#9670;&nbsp;</a></span>OnMouseEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditModeCell.OnMouseEnter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change la couleur de la cellule lorsque la souris entre dans le modèle 3D. </p>
+
+</div>
+</div>
+<a id="ad4e948c25ee58224ae23fa3288c4f2a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e948c25ee58224ae23fa3288c4f2a1">&#9670;&nbsp;</a></span>OnMouseExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditModeCell.OnMouseExit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change la couleur de la cellule lorsque la souris sort du modèle 3D. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1_icgraph.png" border="0" usemap="#class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1_icgraph" alt=""/></div>
+<map name="class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1_icgraph" id="class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1_icgraph">
+<area shape="rect" id="node2" href="class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="243,5,423,47"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="236,71,429,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a38e231f9ad9dbee905d575660b77cfe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e231f9ad9dbee905d575660b77cfe2">&#9670;&nbsp;</a></span>setColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditModeCell.setColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bdddfef680e9c75c18773d958c9ae82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bdddfef680e9c75c18773d958c9ae82">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditModeCell.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a2e3484f6806cd24f384b787990336fae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3484f6806cd24f384b787990336fae">&#9670;&nbsp;</a></span>activColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color EditModeCell.activColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf24556f8b30ffb1e373083d8493a899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf24556f8b30ffb1e373083d8493a899">&#9670;&nbsp;</a></span>basicColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color EditModeCell.basicColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Les différentes couleurs de la cellule. </p>
+
+</div>
+</div>
+<a id="a218a9e576e1ad84cd0268f0f0009d628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218a9e576e1ad84cd0268f0f0009d628">&#9670;&nbsp;</a></span>deadScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EditModeCell.deadScale = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Taille de la cellule morte. </p>
+
+</div>
+</div>
+<a id="ae252461bd35c4e41657659411196652e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae252461bd35c4e41657659411196652e">&#9670;&nbsp;</a></span>editModeManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_edit_mode_manager.html">EditModeManager</a> EditModeCell.editModeManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stocke l'instance de la classe <a class="el" href="class_edit_mode_manager.html" title="Cette classe regroupe les mÃ©thodes liÃ©es Ã  l&#39;Ã©diteur de structure. ">EditModeManager</a> pour pouvoir signaler que la cellule est devenu vivante. </p>
+
+</div>
+</div>
+<a id="ae89eac1aaea10fb850196b612fe87943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae89eac1aaea10fb850196b612fe87943">&#9670;&nbsp;</a></span>isActiv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EditModeCell.isActiv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Booléen, true lorsque la cellule est vivante, false sinon. </p>
+
+</div>
+</div>
+<a id="a80c89ea3030a80cb4f2e26accd00c2cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c89ea3030a80cb4f2e26accd00c2cb">&#9670;&nbsp;</a></span>lifeScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EditModeCell.lifeScale = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Taille de la cellule en vie. </p>
+
+</div>
+</div>
+<a id="a62e856d0c65c55a1ac98a55b40223b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e856d0c65c55a1ac98a55b40223b6a">&#9670;&nbsp;</a></span>mouseOnColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color EditModeCell.mouseOnColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ebd1044db2dccb93529443dae41e3e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ebd1044db2dccb93529443dae41e3e8">&#9670;&nbsp;</a></span>onMouse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EditModeCell.onMouse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Booléen, true lorsque la souris est sur la cellule false sinon. </p>
+
+</div>
+</div>
+<a id="acb3699318ad91cdc03c0927f288bedc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb3699318ad91cdc03c0927f288bedc8">&#9670;&nbsp;</a></span>rende</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Renderer EditModeCell.rende</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le Renderer permettant d'accéder au material. </p>
 
 </div>
 </div>

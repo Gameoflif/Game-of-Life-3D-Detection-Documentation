@@ -1,2 +1,12 @@
 <map id="EditModeManager" name="EditModeManager">
+<area shape="rect" id="node12" href="$class_edit_mode_cell.html" title="Classe représentant la cellule dans l&#39;éditeur de structure. Permet le changement de couleur..." alt="" coords="582,569,681,596"/>
+<area shape="rect" id="node3" href="$class_simulation.html" title="Contient toutes les methodes en liens avec la simulation. " alt="" coords="306,391,389,417"/>
+<area shape="rect" id="node4" href="$class_detection.html" title="Classe contenant les mÃ©thodes associÃ©es Ã  la dÃ©tection automatique des structures particuliÃ¨res..." alt="" coords="202,301,279,328"/>
+<area shape="rect" id="node5" href="$class_details_structure.html" title="Classe permettant de stocker les informations d&#39;une structure. " alt="" coords="197,212,311,239"/>
+<area shape="rect" id="node6" href="$class_detection_u_i.html" title="Classe dédié à l&#39;affichage des informations de détéction. " alt="" coords="336,212,425,239"/>
+<area shape="rect" id="node10" href="$class_menu_visualization_u_i.html" title="Classe contenant les mÃ©thodes associÃ©es au UI de la simulation et Ã  l&#39;interaction avec le script g..." alt="" coords="337,480,477,507"/>
+<area shape="rect" id="node11" href="$class_camera_control.html" title="La classe permettant le control de la caméra " alt="" coords="552,391,660,417"/>
+<area shape="rect" id="node7" href="$class_detection_gun.html" title="DetectionGun" alt="" coords="14,212,115,239"/>
+<area shape="rect" id="node8" href="$class_list_vector_gun.html" title="Classe outil pour détecter la structure Canon. " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node9" href="$class_local_storage.html" title="LocalStorage" alt="" coords="303,301,402,328"/>
 </map>

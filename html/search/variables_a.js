@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['namefile',['nameFile',['../class_parameters.html#a70300043b336ebaf786ae92efe9d215f',1,'Parameters']]],
-  ['nu',['nu',['../class_simulation.html#a2766dce78dbc1f3c20353f02f57103e1',1,'Simulation']]]
+  ['m',['m',['../class_local_storage.html#aa0b0024033d7e584459a0f278c1214c7',1,'LocalStorage']]],
+  ['maxagecellcolor',['maxAgeCellColor',['../class_simulation.html#ad7b1f3e5fcdb993f152bc37f952c08d6',1,'Simulation']]],
+  ['maxdegrex',['maxDegreX',['../class_camera_control.html#ad9804e1cf6d924768e6484ab8a0c34fa',1,'CameraControl']]],
+  ['maxdegrey',['maxDegreY',['../class_camera_control.html#a08f75fdf96fae8ac44850764c10085ac',1,'CameraControl']]],
+  ['maxgen',['maxGen',['../class_parameters.html#acf7e3f320861b82f33752991e1dc2468',1,'Parameters.maxGen()'],['../class_simulation.html#ace7b43c186833b6babd2f131eb705ebb',1,'Simulation.maxGen()']]],
+  ['maxgennumber',['maxGenNumber',['../class_parameters.html#ab2aae264b2829322043e1b23394bc996',1,'Parameters']]],
+  ['maxgenread',['maxGenRead',['../class_simulation.html#ad4dd940ecc0d68275e9db930991494ee',1,'Simulation']]],
+  ['maxperioddetection',['maxPeriodDetection',['../class_detection.html#a98167fc0f3e26398cfd51f95b6a64e72',1,'Detection']]],
+  ['memestrut',['memeStrut',['../class_detection_gun.html#a6a857de3141815652dbddd373919aeba',1,'DetectionGun']]],
+  ['menutrans',['menuTrans',['../class_menu_visualization_u_i.html#a491555371450cb31cfb730f16ab5a0bd',1,'MenuVisualizationUI']]],
+  ['menuvisualizationui',['menuVisualizationUI',['../class_navigation.html#affdf26928cacf9c7582cb21ff6bf85dd',1,'Navigation.menuVisualizationUI()'],['../class_simulation.html#affdff461f776f637b6439c04b0984fac',1,'Simulation.menuVisualizationUI()']]],
+  ['mindegrex',['minDegreX',['../class_camera_control.html#a116fb7ac920ed4c84894420690b15174',1,'CameraControl']]],
+  ['mindegrey',['minDegreY',['../class_camera_control.html#a7e187cb1ebfb3675d77110a8f1b99d83',1,'CameraControl']]],
+  ['model',['model',['../class_detection_gun.html#a0c8ad0d86d7f0a02de8a120cffae1337',1,'DetectionGun']]],
+  ['modelgun',['modelGun',['../class_detection.html#ae14cf1144858a30db9892e36723e9795',1,'Detection.modelGun()'],['../class_detection_gun.html#a16ab75a168175f740485361be785bfda',1,'DetectionGun.modelGun()']]],
+  ['mouseoncolor',['mouseOnColor',['../class_edit_mode_cell.html#a62e856d0c65c55a1ac98a55b40223b6a',1,'EditModeCell']]],
+  ['movespeed',['moveSpeed',['../class_camera_control.html#a9f3b5fd423d7a84a3014b7fd1d9ec254',1,'CameraControl.moveSpeed()'],['../class_menu_visualization_u_i.html#a13e28cb9219cab1e48b80d75be689603',1,'MenuVisualizationUI.moveSpeed()']]]
 ];

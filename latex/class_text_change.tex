@@ -2,7 +2,7 @@
 \label{class_text_change}\index{Text\+Change@{Text\+Change}}
 
 
-Classe permet d\textquotesingle{}afficher le bouton apr�s un certain temps (\char`\"{}le jeu de la vie\char`\"{} devient plus petit).  
+Classe permet d\textquotesingle{}afficher le bouton après un certain temps (\char`\"{}le jeu de la vie\char`\"{} devient plus petit).  
 
 
 
@@ -23,18 +23,70 @@ Graphe de collaboration de Text\+Change\+:\nopagebreak
 \includegraphics[width=163pt]{class_text_change__coll__graph}
 \end{center}
 \end{figure}
-\subsection*{Attributs publics}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_text_change_a2c9022c92c5bc0756fe5c8196b309b38}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Utiliser la méthode \+: \mbox{\hyperlink{class_text_change_a4fa76be59683626a930fc35f76a9c203}{Scale\+This( )}}. \end{DoxyCompactList}\item 
+I\+Enumerator \mbox{\hyperlink{class_text_change_a4fa76be59683626a930fc35f76a9c203}{Scale\+This}} ()
+\begin{DoxyCompactList}\small\item\em Afficher le boutton après une certaine période de temps. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
 \begin{DoxyCompactItemize}
 \item 
 float \mbox{\hyperlink{class_text_change_a84ee21ec41dff49dfe0afed07f2c6988}{stop\+Scale}} = 20f
-\item 
+\begin{DoxyCompactList}\small\item\em Le délai. \end{DoxyCompactList}\item 
 Game\+Object \mbox{\hyperlink{class_text_change_a2db3747c923cba0a53f035fc0c536ee2}{play\+Button}}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Le bouton play. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-Classe permet d\textquotesingle{}afficher le bouton apr�s un certain temps (\char`\"{}le jeu de la vie\char`\"{} devient plus petit). 
+Classe permet d\textquotesingle{}afficher le bouton après un certain temps (\char`\"{}le jeu de la vie\char`\"{} devient plus petit). 
 
+\begin{DoxyAuthor}{Auteur}
+Q\+IN Yi, TU Vincent 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+10/04/2022 
+\end{DoxyDate}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_text_change_a4fa76be59683626a930fc35f76a9c203}\label{class_text_change_a4fa76be59683626a930fc35f76a9c203}} 
+\index{Text\+Change@{Text\+Change}!Scale\+This@{Scale\+This}}
+\index{Scale\+This@{Scale\+This}!Text\+Change@{Text\+Change}}
+\subsubsection{\texorpdfstring{Scale\+This()}{ScaleThis()}}
+{\footnotesize\ttfamily I\+Enumerator Text\+Change.\+Scale\+This (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Afficher le boutton après une certaine période de temps. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_text_change_a4fa76be59683626a930fc35f76a9c203_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_text_change_a2c9022c92c5bc0756fe5c8196b309b38}\label{class_text_change_a2c9022c92c5bc0756fe5c8196b309b38}} 
+\index{Text\+Change@{Text\+Change}!Start@{Start}}
+\index{Start@{Start}!Text\+Change@{Text\+Change}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Text\+Change.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Utiliser la méthode \+: \mbox{\hyperlink{class_text_change_a4fa76be59683626a930fc35f76a9c203}{Scale\+This( )}}. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_text_change_a2c9022c92c5bc0756fe5c8196b309b38_cgraph}
+\end{center}
+\end{figure}
 
 
 \subsection{Documentation des données membres}
@@ -42,11 +94,19 @@ Classe permet d\textquotesingle{}afficher le bouton apr�s un certain temps (\cha
 \index{Text\+Change@{Text\+Change}!play\+Button@{play\+Button}}
 \index{play\+Button@{play\+Button}!Text\+Change@{Text\+Change}}
 \subsubsection{\texorpdfstring{play\+Button}{playButton}}
-{\footnotesize\ttfamily Game\+Object Text\+Change.\+play\+Button}
+{\footnotesize\ttfamily Game\+Object Text\+Change.\+play\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le bouton play. 
 
 \mbox{\Hypertarget{class_text_change_a84ee21ec41dff49dfe0afed07f2c6988}\label{class_text_change_a84ee21ec41dff49dfe0afed07f2c6988}} 
 \index{Text\+Change@{Text\+Change}!stop\+Scale@{stop\+Scale}}
 \index{stop\+Scale@{stop\+Scale}!Text\+Change@{Text\+Change}}
 \subsubsection{\texorpdfstring{stop\+Scale}{stopScale}}
-{\footnotesize\ttfamily float Text\+Change.\+stop\+Scale = 20f}
+{\footnotesize\ttfamily float Text\+Change.\+stop\+Scale = 20f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le délai. 
 

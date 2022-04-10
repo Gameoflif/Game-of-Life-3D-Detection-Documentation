@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('class_inf_struct.html','');});
   <div class="summary">
 <a href="#pub-types">Types publics</a> &#124;
 <a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
 <a href="class_inf_struct-members.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
 <div class="title">Référence de la classe InfStruct</div>  </div>
@@ -109,12 +110,21 @@ Types publics</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
-<tr class="memitem:a6f047bafac021b8e3bf0db31f0715292"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inf_struct.html#a6f047bafac021b8e3bf0db31f0715292">InfStruct</a> (<a class="el" href="class_inf_struct.html#a8ae868ec37f73a12d478505a728fcbfd">TypeStruct</a> type, int period)</td></tr>
+<tr class="memitem:a6f047bafac021b8e3bf0db31f0715292"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inf_struct.html#a6f047bafac021b8e3bf0db31f0715292">InfStruct</a> (<a class="el" href="class_inf_struct.html#a8ae868ec37f73a12d478505a728fcbfd">TypeStruct</a> <a class="el" href="class_inf_struct.html#ab5f36d712d31a76be0d829cc8cc55fa6">type</a>, int <a class="el" href="class_inf_struct.html#aca18a5c2da38d672b4129d46a2250a8a">period</a>)</td></tr>
 <tr class="memdesc:a6f047bafac021b8e3bf0db31f0715292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur pour initialiser les informations d'une structure.  <a href="#a6f047bafac021b8e3bf0db31f0715292">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a6f047bafac021b8e3bf0db31f0715292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a6c689c22b39d642a9e44deab28c01"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inf_struct.html#a56a6c689c22b39d642a9e44deab28c01">GiveDetails</a> ()</td></tr>
-<tr class="memdesc:a56a6c689c22b39d642a9e44deab28c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renvoie les informations de la structure sous forme de cha�ne.  <a href="#a56a6c689c22b39d642a9e44deab28c01">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:a56a6c689c22b39d642a9e44deab28c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renvoie les informations de la structure sous forme de chaîne.  <a href="#a56a6c689c22b39d642a9e44deab28c01">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a56a6c689c22b39d642a9e44deab28c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:aca18a5c2da38d672b4129d46a2250a8a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inf_struct.html#aca18a5c2da38d672b4129d46a2250a8a">period</a></td></tr>
+<tr class="memdesc:aca18a5c2da38d672b4129d46a2250a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">La période de la structure.  <a href="#aca18a5c2da38d672b4129d46a2250a8a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aca18a5c2da38d672b4129d46a2250a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f36d712d31a76be0d829cc8cc55fa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_inf_struct.html#a8ae868ec37f73a12d478505a728fcbfd">TypeStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inf_struct.html#ab5f36d712d31a76be0d829cc8cc55fa6">type</a></td></tr>
+<tr class="memdesc:ab5f36d712d31a76be0d829cc8cc55fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le type de la structure.  <a href="#ab5f36d712d31a76be0d829cc8cc55fa6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab5f36d712d31a76be0d829cc8cc55fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p>Classe permettant de stocker les informations d'une structure. </p>
@@ -189,7 +199,7 @@ Fonctions membres publiques</h2></td></tr>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Le type de la structure.</td></tr>
-    <tr><td class="paramname">period</td><td>La p�riode de la structure.</td></tr>
+    <tr><td class="paramname">period</td><td>La période de la structure.</td></tr>
   </table>
   </dd>
 </dl>
@@ -220,8 +230,57 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Renvoie les informations de la structure sous forme de cha�ne. </p>
+<p>Renvoie les informations de la structure sous forme de chaîne. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Les informations de la structure.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="aca18a5c2da38d672b4129d46a2250a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca18a5c2da38d672b4129d46a2250a8a">&#9670;&nbsp;</a></span>period</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InfStruct.period</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La période de la structure. </p>
+
+</div>
+</div>
+<a id="ab5f36d712d31a76be0d829cc8cc55fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f36d712d31a76be0d829cc8cc55fa6">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_inf_struct.html#a8ae868ec37f73a12d478505a728fcbfd">TypeStruct</a> InfStruct.type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le type de la structure. </p>
 
 </div>
 </div>

@@ -1,0 +1,8 @@
+<map id="EditModeManager.goRandom" name="EditModeManager.goRandom">
+<area shape="rect" id="node2" href="$class_edit_mode_manager.html#a9f9fbe57f5bbb6b90dc1dc321d411c54" title="Ajoute la position de la cellule comme position d&#39;une cellule vivante dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 1. " alt="" coords="707,5,883,32"/>
+<area shape="rect" id="node3" href="$class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d" title="Active ou désactive la cellule lors d&#39;un appui avec la souris. " alt="" coords="247,31,437,57"/>
+<area shape="rect" id="node7" href="$class_edit_mode_cell.html#ad4e948c25ee58224ae23fa3288c4f2a1" title="Change la couleur de la cellule lorsque la souris sort du modèle 3D. " alt="" coords="251,81,433,108"/>
+<area shape="rect" id="node4" href="$class_edit_mode_cell.html#ab29acfb84a03e3d04805cb16ba5b4af8" title="Active la cellule et transmet l&#39;information à editModeManager. " alt="" coords="492,31,641,57"/>
+<area shape="rect" id="node5" href="$class_edit_mode_cell.html#a972bc99f957f4a37dcd482162e9762c8" title="Désactive la cellule et transmet l&#39;information à editModeManager. " alt="" coords="485,81,648,108"/>
+<area shape="rect" id="node6" href="$class_edit_mode_manager.html#a8a8c1a3a9558fbbcfa7c15d8ce48a264" title="Ajoute la position de la cellule comme position d&#39;une cellule morte dans cellsVolumeLife. A la position de la cellule dans le tableau, la valeur devient 0. " alt="" coords="696,81,895,108"/>
+</map>

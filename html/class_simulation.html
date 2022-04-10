@@ -89,36 +89,43 @@ $(document).ready(function(){initNavTree('class_simulation.html','');});
   <div class="summary">
 <a href="#pub-methods">Fonctions membres publiques</a> &#124;
 <a href="#pub-attribs">Attributs publics</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
 <a href="class_simulation-members.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
 <div class="title">Référence de la classe Simulation</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p> 
+<p>Contient toutes les methodes en liens avec la simulation.  
  <a href="class_simulation.html#details">Plus de détails...</a></p>
 <div class="dynheader">
 Graphe d'héritage de Simulation:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation__inherit__graph.png" border="0" usemap="#_simulation_inherit__map" alt="Inheritance graph"/></div>
-<map name="_simulation_inherit__map" id="_simulation_inherit__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
 <div class="dynheader">
 Graphe de collaboration de Simulation:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation__coll__graph.png" border="0" usemap="#_simulation_coll__map" alt="Collaboration graph"/></div>
 <map name="_simulation_coll__map" id="_simulation_coll__map">
-<area shape="rect" id="node3" href="class_local_storage.html" title="LocalStorage" alt="" coords="141,5,239,32"/>
+<area shape="rect" id="node9" href="class_menu_visualization_u_i.html" title="Classe contenant les mÃ©thodes associÃ©es au UI de la simulation et Ã  l&#39;interaction avec le script g..." alt="" coords="372,492,512,519"/>
+<area shape="rect" id="node3" href="class_detection.html" title="Classe contenant les mÃ©thodes associÃ©es Ã  la dÃ©tection automatique des structures particuliÃ¨res..." alt="" coords="215,313,293,340"/>
+<area shape="rect" id="node4" href="class_details_structure.html" title="Classe permettant de stocker les informations d&#39;une structure. " alt="" coords="197,212,311,239"/>
+<area shape="rect" id="node5" href="class_detection_u_i.html" title="Classe dédié à l&#39;affichage des informations de détéction. " alt="" coords="336,212,425,239"/>
+<area shape="rect" id="node10" href="class_camera_control.html" title="La classe permettant le control de la caméra " alt="" coords="535,263,643,289"/>
+<area shape="rect" id="node6" href="class_detection_gun.html" title="DetectionGun" alt="" coords="14,212,115,239"/>
+<area shape="rect" id="node7" href="class_list_vector_gun.html" title="Classe outil pour détecter la structure Canon. " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node8" href="class_local_storage.html" title="LocalStorage" alt="" coords="93,313,191,340"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
-<tr class="memitem:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af1580cd4ce5cb935c5f55ad4ce4f94de">SetVariablesParameters</a> (bool changeVolume, int h, int w, int l, int maxGen, bool random, float threshhold, Voisinage2 voisinage, int[] bornRule, int[] surviveRule, bool <a class="el" href="class_simulation.html#a0d34073239ee6afd6c15327ae9f249bb">toro</a>, bool useDetection, bool useDetectionStable, bool useDetectionOscill, bool useDetectionGlider, bool <a class="el" href="class_simulation.html#a2106f84d6bf1aec6e3d852e4a4432217">useDetectCanon</a>, int periodMax, bool useDependencies)</td></tr>
-<tr class="memdesc:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de transmettre de <a class="el" href="class_parameters.html">Parameters</a> à Simulation2 les différentes valeurs des variables.  <a href="#af1580cd4ce5cb935c5f55ad4ce4f94de">Plus de détails...</a><br /></td></tr>
+<tr class="memitem:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af1580cd4ce5cb935c5f55ad4ce4f94de">SetVariablesParameters</a> (bool changeVolume, int <a class="el" href="class_simulation.html#a66b52a85390c56f61bdd9f8dcf112608">h</a>, int <a class="el" href="class_simulation.html#ae5fbb318a6156864c54a36380ff54a23">w</a>, int <a class="el" href="class_simulation.html#ae57d3ef4739c9bfee92f26318c848b61">l</a>, int <a class="el" href="class_simulation.html#ace7b43c186833b6babd2f131eb705ebb">maxGen</a>, bool <a class="el" href="class_simulation.html#aedb9a065e068f5a643f6cb40b82942da">random</a>, float <a class="el" href="class_simulation.html#a6ea09f230373dac17ac214fd287b697f">threshhold</a>, Voisinage2 <a class="el" href="class_simulation.html#abace05fc32d6e12236e7e272a901df49">voisinage</a>, int[] <a class="el" href="class_simulation.html#a6669b07eee108268664786cefe871ecc">bornRule</a>, int[] <a class="el" href="class_simulation.html#afd9ae047431cdaa8de58cd9a442dcf18">surviveRule</a>, bool <a class="el" href="class_simulation.html#a0d34073239ee6afd6c15327ae9f249bb">toro</a>, bool useDetection, bool useDetectionStable, bool useDetectionOscill, bool useDetectionGlider, bool <a class="el" href="class_simulation.html#a2106f84d6bf1aec6e3d852e4a4432217">useDetectCanon</a>, int periodMax, bool useDependencies)</td></tr>
+<tr class="memdesc:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de transmettre de <a class="el" href="class_parameters.html" title="Gestion des paramÃ¨tres du logiciel. ">Parameters</a> à Simulation2 les différentes valeurs des variables.  <a href="#af1580cd4ce5cb935c5f55ad4ce4f94de">Plus de détails...</a><br /></td></tr>
 <tr class="separator:af1580cd4ce5cb935c5f55ad4ce4f94de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b96b4354d41349e367d282cc4e88aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a19b96b4354d41349e367d282cc4e88aa">setStructDectT</a> (int h, int w, int l, int periode, int[][,,] structDect)</td></tr>
+<tr class="memitem:a19b96b4354d41349e367d282cc4e88aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a19b96b4354d41349e367d282cc4e88aa">setStructDectT</a> (int <a class="el" href="class_simulation.html#a66b52a85390c56f61bdd9f8dcf112608">h</a>, int <a class="el" href="class_simulation.html#ae5fbb318a6156864c54a36380ff54a23">w</a>, int <a class="el" href="class_simulation.html#ae57d3ef4739c9bfee92f26318c848b61">l</a>, int <a class="el" href="class_simulation.html#aee455a3c4114262af0c5242aa26ea779">periode</a>, int[][,,] structDect)</td></tr>
 <tr class="separator:a19b96b4354d41349e367d282cc4e88aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93ab4fa0107498061196ce3a051d292d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a93ab4fa0107498061196ce3a051d292d">setStructDectF</a> ()</td></tr>
 <tr class="separator:a93ab4fa0107498061196ce3a051d292d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,7 +136,7 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memdesc:aff8ad1d9fe429a08bf0d42f52b08b71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la génération) à 0.  <a href="#aff8ad1d9fe429a08bf0d42f52b08b71b">Plus de détails...</a><br /></td></tr>
 <tr class="separator:aff8ad1d9fe429a08bf0d42f52b08b71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5fd57d6f657f07bc0fac7085832dc82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82">Show</a> ()</td></tr>
-<tr class="memdesc:af5fd57d6f657f07bc0fac7085832dc82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Montre les cubes et changent leur couleur en fonction de leur age.  <a href="#af5fd57d6f657f07bc0fac7085832dc82">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:af5fd57d6f657f07bc0fac7085832dc82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Montre les cubes et changent leur couleur en fonction de leur âge.  <a href="#af5fd57d6f657f07bc0fac7085832dc82">Plus de détails...</a><br /></td></tr>
 <tr class="separator:af5fd57d6f657f07bc0fac7085832dc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab668bfea667549d1295fc55f5ccfbc4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ab668bfea667549d1295fc55f5ccfbc4a">PauseOrPlay</a> (bool pause)</td></tr>
 <tr class="memdesc:ab668bfea667549d1295fc55f5ccfbc4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mets en pause ou en play la simulation.  <a href="#ab668bfea667549d1295fc55f5ccfbc4a">Plus de détails...</a><br /></td></tr>
@@ -143,7 +150,7 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:a775498931843884fbc6c08de3b2b1afd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd">SetStructure</a> (int[,,] volumePosition)</td></tr>
 <tr class="memdesc:a775498931843884fbc6c08de3b2b1afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utilisé pour obtenir les positions de départ des cellules vivantes (première génération).  <a href="#a775498931843884fbc6c08de3b2b1afd">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a775498931843884fbc6c08de3b2b1afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fde1a020def21f5f41794735b76c686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a3fde1a020def21f5f41794735b76c686">ChangeSpeed</a> (float speed)</td></tr>
+<tr class="memitem:a3fde1a020def21f5f41794735b76c686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a3fde1a020def21f5f41794735b76c686">ChangeSpeed</a> (float <a class="el" href="class_simulation.html#a4e347114640730fa13c37ef9aa295d5c">speed</a>)</td></tr>
 <tr class="memdesc:a3fde1a020def21f5f41794735b76c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change la vitesse de simulation.  <a href="#a3fde1a020def21f5f41794735b76c686">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a3fde1a020def21f5f41794735b76c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500982098740ae238f349a6fed0affd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a500982098740ae238f349a6fed0affd8">RestartSimulation</a> ()</td></tr>
@@ -184,10 +191,148 @@ Attributs publics</h2></td></tr>
 <tr class="separator:a4fd8bb7eb15c0462da5f0615d293e404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2106f84d6bf1aec6e3d852e4a4432217"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a2106f84d6bf1aec6e3d852e4a4432217">useDetectCanon</a> = false</td></tr>
 <tr class="separator:a2106f84d6bf1aec6e3d852e4a4432217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:aeb4bcb9efba94261ae3225d7c77d4fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aeb4bcb9efba94261ae3225d7c77d4fe9">CreateVariables</a> ()</td></tr>
+<tr class="memdesc:aeb4bcb9efba94261ae3225d7c77d4fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée et initialise les variables avant une simulation (aprés avoir mis de nouveau paramétres).  <a href="#aeb4bcb9efba94261ae3225d7c77d4fe9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aeb4bcb9efba94261ae3225d7c77d4fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8486cde41c003277c1ac75fffeda973b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b">Update</a> ()</td></tr>
+<tr class="separator:a8486cde41c003277c1ac75fffeda973b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad224ef6c13fac45281cf6c095c5c874"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aad224ef6c13fac45281cf6c095c5c874">Moore</a> ()</td></tr>
+<tr class="memdesc:aad224ef6c13fac45281cf6c095c5c874"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moore : 26 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Moore.  <a href="#aad224ef6c13fac45281cf6c095c5c874">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aad224ef6c13fac45281cf6c095c5c874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3470a637773f3e751ce4b0923c3909"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ade3470a637773f3e751ce4b0923c3909">HexLife</a> ()</td></tr>
+<tr class="memdesc:ade3470a637773f3e751ce4b0923c3909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hexlife : 20 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie HexLife. Il ne faut pas compter les voisins des faces du cube (6).  <a href="#ade3470a637773f3e751ce4b0923c3909">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ade3470a637773f3e751ce4b0923c3909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af23614524fe3045d198d953f09264f79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af23614524fe3045d198d953f09264f79">VonNeumann</a> ()</td></tr>
+<tr class="memdesc:af23614524fe3045d198d953f09264f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">VonNeumann : 6 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Von Neumann. Il faut compter uniquement les voisins des faces du cube (6).  <a href="#af23614524fe3045d198d953f09264f79">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af23614524fe3045d198d953f09264f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f92768aa24cee944387315749314ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a39f92768aa24cee944387315749314ad">MooreClassique</a> ()</td></tr>
+<tr class="memdesc:a39f92768aa24cee944387315749314ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moore : 26 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Moore.  <a href="#a39f92768aa24cee944387315749314ad">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a39f92768aa24cee944387315749314ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20934920a4fc75fa258a85d0c4e6968e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a20934920a4fc75fa258a85d0c4e6968e">HexLifeClassique</a> ()</td></tr>
+<tr class="memdesc:a20934920a4fc75fa258a85d0c4e6968e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hexlife : 20 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie HexLife. Il ne faut pas compter les voisins des faces du cube (6).  <a href="#a20934920a4fc75fa258a85d0c4e6968e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a20934920a4fc75fa258a85d0c4e6968e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b95cd2e9f897c0dab40119ac1c54f39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a8b95cd2e9f897c0dab40119ac1c54f39">VonNeumannClassique</a> ()</td></tr>
+<tr class="memdesc:a8b95cd2e9f897c0dab40119ac1c54f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">VonNeumann : 6 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Von Neumann. Il faut compter uniquement les voisins des faces du cube (6).  <a href="#a8b95cd2e9f897c0dab40119ac1c54f39">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8b95cd2e9f897c0dab40119ac1c54f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:affdff461f776f637b6439c04b0984fac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_menu_visualization_u_i.html">MenuVisualizationUI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#affdff461f776f637b6439c04b0984fac">menuVisualizationUI</a></td></tr>
+<tr class="memdesc:affdff461f776f637b6439c04b0984fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stocke l'instance de <a class="el" href="class_menu_visualization_u_i.html" title="Classe contenant les mÃ©thodes associÃ©es au UI de la simulation et Ã  l&#39;interaction avec le script g...">MenuVisualizationUI</a>.  <a href="#affdff461f776f637b6439c04b0984fac">Plus de détails...</a><br /></td></tr>
+<tr class="separator:affdff461f776f637b6439c04b0984fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435bb7cb51e9dcf9f05a233e733ce451"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a435bb7cb51e9dcf9f05a233e733ce451">showIntransparentCell</a> = false</td></tr>
+<tr class="memdesc:a435bb7cb51e9dcf9f05a233e733ce451"><td class="mdescLeft">&#160;</td><td class="mdescRight">true si les cellules mortes doivent être visibles en transparent, false sinon.  <a href="#a435bb7cb51e9dcf9f05a233e733ce451">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a435bb7cb51e9dcf9f05a233e733ce451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3fa246ee311f9d4dc8a02d72e9e4b0b"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ab3fa246ee311f9d4dc8a02d72e9e4b0b">cellColortransparent</a></td></tr>
+<tr class="memdesc:ab3fa246ee311f9d4dc8a02d72e9e4b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">La couleur des cellules mortes.  <a href="#ab3fa246ee311f9d4dc8a02d72e9e4b0b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab3fa246ee311f9d4dc8a02d72e9e4b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd619d4dd151c7eed091395f794af25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a8fd619d4dd151c7eed091395f794af25">forceVisualDeactivation</a> = false</td></tr>
+<tr class="memdesc:a8fd619d4dd151c7eed091395f794af25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force la désactivation de la visualisation si le nombre de cellules excède 30*30*30.  <a href="#a8fd619d4dd151c7eed091395f794af25">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8fd619d4dd151c7eed091395f794af25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1ef7a6608f40a4ba30d431b10f83c6"><td class="memItemLeft" align="right" valign="top">int [,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aee1ef7a6608f40a4ba30d431b10f83c6">theVolume</a></td></tr>
+<tr class="memdesc:aee1ef7a6608f40a4ba30d431b10f83c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contient les cellules.  <a href="#aee1ef7a6608f40a4ba30d431b10f83c6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aee1ef7a6608f40a4ba30d431b10f83c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db898e7c26628b180538fd3f5fbefe7"><td class="memItemLeft" align="right" valign="top">int [,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a3db898e7c26628b180538fd3f5fbefe7">neighbors</a></td></tr>
+<tr class="memdesc:a3db898e7c26628b180538fd3f5fbefe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stockage pour le nombre de voisins.  <a href="#a3db898e7c26628b180538fd3f5fbefe7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3db898e7c26628b180538fd3f5fbefe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ea19ab370b70d5cbb7e0d22510c542"><td class="memItemLeft" align="right" valign="top">GameObject [,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a50ea19ab370b70d5cbb7e0d22510c542">objectsCube</a></td></tr>
+<tr class="memdesc:a50ea19ab370b70d5cbb7e0d22510c542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stockage pour les objets.  <a href="#a50ea19ab370b70d5cbb7e0d22510c542">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a50ea19ab370b70d5cbb7e0d22510c542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b52a85390c56f61bdd9f8dcf112608"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a66b52a85390c56f61bdd9f8dcf112608">h</a> = 30</td></tr>
+<tr class="separator:a66b52a85390c56f61bdd9f8dcf112608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fbb318a6156864c54a36380ff54a23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ae5fbb318a6156864c54a36380ff54a23">w</a> = 30</td></tr>
+<tr class="separator:ae5fbb318a6156864c54a36380ff54a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae57d3ef4739c9bfee92f26318c848b61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ae57d3ef4739c9bfee92f26318c848b61">l</a> = 30</td></tr>
+<tr class="separator:ae57d3ef4739c9bfee92f26318c848b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6669b07eee108268664786cefe871ecc"><td class="memItemLeft" align="right" valign="top">int []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a6669b07eee108268664786cefe871ecc">bornRule</a> = new int[] { 5, 6, 7 }</td></tr>
+<tr class="memdesc:a6669b07eee108268664786cefe871ecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Règles de naissance.  <a href="#a6669b07eee108268664786cefe871ecc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6669b07eee108268664786cefe871ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9ae047431cdaa8de58cd9a442dcf18"><td class="memItemLeft" align="right" valign="top">int []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#afd9ae047431cdaa8de58cd9a442dcf18">surviveRule</a> = new int[] { 6 }</td></tr>
+<tr class="memdesc:afd9ae047431cdaa8de58cd9a442dcf18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Règles de mort.  <a href="#afd9ae047431cdaa8de58cd9a442dcf18">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afd9ae047431cdaa8de58cd9a442dcf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b1f3e5fcdb993f152bc37f952c08d6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ad7b1f3e5fcdb993f152bc37f952c08d6">maxAgeCellColor</a> = 100</td></tr>
+<tr class="memdesc:ad7b1f3e5fcdb993f152bc37f952c08d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">L'âge maximal d'une cellule.  <a href="#ad7b1f3e5fcdb993f152bc37f952c08d6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad7b1f3e5fcdb993f152bc37f952c08d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e347114640730fa13c37ef9aa295d5c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a4e347114640730fa13c37ef9aa295d5c">speed</a> = 0.5f</td></tr>
+<tr class="memdesc:a4e347114640730fa13c37ef9aa295d5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vitesse de simulation.  <a href="#a4e347114640730fa13c37ef9aa295d5c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4e347114640730fa13c37ef9aa295d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69eb0a203edb869b0e80d9a86bee80e8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a69eb0a203edb869b0e80d9a86bee80e8">currentTime</a></td></tr>
+<tr class="memdesc:a69eb0a203edb869b0e80d9a86bee80e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temps actuel.  <a href="#a69eb0a203edb869b0e80d9a86bee80e8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a69eb0a203edb869b0e80d9a86bee80e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af963c65cf7e59af39846bdfd1fb1974a"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#af963c65cf7e59af39846bdfd1fb1974a">theMaterial</a></td></tr>
+<tr class="memdesc:af963c65cf7e59af39846bdfd1fb1974a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le material appliqué aux cellules.  <a href="#af963c65cf7e59af39846bdfd1fb1974a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af963c65cf7e59af39846bdfd1fb1974a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab81b3b62207548fc9129270529e2641"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aab81b3b62207548fc9129270529e2641">youngColor</a></td></tr>
+<tr class="memdesc:aab81b3b62207548fc9129270529e2641"><td class="mdescLeft">&#160;</td><td class="mdescRight">La couleur de naissance d'une cellule, à l'age 1.  <a href="#aab81b3b62207548fc9129270529e2641">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aab81b3b62207548fc9129270529e2641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb69f99e6f099b7da09bd91e33f71d89"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#acb69f99e6f099b7da09bd91e33f71d89">oldColor</a></td></tr>
+<tr class="memdesc:acb69f99e6f099b7da09bd91e33f71d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">La couleur d'une cellule à l'age maxAgeCellColor.  <a href="#acb69f99e6f099b7da09bd91e33f71d89">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acb69f99e6f099b7da09bd91e33f71d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7a08db81fe21502f57813cc436090d"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a3b7a08db81fe21502f57813cc436090d">parent</a></td></tr>
+<tr class="memdesc:a3b7a08db81fe21502f57813cc436090d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le parent des cubes.  <a href="#a3b7a08db81fe21502f57813cc436090d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3b7a08db81fe21502f57813cc436090d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abace05fc32d6e12236e7e272a901df49"><td class="memItemLeft" align="right" valign="top">Voisinage2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#abace05fc32d6e12236e7e272a901df49">voisinage</a></td></tr>
+<tr class="memdesc:abace05fc32d6e12236e7e272a901df49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le type de voisinage utilisé.  <a href="#abace05fc32d6e12236e7e272a901df49">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abace05fc32d6e12236e7e272a901df49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6130f94a3799a582363321183df42d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a5d6130f94a3799a582363321183df42d">gen</a> = 0</td></tr>
+<tr class="memdesc:a5d6130f94a3799a582363321183df42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">La valeur de la génération actuelle.  <a href="#a5d6130f94a3799a582363321183df42d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5d6130f94a3799a582363321183df42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24b02a8f790b6463ba78b986c014ab0"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ab24b02a8f790b6463ba78b986c014ab0">nbGen</a></td></tr>
+<tr class="memdesc:ab24b02a8f790b6463ba78b986c014ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afficher le nombre de génération.  <a href="#ab24b02a8f790b6463ba78b986c014ab0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab24b02a8f790b6463ba78b986c014ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bc1fd239c1b82110d8789d5cb2b8daa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a8bc1fd239c1b82110d8789d5cb2b8daa">inPause</a> = true</td></tr>
+<tr class="memdesc:a8bc1fd239c1b82110d8789d5cb2b8daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">true si en pause, false sinon.  <a href="#a8bc1fd239c1b82110d8789d5cb2b8daa">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8bc1fd239c1b82110d8789d5cb2b8daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab3e6e037fe4694b0f6f990ac4497f9"><td class="memItemLeft" align="right" valign="top">int [][,,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#adab3e6e037fe4694b0f6f990ac4497f9">stockGen</a></td></tr>
+<tr class="memdesc:adab3e6e037fe4694b0f6f990ac4497f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stocke les générations.  <a href="#adab3e6e037fe4694b0f6f990ac4497f9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adab3e6e037fe4694b0f6f990ac4497f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4dd940ecc0d68275e9db930991494ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ad4dd940ecc0d68275e9db930991494ee">maxGenRead</a> = 0</td></tr>
+<tr class="memdesc:ad4dd940ecc0d68275e9db930991494ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">La génération max réalisé.  <a href="#ad4dd940ecc0d68275e9db930991494ee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad4dd940ecc0d68275e9db930991494ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7b43c186833b6babd2f131eb705ebb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ace7b43c186833b6babd2f131eb705ebb">maxGen</a> = 10000</td></tr>
+<tr class="memdesc:ace7b43c186833b6babd2f131eb705ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le nombre maximal de génération.  <a href="#ace7b43c186833b6babd2f131eb705ebb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ace7b43c186833b6babd2f131eb705ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea09f230373dac17ac214fd287b697f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a6ea09f230373dac17ac214fd287b697f">threshhold</a></td></tr>
+<tr class="memdesc:a6ea09f230373dac17ac214fd287b697f"><td class="mdescLeft">&#160;</td><td class="mdescRight">La probabilité d'apparition d'une cellule (quand random dans initial structure dans les parametres est activé).  <a href="#a6ea09f230373dac17ac214fd287b697f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6ea09f230373dac17ac214fd287b697f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedb9a065e068f5a643f6cb40b82942da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aedb9a065e068f5a643f6cb40b82942da">random</a></td></tr>
+<tr class="memdesc:aedb9a065e068f5a643f6cb40b82942da"><td class="mdescLeft">&#160;</td><td class="mdescRight">true s'il faut créer des cellules aléatoirement, false sinon.  <a href="#aedb9a065e068f5a643f6cb40b82942da">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aedb9a065e068f5a643f6cb40b82942da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9871215c90d09d1137f2332762dbbac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#ae9871215c90d09d1137f2332762dbbac">show</a> = true</td></tr>
+<tr class="memdesc:ae9871215c90d09d1137f2332762dbbac"><td class="mdescLeft">&#160;</td><td class="mdescRight">true s'il y a la visualisation des cellules (les cubes) false sinon.  <a href="#ae9871215c90d09d1137f2332762dbbac">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae9871215c90d09d1137f2332762dbbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9e01cae93b73b18dff79aa690b20ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_detection.html">Detection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#afc9e01cae93b73b18dff79aa690b20ee">detection</a></td></tr>
+<tr class="memdesc:afc9e01cae93b73b18dff79aa690b20ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stocke l'instan de la detection.  <a href="#afc9e01cae93b73b18dff79aa690b20ee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afc9e01cae93b73b18dff79aa690b20ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278d42069f2672d880c171af84a4b1b1"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a278d42069f2672d880c171af84a4b1b1">panelSave</a></td></tr>
+<tr class="memdesc:a278d42069f2672d880c171af84a4b1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le panel pour permettre à l'utilisateur de sauvegarder la génération.  <a href="#a278d42069f2672d880c171af84a4b1b1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a278d42069f2672d880c171af84a4b1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f753f5907cb4985c5b802c34fb68c1"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a51f753f5907cb4985c5b802c34fb68c1">panelText</a></td></tr>
+<tr class="memdesc:a51f753f5907cb4985c5b802c34fb68c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Le panel pour permettre à afficher les informations d'aide.  <a href="#a51f753f5907cb4985c5b802c34fb68c1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a51f753f5907cb4985c5b802c34fb68c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaaccf034e750d037d15e5b26cd881b8"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#acaaccf034e750d037d15e5b26cd881b8">nameStructure</a></td></tr>
+<tr class="memdesc:acaaccf034e750d037d15e5b26cd881b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">L'entrée pour le nom du fichier.  <a href="#acaaccf034e750d037d15e5b26cd881b8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acaaccf034e750d037d15e5b26cd881b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43a91e87c7c650fc7d67a1d845ada89"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aa43a91e87c7c650fc7d67a1d845ada89">numero</a></td></tr>
+<tr class="memdesc:aa43a91e87c7c650fc7d67a1d845ada89"><td class="mdescLeft">&#160;</td><td class="mdescRight">L'indicateur.  <a href="#aa43a91e87c7c650fc7d67a1d845ada89">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa43a91e87c7c650fc7d67a1d845ada89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee455a3c4114262af0c5242aa26ea779"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#aee455a3c4114262af0c5242aa26ea779">periode</a></td></tr>
+<tr class="memdesc:aee455a3c4114262af0c5242aa26ea779"><td class="mdescLeft">&#160;</td><td class="mdescRight">les periode que l'utilisateur veut enregister dans le fichier.  <a href="#aee455a3c4114262af0c5242aa26ea779">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aee455a3c4114262af0c5242aa26ea779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0408a0584ec3cc3a9cc2ef1860fd652f"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; Vector3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a0408a0584ec3cc3a9cc2ef1860fd652f">structure</a> = new List&lt;List&lt;Vector3&gt;&gt;()</td></tr>
+<tr class="separator:a0408a0584ec3cc3a9cc2ef1860fd652f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bdb9d5d8e21dd532d9683383691a70b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a4bdb9d5d8e21dd532d9683383691a70b">x</a> = 0</td></tr>
+<tr class="separator:a4bdb9d5d8e21dd532d9683383691a70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214fc9916eb818cadeb37dfba3d14f23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simulation.html#a214fc9916eb818cadeb37dfba3d14f23">peri</a></td></tr>
+<tr class="separator:a214fc9916eb818cadeb37dfba3d14f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
-<div class="textblock"><dl class="section author"><dt>Auteur</dt><dd>Dorian Grouteau,Vincent Tu, TIAN Ning,QIN Yi </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08/04/2022</dd></dl>
+<div class="textblock"><p>Contient toutes les methodes en liens avec la simulation. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Dorian Grouteau,Vincent Tu, TIAN Ning,QIN Yi </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>10/04/2022 </dd></dl>
 </div><h2 class="groupheader">Documentation des fonctions membres</h2>
 <a id="aee60f7c0cce0789d82fe7a324f1fbffd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee60f7c0cce0789d82fe7a324f1fbffd">&#9670;&nbsp;</a></span>applySave()</h2>
@@ -213,8 +358,14 @@ Attributs publics</h2></td></tr>
 </div><div class="memdoc">
 
 <p>pour permettre à l'utilisateur de enregistre les structure </p>
-<dl class="section author"><dt>Auteur</dt><dd>$username$ QIN Yi , TIAN Ning </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 </dd></dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd_cgraph.png" border="0" usemap="#class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd_cgraph" alt=""/></div>
+<map name="class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd_cgraph" id="class_simulation_aee60f7c0cce0789d82fe7a324f1fbffd_cgraph">
+<area shape="rect" id="node2" href="class_local_storage.html#ad926dd8fdacba87487812c2063aee8dc" title="Methode permettant d&#39;ecrire une structure dans un fichier. " alt="" coords="200,5,364,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -254,7 +405,60 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph.png" border="0" usemap="#class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph" alt=""/></div>
 <map name="class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph" id="class_simulation_a3fde1a020def21f5f41794735b76c686_icgraph">
-<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#abae4f4813543053bd5fc9d68ed4916d5" title="Permets de modifier la vitesse de simulation. " alt="" coords="221,5,409,47"/>
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#abae4f4813543053bd5fc9d68ed4916d5" title="Permet de modifier la vitesse de simulation. " alt="" coords="221,5,409,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeb4bcb9efba94261ae3225d7c77d4fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4bcb9efba94261ae3225d7c77d4fe9">&#9670;&nbsp;</a></span>CreateVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.CreateVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crée et initialise les variables avant une simulation (aprés avoir mis de nouveau paramétres). </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_aeb4bcb9efba94261ae3225d7c77d4fe9_cgraph.png" border="0" usemap="#class_simulation_aeb4bcb9efba94261ae3225d7c77d4fe9_cgraph" alt=""/></div>
+<map name="class_simulation_aeb4bcb9efba94261ae3225d7c77d4fe9_cgraph" id="class_simulation_aeb4bcb9efba94261ae3225d7c77d4fe9_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#aff8ad1d9fe429a08bf0d42f52b08b71b" title="Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la généra..." alt="" coords="232,328,411,355"/>
+<area shape="rect" id="node3" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. " alt="" coords="459,303,612,329"/>
+<area shape="rect" id="node20" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="476,353,595,380"/>
+<area shape="rect" id="node4" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="675,64,833,91"/>
+<area shape="rect" id="node5" href="class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="665,115,843,141"/>
+<area shape="rect" id="node9" href="class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="660,273,848,300"/>
+<area shape="rect" id="node14" href="class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="667,325,841,366"/>
+<area shape="rect" id="node15" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="695,420,813,447"/>
+<area shape="rect" id="node19" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="679,471,829,497"/>
+<area shape="rect" id="node6" href="class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="900,5,1095,32"/>
+<area shape="rect" id="node7" href="class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="896,56,1099,83"/>
+<area shape="rect" id="node8" href="class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="905,107,1089,149"/>
+<area shape="rect" id="node10" href="class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="910,173,1085,214"/>
+<area shape="rect" id="node11" href="class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="910,238,1085,279"/>
+<area shape="rect" id="node12" href="class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="910,303,1085,345"/>
+<area shape="rect" id="node13" href="class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="905,369,1090,396"/>
+<area shape="rect" id="node16" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="1147,445,1285,472"/>
+<area shape="rect" id="node17" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="921,471,1074,497"/>
+<area shape="rect" id="node18" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="902,521,1093,548"/>
 </map>
 </div>
 
@@ -291,9 +495,83 @@ Voici le graphe des appelants de cette fonction :</div>
 <map name="class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph" id="class_simulation_abc1bd1d93c293257a921a8a8935095b6_icgraph">
 <area shape="rect" id="node2" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="231,56,391,83"/>
 <area shape="rect" id="node5" href="class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="216,107,407,133"/>
-<area shape="rect" id="node3" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="455,5,672,32"/>
-<area shape="rect" id="node4" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="460,56,667,83"/>
-<area shape="rect" id="node6" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="470,107,657,133"/>
+<area shape="rect" id="node3" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="455,5,672,32"/>
+<area shape="rect" id="node4" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="460,56,667,83"/>
+<area shape="rect" id="node6" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="470,107,657,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ade3470a637773f3e751ce4b0923c3909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade3470a637773f3e751ce4b0923c3909">&#9670;&nbsp;</a></span>HexLife()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.HexLife </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hexlife : 20 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie HexLife. Il ne faut pas compter les voisins des faces du cube (6). </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_ade3470a637773f3e751ce4b0923c3909_icgraph.png" border="0" usemap="#class_simulation_ade3470a637773f3e751ce4b0923c3909_icgraph" alt=""/></div>
+<map name="class_simulation_ade3470a637773f3e751ce4b0923c3909_icgraph" id="class_simulation_ade3470a637773f3e751ce4b0923c3909_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="184,31,347,57"/>
+<area shape="rect" id="node3" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="400,5,528,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="395,56,533,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a20934920a4fc75fa258a85d0c4e6968e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20934920a4fc75fa258a85d0c4e6968e">&#9670;&nbsp;</a></span>HexLifeClassique()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.HexLifeClassique </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hexlife : 20 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie HexLife. Il ne faut pas compter les voisins des faces du cube (6). </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a20934920a4fc75fa258a85d0c4e6968e_icgraph.png" border="0" usemap="#class_simulation_a20934920a4fc75fa258a85d0c4e6968e_icgraph" alt=""/></div>
+<map name="class_simulation_a20934920a4fc75fa258a85d0c4e6968e_icgraph" id="class_simulation_a20934920a4fc75fa258a85d0c4e6968e_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="240,31,403,57"/>
+<area shape="rect" id="node3" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="456,5,584,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="451,56,589,83"/>
 </map>
 </div>
 
@@ -329,9 +607,85 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="center"><img src="class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph.png" border="0" usemap="#class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph" alt=""/></div>
 <map name="class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph" id="class_simulation_a71a9e0a93e05353ff243f4c48afa67d0_icgraph">
 <area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="243,23,419,65"/>
-<area shape="rect" id="node5" href="class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="MenuVisualizationUI.Toggle\lShowOrHide" alt="" coords="240,89,423,130"/>
-<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="471,5,661,32"/>
-<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="477,56,655,83"/>
+<area shape="rect" id="node7" href="class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="Active oÃ¹ dÃ©sactive la visualisation des cellules. " alt="" coords="240,89,423,130"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="471,5,661,32"/>
+<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="477,56,655,83"/>
+<area shape="rect" id="node5" href="class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="718,27,885,53"/>
+<area shape="rect" id="node6" href="class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="709,78,893,119"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aad224ef6c13fac45281cf6c095c5c874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad224ef6c13fac45281cf6c095c5c874">&#9670;&nbsp;</a></span>Moore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.Moore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moore : 26 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Moore. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_aad224ef6c13fac45281cf6c095c5c874_icgraph.png" border="0" usemap="#class_simulation_aad224ef6c13fac45281cf6c095c5c874_icgraph" alt=""/></div>
+<map name="class_simulation_aad224ef6c13fac45281cf6c095c5c874_icgraph" id="class_simulation_aad224ef6c13fac45281cf6c095c5c874_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="176,31,339,57"/>
+<area shape="rect" id="node3" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="392,5,520,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="387,56,525,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a39f92768aa24cee944387315749314ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f92768aa24cee944387315749314ad">&#9670;&nbsp;</a></span>MooreClassique()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.MooreClassique </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moore : 26 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Moore. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a39f92768aa24cee944387315749314ad_icgraph.png" border="0" usemap="#class_simulation_a39f92768aa24cee944387315749314ad_icgraph" alt=""/></div>
+<map name="class_simulation_a39f92768aa24cee944387315749314ad_icgraph" id="class_simulation_a39f92768aa24cee944387315749314ad_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="233,31,396,57"/>
+<area shape="rect" id="node3" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="449,5,577,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="444,56,583,83"/>
 </map>
 </div>
 
@@ -366,12 +720,34 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph.png" border="0" usemap="#class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph" alt=""/></div>
 <map name="class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph" id="class_simulation_a6027638c71846ed03d560cd75d8a92d6_cgraph">
-<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="192,5,355,32"/>
-<area shape="rect" id="node3" href="class_simulation.html#a1ba6581d305c2d60d174e0cffd917719" title="Méthode permettant le passage à la génération suivante. " alt="" coords="193,56,353,83"/>
-<area shape="rect" id="node7" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="214,107,333,133"/>
-<area shape="rect" id="node4" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="403,31,569,57"/>
-<area shape="rect" id="node6" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="423,81,549,108"/>
-<area shape="rect" id="node5" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="617,56,776,83"/>
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="213,157,376,184"/>
+<area shape="rect" id="node9" href="class_simulation.html#a1ba6581d305c2d60d174e0cffd917719" title="Méthode permettant le passage à la génération suivante. " alt="" coords="215,309,375,336"/>
+<area shape="rect" id="node27" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="235,360,354,387"/>
+<area shape="rect" id="node28" href="class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="DÃ©sactive le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="192,411,397,437"/>
+<area shape="rect" id="node3" href="class_simulation.html#aad224ef6c13fac45281cf6c095c5c874" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="498,157,621,184"/>
+<area shape="rect" id="node4" href="class_simulation.html#af23614524fe3045d198d953f09264f79" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="477,208,642,235"/>
+<area shape="rect" id="node5" href="class_simulation.html#ade3470a637773f3e751ce4b0923c3909" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="494,259,625,285"/>
+<area shape="rect" id="node6" href="class_simulation.html#a39f92768aa24cee944387315749314ad" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="469,5,649,32"/>
+<area shape="rect" id="node7" href="class_simulation.html#a8b95cd2e9f897c0dab40119ac1c54f39" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="448,56,671,83"/>
+<area shape="rect" id="node8" href="class_simulation.html#a20934920a4fc75fa258a85d0c4e6968e" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="466,107,653,133"/>
+<area shape="rect" id="node10" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="AppelÃ© par Simulation dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l&#39;indice de gÃ..." alt="" coords="476,360,643,387"/>
+<area shape="rect" id="node16" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle gÃ©nÃ©ration Ã  stockGen. " alt="" coords="497,309,622,336"/>
+<area shape="rect" id="node11" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="756,451,875,477"/>
+<area shape="rect" id="node15" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="736,360,895,387"/>
+<area shape="rect" id="node12" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="1208,527,1347,553"/>
+<area shape="rect" id="node13" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="982,552,1135,579"/>
+<area shape="rect" id="node14" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="963,451,1154,477"/>
+<area shape="rect" id="node17" href="class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="727,152,904,179"/>
+<area shape="rect" id="node21" href="class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="721,309,909,336"/>
+<area shape="rect" id="node26" href="class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="729,86,902,127"/>
+<area shape="rect" id="node18" href="class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="961,152,1156,179"/>
+<area shape="rect" id="node19" href="class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="957,35,1160,61"/>
+<area shape="rect" id="node20" href="class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="967,86,1151,127"/>
+<area shape="rect" id="node22" href="class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="971,203,1146,245"/>
+<area shape="rect" id="node23" href="class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="971,269,1146,310"/>
+<area shape="rect" id="node24" href="class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="971,334,1146,375"/>
+<area shape="rect" id="node25" href="class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="966,400,1151,427"/>
+<area shape="rect" id="node29" href="class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b" title="Permet d&#39;activer ou de désactiver le mouvement de la caméra. " alt="" coords="445,411,673,437"/>
 </map>
 </div>
 
@@ -414,8 +790,10 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="center"><img src="class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph.png" border="0" usemap="#class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph" alt=""/></div>
 <map name="class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph" id="class_simulation_ab668bfea667549d1295fc55f5ccfbc4a_icgraph">
 <area shape="rect" id="node2" href="class_menu_visualization_u_i.html#a9affc75173b7b9e70340b2b934398464" title="Mets en pause ou lance la simulation. " alt="" coords="217,23,399,65"/>
-<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="447,5,637,32"/>
-<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="453,56,631,83"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="447,5,637,32"/>
+<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="453,56,631,83"/>
+<area shape="rect" id="node5" href="class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="694,27,861,53"/>
+<area shape="rect" id="node6" href="class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="685,78,869,119"/>
 </map>
 </div>
 
@@ -450,10 +828,15 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph.png" border="0" usemap="#class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph" alt=""/></div>
 <map name="class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph" id="class_simulation_a2af29808f03940f4a8824c926f8c8cf9_cgraph">
-<area shape="rect" id="node2" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="213,5,380,32"/>
-<area shape="rect" id="node4" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="237,56,356,83"/>
-<area shape="rect" id="node5" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="234,107,359,133"/>
-<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="428,56,587,83"/>
+<area shape="rect" id="node2" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="AppelÃ© par Simulation dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l&#39;indice de gÃ..." alt="" coords="233,56,399,83"/>
+<area shape="rect" id="node8" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="257,107,375,133"/>
+<area shape="rect" id="node9" href="class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="DÃ©sactive le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="213,157,419,184"/>
+<area shape="rect" id="node3" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="521,31,640,57"/>
+<area shape="rect" id="node7" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="501,81,660,108"/>
+<area shape="rect" id="node4" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="981,5,1120,32"/>
+<area shape="rect" id="node5" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="761,31,915,57"/>
+<area shape="rect" id="node6" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="743,81,933,108"/>
+<area shape="rect" id="node10" href="class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b" title="Permet d&#39;activer ou de désactiver le mouvement de la caméra. " alt="" coords="467,157,695,184"/>
 </map>
 </div>
 
@@ -488,10 +871,32 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph.png" border="0" usemap="#class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph" alt=""/></div>
 <map name="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph" id="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_cgraph">
-<area shape="rect" id="node2" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="232,31,385,57"/>
-<area shape="rect" id="node5" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="249,81,368,108"/>
-<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="433,5,592,32"/>
-<area shape="rect" id="node4" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="438,56,587,83"/>
+<area shape="rect" id="node2" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. " alt="" coords="232,303,385,329"/>
+<area shape="rect" id="node19" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="249,353,368,380"/>
+<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="448,64,607,91"/>
+<area shape="rect" id="node4" href="class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="439,115,616,141"/>
+<area shape="rect" id="node8" href="class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="433,273,621,300"/>
+<area shape="rect" id="node13" href="class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="441,325,614,366"/>
+<area shape="rect" id="node14" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="468,420,587,447"/>
+<area shape="rect" id="node18" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="453,471,602,497"/>
+<area shape="rect" id="node5" href="class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="673,5,868,32"/>
+<area shape="rect" id="node6" href="class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="669,56,872,83"/>
+<area shape="rect" id="node7" href="class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="679,107,863,149"/>
+<area shape="rect" id="node9" href="class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="683,173,858,214"/>
+<area shape="rect" id="node10" href="class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="683,238,858,279"/>
+<area shape="rect" id="node11" href="class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="683,303,858,345"/>
+<area shape="rect" id="node12" href="class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="678,369,863,396"/>
+<area shape="rect" id="node15" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="920,445,1059,472"/>
+<area shape="rect" id="node16" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="694,471,847,497"/>
+<area shape="rect" id="node17" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="675,521,866,548"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_icgraph.png" border="0" usemap="#class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_icgraph" alt=""/></div>
+<map name="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_icgraph" id="class_simulation_aff8ad1d9fe429a08bf0d42f52b08b71b_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#aeb4bcb9efba94261ae3225d7c77d4fe9" title="Crée et initialise les variables avant une simulation (aprés avoir mis de nouveau paramétres)..." alt="" coords="232,5,411,32"/>
 </map>
 </div>
 
@@ -526,11 +931,16 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a500982098740ae238f349a6fed0affd8_cgraph.png" border="0" usemap="#class_simulation_a500982098740ae238f349a6fed0affd8_cgraph" alt=""/></div>
 <map name="class_simulation_a500982098740ae238f349a6fed0affd8_cgraph" id="class_simulation_a500982098740ae238f349a6fed0affd8_cgraph">
-<area shape="rect" id="node2" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="246,5,409,32"/>
-<area shape="rect" id="node3" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="244,56,411,83"/>
-<area shape="rect" id="node5" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="265,107,390,133"/>
-<area shape="rect" id="node6" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="268,157,387,184"/>
-<area shape="rect" id="node4" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="459,81,617,108"/>
+<area shape="rect" id="node2" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="265,5,428,32"/>
+<area shape="rect" id="node3" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="AppelÃ© par Simulation dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l&#39;indice de gÃ..." alt="" coords="263,56,430,83"/>
+<area shape="rect" id="node9" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="287,107,406,133"/>
+<area shape="rect" id="node10" href="class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="DÃ©sactive le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="244,157,449,184"/>
+<area shape="rect" id="node4" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="552,31,671,57"/>
+<area shape="rect" id="node8" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="532,81,691,108"/>
+<area shape="rect" id="node5" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="1012,5,1151,32"/>
+<area shape="rect" id="node6" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="792,31,945,57"/>
+<area shape="rect" id="node7" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="773,81,964,108"/>
+<area shape="rect" id="node11" href="class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b" title="Permet d&#39;activer ou de désactiver le mouvement de la caméra. " alt="" coords="497,157,725,184"/>
 </map>
 </div>
 <div class="dynheader">
@@ -538,7 +948,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a500982098740ae238f349a6fed0affd8_icgraph.png" border="0" usemap="#class_simulation_a500982098740ae238f349a6fed0affd8_icgraph" alt=""/></div>
 <map name="class_simulation_a500982098740ae238f349a6fed0affd8_icgraph" id="class_simulation_a500982098740ae238f349a6fed0affd8_icgraph">
-<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="244,5,431,32"/>
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="244,5,431,32"/>
 </map>
 </div>
 
@@ -566,8 +976,6 @@ Voici le graphe des appelants de cette fonction :</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section author"><dt>Auteur</dt><dd>$username$ TIAN Ning, QIN Yi </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 </dd></dl>
 
 </div>
 </div>
@@ -622,8 +1030,6 @@ Voici le graphe des appelants de cette fonction :</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section author"><dt>Auteur</dt><dd>$username$ TIAN Ning, QIN Yi </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 </dd></dl>
 
 </div>
 </div>
@@ -663,11 +1069,25 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph.png" border="0" usemap="#class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph" alt=""/></div>
 <map name="class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph" id="class_simulation_a775498931843884fbc6c08de3b2b1afd_cgraph">
-<area shape="rect" id="node2" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="213,5,376,32"/>
-<area shape="rect" id="node3" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="218,56,371,83"/>
-<area shape="rect" id="node6" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur age. " alt="" coords="235,107,354,133"/>
-<area shape="rect" id="node4" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="424,31,583,57"/>
-<area shape="rect" id="node5" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="429,81,578,108"/>
+<area shape="rect" id="node2" href="class_simulation.html#abc1bd1d93c293257a921a8a8935095b6" title="Désactive toutes les cellules (et cubes). " alt="" coords="213,252,376,279"/>
+<area shape="rect" id="node3" href="class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. " alt="" coords="218,303,371,329"/>
+<area shape="rect" id="node20" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="235,353,354,380"/>
+<area shape="rect" id="node4" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="439,64,597,91"/>
+<area shape="rect" id="node5" href="class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="429,115,607,141"/>
+<area shape="rect" id="node9" href="class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="424,273,612,300"/>
+<area shape="rect" id="node14" href="class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="431,325,605,366"/>
+<area shape="rect" id="node15" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="459,420,577,447"/>
+<area shape="rect" id="node19" href="class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="443,471,593,497"/>
+<area shape="rect" id="node6" href="class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="664,5,859,32"/>
+<area shape="rect" id="node7" href="class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="660,56,863,83"/>
+<area shape="rect" id="node8" href="class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="669,107,853,149"/>
+<area shape="rect" id="node10" href="class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="674,173,849,214"/>
+<area shape="rect" id="node11" href="class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="674,238,849,279"/>
+<area shape="rect" id="node12" href="class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="674,303,849,345"/>
+<area shape="rect" id="node13" href="class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="669,369,854,396"/>
+<area shape="rect" id="node16" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="911,445,1049,472"/>
+<area shape="rect" id="node17" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="685,471,838,497"/>
+<area shape="rect" id="node18" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="666,521,857,548"/>
 </map>
 </div>
 <div class="dynheader">
@@ -675,8 +1095,8 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph.png" border="0" usemap="#class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph" alt=""/></div>
 <map name="class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph" id="class_simulation_a775498931843884fbc6c08de3b2b1afd_icgraph">
-<area shape="rect" id="node2" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="213,5,431,32"/>
-<area shape="rect" id="node3" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="219,56,425,83"/>
+<area shape="rect" id="node2" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="213,5,431,32"/>
+<area shape="rect" id="node3" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="219,56,425,83"/>
 </map>
 </div>
 
@@ -812,13 +1232,12 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Permet de transmettre de <a class="el" href="class_parameters.html">Parameters</a> à Simulation2 les différentes valeurs des variables. </p>
-<dl class="section author"><dt>Auteur</dt><dd>$username$ Dorian Grouteau,Vincent Tu, TIAN Ning, QIN Yi </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022 <dl class="params"><dt>Paramètres</dt><dd>
+<p>Permet de transmettre de <a class="el" href="class_parameters.html" title="Gestion des paramÃ¨tres du logiciel. ">Parameters</a> à Simulation2 les différentes valeurs des variables. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">h</td><td>heigh</td></tr>
     <tr><td class="paramname">w</td><td>widht</td></tr>
-    <tr><td class="paramname">l</td><td></td></tr>
+    <tr><td class="paramname">l</td><td>lenght</td></tr>
     <tr><td class="paramname">maxGen</td><td>Le nombre maximal de génération.</td></tr>
     <tr><td class="paramname">random</td><td>True si les cellules sont générées aléatoirement, false sinon.</td></tr>
     <tr><td class="paramname">threshhold</td><td>Compris entre 0 et 1, représente la probabilité qu'une cellule soit en vie à la génération 0.</td></tr>
@@ -828,7 +1247,17 @@ Voici le graphe des appelants de cette fonction :</div>
   </table>
   </dd>
 </dl>
-</dd></dl>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de_icgraph.png" border="0" usemap="#class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de_icgraph" alt=""/></div>
+<map name="class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de_icgraph" id="class_simulation_af1580cd4ce5cb935c5f55ad4ce4f94de_icgraph">
+<area shape="rect" id="node2" href="class_parameters.html#abc57bdbb6a4e2f78c7d71f1fa26b5fe8" title="Permet d&#39;envoyer les parametres aux diffÃ©rents outils. " alt="" coords="281,31,467,57"/>
+<area shape="rect" id="node5" href="class_parameters.html#aa31bc8929b4008944bd7f720bfac9a62" title="mÃ©thode appelÃ©e lors du chargement de la scÃ¨ne. " alt="" coords="313,81,435,108"/>
+<area shape="rect" id="node3" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="515,5,722,32"/>
+<area shape="rect" id="node4" href="class_parameters.html#a8702daf046aa4d1c44a284c78f6ff058" title="MÃ©thode appelÃ©e lors de l&#39;appui sur le bouton Apply. Affiche Les diffÃ©rents paramÃ¨tres entrÃ©s pa..." alt="" coords="515,56,723,83"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -867,8 +1296,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </div><div class="memdoc">
 
 <p></p>
-<dl class="section author"><dt>Auteur</dt><dd>$username$ TIAN Ning </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>- $time$ 23/03/2022</dd></dl>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">voisinage</td><td></td></tr>
@@ -878,11 +1305,25 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <p>if true, active: toroïdal </p>
 <div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_cgraph.png" border="0" usemap="#class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_cgraph" alt=""/></div>
+<map name="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_cgraph" id="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#aad224ef6c13fac45281cf6c095c5c874" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="266,5,389,32"/>
+<area shape="rect" id="node3" href="class_simulation.html#af23614524fe3045d198d953f09264f79" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="245,56,410,83"/>
+<area shape="rect" id="node4" href="class_simulation.html#ade3470a637773f3e751ce4b0923c3909" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="262,107,393,133"/>
+<area shape="rect" id="node5" href="class_simulation.html#a39f92768aa24cee944387315749314ad" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="237,157,417,184"/>
+<area shape="rect" id="node6" href="class_simulation.html#a8b95cd2e9f897c0dab40119ac1c54f39" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="216,208,439,235"/>
+<area shape="rect" id="node7" href="class_simulation.html#a20934920a4fc75fa258a85d0c4e6968e" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="234,259,421,285"/>
+</map>
+</div>
+<div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph.png" border="0" usemap="#class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph" alt=""/></div>
 <map name="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph" id="class_simulation_a9238f4dcd56a4945017fda48a76a3dc8_icgraph">
-<area shape="rect" id="node2" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="216,5,355,32"/>
+<area shape="rect" id="node2" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="221,5,349,32"/>
+<area shape="rect" id="node3" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="216,56,355,83"/>
 </map>
 </div>
 
@@ -911,20 +1352,22 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Montre les cubes et changent leur couleur en fonction de leur age. </p>
+<p>Montre les cubes et changent leur couleur en fonction de leur âge. </p>
 <div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph.png" border="0" usemap="#class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph" alt=""/></div>
 <map name="class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph" id="class_simulation_af5fd57d6f657f07bc0fac7085832dc82_icgraph">
 <area shape="rect" id="node2" href="class_simulation.html#aff8ad1d9fe429a08bf0d42f52b08b71b" title="Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la généra..." alt="" coords="178,5,357,32"/>
-<area shape="rect" id="node3" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="187,56,347,83"/>
-<area shape="rect" id="node6" href="class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="172,107,363,133"/>
-<area shape="rect" id="node8" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="198,157,337,184"/>
-<area shape="rect" id="node9" href="class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9" title="Passage à la génération précédente. " alt="" coords="187,208,347,235"/>
-<area shape="rect" id="node4" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="411,5,628,32"/>
-<area shape="rect" id="node5" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="416,56,623,83"/>
-<area shape="rect" id="node7" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="426,107,613,133"/>
+<area shape="rect" id="node4" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="203,56,331,83"/>
+<area shape="rect" id="node5" href="class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="187,107,347,133"/>
+<area shape="rect" id="node8" href="class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="172,157,363,184"/>
+<area shape="rect" id="node10" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="198,208,337,235"/>
+<area shape="rect" id="node11" href="class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9" title="Passage à la génération précédente. " alt="" coords="187,259,347,285"/>
+<area shape="rect" id="node3" href="class_simulation.html#aeb4bcb9efba94261ae3225d7c77d4fe9" title="Crée et initialise les variables avant une simulation (aprés avoir mis de nouveau paramétres)..." alt="" coords="430,5,609,32"/>
+<area shape="rect" id="node6" href="class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="411,56,628,83"/>
+<area shape="rect" id="node7" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="416,107,623,133"/>
+<area shape="rect" id="node9" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="426,157,613,184"/>
 </map>
 </div>
 
@@ -960,9 +1403,11 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="center"><img src="class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph.png" border="0" usemap="#class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph" alt=""/></div>
 <map name="class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph" id="class_simulation_acc3c641f3874f1805c3a13d2153b6023_icgraph">
 <area shape="rect" id="node2" href="class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="250,23,426,65"/>
-<area shape="rect" id="node5" href="class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="MenuVisualizationUI.Toggle\lShowOrHide" alt="" coords="247,89,429,130"/>
-<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="477,5,668,32"/>
-<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="483,56,662,83"/>
+<area shape="rect" id="node7" href="class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="Active oÃ¹ dÃ©sactive la visualisation des cellules. " alt="" coords="247,89,429,130"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="477,5,668,32"/>
+<area shape="rect" id="node4" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="483,56,662,83"/>
+<area shape="rect" id="node5" href="class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="725,27,891,53"/>
+<area shape="rect" id="node6" href="class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="716,78,900,119"/>
 </map>
 </div>
 
@@ -997,9 +1442,23 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph.png" border="0" usemap="#class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph" alt=""/></div>
 <map name="class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph" id="class_simulation_a1ba6581d305c2d60d174e0cffd917719_cgraph">
-<area shape="rect" id="node2" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="213,5,380,32"/>
-<area shape="rect" id="node4" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="234,56,359,83"/>
-<area shape="rect" id="node3" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="428,31,587,57"/>
+<area shape="rect" id="node2" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="AppelÃ© par Simulation dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l&#39;indice de gÃ..." alt="" coords="213,103,380,130"/>
+<area shape="rect" id="node8" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle gÃ©nÃ©ration Ã  stockGen. " alt="" coords="234,169,359,195"/>
+<area shape="rect" id="node3" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="463,103,581,130"/>
+<area shape="rect" id="node7" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="443,53,601,79"/>
+<area shape="rect" id="node4" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="915,19,1053,46"/>
+<area shape="rect" id="node5" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="689,45,842,71"/>
+<area shape="rect" id="node6" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="670,95,861,122"/>
+<area shape="rect" id="node9" href="class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="433,198,611,225"/>
+<area shape="rect" id="node13" href="class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="428,354,616,381"/>
+<area shape="rect" id="node18" href="class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="435,405,609,447"/>
+<area shape="rect" id="node10" href="class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="668,263,863,290"/>
+<area shape="rect" id="node11" href="class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="664,146,867,173"/>
+<area shape="rect" id="node12" href="class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="673,197,857,239"/>
+<area shape="rect" id="node14" href="class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="678,497,853,539"/>
+<area shape="rect" id="node15" href="class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="678,315,853,356"/>
+<area shape="rect" id="node16" href="class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="678,380,853,421"/>
+<area shape="rect" id="node17" href="class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="673,446,858,473"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1007,13 +1466,265 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph.png" border="0" usemap="#class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph" alt=""/></div>
 <map name="class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph" id="class_simulation_a1ba6581d305c2d60d174e0cffd917719_icgraph">
-<area shape="rect" id="node2" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="213,5,352,32"/>
+<area shape="rect" id="node2" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="219,5,347,32"/>
+<area shape="rect" id="node3" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="213,56,352,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8486cde41c003277c1ac75fffeda973b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8486cde41c003277c1ac75fffeda973b">&#9670;&nbsp;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a8486cde41c003277c1ac75fffeda973b_cgraph.png" border="0" usemap="#class_simulation_a8486cde41c003277c1ac75fffeda973b_cgraph" alt=""/></div>
+<map name="class_simulation_a8486cde41c003277c1ac75fffeda973b_cgraph" id="class_simulation_a8486cde41c003277c1ac75fffeda973b_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="187,157,349,184"/>
+<area shape="rect" id="node9" href="class_simulation.html#a1ba6581d305c2d60d174e0cffd917719" title="Méthode permettant le passage à la génération suivante. " alt="" coords="188,335,348,361"/>
+<area shape="rect" id="node27" href="class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="209,385,327,412"/>
+<area shape="rect" id="node28" href="class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="DÃ©terminer le nombre de canons par leur pÃ©riode. " alt="" coords="181,637,355,664"/>
+<area shape="rect" id="node3" href="class_simulation.html#aad224ef6c13fac45281cf6c095c5c874" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="453,5,575,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#af23614524fe3045d198d953f09264f79" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="431,56,597,83"/>
+<area shape="rect" id="node5" href="class_simulation.html#ade3470a637773f3e751ce4b0923c3909" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="449,107,579,133"/>
+<area shape="rect" id="node6" href="class_simulation.html#a39f92768aa24cee944387315749314ad" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="424,157,604,184"/>
+<area shape="rect" id="node7" href="class_simulation.html#a8b95cd2e9f897c0dab40119ac1c54f39" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="403,208,625,235"/>
+<area shape="rect" id="node8" href="class_simulation.html#a20934920a4fc75fa258a85d0c4e6968e" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="421,259,607,285"/>
+<area shape="rect" id="node10" href="class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="AppelÃ© par Simulation dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l&#39;indice de gÃ..." alt="" coords="431,309,597,336"/>
+<area shape="rect" id="node16" href="class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle gÃ©nÃ©ration Ã  stockGen. " alt="" coords="451,360,577,387"/>
+<area shape="rect" id="node11" href="class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="725,221,844,248"/>
+<area shape="rect" id="node15" href="class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="705,309,864,336"/>
+<area shape="rect" id="node12" href="class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="1229,145,1367,172"/>
+<area shape="rect" id="node13" href="class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="971,120,1124,147"/>
+<area shape="rect" id="node14" href="class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="952,221,1143,248"/>
+<area shape="rect" id="node17" href="class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="696,360,873,387"/>
+<area shape="rect" id="node21" href="class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="691,459,879,485"/>
+<area shape="rect" id="node26" href="class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="698,510,871,551"/>
+<area shape="rect" id="node18" href="class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="950,389,1145,416"/>
+<area shape="rect" id="node19" href="class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="946,272,1149,299"/>
+<area shape="rect" id="node20" href="class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="955,323,1139,365"/>
+<area shape="rect" id="node22" href="class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="960,441,1135,482"/>
+<area shape="rect" id="node23" href="class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="960,506,1135,547"/>
+<area shape="rect" id="node24" href="class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="960,571,1135,613"/>
+<area shape="rect" id="node25" href="class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="955,637,1140,664"/>
+<area shape="rect" id="node29" href="class_detection_gun.html#a0a14866d2727aea5d457121bd646f3bb" title="Obtenir la structure dans la sous&#45;structure &quot;struc&quot; qui correspond Ã  la taille spÃ©cifiÃ©e par l&#39;uti..." alt="" coords="673,587,896,613"/>
+<area shape="rect" id="node30" href="class_detection_gun.html#af804b47fcbcc2c89bbe17b47eb8f7c47" title="Verifier si la sous&#45;structure est la structure cible de detection " alt="" coords="421,1059,607,1085"/>
+<area shape="rect" id="node43" href="class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d" title="DetectionGun.trouverModelGun" alt="" coords="683,739,886,765"/>
+<area shape="rect" id="node48" href="class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="DÃ©terminer la prÃ©sence ou l&#39;absence de canons " alt="" coords="435,637,593,664"/>
+<area shape="rect" id="node31" href="class_detection_gun.html#a488d963e0b78922904b6bd42182ca7b1" title="Obtenir les cellules vivantes. " alt="" coords="697,866,873,907"/>
+<area shape="rect" id="node33" href="class_list_vector_gun.html#a7c7706a2171becc86a8353b525d35d69" title="ListVectorGun.Count" alt="" coords="1227,1160,1369,1187"/>
+<area shape="rect" id="node34" href="class_list_vector_gun.html#a6b94b7d8288d1415f1670181251bbfa2" title="ListVectorGun.getPosition" alt="" coords="1211,1261,1385,1288"/>
+<area shape="rect" id="node35" href="class_detection_gun.html#acac3e59304ebc04b56925511108ecae2" title="L&#39;algorithme DFS pour trouver une structure connexe " alt="" coords="723,1109,847,1136"/>
+<area shape="rect" id="node42" href="class_list_vector_gun.html#a81d2c8a06d61648f274eb644901f1959" title="Enlever une liste b de la liste structureAlive " alt="" coords="962,1312,1133,1339"/>
+<area shape="rect" id="node32" href="class_list_vector_gun.html#a2969c469590b46d382af86ffbffe46c4" title="Ajoute un élément à la liste. " alt="" coords="1232,789,1364,816"/>
+<area shape="rect" id="node36" href="class_list_vector_gun.html#a9dc269fd17f18f6c9f4e974990c6e442" title="Ajoute un élément à la liste. " alt="" coords="1213,989,1383,1016"/>
+<area shape="rect" id="node37" href="class_list_vector_gun.html#afacf0a838223ed57e72abcc7c21594ae" title="Vérifie si un élément est compris dans la liste. " alt="" coords="1218,869,1378,896"/>
+<area shape="rect" id="node38" href="class_detection_gun.html#a244439efd16406706a55f545b56a2500" title="Obtenir les positions de tous les voisins d&#39;une cellule selon les regles de voisinage ..." alt="" coords="944,891,1151,933"/>
+<area shape="rect" id="node39" href="class_list_vector_gun.html#ae32fc88f0d58affa06527f97a19f1f70" title="Outil pour combiner deux listes. " alt="" coords="972,1261,1123,1288"/>
+<area shape="rect" id="node40" href="class_list_vector_gun.html#a92aa301df19a9b1cd5f6e635e6a0c86f" title="Supprimer les elements de liste temp dans la liste structure " alt="" coords="979,1211,1116,1237"/>
+<area shape="rect" id="node41" href="class_list_vector_gun.html#a1ffc9f3c2ac48631dcd05ba8061ba9c7" title="ListVectorGun.RemoveAt" alt="" coords="963,1109,1131,1136"/>
+<area shape="rect" id="node44" href="class_list_vector_gun.html#a23dabaffda742276390b578c091d101a" title="Savoir combien de points d&#39;entre deux structures ont les mêmes coordonnées " alt="" coords="953,957,1141,984"/>
+<area shape="rect" id="node45" href="class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une g..." alt="" coords="954,739,1141,765"/>
+<area shape="rect" id="node46" href="class_list_vector_gun.html#a9f370c4f677db9d3ecb750febcaed21e" title="Constructeur. " alt="" coords="1202,739,1394,765"/>
+<area shape="rect" id="node47" href="class_list_vector_gun.html#a305381e8b2d20184c1894c89d2726b2c" title="Trouve le vecteur minimal (x et y de valeur minimal). " alt="" coords="1199,688,1397,715"/>
+<area shape="rect" id="node49" href="class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="958,688,1137,715"/>
+<area shape="rect" id="node50" href="class_detection_gun.html#af0283c67f8fe041c2ff8ded541054d56" title="si c&#39;est la premiere forme retourner true " alt="" coords="689,637,881,664"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af23614524fe3045d198d953f09264f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af23614524fe3045d198d953f09264f79">&#9670;&nbsp;</a></span>VonNeumann()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.VonNeumann </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>VonNeumann : 6 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Von Neumann. Il faut compter uniquement les voisins des faces du cube (6). </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_af23614524fe3045d198d953f09264f79_icgraph.png" border="0" usemap="#class_simulation_af23614524fe3045d198d953f09264f79_icgraph" alt=""/></div>
+<map name="class_simulation_af23614524fe3045d198d953f09264f79_icgraph" id="class_simulation_af23614524fe3045d198d953f09264f79_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="219,31,381,57"/>
+<area shape="rect" id="node3" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="435,5,563,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="429,56,568,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8b95cd2e9f897c0dab40119ac1c54f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b95cd2e9f897c0dab40119ac1c54f39">&#9670;&nbsp;</a></span>VonNeumannClassique()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation.VonNeumannClassique </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>VonNeumann : 6 voisins. Methode permettant d'obtenir le nombre de voisins d'une cellule en utilisant les regles de vie de Von Neumann. Il faut compter uniquement les voisins des faces du cube (6). </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_simulation_a8b95cd2e9f897c0dab40119ac1c54f39_icgraph.png" border="0" usemap="#class_simulation_a8b95cd2e9f897c0dab40119ac1c54f39_icgraph" alt=""/></div>
+<map name="class_simulation_a8b95cd2e9f897c0dab40119ac1c54f39_icgraph" id="class_simulation_a8b95cd2e9f897c0dab40119ac1c54f39_icgraph">
+<area shape="rect" id="node2" href="class_simulation.html#a9238f4dcd56a4945017fda48a76a3dc8" title="Simulation.setVoisinage" alt="" coords="276,31,439,57"/>
+<area shape="rect" id="node3" href="class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="492,5,620,32"/>
+<area shape="rect" id="node4" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="487,56,625,83"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentation des données membres</h2>
+<a id="a6669b07eee108268664786cefe871ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6669b07eee108268664786cefe871ecc">&#9670;&nbsp;</a></span>bornRule</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] Simulation.bornRule = new int[] { 5, 6, 7 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Règles de naissance. </p>
+
+</div>
+</div>
+<a id="ab3fa246ee311f9d4dc8a02d72e9e4b0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3fa246ee311f9d4dc8a02d72e9e4b0b">&#9670;&nbsp;</a></span>cellColortransparent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color Simulation.cellColortransparent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La couleur des cellules mortes. </p>
+
+</div>
+</div>
+<a id="a69eb0a203edb869b0e80d9a86bee80e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69eb0a203edb869b0e80d9a86bee80e8">&#9670;&nbsp;</a></span>currentTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Simulation.currentTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temps actuel. </p>
+
+</div>
+</div>
+<a id="afc9e01cae93b73b18dff79aa690b20ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc9e01cae93b73b18dff79aa690b20ee">&#9670;&nbsp;</a></span>detection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_detection.html">Detection</a> Simulation.detection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stocke l'instan de la detection. </p>
+
+</div>
+</div>
 <a id="a4fd8bb7eb15c0462da5f0615d293e404"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fd8bb7eb15c0462da5f0615d293e404">&#9670;&nbsp;</a></span>ficheNumber</h2>
 
@@ -1024,6 +1735,122 @@ Voici le graphe des appelants de cette fonction :</div>
           <td class="memname">int Simulation.ficheNumber</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8fd619d4dd151c7eed091395f794af25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd619d4dd151c7eed091395f794af25">&#9670;&nbsp;</a></span>forceVisualDeactivation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.forceVisualDeactivation = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Force la désactivation de la visualisation si le nombre de cellules excède 30*30*30. </p>
+
+</div>
+</div>
+<a id="a5d6130f94a3799a582363321183df42d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6130f94a3799a582363321183df42d">&#9670;&nbsp;</a></span>gen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.gen = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La valeur de la génération actuelle. </p>
+
+</div>
+</div>
+<a id="a66b52a85390c56f61bdd9f8dcf112608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b52a85390c56f61bdd9f8dcf112608">&#9670;&nbsp;</a></span>h</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.h = 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bc1fd239c1b82110d8789d5cb2b8daa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bc1fd239c1b82110d8789d5cb2b8daa">&#9670;&nbsp;</a></span>inPause</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.inPause = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true si en pause, false sinon. </p>
+
+</div>
+</div>
+<a id="ae57d3ef4739c9bfee92f26318c848b61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae57d3ef4739c9bfee92f26318c848b61">&#9670;&nbsp;</a></span>l</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.l = 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1042,6 +1869,174 @@ Voici le graphe des appelants de cette fonction :</div>
 
 </div>
 </div>
+<a id="ad7b1f3e5fcdb993f152bc37f952c08d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b1f3e5fcdb993f152bc37f952c08d6">&#9670;&nbsp;</a></span>maxAgeCellColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.maxAgeCellColor = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>L'âge maximal d'une cellule. </p>
+
+</div>
+</div>
+<a id="ace7b43c186833b6babd2f131eb705ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7b43c186833b6babd2f131eb705ebb">&#9670;&nbsp;</a></span>maxGen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.maxGen = 10000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le nombre maximal de génération. </p>
+
+</div>
+</div>
+<a id="ad4dd940ecc0d68275e9db930991494ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4dd940ecc0d68275e9db930991494ee">&#9670;&nbsp;</a></span>maxGenRead</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.maxGenRead = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La génération max réalisé. </p>
+
+</div>
+</div>
+<a id="affdff461f776f637b6439c04b0984fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affdff461f776f637b6439c04b0984fac">&#9670;&nbsp;</a></span>menuVisualizationUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_menu_visualization_u_i.html">MenuVisualizationUI</a> Simulation.menuVisualizationUI</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stocke l'instance de <a class="el" href="class_menu_visualization_u_i.html" title="Classe contenant les mÃ©thodes associÃ©es au UI de la simulation et Ã  l&#39;interaction avec le script g...">MenuVisualizationUI</a>. </p>
+
+</div>
+</div>
+<a id="acaaccf034e750d037d15e5b26cd881b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaaccf034e750d037d15e5b26cd881b8">&#9670;&nbsp;</a></span>nameStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField Simulation.nameStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>L'entrée pour le nom du fichier. </p>
+
+</div>
+</div>
+<a id="ab24b02a8f790b6463ba78b986c014ab0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24b02a8f790b6463ba78b986c014ab0">&#9670;&nbsp;</a></span>nbGen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI Simulation.nbGen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Afficher le nombre de génération. </p>
+
+</div>
+</div>
+<a id="a3db898e7c26628b180538fd3f5fbefe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db898e7c26628b180538fd3f5fbefe7">&#9670;&nbsp;</a></span>neighbors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [,,] Simulation.neighbors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stockage pour le nombre de voisins. </p>
+
+</div>
+</div>
 <a id="a2766dce78dbc1f3c20353f02f57103e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2766dce78dbc1f3c20353f02f57103e1">&#9670;&nbsp;</a></span>nu</h2>
 
@@ -1056,6 +2051,78 @@ Voici le graphe des appelants de cette fonction :</div>
 
 </div>
 </div>
+<a id="aa43a91e87c7c650fc7d67a1d845ada89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43a91e87c7c650fc7d67a1d845ada89">&#9670;&nbsp;</a></span>numero</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField Simulation.numero</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>L'indicateur. </p>
+
+</div>
+</div>
+<a id="a50ea19ab370b70d5cbb7e0d22510c542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ea19ab370b70d5cbb7e0d22510c542">&#9670;&nbsp;</a></span>objectsCube</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject [,,] Simulation.objectsCube</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stockage pour les objets. </p>
+
+</div>
+</div>
+<a id="acb69f99e6f099b7da09bd91e33f71d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb69f99e6f099b7da09bd91e33f71d89">&#9670;&nbsp;</a></span>oldColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color Simulation.oldColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La couleur d'une cellule à l'age maxAgeCellColor. </p>
+
+</div>
+</div>
 <a id="ab4e91933fc69c6696543f44cdc5489eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab4e91933fc69c6696543f44cdc5489eb">&#9670;&nbsp;</a></span>openPanel</h2>
 
@@ -1067,6 +2134,124 @@ Voici le graphe des appelants de cette fonction :</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a278d42069f2672d880c171af84a4b1b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278d42069f2672d880c171af84a4b1b1">&#9670;&nbsp;</a></span>panelSave</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Simulation.panelSave</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le panel pour permettre à l'utilisateur de sauvegarder la génération. </p>
+
+</div>
+</div>
+<a id="a51f753f5907cb4985c5b802c34fb68c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f753f5907cb4985c5b802c34fb68c1">&#9670;&nbsp;</a></span>panelText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Simulation.panelText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le panel pour permettre à afficher les informations d'aide. </p>
+
+</div>
+</div>
+<a id="a3b7a08db81fe21502f57813cc436090d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b7a08db81fe21502f57813cc436090d">&#9670;&nbsp;</a></span>parent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform Simulation.parent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le parent des cubes. </p>
+
+</div>
+</div>
+<a id="a214fc9916eb818cadeb37dfba3d14f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a214fc9916eb818cadeb37dfba3d14f23">&#9670;&nbsp;</a></span>peri</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.peri</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee455a3c4114262af0c5242aa26ea779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee455a3c4114262af0c5242aa26ea779">&#9670;&nbsp;</a></span>periode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField Simulation.periode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>les periode que l'utilisateur veut enregister dans le fichier. </p>
 
 </div>
 </div>
@@ -1098,6 +2283,126 @@ Voici le graphe des appelants de cette fonction :</div>
 
 </div>
 </div>
+<a id="aedb9a065e068f5a643f6cb40b82942da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedb9a065e068f5a643f6cb40b82942da">&#9670;&nbsp;</a></span>random</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.random</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true s'il faut créer des cellules aléatoirement, false sinon. </p>
+
+</div>
+</div>
+<a id="ae9871215c90d09d1137f2332762dbbac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9871215c90d09d1137f2332762dbbac">&#9670;&nbsp;</a></span>show</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.show = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true s'il y a la visualisation des cellules (les cubes) false sinon. </p>
+
+</div>
+</div>
+<a id="a435bb7cb51e9dcf9f05a233e733ce451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435bb7cb51e9dcf9f05a233e733ce451">&#9670;&nbsp;</a></span>showIntransparentCell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Simulation.showIntransparentCell = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true si les cellules mortes doivent être visibles en transparent, false sinon. </p>
+
+</div>
+</div>
+<a id="a4e347114640730fa13c37ef9aa295d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e347114640730fa13c37ef9aa295d5c">&#9670;&nbsp;</a></span>speed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Simulation.speed = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vitesse de simulation. </p>
+
+</div>
+</div>
+<a id="adab3e6e037fe4694b0f6f990ac4497f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab3e6e037fe4694b0f6f990ac4497f9">&#9670;&nbsp;</a></span>stockGen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [][,,] Simulation.stockGen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stocke les générations. </p>
+
+</div>
+</div>
 <a id="ac581af6c4b31a61b95a1c11c1d4ed38b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac581af6c4b31a61b95a1c11c1d4ed38b">&#9670;&nbsp;</a></span>structDec</h2>
 
@@ -1109,6 +2414,124 @@ Voici le graphe des appelants de cette fonction :</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0408a0584ec3cc3a9cc2ef1860fd652f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0408a0584ec3cc3a9cc2ef1860fd652f">&#9670;&nbsp;</a></span>structure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;Vector3&gt; &gt; Simulation.structure = new List&lt;List&lt;Vector3&gt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd9ae047431cdaa8de58cd9a442dcf18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd9ae047431cdaa8de58cd9a442dcf18">&#9670;&nbsp;</a></span>surviveRule</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] Simulation.surviveRule = new int[] { 6 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Règles de mort. </p>
+
+</div>
+</div>
+<a id="af963c65cf7e59af39846bdfd1fb1974a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af963c65cf7e59af39846bdfd1fb1974a">&#9670;&nbsp;</a></span>theMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material Simulation.theMaterial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le material appliqué aux cellules. </p>
+
+</div>
+</div>
+<a id="aee1ef7a6608f40a4ba30d431b10f83c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee1ef7a6608f40a4ba30d431b10f83c6">&#9670;&nbsp;</a></span>theVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [,,] Simulation.theVolume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contient les cellules. </p>
+
+</div>
+</div>
+<a id="a6ea09f230373dac17ac214fd287b697f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea09f230373dac17ac214fd287b697f">&#9670;&nbsp;</a></span>threshhold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Simulation.threshhold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La probabilité d'apparition d'une cellule (quand random dans initial structure dans les parametres est activé). </p>
 
 </div>
 </div>
@@ -1137,6 +2560,98 @@ Voici le graphe des appelants de cette fonction :</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abace05fc32d6e12236e7e272a901df49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abace05fc32d6e12236e7e272a901df49">&#9670;&nbsp;</a></span>voisinage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Voisinage2 Simulation.voisinage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Le type de voisinage utilisé. </p>
+
+</div>
+</div>
+<a id="ae5fbb318a6156864c54a36380ff54a23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fbb318a6156864c54a36380ff54a23">&#9670;&nbsp;</a></span>w</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.w = 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4bdb9d5d8e21dd532d9683383691a70b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bdb9d5d8e21dd532d9683383691a70b">&#9670;&nbsp;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Simulation.x = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab81b3b62207548fc9129270529e2641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab81b3b62207548fc9129270529e2641">&#9670;&nbsp;</a></span>youngColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color Simulation.youngColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La couleur de naissance d'une cellule, à l'age 1. </p>
 
 </div>
 </div>

@@ -1,3 +1,4 @@
 <map id="DetectionGun.trouverModelGun" name="DetectionGun.trouverModelGun">
-<area shape="rect" id="node2" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période " alt="" coords="256,5,429,32"/>
+<area shape="rect" id="node2" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="DÃ©terminer le nombre de canons par leur pÃ©riode. " alt="" coords="256,5,429,32"/>
+<area shape="rect" id="node3" href="$class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="477,5,605,32"/>
 </map>

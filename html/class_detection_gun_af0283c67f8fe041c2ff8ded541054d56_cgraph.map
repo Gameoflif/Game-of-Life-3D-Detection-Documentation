@@ -1,4 +1,4 @@
 <map id="DetectionGun.compareStable" name="DetectionGun.compareStable">
 <area shape="rect" id="node2" href="$class_list_vector_gun.html#a73d0b1fca681bce5aaf680873b071827" title="Retourner la même structure à partir de deux listes " alt="" coords="245,5,436,32"/>
-<area shape="rect" id="node3" href="$class_list_vector_gun.html#afacf0a838223ed57e72abcc7c21594ae" title="ListVectorGun.Contains" alt="" coords="484,5,644,32"/>
+<area shape="rect" id="node3" href="$class_list_vector_gun.html#afacf0a838223ed57e72abcc7c21594ae" title="Vérifie si un élément est compris dans la liste. " alt="" coords="484,5,644,32"/>
 </map>

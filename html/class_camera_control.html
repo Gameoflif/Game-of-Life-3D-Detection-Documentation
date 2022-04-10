@@ -88,13 +88,15 @@ $(document).ready(function(){initNavTree('class_camera_control.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
 <a href="class_camera_control-members.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
 <div class="title">Référence de la classe CameraControl</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>La classe permettant le control de la cam�ra  
+<p>La classe permettant le control de la caméra  
  <a href="class_camera_control.html#details">Plus de détails...</a></p>
 <div class="dynheader">
 Graphe d'héritage de CameraControl:</div>
@@ -109,17 +111,108 @@ Graphe de collaboration de CameraControl:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
-<tr class="memitem:a879e70766aaa6eec8be532ab6712dd6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b">ActOrDeaMovement</a> (bool canMove)</td></tr>
-<tr class="memdesc:a879e70766aaa6eec8be532ab6712dd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'activer ou de d�sactiver le mouvement de la cam�ra.  <a href="#a879e70766aaa6eec8be532ab6712dd6b">Plus de détails...</a><br /></td></tr>
+<tr class="memitem:a879e70766aaa6eec8be532ab6712dd6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b">ActOrDeaMovement</a> (bool <a class="el" href="class_camera_control.html#a0c3fa77bacbeb5a6735e6d572dbbce67">canMove</a>)</td></tr>
+<tr class="memdesc:a879e70766aaa6eec8be532ab6712dd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'activer ou de désactiver le mouvement de la caméra.  <a href="#a879e70766aaa6eec8be532ab6712dd6b">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a879e70766aaa6eec8be532ab6712dd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7238445e22d5a0d5c2f620f1ad46fa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#ab7238445e22d5a0d5c2f620f1ad46fa2">restartCenter</a> (int h, int w, int l)</td></tr>
-<tr class="memdesc:ab7238445e22d5a0d5c2f620f1ad46fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recentre la cam�ra en fonction des dimensions du volume.  <a href="#ab7238445e22d5a0d5c2f620f1ad46fa2">Plus de détails...</a><br /></td></tr>
+<tr class="memitem:ab7238445e22d5a0d5c2f620f1ad46fa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#ab7238445e22d5a0d5c2f620f1ad46fa2">restartCenter</a> (int <a class="el" href="class_camera_control.html#aee06e1c0a46ffd42fcd8abe1c2f5a40a">h</a>, int <a class="el" href="class_camera_control.html#a4080a1d529cac09e1384bb0420ba87d3">w</a>, int <a class="el" href="class_camera_control.html#a0e883a505f663ed202947cb60995ded6">l</a>)</td></tr>
+<tr class="memdesc:ab7238445e22d5a0d5c2f620f1ad46fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recentre la caméra en fonction des dimensions du volume.  <a href="#ab7238445e22d5a0d5c2f620f1ad46fa2">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab7238445e22d5a0d5c2f620f1ad46fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:af93c098f6ebf3501a41912d88accc1f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#af93c098f6ebf3501a41912d88accc1f2">Start</a> ()</td></tr>
+<tr class="separator:af93c098f6ebf3501a41912d88accc1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93058e0f26583cc7355f31467287d374"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a93058e0f26583cc7355f31467287d374">LateUpdate</a> ()</td></tr>
+<tr class="separator:a93058e0f26583cc7355f31467287d374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408c4548730cdc6b96c177898f222635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a408c4548730cdc6b96c177898f222635">MoveAndRotate</a> ()</td></tr>
+<tr class="memdesc:a408c4548730cdc6b96c177898f222635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bouge et réalise la rotation de la caméra en fonction des entrées de l'utilisateur.  <a href="#a408c4548730cdc6b96c177898f222635">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a408c4548730cdc6b96c177898f222635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a0c3fa77bacbeb5a6735e6d572dbbce67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a0c3fa77bacbeb5a6735e6d572dbbce67">canMove</a> = false</td></tr>
+<tr class="memdesc:a0c3fa77bacbeb5a6735e6d572dbbce67"><td class="mdescLeft">&#160;</td><td class="mdescRight">true si on peut bouger la caméra, false sinon.  <a href="#a0c3fa77bacbeb5a6735e6d572dbbce67">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0c3fa77bacbeb5a6735e6d572dbbce67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24aa30171f6590bed8ed45679a3bc385"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a24aa30171f6590bed8ed45679a3bc385">inputfieldAxeX</a></td></tr>
+<tr class="memdesc:a24aa30171f6590bed8ed45679a3bc385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zone de texte pour la valeur de l'axe X.  <a href="#a24aa30171f6590bed8ed45679a3bc385">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a24aa30171f6590bed8ed45679a3bc385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780f2ed07f0991caeced5645adfc44f3"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a780f2ed07f0991caeced5645adfc44f3">inputfieldAxeY</a></td></tr>
+<tr class="memdesc:a780f2ed07f0991caeced5645adfc44f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zone de texte pour la valeur de l'axe Y  <a href="#a780f2ed07f0991caeced5645adfc44f3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a780f2ed07f0991caeced5645adfc44f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341e48bda7a5a7117d90ae30643ad006"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a341e48bda7a5a7117d90ae30643ad006">inputfieldAxeZ</a></td></tr>
+<tr class="memdesc:a341e48bda7a5a7117d90ae30643ad006"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zone de texte pour la valeur de l'axe Z.  <a href="#a341e48bda7a5a7117d90ae30643ad006">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a341e48bda7a5a7117d90ae30643ad006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee03964cb85279922b7a0dac9395f8d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#aee03964cb85279922b7a0dac9395f8d7">angleWandLX</a></td></tr>
+<tr class="memdesc:aee03964cb85279922b7a0dac9395f8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">L'angle entre les coordonnées mondiales et locales pour l'axe X.  <a href="#aee03964cb85279922b7a0dac9395f8d7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aee03964cb85279922b7a0dac9395f8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07fe5546ad908b642ef5c96f810db6b3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a07fe5546ad908b642ef5c96f810db6b3">angleWandLY</a></td></tr>
+<tr class="memdesc:a07fe5546ad908b642ef5c96f810db6b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">L'angle entre les coordonnées mondiales et locales pour l'axe Y.  <a href="#a07fe5546ad908b642ef5c96f810db6b3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a07fe5546ad908b642ef5c96f810db6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cde63cd5df67764f7932695731a71f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a05cde63cd5df67764f7932695731a71f">DistTarget</a></td></tr>
+<tr class="memdesc:a05cde63cd5df67764f7932695731a71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">La distance de la la caméra par rapport à la cible.  <a href="#a05cde63cd5df67764f7932695731a71f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a05cde63cd5df67764f7932695731a71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3c95bbc5b16383e99c07b5239ff070"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a9d3c95bbc5b16383e99c07b5239ff070">newDistTarget</a></td></tr>
+<tr class="memdesc:a9d3c95bbc5b16383e99c07b5239ff070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance actuelle de la caméra par rapport à la cible.  <a href="#a9d3c95bbc5b16383e99c07b5239ff070">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9d3c95bbc5b16383e99c07b5239ff070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2bfdf7b029eeb53e96ed5d8c0b84a1"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a0a2bfdf7b029eeb53e96ed5d8c0b84a1">RotTarget</a></td></tr>
+<tr class="memdesc:a0a2bfdf7b029eeb53e96ed5d8c0b84a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orientation cible de la caméra  <a href="#a0a2bfdf7b029eeb53e96ed5d8c0b84a1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0a2bfdf7b029eeb53e96ed5d8c0b84a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37f465a1005c089ee7962aaf8aec76e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#ae37f465a1005c089ee7962aaf8aec76e">sensitivityMovement</a></td></tr>
+<tr class="memdesc:ae37f465a1005c089ee7962aaf8aec76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">La sensibilité de la rotation de la caméra en fonction du mouvement de la souris.  <a href="#ae37f465a1005c089ee7962aaf8aec76e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae37f465a1005c089ee7962aaf8aec76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16be738f9e3af72fbcf8ab2444c188a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a16be738f9e3af72fbcf8ab2444c188a7">sensitivityMovementFast</a></td></tr>
+<tr class="memdesc:a16be738f9e3af72fbcf8ab2444c188a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. en mode fast de la souris.  <a href="#a16be738f9e3af72fbcf8ab2444c188a7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a16be738f9e3af72fbcf8ab2444c188a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc51409a2ce333ddd86f86ed5acdd41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#adcc51409a2ce333ddd86f86ed5acdd41">cameraSpeed</a></td></tr>
+<tr class="memdesc:adcc51409a2ce333ddd86f86ed5acdd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">La vitesse de la caméra.  <a href="#adcc51409a2ce333ddd86f86ed5acdd41">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adcc51409a2ce333ddd86f86ed5acdd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a691c217272275657d242c27b496964b6"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a691c217272275657d242c27b496964b6">v</a></td></tr>
+<tr class="memdesc:a691c217272275657d242c27b496964b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">La position de la cible.  <a href="#a691c217272275657d242c27b496964b6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a691c217272275657d242c27b496964b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d18c8c72678abfe638f07483c437b92"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a3d18c8c72678abfe638f07483c437b92">vbegin</a></td></tr>
+<tr class="memdesc:a3d18c8c72678abfe638f07483c437b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position de départ.  <a href="#a3d18c8c72678abfe638f07483c437b92">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3d18c8c72678abfe638f07483c437b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116fb7ac920ed4c84894420690b15174"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a116fb7ac920ed4c84894420690b15174">minDegreX</a></td></tr>
+<tr class="memdesc:a116fb7ac920ed4c84894420690b15174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle limite minimum pour l'axe X  <a href="#a116fb7ac920ed4c84894420690b15174">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a116fb7ac920ed4c84894420690b15174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9804e1cf6d924768e6484ab8a0c34fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#ad9804e1cf6d924768e6484ab8a0c34fa">maxDegreX</a></td></tr>
+<tr class="memdesc:ad9804e1cf6d924768e6484ab8a0c34fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle limite maximal sur l'axe X  <a href="#ad9804e1cf6d924768e6484ab8a0c34fa">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad9804e1cf6d924768e6484ab8a0c34fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e187cb1ebfb3675d77110a8f1b99d83"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a7e187cb1ebfb3675d77110a8f1b99d83">minDegreY</a></td></tr>
+<tr class="memdesc:a7e187cb1ebfb3675d77110a8f1b99d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle limite minimum pour l'axe Y  <a href="#a7e187cb1ebfb3675d77110a8f1b99d83">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7e187cb1ebfb3675d77110a8f1b99d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f75fdf96fae8ac44850764c10085ac"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a08f75fdf96fae8ac44850764c10085ac">maxDegreY</a></td></tr>
+<tr class="memdesc:a08f75fdf96fae8ac44850764c10085ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle limite maximal sur l'axe Y  <a href="#a08f75fdf96fae8ac44850764c10085ac">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a08f75fdf96fae8ac44850764c10085ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee06e1c0a46ffd42fcd8abe1c2f5a40a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#aee06e1c0a46ffd42fcd8abe1c2f5a40a">h</a> = 10</td></tr>
+<tr class="separator:aee06e1c0a46ffd42fcd8abe1c2f5a40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4080a1d529cac09e1384bb0420ba87d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a4080a1d529cac09e1384bb0420ba87d3">w</a> = 10</td></tr>
+<tr class="separator:a4080a1d529cac09e1384bb0420ba87d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e883a505f663ed202947cb60995ded6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a0e883a505f663ed202947cb60995ded6">l</a> = 10</td></tr>
+<tr class="separator:a0e883a505f663ed202947cb60995ded6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd85110007706858516ca14f5bfc130b"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#abd85110007706858516ca14f5bfc130b">target</a></td></tr>
+<tr class="memdesc:abd85110007706858516ca14f5bfc130b"><td class="mdescLeft">&#160;</td><td class="mdescRight">La position de la cible.  <a href="#abd85110007706858516ca14f5bfc130b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abd85110007706858516ca14f5bfc130b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3b5fd423d7a84a3014b7fd1d9ec254"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a9f3b5fd423d7a84a3014b7fd1d9ec254">moveSpeed</a></td></tr>
+<tr class="memdesc:a9f3b5fd423d7a84a3014b7fd1d9ec254"><td class="mdescLeft">&#160;</td><td class="mdescRight">La vitesse de déplacement de la caméra (zqsd).  <a href="#a9f3b5fd423d7a84a3014b7fd1d9ec254">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9f3b5fd423d7a84a3014b7fd1d9ec254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63413261e7373457a03491dacfede5d0"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a63413261e7373457a03491dacfede5d0">vRight</a></td></tr>
+<tr class="separator:a63413261e7373457a03491dacfede5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e71f599bbb8a0bf0bb072980445ea07"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a7e71f599bbb8a0bf0bb072980445ea07">vLeft</a></td></tr>
+<tr class="separator:a7e71f599bbb8a0bf0bb072980445ea07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf52cc7231378a27f7f5f0805ee0145"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a8bf52cc7231378a27f7f5f0805ee0145">vDown</a></td></tr>
+<tr class="separator:a8bf52cc7231378a27f7f5f0805ee0145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c3cf2f772a682994001bec237f91d49"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a7c3cf2f772a682994001bec237f91d49">vUp</a></td></tr>
+<tr class="separator:a7c3cf2f772a682994001bec237f91d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b1ad2e8e5572f2f4058a4124583a40"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#a92b1ad2e8e5572f2f4058a4124583a40">vForward</a></td></tr>
+<tr class="separator:a92b1ad2e8e5572f2f4058a4124583a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada86d34c3703c6f9aec6552343aec7c0"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_control.html#ada86d34c3703c6f9aec6552343aec7c0">vBack</a></td></tr>
+<tr class="separator:ada86d34c3703c6f9aec6552343aec7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
-<div class="textblock"><p>La classe permettant le control de la cam�ra </p>
+<div class="textblock"><p>La classe permettant le control de la caméra </p>
 <dl class="section author"><dt>Auteur</dt><dd>TIAN Ning,QIN Yi, correction : Dorian GROUTEAU </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08/04/2022Keys: zqsd / fleches : mouvements (haut,gauche,bas,droite). maintenir shift : augmente la vitesse de d�placement en avant. 134628 : positions pr�d�finies. maintient clique droit : rotation <br />
+<dl class="section date"><dt>Date</dt><dd>08/04/2022Keys: zqsd / fleches : mouvements (haut,gauche,bas,droite). maintenir shift : augmente la vitesse de déplacement en avant. 134628 : positions prédéfinies. maintient clique droit : rotation <br />
 </dd></dl>
 </div><h2 class="groupheader">Documentation des fonctions membres</h2>
 <a id="a879e70766aaa6eec8be532ab6712dd6b"></a>
@@ -146,10 +239,10 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Permet d'activer ou de d�sactiver le mouvement de la cam�ra. </p>
+<p>Permet d'activer ou de désactiver le mouvement de la caméra. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">canMove</td><td>Bool�en, true s'il faut activer le mouvement, false sinon</td></tr>
+    <tr><td class="paramname">canMove</td><td>Booléen, true s'il faut activer le mouvement, false sinon</td></tr>
   </table>
   </dd>
 </dl>
@@ -158,8 +251,84 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_camera_control_a879e70766aaa6eec8be532ab6712dd6b_icgraph.png" border="0" usemap="#class_camera_control_a879e70766aaa6eec8be532ab6712dd6b_icgraph" alt=""/></div>
 <map name="class_camera_control_a879e70766aaa6eec8be532ab6712dd6b_icgraph" id="class_camera_control_a879e70766aaa6eec8be532ab6712dd6b_icgraph">
-<area shape="rect" id="node2" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="D�sactive les panneaux edit mode et edit visualization et active le panel parameters. " alt="" coords="281,5,472,32"/>
-<area shape="rect" id="node3" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="D�sactive les paneaux parameters, visualization et active le panel edit mode. " alt="" coords="287,56,466,83"/>
+<area shape="rect" id="node2" href="class_menu_visualization_u_i.html#aabfef8a72ef59e04916f6d95a1274431" title="Active le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="296,5,472,47"/>
+<area shape="rect" id="node3" href="class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="535,14,725,41"/>
+<area shape="rect" id="node4" href="class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="DÃ©sactive le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="281,122,487,149"/>
+<area shape="rect" id="node9" href="class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="295,221,473,247"/>
+<area shape="rect" id="node5" href="class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="535,69,725,95"/>
+<area shape="rect" id="node7" href="class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="561,119,699,146"/>
+<area shape="rect" id="node8" href="class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9" title="Passage à la génération précédente. " alt="" coords="550,170,710,197"/>
+<area shape="rect" id="node6" href="class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="773,69,960,95"/>
+<area shape="rect" id="node10" href="class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="547,221,713,247"/>
+<area shape="rect" id="node11" href="class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="538,272,722,313"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a93058e0f26583cc7355f31467287d374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93058e0f26583cc7355f31467287d374">&#9670;&nbsp;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraControl.LateUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_control_a93058e0f26583cc7355f31467287d374_cgraph.png" border="0" usemap="#class_camera_control_a93058e0f26583cc7355f31467287d374_cgraph" alt=""/></div>
+<map name="class_camera_control_a93058e0f26583cc7355f31467287d374_cgraph" id="class_camera_control_a93058e0f26583cc7355f31467287d374_cgraph">
+<area shape="rect" id="node2" href="class_camera_control.html#a408c4548730cdc6b96c177898f222635" title="Bouge et réalise la rotation de la caméra en fonction des entrées de l&#39;utilisateur. " alt="" coords="232,5,435,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a408c4548730cdc6b96c177898f222635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a408c4548730cdc6b96c177898f222635">&#9670;&nbsp;</a></span>MoveAndRotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraControl.MoveAndRotate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bouge et réalise la rotation de la caméra en fonction des entrées de l'utilisateur. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_control_a408c4548730cdc6b96c177898f222635_icgraph.png" border="0" usemap="#class_camera_control_a408c4548730cdc6b96c177898f222635_icgraph" alt=""/></div>
+<map name="class_camera_control_a408c4548730cdc6b96c177898f222635_icgraph" id="class_camera_control_a408c4548730cdc6b96c177898f222635_icgraph">
+<area shape="rect" id="node2" href="class_camera_control.html#a93058e0f26583cc7355f31467287d374" title="CameraControl.LateUpdate" alt="" coords="256,5,435,32"/>
 </map>
 </div>
 
@@ -205,7 +374,7 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Recentre la cam�ra en fonction des dimensions du volume. </p>
+<p>Recentre la caméra en fonction des dimensions du volume. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">h</td><td>La hauteur du volume.</td></tr>
@@ -219,9 +388,714 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2_icgraph.png" border="0" usemap="#class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2_icgraph" alt=""/></div>
 <map name="class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2_icgraph" id="class_camera_control_ab7238445e22d5a0d5c2f620f1ad46fa2_icgraph">
-<area shape="rect" id="node2" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Parameters.ApplyImportOnclick" alt="" coords="240,5,447,32"/>
+<area shape="rect" id="node2" href="class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="241,5,447,32"/>
+<area shape="rect" id="node3" href="class_parameters.html#a8702daf046aa4d1c44a284c78f6ff058" title="MÃ©thode appelÃ©e lors de l&#39;appui sur le bouton Apply. Affiche Les diffÃ©rents paramÃ¨tres entrÃ©s pa..." alt="" coords="240,56,448,83"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="af93c098f6ebf3501a41912d88accc1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93c098f6ebf3501a41912d88accc1f2">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraControl.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="aee03964cb85279922b7a0dac9395f8d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee03964cb85279922b7a0dac9395f8d7">&#9670;&nbsp;</a></span>angleWandLX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.angleWandLX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>L'angle entre les coordonnées mondiales et locales pour l'axe X. </p>
+
+</div>
+</div>
+<a id="a07fe5546ad908b642ef5c96f810db6b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07fe5546ad908b642ef5c96f810db6b3">&#9670;&nbsp;</a></span>angleWandLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.angleWandLY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>L'angle entre les coordonnées mondiales et locales pour l'axe Y. </p>
+
+</div>
+</div>
+<a id="adcc51409a2ce333ddd86f86ed5acdd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc51409a2ce333ddd86f86ed5acdd41">&#9670;&nbsp;</a></span>cameraSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.cameraSpeed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La vitesse de la caméra. </p>
+
+</div>
+</div>
+<a id="a0c3fa77bacbeb5a6735e6d572dbbce67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3fa77bacbeb5a6735e6d572dbbce67">&#9670;&nbsp;</a></span>canMove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CameraControl.canMove = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true si on peut bouger la caméra, false sinon. </p>
+
+</div>
+</div>
+<a id="a05cde63cd5df67764f7932695731a71f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05cde63cd5df67764f7932695731a71f">&#9670;&nbsp;</a></span>DistTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.DistTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La distance de la la caméra par rapport à la cible. </p>
+
+</div>
+</div>
+<a id="aee06e1c0a46ffd42fcd8abe1c2f5a40a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee06e1c0a46ffd42fcd8abe1c2f5a40a">&#9670;&nbsp;</a></span>h</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CameraControl.h = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24aa30171f6590bed8ed45679a3bc385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24aa30171f6590bed8ed45679a3bc385">&#9670;&nbsp;</a></span>inputfieldAxeX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField CameraControl.inputfieldAxeX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zone de texte pour la valeur de l'axe X. </p>
+
+</div>
+</div>
+<a id="a780f2ed07f0991caeced5645adfc44f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a780f2ed07f0991caeced5645adfc44f3">&#9670;&nbsp;</a></span>inputfieldAxeY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField CameraControl.inputfieldAxeY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zone de texte pour la valeur de l'axe Y </p>
+
+</div>
+</div>
+<a id="a341e48bda7a5a7117d90ae30643ad006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341e48bda7a5a7117d90ae30643ad006">&#9670;&nbsp;</a></span>inputfieldAxeZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField CameraControl.inputfieldAxeZ</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zone de texte pour la valeur de l'axe Z. </p>
+
+</div>
+</div>
+<a id="a0e883a505f663ed202947cb60995ded6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e883a505f663ed202947cb60995ded6">&#9670;&nbsp;</a></span>l</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CameraControl.l = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9804e1cf6d924768e6484ab8a0c34fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9804e1cf6d924768e6484ab8a0c34fa">&#9670;&nbsp;</a></span>maxDegreX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.maxDegreX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Angle limite maximal sur l'axe X </p>
+
+</div>
+</div>
+<a id="a08f75fdf96fae8ac44850764c10085ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f75fdf96fae8ac44850764c10085ac">&#9670;&nbsp;</a></span>maxDegreY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.maxDegreY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Angle limite maximal sur l'axe Y </p>
+
+</div>
+</div>
+<a id="a116fb7ac920ed4c84894420690b15174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116fb7ac920ed4c84894420690b15174">&#9670;&nbsp;</a></span>minDegreX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.minDegreX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Angle limite minimum pour l'axe X </p>
+
+</div>
+</div>
+<a id="a7e187cb1ebfb3675d77110a8f1b99d83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e187cb1ebfb3675d77110a8f1b99d83">&#9670;&nbsp;</a></span>minDegreY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.minDegreY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Angle limite minimum pour l'axe Y </p>
+
+</div>
+</div>
+<a id="a9f3b5fd423d7a84a3014b7fd1d9ec254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3b5fd423d7a84a3014b7fd1d9ec254">&#9670;&nbsp;</a></span>moveSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.moveSpeed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La vitesse de déplacement de la caméra (zqsd). </p>
+
+</div>
+</div>
+<a id="a9d3c95bbc5b16383e99c07b5239ff070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3c95bbc5b16383e99c07b5239ff070">&#9670;&nbsp;</a></span>newDistTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.newDistTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distance actuelle de la caméra par rapport à la cible. </p>
+
+</div>
+</div>
+<a id="a0a2bfdf7b029eeb53e96ed5d8c0b84a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2bfdf7b029eeb53e96ed5d8c0b84a1">&#9670;&nbsp;</a></span>RotTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Quaternion CameraControl.RotTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Orientation cible de la caméra </p>
+
+</div>
+</div>
+<a id="ae37f465a1005c089ee7962aaf8aec76e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37f465a1005c089ee7962aaf8aec76e">&#9670;&nbsp;</a></span>sensitivityMovement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.sensitivityMovement</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. </p>
+
+</div>
+</div>
+<a id="a16be738f9e3af72fbcf8ab2444c188a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16be738f9e3af72fbcf8ab2444c188a7">&#9670;&nbsp;</a></span>sensitivityMovementFast</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CameraControl.sensitivityMovementFast</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La sensibilité de la rotation de la caméra en fonction du mouvement de la souris. en mode fast de la souris. </p>
+
+</div>
+</div>
+<a id="abd85110007706858516ca14f5bfc130b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd85110007706858516ca14f5bfc130b">&#9670;&nbsp;</a></span>target</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.target</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La position de la cible. </p>
+
+</div>
+</div>
+<a id="a691c217272275657d242c27b496964b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a691c217272275657d242c27b496964b6">&#9670;&nbsp;</a></span>v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.v</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La position de la cible. </p>
+
+</div>
+</div>
+<a id="ada86d34c3703c6f9aec6552343aec7c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada86d34c3703c6f9aec6552343aec7c0">&#9670;&nbsp;</a></span>vBack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vBack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d18c8c72678abfe638f07483c437b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d18c8c72678abfe638f07483c437b92">&#9670;&nbsp;</a></span>vbegin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vbegin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Position de départ. </p>
+
+</div>
+</div>
+<a id="a8bf52cc7231378a27f7f5f0805ee0145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf52cc7231378a27f7f5f0805ee0145">&#9670;&nbsp;</a></span>vDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92b1ad2e8e5572f2f4058a4124583a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b1ad2e8e5572f2f4058a4124583a40">&#9670;&nbsp;</a></span>vForward</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vForward</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e71f599bbb8a0bf0bb072980445ea07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e71f599bbb8a0bf0bb072980445ea07">&#9670;&nbsp;</a></span>vLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63413261e7373457a03491dacfede5d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63413261e7373457a03491dacfede5d0">&#9670;&nbsp;</a></span>vRight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vRight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c3cf2f772a682994001bec237f91d49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c3cf2f772a682994001bec237f91d49">&#9670;&nbsp;</a></span>vUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 CameraControl.vUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4080a1d529cac09e1384bb0420ba87d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4080a1d529cac09e1384bb0420ba87d3">&#9670;&nbsp;</a></span>w</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CameraControl.w = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

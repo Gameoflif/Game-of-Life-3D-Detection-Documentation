@@ -28,28 +28,72 @@ Graphe de collaboration de Navigation\+:
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_navigation_ad4dbf103497aef10cc636c40f84dbdde}{Visualization\+Button}} ()
-\begin{DoxyCompactList}\small\item\em D�sactive les panneaux parameters et edit mode et active le panel visualization. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em DÃ©sactive les panels parameters et edit mode et active le panel vizualization. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_navigation_adf000d0931e06c79e1e66f266d93e313}{Parameters\+Button}} ()
-\begin{DoxyCompactList}\small\item\em D�sactive les panneaux edit mode et edit visualization et active le panel parameters. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_navigation_af687f3df18da0e95175b04fe5cc7da56}{Edit\+Mode\+Button}} ()
-\begin{DoxyCompactList}\small\item\em D�sactive les paneaux parameters, visualization et active le panel edit mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Attributs publics}
+\begin{DoxyCompactList}\small\item\em DÃ©sactive les panels parameters, vizualization et active le panel edit mode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_navigation_a17942535e76d66a1d290f9e7a2bc03ec}{Go\+Anyway\+ED}} ()
+\begin{DoxyCompactList}\small\item\em Ignorer les messages d\textquotesingle{}aide pour entrer dans l\textquotesingle{}edit mode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_navigation_a4ea15dd4ea6a5789b4786150d534fc10}{Go\+Anyway\+Sim}} ()
+\begin{DoxyCompactList}\small\item\em Ignorer les messages d\textquotesingle{}aide pour entrer la visualisation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_navigation_a9a7bb527269069e0c083ef70291d4fb3}{panel\+Para\+Bouton\+Edit\+Mode}} ()
+\begin{DoxyCompactList}\small\item\em Pour afficher les messages d\textquotesingle{}aide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_navigation_a70f344f826956e694febdfb6fb693af4}{panel\+Para\+Bouton\+Visualisation}} ()
+\begin{DoxyCompactList}\small\item\em Pour afficher les messages d\textquotesingle{}aide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_navigation_a050da87d277fee7abae95d3e02912f12}{close\+Panel\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Fermer le panel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} \mbox{\hyperlink{class_navigation_a59344933bd9a22b16612407dee4e8aa5}{edit\+Mode\+Manager}}
-\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}. Permets d\textquotesingle{}activer l\textquotesingle{}�diteur de structure. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}. Permets d\textquotesingle{}activer l\textquotesingle{}Ã©diteur de structure. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}} \mbox{\hyperlink{class_navigation_affdf26928cacf9c7582cb21ff6bf85dd}{menu\+Visualization\+UI}}
-\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}}. Permets d\textquotesingle{}activer les objets n�c�ssaire � la visualisation. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}}. Permets d\textquotesingle{}activer les objets nÃ©cÃ¨ssaires Ã  la vizualisation. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_camera_control}{Camera\+Control}} \mbox{\hyperlink{class_navigation_a8ee62aef67edcc54d1478d20c22fff12}{camera\+Control}}
-\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_camera_control}{Camera\+Control}}. Permets d\textquotesingle{}activer/désactiver les mouvements. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_camera_control}{Camera\+Control}}. Permets d\textquotesingle{}activer/dÃ©sactiver les mouvements. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_navigation_a87c0235e826c5cd805b95b81c8c55ceb}{panel\+Visualization}}
+\begin{DoxyCompactList}\small\item\em Variable stockant le panel vizualization. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_navigation_ae85a69c809b880b39ac4cb86f2d80258}{panel\+Parameters}}
+\begin{DoxyCompactList}\small\item\em Variable stockant le panel parameters. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_navigation_aa095d3e8d992350e8452f4c91ca607c9}{panel\+Edit\+Mode}}
+\begin{DoxyCompactList}\small\item\em Variable stockant le panel edit mode. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_navigation_acea32f74d9820c1cd657a3e5371f1a58}{panel\+Save}}
+\begin{DoxyCompactList}\small\item\em Le panel pour permettre Ã  l\textquotesingle{}utilisateur de saisir le nom du fichier. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Text \mbox{\hyperlink{class_navigation_ac6f0605a263e970630f2946dbc8f5ca3}{text}}
+\begin{DoxyCompactList}\small\item\em Le texte affichÃ© sur le panel panel\+Apply\+Button. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_navigation_a12eac73989286c8368155f21bc6d5156}{panel\+Info\+S\+IM}}
+\begin{DoxyCompactList}\small\item\em Le panel pour afficher les messages d\textquotesingle{}aide. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_navigation_addc473bc967fa8543b016df5b5411b3e}{panel\+Info\+ED}}
+\begin{DoxyCompactList}\small\item\em Le panel pour afficher les messages d\textquotesingle{}aide. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Text \mbox{\hyperlink{class_navigation_af2ad653f49a97486583aa60103af3e6d}{text\+Info\+ED}}
+\begin{DoxyCompactList}\small\item\em Le texte affichÃ© sur le panel panel\+Info\+ED. \end{DoxyCompactList}\item 
+T\+M\+P\+\_\+\+Text \mbox{\hyperlink{class_navigation_aefa9a0108a63c721559a2ede11fad997}{text\+Info\+Sim}}
+\begin{DoxyCompactList}\small\item\em Le texte affichÃ© sur le panel panel\+Info\+S\+IM. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
 Classe permettant la navigation entre les panels. 
 
+\begin{DoxyAuthor}{Auteur}
+T\+I\+AN Ning,Q\+IN Yi,Dorian Grouteau,Vincent Tu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+10/04/2022 
+\end{DoxyDate}
 
 
 \subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_navigation_a050da87d277fee7abae95d3e02912f12}\label{class_navigation_a050da87d277fee7abae95d3e02912f12}} 
+\index{Navigation@{Navigation}!close\+Panel\+Info@{close\+Panel\+Info}}
+\index{close\+Panel\+Info@{close\+Panel\+Info}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{close\+Panel\+Info()}{closePanelInfo()}}
+{\footnotesize\ttfamily void Navigation.\+close\+Panel\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Fermer le panel. 
+
 \mbox{\Hypertarget{class_navigation_af687f3df18da0e95175b04fe5cc7da56}\label{class_navigation_af687f3df18da0e95175b04fe5cc7da56}} 
 \index{Navigation@{Navigation}!Edit\+Mode\+Button@{Edit\+Mode\+Button}}
 \index{Edit\+Mode\+Button@{Edit\+Mode\+Button}!Navigation@{Navigation}}
@@ -58,14 +102,88 @@ Classe permettant la navigation entre les panels.
 
 
 
-D�sactive les paneaux parameters, visualization et active le panel edit mode. 
+DÃ©sactive les panels parameters, vizualization et active le panel edit mode. 
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
-\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_navigation_af687f3df18da0e95175b04fe5cc7da56_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_navigation_af687f3df18da0e95175b04fe5cc7da56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_navigation_a17942535e76d66a1d290f9e7a2bc03ec}\label{class_navigation_a17942535e76d66a1d290f9e7a2bc03ec}} 
+\index{Navigation@{Navigation}!Go\+Anyway\+ED@{Go\+Anyway\+ED}}
+\index{Go\+Anyway\+ED@{Go\+Anyway\+ED}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{Go\+Anyway\+E\+D()}{GoAnywayED()}}
+{\footnotesize\ttfamily void Navigation.\+Go\+Anyway\+ED (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ignorer les messages d\textquotesingle{}aide pour entrer dans l\textquotesingle{}edit mode. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_navigation_a17942535e76d66a1d290f9e7a2bc03ec_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_navigation_a4ea15dd4ea6a5789b4786150d534fc10}\label{class_navigation_a4ea15dd4ea6a5789b4786150d534fc10}} 
+\index{Navigation@{Navigation}!Go\+Anyway\+Sim@{Go\+Anyway\+Sim}}
+\index{Go\+Anyway\+Sim@{Go\+Anyway\+Sim}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{Go\+Anyway\+Sim()}{GoAnywaySim()}}
+{\footnotesize\ttfamily void Navigation.\+Go\+Anyway\+Sim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ignorer les messages d\textquotesingle{}aide pour entrer la visualisation. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_navigation_a4ea15dd4ea6a5789b4786150d534fc10_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_navigation_a9a7bb527269069e0c083ef70291d4fb3}\label{class_navigation_a9a7bb527269069e0c083ef70291d4fb3}} 
+\index{Navigation@{Navigation}!panel\+Para\+Bouton\+Edit\+Mode@{panel\+Para\+Bouton\+Edit\+Mode}}
+\index{panel\+Para\+Bouton\+Edit\+Mode@{panel\+Para\+Bouton\+Edit\+Mode}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Para\+Bouton\+Edit\+Mode()}{panelParaBoutonEditMode()}}
+{\footnotesize\ttfamily void Navigation.\+panel\+Para\+Bouton\+Edit\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Pour afficher les messages d\textquotesingle{}aide. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_navigation_a9a7bb527269069e0c083ef70291d4fb3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_navigation_a70f344f826956e694febdfb6fb693af4}\label{class_navigation_a70f344f826956e694febdfb6fb693af4}} 
+\index{Navigation@{Navigation}!panel\+Para\+Bouton\+Visualisation@{panel\+Para\+Bouton\+Visualisation}}
+\index{panel\+Para\+Bouton\+Visualisation@{panel\+Para\+Bouton\+Visualisation}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Para\+Bouton\+Visualisation()}{panelParaBoutonVisualisation()}}
+{\footnotesize\ttfamily void Navigation.\+panel\+Para\+Bouton\+Visualisation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Pour afficher les messages d\textquotesingle{}aide. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_navigation_a70f344f826956e694febdfb6fb693af4_cgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_navigation_adf000d0931e06c79e1e66f266d93e313}\label{class_navigation_adf000d0931e06c79e1e66f266d93e313}} 
@@ -76,10 +194,9 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-D�sactive les panneaux edit mode et edit visualization et active le panel parameters. 
+DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. 
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
-\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -94,8 +211,15 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-D�sactive les panneaux parameters et edit mode et active le panel visualization. 
+DÃ©sactive les panels parameters et edit mode et active le panel vizualization. 
 
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_navigation_ad4dbf103497aef10cc636c40f84dbdde_icgraph}
+\end{center}
+\end{figure}
 
 
 \subsection{Documentation des données membres}
@@ -103,29 +227,119 @@ D�sactive les panneaux parameters et edit mode et active le panel visualizatio
 \index{Navigation@{Navigation}!camera\+Control@{camera\+Control}}
 \index{camera\+Control@{camera\+Control}!Navigation@{Navigation}}
 \subsubsection{\texorpdfstring{camera\+Control}{cameraControl}}
-{\footnotesize\ttfamily \mbox{\hyperlink{class_camera_control}{Camera\+Control}} Navigation.\+camera\+Control}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_camera_control}{Camera\+Control}} Navigation.\+camera\+Control\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_camera_control}{Camera\+Control}}. Permets d\textquotesingle{}activer/désactiver les mouvements. 
+Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_camera_control}{Camera\+Control}}. Permets d\textquotesingle{}activer/dÃ©sactiver les mouvements. 
 
 \mbox{\Hypertarget{class_navigation_a59344933bd9a22b16612407dee4e8aa5}\label{class_navigation_a59344933bd9a22b16612407dee4e8aa5}} 
 \index{Navigation@{Navigation}!edit\+Mode\+Manager@{edit\+Mode\+Manager}}
 \index{edit\+Mode\+Manager@{edit\+Mode\+Manager}!Navigation@{Navigation}}
 \subsubsection{\texorpdfstring{edit\+Mode\+Manager}{editModeManager}}
-{\footnotesize\ttfamily \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} Navigation.\+edit\+Mode\+Manager}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} Navigation.\+edit\+Mode\+Manager\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}. Permets d\textquotesingle{}activer l\textquotesingle{}�diteur de structure. 
+Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}. Permets d\textquotesingle{}activer l\textquotesingle{}Ã©diteur de structure. 
 
 \mbox{\Hypertarget{class_navigation_affdf26928cacf9c7582cb21ff6bf85dd}\label{class_navigation_affdf26928cacf9c7582cb21ff6bf85dd}} 
 \index{Navigation@{Navigation}!menu\+Visualization\+UI@{menu\+Visualization\+UI}}
 \index{menu\+Visualization\+UI@{menu\+Visualization\+UI}!Navigation@{Navigation}}
 \subsubsection{\texorpdfstring{menu\+Visualization\+UI}{menuVisualizationUI}}
-{\footnotesize\ttfamily \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}} Navigation.\+menu\+Visualization\+UI}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}} Navigation.\+menu\+Visualization\+UI\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
-Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}}. Permets d\textquotesingle{}activer les objets n�c�ssaire � la visualisation. 
+Stocke l\textquotesingle{}instance de \mbox{\hyperlink{class_menu_visualization_u_i}{Menu\+Visualization\+UI}}. Permets d\textquotesingle{}activer les objets nÃ©cÃ¨ssaires Ã  la vizualisation. 
+
+\mbox{\Hypertarget{class_navigation_aa095d3e8d992350e8452f4c91ca607c9}\label{class_navigation_aa095d3e8d992350e8452f4c91ca607c9}} 
+\index{Navigation@{Navigation}!panel\+Edit\+Mode@{panel\+Edit\+Mode}}
+\index{panel\+Edit\+Mode@{panel\+Edit\+Mode}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Edit\+Mode}{panelEditMode}}
+{\footnotesize\ttfamily Game\+Object Navigation.\+panel\+Edit\+Mode\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable stockant le panel edit mode. 
+
+\mbox{\Hypertarget{class_navigation_addc473bc967fa8543b016df5b5411b3e}\label{class_navigation_addc473bc967fa8543b016df5b5411b3e}} 
+\index{Navigation@{Navigation}!panel\+Info\+ED@{panel\+Info\+ED}}
+\index{panel\+Info\+ED@{panel\+Info\+ED}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Info\+ED}{panelInfoED}}
+{\footnotesize\ttfamily Game\+Object Navigation.\+panel\+Info\+ED\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le panel pour afficher les messages d\textquotesingle{}aide. 
+
+\mbox{\Hypertarget{class_navigation_a12eac73989286c8368155f21bc6d5156}\label{class_navigation_a12eac73989286c8368155f21bc6d5156}} 
+\index{Navigation@{Navigation}!panel\+Info\+S\+IM@{panel\+Info\+S\+IM}}
+\index{panel\+Info\+S\+IM@{panel\+Info\+S\+IM}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Info\+S\+IM}{panelInfoSIM}}
+{\footnotesize\ttfamily Game\+Object Navigation.\+panel\+Info\+S\+IM\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le panel pour afficher les messages d\textquotesingle{}aide. 
+
+\mbox{\Hypertarget{class_navigation_ae85a69c809b880b39ac4cb86f2d80258}\label{class_navigation_ae85a69c809b880b39ac4cb86f2d80258}} 
+\index{Navigation@{Navigation}!panel\+Parameters@{panel\+Parameters}}
+\index{panel\+Parameters@{panel\+Parameters}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Parameters}{panelParameters}}
+{\footnotesize\ttfamily Game\+Object Navigation.\+panel\+Parameters\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable stockant le panel parameters. 
+
+\mbox{\Hypertarget{class_navigation_acea32f74d9820c1cd657a3e5371f1a58}\label{class_navigation_acea32f74d9820c1cd657a3e5371f1a58}} 
+\index{Navigation@{Navigation}!panel\+Save@{panel\+Save}}
+\index{panel\+Save@{panel\+Save}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Save}{panelSave}}
+{\footnotesize\ttfamily Game\+Object Navigation.\+panel\+Save\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le panel pour permettre Ã  l\textquotesingle{}utilisateur de saisir le nom du fichier. 
+
+\mbox{\Hypertarget{class_navigation_a87c0235e826c5cd805b95b81c8c55ceb}\label{class_navigation_a87c0235e826c5cd805b95b81c8c55ceb}} 
+\index{Navigation@{Navigation}!panel\+Visualization@{panel\+Visualization}}
+\index{panel\+Visualization@{panel\+Visualization}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{panel\+Visualization}{panelVisualization}}
+{\footnotesize\ttfamily Game\+Object Navigation.\+panel\+Visualization\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable stockant le panel vizualization. 
+
+\mbox{\Hypertarget{class_navigation_ac6f0605a263e970630f2946dbc8f5ca3}\label{class_navigation_ac6f0605a263e970630f2946dbc8f5ca3}} 
+\index{Navigation@{Navigation}!text@{text}}
+\index{text@{text}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{text}{text}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Text Navigation.\+text\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le texte affichÃ© sur le panel panel\+Apply\+Button. 
+
+\mbox{\Hypertarget{class_navigation_af2ad653f49a97486583aa60103af3e6d}\label{class_navigation_af2ad653f49a97486583aa60103af3e6d}} 
+\index{Navigation@{Navigation}!text\+Info\+ED@{text\+Info\+ED}}
+\index{text\+Info\+ED@{text\+Info\+ED}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{text\+Info\+ED}{textInfoED}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Text Navigation.\+text\+Info\+ED\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le texte affichÃ© sur le panel panel\+Info\+ED. 
+
+\mbox{\Hypertarget{class_navigation_aefa9a0108a63c721559a2ede11fad997}\label{class_navigation_aefa9a0108a63c721559a2ede11fad997}} 
+\index{Navigation@{Navigation}!text\+Info\+Sim@{text\+Info\+Sim}}
+\index{text\+Info\+Sim@{text\+Info\+Sim}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{text\+Info\+Sim}{textInfoSim}}
+{\footnotesize\ttfamily T\+M\+P\+\_\+\+Text Navigation.\+text\+Info\+Sim\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le texte affichÃ© sur le panel panel\+Info\+S\+IM. 
 

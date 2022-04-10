@@ -1,0 +1,5 @@
+<map id="EditModeCell.Deactivate" name="EditModeCell.Deactivate">
+<area shape="rect" id="node2" href="$class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d" title="Active ou désactive la cellule lors d&#39;un appui avec la souris. " alt="" coords="216,42,407,69"/>
+<area shape="rect" id="node3" href="$class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="461,5,641,47"/>
+<area shape="rect" id="node4" href="$class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="455,71,648,98"/>
+</map>

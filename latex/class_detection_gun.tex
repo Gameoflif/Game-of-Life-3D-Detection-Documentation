@@ -1,5 +1,15 @@
 \hypertarget{class_detection_gun}{}\section{Référence de la classe Detection\+Gun}
 \label{class_detection_gun}\index{Detection\+Gun@{Detection\+Gun}}
+
+
+Graphe de collaboration de Detection\+Gun\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{class_detection_gun__coll__graph}
+\end{center}
+\end{figure}
 \subsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
@@ -7,15 +17,15 @@
 \item 
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_af804b47fcbcc2c89bbe17b47eb8f7c47}{sous\+Structure}} (int\mbox{[},,\mbox{]} stock\+Gen, Voisinage2 voisinage)
 \begin{DoxyCompactList}\small\item\em Verifier si la sous-\/structure est la structure cible de detection \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_detection_gun_a664491436b7ca39a34f4146754a6ae71}{Compare}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ struc, int indice, bool test\+Stable, int dimension, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien\+Struc1, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ model)
-\begin{DoxyCompactList}\small\item\em Déterminer la présence ou l\textquotesingle{}absence de canons \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_detection_gun_a664491436b7ca39a34f4146754a6ae71}{Compare}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ struc, int indice, bool test\+Stable, int dimension, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien\+Struc1, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}{model}})
+\begin{DoxyCompactList}\small\item\em DÃ©terminer la prÃ©sence ou l\textquotesingle{}absence de canons \end{DoxyCompactList}\item 
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_aaafe20e9ecbfe9e95e2f36ac49701d3d}{trouver\+Model\+Gun}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien3, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien2, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien1, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ actuel, int nb)
 \item 
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0a14866d2727aea5d457121bd646f3bb}{get\+Nb\+Sous\+Structure}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ struc, int nb)
-\begin{DoxyCompactList}\small\item\em Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond à la taille spécifiée par l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond Ã  la taille spÃ©cifiÃ©e par l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a488d963e0b78922904b6bd42182ca7b1}{get\+Structure\+Alive}} (int\mbox{[},,\mbox{]} stock\+Gen)
 \begin{DoxyCompactList}\small\item\em Obtenir les cellules vivantes. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_detection_gun_a0ca849e6a37b8734261999c4f8f64523}{compare\+Gun}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ model, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v, int indice)
+bool \mbox{\hyperlink{class_detection_gun_a0ca849e6a37b8734261999c4f8f64523}{compare\+Gun}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}{model}}, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v, int indice)
 \item 
 int \mbox{\hyperlink{class_detection_gun_af0283c67f8fe041c2ff8ded541054d56}{compare\+Stable}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ actuel)
 \begin{DoxyCompactList}\small\item\em \begin{DoxyReturn}{Renvoie}
@@ -23,6 +33,42 @@ si c\textquotesingle{}est la premiere forme retourner true
 \end{DoxyReturn}
 \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_detection_gun_a2bd76f00286c4916cc9e525e9e4403bb}{get\+Deux\+Dimension}} (int h, int w)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_acac3e59304ebc04b56925511108ecae2}{Dfs}} (Voisinage2 voisinage, Vector3 vect, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} struct\+Alive)
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}algorithme D\+FS pour trouver une structure connexe \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a6699b4b7269779a62a69bd56422128c1}{get\+Voisin\+Position}} (int h, int w, int l, Vector3 position, Voisinage2 voisinage, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_ae012efe697f1a4df6a18facda545e0c3}{structure\+Alive}})
+\begin{DoxyCompactList}\small\item\em Obtenir les positions de tous les voisins d\textquotesingle{}une cellule selon les regles de voisinage toroidal \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a244439efd16406706a55f545b56a2500}{get\+Voisin\+Position\+Classique}} (Vector3 position, Voisinage2 voisinage, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_ae012efe697f1a4df6a18facda545e0c3}{structure\+Alive}})
+\begin{DoxyCompactList}\small\item\em Obtenir les positions de tous les voisins d\textquotesingle{}une cellule selon les regles de voisinage \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a886d92d897103cf8ae7f3dbe54ed55d7}{structure}}
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_aa5c982280cbaf8c059908c47b3295adf}{structure\+Nb}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_ae012efe697f1a4df6a18facda545e0c3}{structure\+Alive}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a67ad5cfe14f3aa86a93924a04a8c8128}{stack}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_acbb9ba46ef97f0564b86768310799626}{vect\+Temp}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a4d02fdb9cdc3f07be7f2d840d74fa580}{visi}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a6a857de3141815652dbddd373919aeba}{meme\+Strut}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_ab51892092361b0108f4d529328cee661}{position\+Voisin}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_ae243d9190ec5bab86ebb0af4bf789151}{sous\+Struct}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a61b7a92ce8bf0837449e3e98c344ce1c}{lvg}}
+\item 
+\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a16ab75a168175f740485361be785bfda}{model\+Gun}}
+\item 
+List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}{model}} = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()
 \end{DoxyCompactItemize}
 
 
@@ -53,24 +99,24 @@ Classe pour detecter la structure Canon (un Gosper Glider Gun trouve en 3D) \beg
 
 
 
-Déterminer la présence ou l\textquotesingle{}absence de canons 
+DÃ©terminer la prÃ©sence ou l\textquotesingle{}absence de canons 
 
 
 \begin{DoxyParams}{Paramètres}
 {\em struc} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la génération actuelle. 
+La sous-\/strucuture de la gÃ©nÃ©ration actuelle. 
 \begin{DoxyParams}{Paramètres}
 {\em indice} & \\
 \hline
 \end{DoxyParams}
-La indice-\/ième forme d\textquotesingle{}un gun 
+La indice-\/iÃ¨me forme d\textquotesingle{}un gun 
 \begin{DoxyParams}{Paramètres}
 {\em test\+Stable} & \\
 \hline
 \end{DoxyParams}
-Si c\textquotesingle{}est vrai, nous commençons à déterminer si la structure au sommet correspond au modèle 
+Si c\textquotesingle{}est vrai, nous commenÃ§ons Ã  dÃ©terminer si la structure au sommet correspond au modÃ¨le 
 \begin{DoxyParams}{Paramètres}
 {\em dimension} & \\
 \hline
@@ -80,7 +126,7 @@ La dimension de cette structure.
 {\em ancien\+Struc} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la dernière génération. \begin{DoxyReturn}{Renvoie}
+La sous-\/strucuture de la derniÃ¨re gÃ©nÃ©ration. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
 Vrai s\textquotesingle{}il y a un canon ; faux s\textquotesingle{}il n\textquotesingle{}y a pas de canon. Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
@@ -90,7 +136,8 @@ Vrai s\textquotesingle{}il y a un canon ; faux s\textquotesingle{}il n\textquote
 \includegraphics[width=350pt]{class_detection_gun_a664491436b7ca39a34f4146754a6ae71_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -117,14 +164,16 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \begin{DoxyReturn}{Renvoie}
 si c\textquotesingle{}est la premiere forme retourner true 
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_a0ca849e6a37b8734261999c4f8f64523_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -144,18 +193,58 @@ si c\textquotesingle{}est la premiere forme retourner true
 \end{DoxyReturn}
 
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_af0283c67f8fe041c2ff8ded541054d56_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_af0283c67f8fe041c2ff8ded541054d56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_gun_acac3e59304ebc04b56925511108ecae2}\label{class_detection_gun_acac3e59304ebc04b56925511108ecae2}} 
+\index{Detection\+Gun@{Detection\+Gun}!Dfs@{Dfs}}
+\index{Dfs@{Dfs}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{Dfs()}{Dfs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+Dfs (\begin{DoxyParamCaption}\item[{Voisinage2}]{voisinage,  }\item[{Vector3}]{vect,  }\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{struct\+Alive }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+L\textquotesingle{}algorithme D\+FS pour trouver une structure connexe 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em voisinage} & \\
+\hline
+{\em vect} & \\
+\hline
+{\em struct\+Alive} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_gun_acac3e59304ebc04b56925511108ecae2_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_gun_acac3e59304ebc04b56925511108ecae2_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_detection_gun_a2bd76f00286c4916cc9e525e9e4403bb}\label{class_detection_gun_a2bd76f00286c4916cc9e525e9e4403bb}} 
@@ -172,7 +261,7 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 
 
 
-Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond à la taille spécifiée par l\textquotesingle{}utilisateur. 
+Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond Ã  la taille spÃ©cifiÃ©e par l\textquotesingle{}utilisateur. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -184,10 +273,11 @@ La sous-\/structure
 {\em nb} & \\
 \hline
 \end{DoxyParams}
-La taille spécifiée par l\textquotesingle{}utilisateur. \begin{DoxyReturn}{Renvoie}
+La taille spÃ©cifiÃ©e par l\textquotesingle{}utilisateur. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Une liste de la structure Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Une liste de la structure Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -212,18 +302,96 @@ Obtenir les cellules vivantes.
 \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=347pt]{class_detection_gun_a488d963e0b78922904b6bd42182ca7b1_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_a488d963e0b78922904b6bd42182ca7b1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_gun_a6699b4b7269779a62a69bd56422128c1}\label{class_detection_gun_a6699b4b7269779a62a69bd56422128c1}} 
+\index{Detection\+Gun@{Detection\+Gun}!get\+Voisin\+Position@{get\+Voisin\+Position}}
+\index{get\+Voisin\+Position@{get\+Voisin\+Position}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{get\+Voisin\+Position()}{getVoisinPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+get\+Voisin\+Position (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w,  }\item[{int}]{l,  }\item[{Vector3}]{position,  }\item[{Voisinage2}]{voisinage,  }\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{structure\+Alive }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Obtenir les positions de tous les voisins d\textquotesingle{}une cellule selon les regles de voisinage toroidal 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & \\
+\hline
+{\em w} & \\
+\hline
+{\em l} & \\
+\hline
+{\em position} & \\
+\hline
+{\em voisinage} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_gun_a6699b4b7269779a62a69bd56422128c1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_detection_gun_a244439efd16406706a55f545b56a2500}\label{class_detection_gun_a244439efd16406706a55f545b56a2500}} 
+\index{Detection\+Gun@{Detection\+Gun}!get\+Voisin\+Position\+Classique@{get\+Voisin\+Position\+Classique}}
+\index{get\+Voisin\+Position\+Classique@{get\+Voisin\+Position\+Classique}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{get\+Voisin\+Position\+Classique()}{getVoisinPositionClassique()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+get\+Voisin\+Position\+Classique (\begin{DoxyParamCaption}\item[{Vector3}]{position,  }\item[{Voisinage2}]{voisinage,  }\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{structure\+Alive }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Obtenir les positions de tous les voisins d\textquotesingle{}une cellule selon les regles de voisinage 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em h} & \\
+\hline
+{\em w} & \\
+\hline
+{\em l} & \\
+\hline
+{\em position} & \\
+\hline
+{\em voisinage} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_gun_a244439efd16406706a55f545b56a2500_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_detection_gun_a244439efd16406706a55f545b56a2500_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_detection_gun_af804b47fcbcc2c89bbe17b47eb8f7c47}\label{class_detection_gun_af804b47fcbcc2c89bbe17b47eb8f7c47}} 
@@ -246,14 +414,16 @@ Verifier si la sous-\/structure est la structure cible de detection
 \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_af804b47fcbcc2c89bbe17b47eb8f7c47_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -275,25 +445,102 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 {\em ancien} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la dernière génération. 
+La sous-\/strucuture de la derniÃ¨re gÃ©nÃ©ration. 
 \begin{DoxyParams}{Paramètres}
 {\em actuel} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la génération actuelle. \begin{DoxyReturn}{Renvoie}
+La sous-\/strucuture de la gÃ©nÃ©ration actuelle. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_aaafe20e9ecbfe9e95e2f36ac49701d3d_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_detection_gun_aaafe20e9ecbfe9e95e2f36ac49701d3d_icgraph}
 \end{center}
 \end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_detection_gun_a61b7a92ce8bf0837449e3e98c344ce1c}\label{class_detection_gun_a61b7a92ce8bf0837449e3e98c344ce1c}} 
+\index{Detection\+Gun@{Detection\+Gun}!lvg@{lvg}}
+\index{lvg@{lvg}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{lvg}{lvg}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+lvg\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_a6a857de3141815652dbddd373919aeba}\label{class_detection_gun_a6a857de3141815652dbddd373919aeba}} 
+\index{Detection\+Gun@{Detection\+Gun}!meme\+Strut@{meme\+Strut}}
+\index{meme\+Strut@{meme\+Strut}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{meme\+Strut}{memeStrut}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+meme\+Strut\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}\label{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}} 
+\index{Detection\+Gun@{Detection\+Gun}!model@{model}}
+\index{model@{model}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection\+Gun.\+model = new List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_a16ab75a168175f740485361be785bfda}\label{class_detection_gun_a16ab75a168175f740485361be785bfda}} 
+\index{Detection\+Gun@{Detection\+Gun}!model\+Gun@{model\+Gun}}
+\index{model\+Gun@{model\+Gun}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{model\+Gun}{modelGun}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+model\+Gun\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_ab51892092361b0108f4d529328cee661}\label{class_detection_gun_ab51892092361b0108f4d529328cee661}} 
+\index{Detection\+Gun@{Detection\+Gun}!position\+Voisin@{position\+Voisin}}
+\index{position\+Voisin@{position\+Voisin}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{position\+Voisin}{positionVoisin}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+position\+Voisin\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_ae243d9190ec5bab86ebb0af4bf789151}\label{class_detection_gun_ae243d9190ec5bab86ebb0af4bf789151}} 
+\index{Detection\+Gun@{Detection\+Gun}!sous\+Struct@{sous\+Struct}}
+\index{sous\+Struct@{sous\+Struct}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{sous\+Struct}{sousStruct}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+sous\+Struct\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_a67ad5cfe14f3aa86a93924a04a8c8128}\label{class_detection_gun_a67ad5cfe14f3aa86a93924a04a8c8128}} 
+\index{Detection\+Gun@{Detection\+Gun}!stack@{stack}}
+\index{stack@{stack}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{stack}{stack}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+stack\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_a886d92d897103cf8ae7f3dbe54ed55d7}\label{class_detection_gun_a886d92d897103cf8ae7f3dbe54ed55d7}} 
+\index{Detection\+Gun@{Detection\+Gun}!structure@{structure}}
+\index{structure@{structure}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{structure}{structure}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection\+Gun.\+structure\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_ae012efe697f1a4df6a18facda545e0c3}\label{class_detection_gun_ae012efe697f1a4df6a18facda545e0c3}} 
+\index{Detection\+Gun@{Detection\+Gun}!structure\+Alive@{structure\+Alive}}
+\index{structure\+Alive@{structure\+Alive}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{structure\+Alive}{structureAlive}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+structure\+Alive\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_aa5c982280cbaf8c059908c47b3295adf}\label{class_detection_gun_aa5c982280cbaf8c059908c47b3295adf}} 
+\index{Detection\+Gun@{Detection\+Gun}!structure\+Nb@{structure\+Nb}}
+\index{structure\+Nb@{structure\+Nb}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{structure\+Nb}{structureNb}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}$>$ Detection\+Gun.\+structure\+Nb\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_acbb9ba46ef97f0564b86768310799626}\label{class_detection_gun_acbb9ba46ef97f0564b86768310799626}} 
+\index{Detection\+Gun@{Detection\+Gun}!vect\+Temp@{vect\+Temp}}
+\index{vect\+Temp@{vect\+Temp}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{vect\+Temp}{vectTemp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+vect\+Temp\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_detection_gun_a4d02fdb9cdc3f07be7f2d840d74fa580}\label{class_detection_gun_a4d02fdb9cdc3f07be7f2d840d74fa580}} 
+\index{Detection\+Gun@{Detection\+Gun}!visi@{visi}}
+\index{visi@{visi}!Detection\+Gun@{Detection\+Gun}}
+\subsubsection{\texorpdfstring{visi}{visi}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} Detection\+Gun.\+visi\hspace{0.3cm}{\ttfamily [private]}}
+

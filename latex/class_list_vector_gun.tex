@@ -1,20 +1,25 @@
 \hypertarget{class_list_vector_gun}{}\section{Référence de la classe List\+Vector\+Gun}
 \label{class_list_vector_gun}\index{List\+Vector\+Gun@{List\+Vector\+Gun}}
+
+
+Classe outil pour détecter la structure Canon.  
+
+
 \subsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_list_vector_gun_a9f370c4f677db9d3ecb750febcaed21e}{List\+Vector\+Gun}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
 Vector3 \mbox{\hyperlink{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c}{trouver\+Mini\+Vect}} ()
-\begin{DoxyCompactList}\small\item\em Trouver le vecteur minimal (x et y de valeur minimal) \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Trouve le vecteur minimal (x et y de valeur minimal). \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70}{add\+List}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} a)
-\begin{DoxyCompactList}\small\item\em Outil pour combiner deux listes \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Outil pour combiner deux listes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442}{Add\+Vector}} (Vector3 x)
-\item 
+\begin{DoxyCompactList}\small\item\em Ajoute un élément à la liste. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_list_vector_gun_a2969c469590b46d382af86ffbffe46c4}{Add}} (Vector3 x)
-\item 
+\begin{DoxyCompactList}\small\item\em Ajoute un élément à la liste. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae}{Contains}} (Vector3 x)
-\item 
+\begin{DoxyCompactList}\small\item\em Vérifie si un élément est compris dans la liste. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_list_vector_gun_a6cff6d5a51a605010ca4ced8ef89e8c2}{Contains}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v)
 \item 
 Vector3 \mbox{\hyperlink{class_list_vector_gun_a6b94b7d8288d1415f1670181251bbfa2}{get\+Position}} (int nb)
@@ -32,21 +37,30 @@ void \mbox{\hyperlink{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959}{r
 void \mbox{\hyperlink{class_list_vector_gun_ad89b2534e45d190049c9a922de5df655}{clear}} ()
 \item 
 \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3}{get\+Gun\+Model}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v)
-\begin{DoxyCompactList}\small\item\em Obtenir es mod�les(position relative) qui correspondent � la structure de la taille du gun dans une g�n�ration . \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génération . \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_list_vector_gun_a1c5fc4ed92b846e08616d83971605241}{gun\+Model}} (Vector3 v\+Min, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} model\+Gun)
 \item 
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827}{list\+Contain\+List}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ actuel)
-\begin{DoxyCompactList}\small\item\em Retourner la m�me structure � partir de deux listes \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Retourner la même structure à partir de deux listes \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_list_vector_gun_a23dabaffda742276390b578c091d101a}{nb\+Contain\+List}} (\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} ancien, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} actuel)
-\begin{DoxyCompactList}\small\item\em Savoir combien de points d\textquotesingle{}entre deux structures ont les m�mes coordonn�es \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Savoir combien de points d\textquotesingle{}entre deux structures ont les mêmes coordonnées \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Vector3 \mbox{\hyperlink{class_list_vector_gun_af6572c296759eb4bf06e96275ce75c77}{trouve\+Mini}}
+\item 
+List$<$ Vector3 $>$ \mbox{\hyperlink{class_list_vector_gun_a2cdf82f24fbd46a3705bb6a3887f53c4}{structure}}
+\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-Classe outil pour detecter la structure Canon (un Gosper Glider Gun trouve en 3D) \begin{DoxyAuthor}{Auteur}
-\$username\$ T\+I\+AN Ning,Q\+IN Yi 
+Classe outil pour détecter la structure Canon. 
+
+\begin{DoxyAuthor}{Auteur}
+T\+I\+AN Ning,Q\+IN Yi, Vincent TU 
 \end{DoxyAuthor}
 \begin{DoxyDate}{Date}
--\/ \$time\$ 03/04/2022 
+03/04/2022 
 \end{DoxyDate}
 
 
@@ -57,7 +71,12 @@ Classe outil pour detecter la structure Canon (un Gosper Glider Gun trouve en 3D
 \subsubsection{\texorpdfstring{List\+Vector\+Gun()}{ListVectorGun()}}
 {\footnotesize\ttfamily List\+Vector\+Gun.\+List\+Vector\+Gun (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+
+
+Constructeur. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -73,7 +92,17 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{Add()}{Add()}}
 {\footnotesize\ttfamily void List\+Vector\+Gun.\+Add (\begin{DoxyParamCaption}\item[{Vector3}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+
+
+Ajoute un élément à la liste. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & Elément\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -88,23 +117,32 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 
 
 
-Outil pour combiner deux listes 
+Outil pour combiner deux listes. 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em a} & liste a \\
+{\em a} & liste a\\
 \hline
 {\em b} & liste b\\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Renvoie}
-liste resultat 
+listes combinées
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_ae32fc88f0d58affa06527f97a19f1f70_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442}\label{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442}} 
@@ -113,11 +151,32 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{Add\+Vector()}{AddVector()}}
 {\footnotesize\ttfamily void List\+Vector\+Gun.\+Add\+Vector (\begin{DoxyParamCaption}\item[{Vector3}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+
+
+Ajoute un élément à la liste. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & Elément ajouté\\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a9dc269fd17f18f6c9f4e974990c6e442_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_list_vector_gun_ad89b2534e45d190049c9a922de5df655}\label{class_list_vector_gun_ad89b2534e45d190049c9a922de5df655}} 
 \index{List\+Vector\+Gun@{List\+Vector\+Gun}!clear@{clear}}
 \index{clear@{clear}!List\+Vector\+Gun@{List\+Vector\+Gun}}
 \subsubsection{\texorpdfstring{clear()}{clear()}}
 {\footnotesize\ttfamily void List\+Vector\+Gun.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+
 
 \mbox{\Hypertarget{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae}\label{class_list_vector_gun_afacf0a838223ed57e72abcc7c21594ae}} 
 \index{List\+Vector\+Gun@{List\+Vector\+Gun}!Contains@{Contains}}
@@ -125,7 +184,20 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{Contains()}{Contains()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily bool List\+Vector\+Gun.\+Contains (\begin{DoxyParamCaption}\item[{Vector3}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+
+
+Vérifie si un élément est compris dans la liste. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -138,7 +210,20 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{Contains()}{Contains()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily bool List\+Vector\+Gun.\+Contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+
+
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -151,7 +236,15 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{Count()}{Count()}}
 {\footnotesize\ttfamily int List\+Vector\+Gun.\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+
+
+
+
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -166,7 +259,7 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 
 
 
-Obtenir es mod�les(position relative) qui correspondent � la structure de la taille du gun dans une g�n�ration . 
+Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génération . 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -176,14 +269,16 @@ Obtenir es mod�les(position relative) qui correspondent � la structure de la tai
 La structure \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-un \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} qui est la mod�le Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+un \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} qui est la modèle Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_ad93bd26e0c5d5e71ff75acfb43edd5c3_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -196,7 +291,20 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
 {\footnotesize\ttfamily Vector3 List\+Vector\+Gun.\+get\+Position (\begin{DoxyParamCaption}\item[{int}]{nb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+
+
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em nb} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -209,7 +317,22 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{gun\+Model()}{gunModel()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} List\+Vector\+Gun.\+gun\+Model (\begin{DoxyParamCaption}\item[{Vector3}]{v\+Min,  }\item[{\mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}}}]{model\+Gun }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+
+
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em v\+Min} & \\
+\hline
+{\em model\+Gun} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -224,29 +347,31 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 
 
 
-Retourner la m�me structure � partir de deux listes 
+Retourner la même structure à partir de deux listes 
 
 
 \begin{DoxyParams}{Paramètres}
 {\em ancien} & \\
 \hline
 \end{DoxyParams}
-la liste des strucutures de la g�n�ration derni�re. 
+la liste des strucutures de la génération dernière. 
 \begin{DoxyParams}{Paramètres}
 {\em actuel} & \\
 \hline
 \end{DoxyParams}
-la liste des strucuture de la g�n�ration actuelle. \begin{DoxyReturn}{Renvoie}
+la liste des strucuture de la génération actuelle. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_a73d0b1fca681bce5aaf680873b071827_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -261,29 +386,31 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 
 
 
-Savoir combien de points d\textquotesingle{}entre deux structures ont les m�mes coordonn�es 
+Savoir combien de points d\textquotesingle{}entre deux structures ont les mêmes coordonnées 
 
 
 \begin{DoxyParams}{Paramètres}
 {\em ancien} & \\
 \hline
 \end{DoxyParams}
-la sous-\/strucuture de la g�n�ration derni�re. 
+la sous-\/strucuture de la génération dernière. 
 \begin{DoxyParams}{Paramètres}
 {\em actuel} & \\
 \hline
 \end{DoxyParams}
-la sous-\/strucuture de la g�n�ration actuelle. \begin{DoxyReturn}{Renvoie}
+la sous-\/strucuture de la génération actuelle. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Le nombre du points qui ont les m�mes coordonn�es. Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Le nombre du points qui ont les mêmes coordonnées. Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_a23dabaffda742276390b578c091d101a_cgraph}
 \end{center}
 \end{figure}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -296,12 +423,38 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \subsubsection{\texorpdfstring{Remove()}{Remove()}}
 {\footnotesize\ttfamily void List\+Vector\+Gun.\+Remove (\begin{DoxyParamCaption}\item[{Vector3}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+
+
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em v} & \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{class_list_vector_gun_a1ffc9f3c2ac48631dcd05ba8061ba9c7}\label{class_list_vector_gun_a1ffc9f3c2ac48631dcd05ba8061ba9c7}} 
 \index{List\+Vector\+Gun@{List\+Vector\+Gun}!Remove\+At@{Remove\+At}}
 \index{Remove\+At@{Remove\+At}!List\+Vector\+Gun@{List\+Vector\+Gun}}
 \subsubsection{\texorpdfstring{Remove\+At()}{RemoveAt()}}
 {\footnotesize\ttfamily void List\+Vector\+Gun.\+Remove\+At (\begin{DoxyParamCaption}\item[{int}]{nb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+
+
+
+
+
+\begin{DoxyParams}{Paramètres}
+{\em nb} & \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a1ffc9f3c2ac48631dcd05ba8061ba9c7_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959}\label{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959}} 
 \index{List\+Vector\+Gun@{List\+Vector\+Gun}!remove\+List@{remove\+List}}
 \index{remove\+List@{remove\+List}!List\+Vector\+Gun@{List\+Vector\+Gun}}
@@ -322,11 +475,20 @@ Enlever une liste b de la liste structure\+Alive
 \begin{DoxyReturn}{Renvoie}
 liste resultat
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a81d2c8a06d61648f274eb644901f1959_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f}\label{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f}} 
@@ -349,11 +511,20 @@ Supprimer les elements de liste temp dans la liste structure
 \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_list_vector_gun_a92aa301df19a9b1cd5f6e635e6a0c86f_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c}\label{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c}} 
@@ -364,20 +535,36 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 
 
 
-Trouver le vecteur minimal (x et y de valeur minimal) 
+Trouve le vecteur minimal (x et y de valeur minimal). 
 
 
 \begin{DoxyParams}{Paramètres}
-{\em v} & un vecteur \\
+{\em v} & Un vecteur\\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Renvoie}
 le vecteur minimal trouve 
 \end{DoxyReturn}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_list_vector_gun_a305381e8b2d20184c1894c89d2726b2c_icgraph}
 \end{center}
 \end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_list_vector_gun_a2cdf82f24fbd46a3705bb6a3887f53c4}\label{class_list_vector_gun_a2cdf82f24fbd46a3705bb6a3887f53c4}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!structure@{structure}}
+\index{structure@{structure}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{structure}{structure}}
+{\footnotesize\ttfamily List$<$Vector3$>$ List\+Vector\+Gun.\+structure\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_list_vector_gun_af6572c296759eb4bf06e96275ce75c77}\label{class_list_vector_gun_af6572c296759eb4bf06e96275ce75c77}} 
+\index{List\+Vector\+Gun@{List\+Vector\+Gun}!trouve\+Mini@{trouve\+Mini}}
+\index{trouve\+Mini@{trouve\+Mini}!List\+Vector\+Gun@{List\+Vector\+Gun}}
+\subsubsection{\texorpdfstring{trouve\+Mini}{trouveMini}}
+{\footnotesize\ttfamily Vector3 List\+Vector\+Gun.\+trouve\+Mini\hspace{0.3cm}{\ttfamily [private]}}
+

@@ -1,0 +1,8 @@
+<map id="Simulation.setVoisinage" name="Simulation.setVoisinage">
+<area shape="rect" id="node2" href="$class_simulation.html#aad224ef6c13fac45281cf6c095c5c874" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="266,5,389,32"/>
+<area shape="rect" id="node3" href="$class_simulation.html#af23614524fe3045d198d953f09264f79" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="245,56,410,83"/>
+<area shape="rect" id="node4" href="$class_simulation.html#ade3470a637773f3e751ce4b0923c3909" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="262,107,393,133"/>
+<area shape="rect" id="node5" href="$class_simulation.html#a39f92768aa24cee944387315749314ad" title="Moore : 26 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant les ..." alt="" coords="237,157,417,184"/>
+<area shape="rect" id="node6" href="$class_simulation.html#a8b95cd2e9f897c0dab40119ac1c54f39" title="VonNeumann : 6 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant ..." alt="" coords="216,208,439,235"/>
+<area shape="rect" id="node7" href="$class_simulation.html#a20934920a4fc75fa258a85d0c4e6968e" title="Hexlife : 20 voisins. Methode permettant d&#39;obtenir le nombre de voisins d&#39;une cellule en utilisant le..." alt="" coords="234,259,421,285"/>
+</map>

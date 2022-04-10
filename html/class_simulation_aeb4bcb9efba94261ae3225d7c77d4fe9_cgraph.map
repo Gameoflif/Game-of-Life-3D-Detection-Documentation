@@ -1,0 +1,21 @@
+<map id="Simulation.CreateVariables" name="Simulation.CreateVariables">
+<area shape="rect" id="node2" href="$class_simulation.html#aff8ad1d9fe429a08bf0d42f52b08b71b" title="Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la généra..." alt="" coords="232,328,411,355"/>
+<area shape="rect" id="node3" href="$class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. " alt="" coords="459,303,612,329"/>
+<area shape="rect" id="node20" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="476,353,595,380"/>
+<area shape="rect" id="node4" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="675,64,833,91"/>
+<area shape="rect" id="node5" href="$class_detection.html#a56dffa1e7a06c20bfaa24ac287a9883f" title="Permet d&#39;obtenir toutes les structures individuelles d&#39;une gÃ©nÃ©ration. " alt="" coords="665,115,843,141"/>
+<area shape="rect" id="node9" href="$class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="660,273,848,300"/>
+<area shape="rect" id="node14" href="$class_detection.html#a168b07e1ffdca2d91d8c5e251a470a25" title="Permet de trouver les positions relatives dans une structure (par rapport Ã  une cellule vivante de l..." alt="" coords="667,325,841,366"/>
+<area shape="rect" id="node15" href="$class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="695,420,813,447"/>
+<area shape="rect" id="node19" href="$class_details_structure.html#a4653aac26e25e56d4dd6b5f45ad9f4ef" title="Supprime les anciennes informations. " alt="" coords="679,471,829,497"/>
+<area shape="rect" id="node6" href="$class_detection.html#a3d3b6bfd7fe37149108908d230fcc9f1" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="900,5,1095,32"/>
+<area shape="rect" id="node7" href="$class_detection.html#a5fa3f90802c6cc9eb57c9ca7bcf417b8" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="896,56,1099,83"/>
+<area shape="rect" id="node8" href="$class_detection.html#a1909fbb1d96dbc6fed37fabc89444945" title="Obtention des voisins de maniÃ¨res non rÃ©cursives d&#39;une cellule pour obtenir une structure en utilis..." alt="" coords="905,107,1089,149"/>
+<area shape="rect" id="node10" href="$class_detection.html#a018511f85c3fb9eca82fc06c9f4eb031" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="910,173,1085,214"/>
+<area shape="rect" id="node11" href="$class_detection.html#ac836468018dc40fd2261136a035eb25a" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="910,238,1085,279"/>
+<area shape="rect" id="node12" href="$class_detection.html#aeea8bac4d15d3dd92d6b907b357c1680" title="Permet de trouver les cellules mortes liÃ©es Ã  chaque structure de la gÃ©nÃ©ration actuelle en utili..." alt="" coords="910,303,1085,345"/>
+<area shape="rect" id="node13" href="$class_detection.html#a7a133b5ef43e949260afb4685766e0ca" title="Combine les deux structures de structureByGeneration de la gÃ©nÃ©ration ind (actuelle) des indices in..." alt="" coords="905,369,1090,396"/>
+<area shape="rect" id="node16" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="1147,445,1285,472"/>
+<area shape="rect" id="node17" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="921,471,1074,497"/>
+<area shape="rect" id="node18" href="$class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="902,521,1093,548"/>
+</map>

@@ -2,7 +2,7 @@
 \label{class_edit_mode_cell}\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
 
 
-Classe repr�sentant la cellule dans l\textquotesingle{}�diteur de structure. Permet le changement de couleur, de d�tecter si la souris appuie sur la cellule et de transmettre l\textquotesingle{}information de l\textquotesingle{}�tat (vivante ou morte) de la structure � \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}.  
+Classe représentant la cellule dans l\textquotesingle{}éditeur de structure. Permet le changement de couleur, de détecter si la souris appuie sur la cellule et de transmettre l\textquotesingle{}information de l\textquotesingle{}état (vivante ou morte) de la structure à \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}.  
 
 
 
@@ -16,32 +16,69 @@ Graphe d\textquotesingle{}héritage de Edit\+Mode\+Cell\+:\nopagebreak
 \end{figure}
 
 
-Graphe de collaboration de Edit\+Mode\+Cell\+:\nopagebreak
+Graphe de collaboration de Edit\+Mode\+Cell\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=163pt]{class_edit_mode_cell__coll__graph}
+\includegraphics[width=350pt]{class_edit_mode_cell__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa}{Initialize}} (\mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} edit\+Mode\+Manager)
+void \mbox{\hyperlink{class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1}{On\+Mouse\+Exit}} ()
+\begin{DoxyCompactList}\small\item\em Change la couleur de la cellule lorsque la souris sort du modèle 3D. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_cell_a38e231f9ad9dbee905d575660b77cfe2}{set\+Color}} ()
+\item 
+void \mbox{\hyperlink{class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d}{On\+Mouse\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Active ou désactive la cellule lors d\textquotesingle{}un appui avec la souris. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa}{Initialize}} (\mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} \mbox{\hyperlink{class_edit_mode_cell_ae252461bd35c4e41657659411196652e}{edit\+Mode\+Manager}})
 \begin{DoxyCompactList}\small\item\em Initialisation de variable. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8}{Deactivate}} ()
-\begin{DoxyCompactList}\small\item\em D�sactive la cellule et transmet l\textquotesingle{}information � edit\+Mode\+Manager. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Désactive la cellule et transmet l\textquotesingle{}information à edit\+Mode\+Manager. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8}{Activate}} ()
-\begin{DoxyCompactList}\small\item\em Active la cellule et transmet l\textquotesingle{}information � edit\+Mode\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Active la cellule et transmet l\textquotesingle{}information à edit\+Mode\+Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_edit_mode_cell_a2438766a46d0b93aba3e92340f51bd10}{On\+Disable}} ()
+\begin{DoxyCompactList}\small\item\em Lorsque l\textquotesingle{}objet est désactivé, remet ses variables aux valeurs de défaut. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_edit_mode_cell_a1bdddfef680e9c75c18773d958c9ae82}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_edit_mode_cell_ac6101c61c85633c91eee689ebc72536f}{On\+Mouse\+Enter}} ()
+\begin{DoxyCompactList}\small\item\em Change la couleur de la cellule lorsque la souris entre dans le modèle 3D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Color \mbox{\hyperlink{class_edit_mode_cell_aaf24556f8b30ffb1e373083d8493a899}{basic\+Color}}
+\begin{DoxyCompactList}\small\item\em Les différentes couleurs de la cellule. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_edit_mode_cell_a62e856d0c65c55a1ac98a55b40223b6a}{mouse\+On\+Color}}
+\item 
+Color \mbox{\hyperlink{class_edit_mode_cell_a2e3484f6806cd24f384b787990336fae}{activ\+Color}}
+\item 
+Renderer \mbox{\hyperlink{class_edit_mode_cell_acb3699318ad91cdc03c0927f288bedc8}{rende}}
+\begin{DoxyCompactList}\small\item\em Le Renderer permettant d\textquotesingle{}accéder au material. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_edit_mode_cell_ae89eac1aaea10fb850196b612fe87943}{is\+Activ}}
+\begin{DoxyCompactList}\small\item\em Booléen, true lorsque la cellule est vivante, false sinon. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_edit_mode_cell_a4ebd1044db2dccb93529443dae41e3e8}{on\+Mouse}}
+\begin{DoxyCompactList}\small\item\em Booléen, true lorsque la souris est sur la cellule false sinon. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} \mbox{\hyperlink{class_edit_mode_cell_ae252461bd35c4e41657659411196652e}{edit\+Mode\+Manager}}
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de la classe \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} pour pouvoir signaler que la cellule est devenu vivante. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_edit_mode_cell_a218a9e576e1ad84cd0268f0f0009d628}{dead\+Scale}} = 0.\+5f
+\begin{DoxyCompactList}\small\item\em Taille de la cellule morte. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_edit_mode_cell_a80c89ea3030a80cb4f2e26accd00c2cb}{life\+Scale}} = 1
+\begin{DoxyCompactList}\small\item\em Taille de la cellule en vie. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-Classe repr�sentant la cellule dans l\textquotesingle{}�diteur de structure. Permet le changement de couleur, de d�tecter si la souris appuie sur la cellule et de transmettre l\textquotesingle{}information de l\textquotesingle{}�tat (vivante ou morte) de la structure � \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}. 
+Classe représentant la cellule dans l\textquotesingle{}éditeur de structure. Permet le changement de couleur, de détecter si la souris appuie sur la cellule et de transmettre l\textquotesingle{}information de l\textquotesingle{}état (vivante ou morte) de la structure à \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}}. 
 
 \begin{DoxyAuthor}{Auteur}
-G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent 
+G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent,T\+I\+AN Ning, Q\+IN Yi 
 \end{DoxyAuthor}
 \begin{DoxyDate}{Date}
-08/04/2022 
+09/04/2022 
 \end{DoxyDate}
 
 
@@ -54,13 +91,20 @@ G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent
 
 
 
-Active la cellule et transmet l\textquotesingle{}information � edit\+Mode\+Manager. 
+Active la cellule et transmet l\textquotesingle{}information à edit\+Mode\+Manager. 
 
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_cell_ab29acfb84a03e3d04805cb16ba5b4af8_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8}\label{class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8}} 
@@ -71,13 +115,20 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 
 
 
-D�sactive la cellule et transmet l\textquotesingle{}information � edit\+Mode\+Manager. 
+Désactive la cellule et transmet l\textquotesingle{}information à edit\+Mode\+Manager. 
 
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_cell_a972bc99f957f4a37dcd482162e9762c8_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa}\label{class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa}} 
@@ -102,3 +153,164 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 \includegraphics[width=350pt]{class_edit_mode_cell_a85064e1ba44195ce0a8fa8c66f8e5ffa_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{class_edit_mode_cell_a2438766a46d0b93aba3e92340f51bd10}\label{class_edit_mode_cell_a2438766a46d0b93aba3e92340f51bd10}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!On\+Disable@{On\+Disable}}
+\index{On\+Disable@{On\+Disable}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{On\+Disable()}{OnDisable()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Cell.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Lorsque l\textquotesingle{}objet est désactivé, remet ses variables aux valeurs de défaut. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d}\label{class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!On\+Mouse\+Down@{On\+Mouse\+Down}}
+\index{On\+Mouse\+Down@{On\+Mouse\+Down}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{On\+Mouse\+Down()}{OnMouseDown()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Cell.\+On\+Mouse\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Active ou désactive la cellule lors d\textquotesingle{}un appui avec la souris. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_cell_a692f6272d4ef7a51092aef52a599233d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_cell_ac6101c61c85633c91eee689ebc72536f}\label{class_edit_mode_cell_ac6101c61c85633c91eee689ebc72536f}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!On\+Mouse\+Enter@{On\+Mouse\+Enter}}
+\index{On\+Mouse\+Enter@{On\+Mouse\+Enter}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{On\+Mouse\+Enter()}{OnMouseEnter()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Cell.\+On\+Mouse\+Enter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Change la couleur de la cellule lorsque la souris entre dans le modèle 3D. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1}\label{class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!On\+Mouse\+Exit@{On\+Mouse\+Exit}}
+\index{On\+Mouse\+Exit@{On\+Mouse\+Exit}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{On\+Mouse\+Exit()}{OnMouseExit()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Cell.\+On\+Mouse\+Exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Change la couleur de la cellule lorsque la souris sort du modèle 3D. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_edit_mode_cell_ad4e948c25ee58224ae23fa3288c4f2a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_edit_mode_cell_a38e231f9ad9dbee905d575660b77cfe2}\label{class_edit_mode_cell_a38e231f9ad9dbee905d575660b77cfe2}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!set\+Color@{set\+Color}}
+\index{set\+Color@{set\+Color}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{set\+Color()}{setColor()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Cell.\+set\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_edit_mode_cell_a1bdddfef680e9c75c18773d958c9ae82}\label{class_edit_mode_cell_a1bdddfef680e9c75c18773d958c9ae82}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!Start@{Start}}
+\index{Start@{Start}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Edit\+Mode\+Cell.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_edit_mode_cell_a2e3484f6806cd24f384b787990336fae}\label{class_edit_mode_cell_a2e3484f6806cd24f384b787990336fae}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!activ\+Color@{activ\+Color}}
+\index{activ\+Color@{activ\+Color}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{activ\+Color}{activColor}}
+{\footnotesize\ttfamily Color Edit\+Mode\+Cell.\+activ\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_edit_mode_cell_aaf24556f8b30ffb1e373083d8493a899}\label{class_edit_mode_cell_aaf24556f8b30ffb1e373083d8493a899}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!basic\+Color@{basic\+Color}}
+\index{basic\+Color@{basic\+Color}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{basic\+Color}{basicColor}}
+{\footnotesize\ttfamily Color Edit\+Mode\+Cell.\+basic\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Les différentes couleurs de la cellule. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_a218a9e576e1ad84cd0268f0f0009d628}\label{class_edit_mode_cell_a218a9e576e1ad84cd0268f0f0009d628}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!dead\+Scale@{dead\+Scale}}
+\index{dead\+Scale@{dead\+Scale}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{dead\+Scale}{deadScale}}
+{\footnotesize\ttfamily float Edit\+Mode\+Cell.\+dead\+Scale = 0.\+5f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille de la cellule morte. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_ae252461bd35c4e41657659411196652e}\label{class_edit_mode_cell_ae252461bd35c4e41657659411196652e}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!edit\+Mode\+Manager@{edit\+Mode\+Manager}}
+\index{edit\+Mode\+Manager@{edit\+Mode\+Manager}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{edit\+Mode\+Manager}{editModeManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} Edit\+Mode\+Cell.\+edit\+Mode\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Stocke l\textquotesingle{}instance de la classe \mbox{\hyperlink{class_edit_mode_manager}{Edit\+Mode\+Manager}} pour pouvoir signaler que la cellule est devenu vivante. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_ae89eac1aaea10fb850196b612fe87943}\label{class_edit_mode_cell_ae89eac1aaea10fb850196b612fe87943}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!is\+Activ@{is\+Activ}}
+\index{is\+Activ@{is\+Activ}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{is\+Activ}{isActiv}}
+{\footnotesize\ttfamily bool Edit\+Mode\+Cell.\+is\+Activ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Booléen, true lorsque la cellule est vivante, false sinon. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_a80c89ea3030a80cb4f2e26accd00c2cb}\label{class_edit_mode_cell_a80c89ea3030a80cb4f2e26accd00c2cb}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!life\+Scale@{life\+Scale}}
+\index{life\+Scale@{life\+Scale}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{life\+Scale}{lifeScale}}
+{\footnotesize\ttfamily float Edit\+Mode\+Cell.\+life\+Scale = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille de la cellule en vie. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_a62e856d0c65c55a1ac98a55b40223b6a}\label{class_edit_mode_cell_a62e856d0c65c55a1ac98a55b40223b6a}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!mouse\+On\+Color@{mouse\+On\+Color}}
+\index{mouse\+On\+Color@{mouse\+On\+Color}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{mouse\+On\+Color}{mouseOnColor}}
+{\footnotesize\ttfamily Color Edit\+Mode\+Cell.\+mouse\+On\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_edit_mode_cell_a4ebd1044db2dccb93529443dae41e3e8}\label{class_edit_mode_cell_a4ebd1044db2dccb93529443dae41e3e8}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!on\+Mouse@{on\+Mouse}}
+\index{on\+Mouse@{on\+Mouse}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{on\+Mouse}{onMouse}}
+{\footnotesize\ttfamily bool Edit\+Mode\+Cell.\+on\+Mouse\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Booléen, true lorsque la souris est sur la cellule false sinon. 
+
+\mbox{\Hypertarget{class_edit_mode_cell_acb3699318ad91cdc03c0927f288bedc8}\label{class_edit_mode_cell_acb3699318ad91cdc03c0927f288bedc8}} 
+\index{Edit\+Mode\+Cell@{Edit\+Mode\+Cell}!rende@{rende}}
+\index{rende@{rende}!Edit\+Mode\+Cell@{Edit\+Mode\+Cell}}
+\subsubsection{\texorpdfstring{rende}{rende}}
+{\footnotesize\ttfamily Renderer Edit\+Mode\+Cell.\+rende\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le Renderer permettant d\textquotesingle{}accéder au material. 
+
