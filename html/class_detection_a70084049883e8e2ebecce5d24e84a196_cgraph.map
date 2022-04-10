@@ -1,7 +1,7 @@
 <map id="Detection.ChangeIndGen" name="Detection.ChangeIndGen">
-<area shape="rect" id="node2" href="$class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="240,31,359,57"/>
+<area shape="rect" id="node2" href="$class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="Méthode s&#39;occupant de la détection des différents types de structures. " alt="" coords="240,31,359,57"/>
 <area shape="rect" id="node6" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="220,81,379,108"/>
-<area shape="rect" id="node3" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="665,5,804,32"/>
-<area shape="rect" id="node4" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="445,31,599,57"/>
+<area shape="rect" id="node3" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier élément qui est la position de départ de la structure, pour avoir la même structure mais à une position différente. " alt="" coords="665,5,804,32"/>
+<area shape="rect" id="node4" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="Appelé par Detect, permet la détection des vaisseaux. " alt="" coords="445,31,599,57"/>
 <area shape="rect" id="node5" href="$class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="427,81,617,108"/>
 </map>

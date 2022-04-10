@@ -1,5 +1,5 @@
 <map id="EditModeCell.Activate" name="EditModeCell.Activate">
 <area shape="rect" id="node2" href="$class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d" title="Active ou désactive la cellule lors d&#39;un appui avec la souris. " alt="" coords="203,42,393,69"/>
-<area shape="rect" id="node3" href="$class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="448,5,628,47"/>
-<area shape="rect" id="node4" href="$class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="441,71,635,98"/>
+<area shape="rect" id="node3" href="$class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou décochez la fonction de choisir un numéro de la couche. " alt="" coords="448,5,628,47"/>
+<area shape="rect" id="node4" href="$class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure aléatoire " alt="" coords="441,71,635,98"/>
 </map>

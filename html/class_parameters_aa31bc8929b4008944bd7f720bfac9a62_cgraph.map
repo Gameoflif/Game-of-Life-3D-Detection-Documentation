@@ -1,4 +1,4 @@
 <map id="Parameters.Start" name="Parameters.Start">
 <area shape="rect" id="node2" href="$class_simulation.html#af1580cd4ce5cb935c5f55ad4ce4f94de" title="Permet de transmettre de Parameters à Simulation2 les différentes valeurs des variables. " alt="" coords="175,5,403,32"/>
-<area shape="rect" id="node3" href="$class_edit_mode_manager.html#acab9d2ee3853d18b73e82135d800c341" title="Change la taille du volume et met Ã  jour les cellules. " alt="" coords="188,56,389,83"/>
+<area shape="rect" id="node3" href="$class_edit_mode_manager.html#acab9d2ee3853d18b73e82135d800c341" title="Change la taille du volume et met à jour les cellules. " alt="" coords="188,56,389,83"/>
 </map>

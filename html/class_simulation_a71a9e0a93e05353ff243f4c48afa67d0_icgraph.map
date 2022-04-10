@@ -1,8 +1,8 @@
 <map id="Simulation.HideVizualisation" name="Simulation.HideVizualisation">
 <area shape="rect" id="node2" href="$class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="243,23,419,65"/>
-<area shape="rect" id="node7" href="$class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="Active oÃ¹ dÃ©sactive la visualisation des cellules. " alt="" coords="240,89,423,130"/>
-<area shape="rect" id="node3" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="471,5,661,32"/>
-<area shape="rect" id="node4" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="477,56,655,83"/>
+<area shape="rect" id="node7" href="$class_menu_visualization_u_i.html#acc1ed888dd19359811e473ffbd2fa86a" title="Active où désactive la visualisation des cellules. " alt="" coords="240,89,423,130"/>
+<area shape="rect" id="node3" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="Désactive les panneaux edit mode et vizualization et active le panel parameters. " alt="" coords="471,5,661,32"/>
+<area shape="rect" id="node4" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="Désactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="477,56,655,83"/>
 <area shape="rect" id="node5" href="$class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="718,27,885,53"/>
 <area shape="rect" id="node6" href="$class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="709,78,893,119"/>
 </map>

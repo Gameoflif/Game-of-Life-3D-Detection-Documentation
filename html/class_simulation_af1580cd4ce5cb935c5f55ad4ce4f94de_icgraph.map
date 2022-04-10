@@ -1,6 +1,6 @@
 <map id="Simulation.SetVariablesParameters" name="Simulation.SetVariablesParameters">
-<area shape="rect" id="node2" href="$class_parameters.html#abc57bdbb6a4e2f78c7d71f1fa26b5fe8" title="Permet d&#39;envoyer les parametres aux diffÃ©rents outils. " alt="" coords="281,31,467,57"/>
-<area shape="rect" id="node5" href="$class_parameters.html#aa31bc8929b4008944bd7f720bfac9a62" title="mÃ©thode appelÃ©e lors du chargement de la scÃ¨ne. " alt="" coords="313,81,435,108"/>
-<area shape="rect" id="node3" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="515,5,722,32"/>
-<area shape="rect" id="node4" href="$class_parameters.html#a8702daf046aa4d1c44a284c78f6ff058" title="MÃ©thode appelÃ©e lors de l&#39;appui sur le bouton Apply. Affiche Les diffÃ©rents paramÃ¨tres entrÃ©s pa..." alt="" coords="515,56,723,83"/>
+<area shape="rect" id="node2" href="$class_parameters.html#abc57bdbb6a4e2f78c7d71f1fa26b5fe8" title="Permet d&#39;envoyer les parametres aux différents outils. " alt="" coords="281,31,467,57"/>
+<area shape="rect" id="node5" href="$class_parameters.html#aa31bc8929b4008944bd7f720bfac9a62" title="méthode appelée lors du chargement de la scène. " alt="" coords="313,81,435,108"/>
+<area shape="rect" id="node3" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique à la simulation le fichier importé. " alt="" coords="515,5,722,32"/>
+<area shape="rect" id="node4" href="$class_parameters.html#a8702daf046aa4d1c44a284c78f6ff058" title="Méthode appelée lors de l&#39;appui sur le bouton Apply. Affiche Les différents paramètres entrés par l&#39;u..." alt="" coords="515,56,723,83"/>
 </map>

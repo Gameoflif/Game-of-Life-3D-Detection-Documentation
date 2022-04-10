@@ -1,5 +1,5 @@
 <map id="DetectionGun.Compare" name="DetectionGun.Compare">
-<area shape="rect" id="node2" href="$class_detection_gun.html#a0a14866d2727aea5d457121bd646f3bb" title="Obtenir la structure dans la sous&#45;structure &quot;struc&quot; qui correspond Ã  la taille spÃ©cifiÃ©e par l&#39;uti..." alt="" coords="211,19,433,45"/>
+<area shape="rect" id="node2" href="$class_detection_gun.html#a0a14866d2727aea5d457121bd646f3bb" title="Obtenir la structure dans la sous&#45;structure &quot;struc&quot; qui correspond à la taille spécifiée par l&#39;utilis..." alt="" coords="211,19,433,45"/>
 <area shape="rect" id="node3" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="233,69,411,96"/>
 <area shape="rect" id="node7" href="$class_detection_gun.html#af0283c67f8fe041c2ff8ded541054d56" title="si c&#39;est la premiere forme retourner true " alt="" coords="226,132,418,159"/>
 <area shape="rect" id="node4" href="$class_list_vector_gun.html#a2969c469590b46d382af86ffbffe46c4" title="Ajoute un élément à la liste. " alt="" coords="515,5,647,32"/>

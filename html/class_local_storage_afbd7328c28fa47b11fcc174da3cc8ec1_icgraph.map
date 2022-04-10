@@ -1,5 +1,5 @@
 <map id="LocalStorage.readFromRegle" name="LocalStorage.readFromRegle">
-<area shape="rect" id="node2" href="$class_local_storage.html#aa66a98dccf6cb550c5a38c25b9712898" title="Obtenir les rÃ¨gles de la naissance enregistrÃ©e dans le document spÃ©cifiÃ© " alt="" coords="248,5,432,32"/>
-<area shape="rect" id="node3" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="484,56,691,83"/>
-<area shape="rect" id="node4" href="$class_local_storage.html#a0c0003569be45cff5fda794e42243c1e" title="Obtenir les rÃ¨gles de la survie enregistrÃ©e dans le document spÃ©cifiÃ© " alt="" coords="244,107,436,133"/>
+<area shape="rect" id="node2" href="$class_local_storage.html#aa66a98dccf6cb550c5a38c25b9712898" title="Obtenir les règles de la naissance enregistrée dans le document spécifié " alt="" coords="248,5,432,32"/>
+<area shape="rect" id="node3" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique à la simulation le fichier importé. " alt="" coords="484,56,691,83"/>
+<area shape="rect" id="node4" href="$class_local_storage.html#a0c0003569be45cff5fda794e42243c1e" title="Obtenir les règles de la survie enregistrée dans le document spécifié " alt="" coords="244,107,436,133"/>
 </map>

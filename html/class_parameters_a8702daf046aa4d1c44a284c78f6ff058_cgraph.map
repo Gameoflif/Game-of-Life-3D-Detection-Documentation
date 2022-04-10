@@ -1,7 +1,7 @@
 <map id="Parameters.ApplyButtonOnclick" name="Parameters.ApplyButtonOnclick">
-<area shape="rect" id="node2" href="$class_parameters.html#a92f68fa9992b1066153a6175dd37dc36" title="VÃ©rifie si les valeurs entrÃ©es dans les inputfield sont correctes. " alt="" coords="261,5,467,32"/>
+<area shape="rect" id="node2" href="$class_parameters.html#a92f68fa9992b1066153a6175dd37dc36" title="Vérifie si les valeurs entrées dans les inputfield sont correctes. " alt="" coords="261,5,467,32"/>
 <area shape="rect" id="node3" href="$class_camera_control.html#ab7238445e22d5a0d5c2f620f1ad46fa2" title="Recentre la caméra en fonction des dimensions du volume. " alt="" coords="271,56,457,83"/>
-<area shape="rect" id="node4" href="$class_parameters.html#abc57bdbb6a4e2f78c7d71f1fa26b5fe8" title="Permet d&#39;envoyer les parametres aux diffÃ©rents outils. " alt="" coords="271,107,457,133"/>
+<area shape="rect" id="node4" href="$class_parameters.html#abc57bdbb6a4e2f78c7d71f1fa26b5fe8" title="Permet d&#39;envoyer les parametres aux différents outils. " alt="" coords="271,107,457,133"/>
 <area shape="rect" id="node5" href="$class_simulation.html#af1580cd4ce5cb935c5f55ad4ce4f94de" title="Permet de transmettre de Parameters à Simulation2 les différentes valeurs des variables. " alt="" coords="515,81,743,108"/>
-<area shape="rect" id="node6" href="$class_edit_mode_manager.html#acab9d2ee3853d18b73e82135d800c341" title="Change la taille du volume et met Ã  jour les cellules. " alt="" coords="528,132,729,159"/>
+<area shape="rect" id="node6" href="$class_edit_mode_manager.html#acab9d2ee3853d18b73e82135d800c341" title="Change la taille du volume et met à jour les cellules. " alt="" coords="528,132,729,159"/>
 </map>

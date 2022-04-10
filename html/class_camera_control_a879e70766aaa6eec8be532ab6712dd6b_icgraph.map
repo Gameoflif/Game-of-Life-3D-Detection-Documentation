@@ -1,12 +1,12 @@
 <map id="CameraControl.ActOrDeaMovement" name="CameraControl.ActOrDeaMovement">
-<area shape="rect" id="node2" href="$class_menu_visualization_u_i.html#aabfef8a72ef59e04916f6d95a1274431" title="Active le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="296,5,472,47"/>
-<area shape="rect" id="node3" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="535,14,725,41"/>
-<area shape="rect" id="node4" href="$class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="DÃ©sactive le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="281,122,487,149"/>
-<area shape="rect" id="node9" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="295,221,473,247"/>
+<area shape="rect" id="node2" href="$class_menu_visualization_u_i.html#aabfef8a72ef59e04916f6d95a1274431" title="Active le panel save et bloque la caméra si clic sur le bouton. " alt="" coords="296,5,472,47"/>
+<area shape="rect" id="node3" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="Désactive les panneaux edit mode et vizualization et active le panel parameters. " alt="" coords="535,14,725,41"/>
+<area shape="rect" id="node4" href="$class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="Désactive le panel save et bloque la caméra si clic sur le bouton. " alt="" coords="281,122,487,149"/>
+<area shape="rect" id="node9" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="Désactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="295,221,473,247"/>
 <area shape="rect" id="node5" href="$class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="535,69,725,95"/>
 <area shape="rect" id="node7" href="$class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="561,119,699,146"/>
 <area shape="rect" id="node8" href="$class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9" title="Passage à la génération précédente. " alt="" coords="550,170,710,197"/>
-<area shape="rect" id="node6" href="$class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="773,69,960,95"/>
+<area shape="rect" id="node6" href="$class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="773,69,960,95"/>
 <area shape="rect" id="node10" href="$class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="547,221,713,247"/>
 <area shape="rect" id="node11" href="$class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="538,272,722,313"/>
 </map>

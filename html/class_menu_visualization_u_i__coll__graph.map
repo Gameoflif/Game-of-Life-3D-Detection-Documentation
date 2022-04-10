@@ -1,6 +1,6 @@
 <map id="MenuVisualizationUI" name="MenuVisualizationUI">
 <area shape="rect" id="node3" href="$class_simulation.html" title="Contient toutes les methodes en liens avec la simulation. " alt="" coords="199,391,282,417"/>
-<area shape="rect" id="node4" href="$class_detection.html" title="Classe contenant les mÃ©thodes associÃ©es Ã  la dÃ©tection automatique des structures particuliÃ¨res..." alt="" coords="299,301,377,328"/>
+<area shape="rect" id="node4" href="$class_detection.html" title="Classe contenant les méthodes associées à la détection automatique des structures particulières..." alt="" coords="299,301,377,328"/>
 <area shape="rect" id="node5" href="$class_details_structure.html" title="Classe permettant de stocker les informations d&#39;une structure. " alt="" coords="329,212,443,239"/>
 <area shape="rect" id="node6" href="$class_detection_u_i.html" title="Classe dédié à l&#39;affichage des informations de détéction. " alt="" coords="468,212,557,239"/>
 <area shape="rect" id="node10" href="$class_camera_control.html" title="La classe permettant le control de la caméra " alt="" coords="95,212,203,239"/>

@@ -1,8 +1,8 @@
 <map id="Detection.trouveGliderGun" name="Detection.trouveGliderGun">
-<area shape="rect" id="node2" href="$class_detection_gun.html#a0a14866d2727aea5d457121bd646f3bb" title="Obtenir la structure dans la sous&#45;structure &quot;struc&quot; qui correspond Ã  la taille spÃ©cifiÃ©e par l&#39;uti..." alt="" coords="461,5,684,32"/>
+<area shape="rect" id="node2" href="$class_detection_gun.html#a0a14866d2727aea5d457121bd646f3bb" title="Obtenir la structure dans la sous&#45;structure &quot;struc&quot; qui correspond à la taille spécifiée par l&#39;utilis..." alt="" coords="461,5,684,32"/>
 <area shape="rect" id="node3" href="$class_detection_gun.html#af804b47fcbcc2c89bbe17b47eb8f7c47" title="Verifier si la sous&#45;structure est la structure cible de detection " alt="" coords="227,477,413,504"/>
 <area shape="rect" id="node16" href="$class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d" title="DetectionGun.trouverModelGun" alt="" coords="471,157,674,184"/>
-<area shape="rect" id="node21" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="DÃ©terminer la prÃ©sence ou l&#39;absence de canons " alt="" coords="241,95,399,121"/>
+<area shape="rect" id="node21" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="Déterminer la présence ou l&#39;absence de canons " alt="" coords="241,95,399,121"/>
 <area shape="rect" id="node4" href="$class_detection_gun.html#a488d963e0b78922904b6bd42182ca7b1" title="Obtenir les cellules vivantes. " alt="" coords="485,285,661,326"/>
 <area shape="rect" id="node6" href="$class_list_vector_gun.html#a7c7706a2171becc86a8353b525d35d69" title="ListVectorGun.Count" alt="" coords="1015,528,1157,555"/>
 <area shape="rect" id="node7" href="$class_list_vector_gun.html#a6b94b7d8288d1415f1670181251bbfa2" title="ListVectorGun.getPosition" alt="" coords="999,680,1173,707"/>
@@ -16,7 +16,7 @@
 <area shape="rect" id="node13" href="$class_list_vector_gun.html#a92aa301df19a9b1cd5f6e635e6a0c86f" title="Supprimer les elements de liste temp dans la liste structure " alt="" coords="767,579,904,605"/>
 <area shape="rect" id="node14" href="$class_list_vector_gun.html#a1ffc9f3c2ac48631dcd05ba8061ba9c7" title="ListVectorGun.RemoveAt" alt="" coords="751,629,919,656"/>
 <area shape="rect" id="node17" href="$class_list_vector_gun.html#a23dabaffda742276390b578c091d101a" title="Savoir combien de points d&#39;entre deux structures ont les mêmes coordonnées " alt="" coords="741,376,929,403"/>
-<area shape="rect" id="node18" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une g..." alt="" coords="742,157,929,184"/>
+<area shape="rect" id="node18" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génér..." alt="" coords="742,157,929,184"/>
 <area shape="rect" id="node19" href="$class_list_vector_gun.html#a9f370c4f677db9d3ecb750febcaed21e" title="Constructeur. " alt="" coords="990,157,1182,184"/>
 <area shape="rect" id="node20" href="$class_list_vector_gun.html#a305381e8b2d20184c1894c89d2726b2c" title="Trouve le vecteur minimal (x et y de valeur minimal). " alt="" coords="987,81,1185,108"/>
 <area shape="rect" id="node22" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="746,56,925,83"/>

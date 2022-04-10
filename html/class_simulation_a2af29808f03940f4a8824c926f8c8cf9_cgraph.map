@@ -1,11 +1,11 @@
 <map id="Simulation.PreviousGen" name="Simulation.PreviousGen">
-<area shape="rect" id="node2" href="$class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="AppelÃ© par Simulation dans le cas oÃ¹ la gÃ©nÃ©ration a dÃ©jÃ  Ã©tÃ© parcouru, change l&#39;indice de gÃ..." alt="" coords="233,56,399,83"/>
+<area shape="rect" id="node2" href="$class_detection.html#a70084049883e8e2ebecce5d24e84a196" title="Appelé par Simulation dans le cas où la génération a déjà été parcouru, change l&#39;indice de génération..." alt="" coords="233,56,399,83"/>
 <area shape="rect" id="node8" href="$class_simulation.html#af5fd57d6f657f07bc0fac7085832dc82" title="Montre les cubes et changent leur couleur en fonction de leur âge. " alt="" coords="257,107,375,133"/>
-<area shape="rect" id="node9" href="$class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="DÃ©sactive le panel save et bloque la camÃ©ra si clic sur le bouton. " alt="" coords="213,157,419,184"/>
-<area shape="rect" id="node3" href="$class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="MÃ©thode s&#39;occupant de la dÃ©tection des diffÃ©rents types de structures. " alt="" coords="521,31,640,57"/>
+<area shape="rect" id="node9" href="$class_menu_visualization_u_i.html#a262b9857eed5d1a7e749beb653a88cad" title="Désactive le panel save et bloque la caméra si clic sur le bouton. " alt="" coords="213,157,419,184"/>
+<area shape="rect" id="node3" href="$class_detection.html#a2d43ae8dc03c4247fd0d39787b72213a" title="Méthode s&#39;occupant de la détection des différents types de structures. " alt="" coords="521,31,640,57"/>
 <area shape="rect" id="node7" href="$class_detection_u_i.html#a1a74833dc3ed95108c3a78bcb3d691be" title="Mets à jour l&#39;affichage. " alt="" coords="501,81,660,108"/>
-<area shape="rect" id="node4" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="981,5,1120,32"/>
-<area shape="rect" id="node5" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="761,31,915,57"/>
+<area shape="rect" id="node4" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier élément qui est la position de départ de la structure, pour avoir la même structure mais à une position différente. " alt="" coords="981,5,1120,32"/>
+<area shape="rect" id="node5" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="Appelé par Detect, permet la détection des vaisseaux. " alt="" coords="761,31,915,57"/>
 <area shape="rect" id="node6" href="$class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="743,81,933,108"/>
 <area shape="rect" id="node10" href="$class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b" title="Permet d&#39;activer ou de désactiver le mouvement de la caméra. " alt="" coords="467,157,695,184"/>
 </map>

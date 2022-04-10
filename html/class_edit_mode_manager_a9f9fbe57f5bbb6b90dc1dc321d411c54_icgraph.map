@@ -1,6 +1,6 @@
 <map id="EditModeManager.AddCell" name="EditModeManager.AddCell">
 <area shape="rect" id="node2" href="$class_edit_mode_cell.html#ab29acfb84a03e3d04805cb16ba5b4af8" title="Active la cellule et transmet l&#39;information à editModeManager. " alt="" coords="229,21,379,47"/>
-<area shape="rect" id="node5" href="$class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure alÃ©atoire " alt="" coords="665,71,859,98"/>
+<area shape="rect" id="node5" href="$class_edit_mode_manager.html#a96ee789fb9bf31726bf942d334775a92" title="Le bouton clique pour afficher la structure aléatoire " alt="" coords="665,71,859,98"/>
 <area shape="rect" id="node3" href="$class_edit_mode_cell.html#a692f6272d4ef7a51092aef52a599233d" title="Active ou désactive la cellule lors d&#39;un appui avec la souris. " alt="" coords="427,21,617,47"/>
-<area shape="rect" id="node4" href="$class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. " alt="" coords="672,5,852,47"/>
+<area shape="rect" id="node4" href="$class_edit_mode_manager.html#ab1048ff448edf1c84b42abb9a811d0ae" title="Cochez ou décochez la fonction de choisir un numéro de la couche. " alt="" coords="672,5,852,47"/>
 </map>

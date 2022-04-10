@@ -1,7 +1,7 @@
 <map id="Simulation.DeactivateAll" name="Simulation.DeactivateAll">
 <area shape="rect" id="node2" href="$class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="231,56,391,83"/>
 <area shape="rect" id="node5" href="$class_simulation.html#a500982098740ae238f349a6fed0affd8" title="Recommence la simulation. " alt="" coords="216,107,407,133"/>
-<area shape="rect" id="node3" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="455,5,672,32"/>
-<area shape="rect" id="node4" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="460,56,667,83"/>
-<area shape="rect" id="node6" href="$class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="470,107,657,133"/>
+<area shape="rect" id="node3" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="455,5,672,32"/>
+<area shape="rect" id="node4" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique à la simulation le fichier importé. " alt="" coords="460,56,667,83"/>
+<area shape="rect" id="node6" href="$class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="470,107,657,133"/>
 </map>

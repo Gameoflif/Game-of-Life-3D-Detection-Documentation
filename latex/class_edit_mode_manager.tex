@@ -2,7 +2,7 @@
 \label{class_edit_mode_manager}\index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}}
 
 
-Cette classe regroupe les mÃ©thodes liÃ©es Ã  l\textquotesingle{}Ã©diteur de structure.  
+Cette classe regroupe les méthodes liées à l\textquotesingle{}éditeur de structure.  
 
 
 
@@ -28,11 +28,11 @@ Graphe de collaboration de Edit\+Mode\+Manager\+:
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_edit_mode_manager_acab9d2ee3853d18b73e82135d800c341}{Change\+Size}} (int \mbox{\hyperlink{class_edit_mode_manager_ad0e09cececc48bcb4e7b768fa35dc954}{h}}, int \mbox{\hyperlink{class_edit_mode_manager_ad9e4950cf24abf3ede8c0891c4df7b77}{w}}, int \mbox{\hyperlink{class_edit_mode_manager_a1979d9d74b3ead0806d3aa58f92a298c}{l}})
-\begin{DoxyCompactList}\small\item\em Change la taille du volume et met Ã  jour les cellules. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Change la taille du volume et met à jour les cellules. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15}{Initialize\+Cells}} ()
-\begin{DoxyCompactList}\small\item\em Initialise les cellules mortes qui pourront devenir vivante par une intÃ©raction avec la souris. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_ad64498838abd29826c929cad104924be}{Hide\+Or\+Show\+Dead\+Cells}} ()
-\begin{DoxyCompactList}\small\item\em Active ou dÃ©sactive la visualisation des cellules mortes. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Active ou désactive la visualisation des cellules mortes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_a9f9fbe57f5bbb6b90dc1dc321d411c54}{Add\+Cell}} (Vector3 pos)
 \begin{DoxyCompactList}\small\item\em Ajoute la position de la cellule comme position d\textquotesingle{}une cellule vivante dans cells\+Volume\+Life. A la position de la cellule dans le tableau, la valeur devient 1. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_a8a8c1a3a9558fbbcfa7c15d8ce48a264}{Remove\+Cell}} (Vector3 pos)
@@ -40,21 +40,21 @@ void \mbox{\hyperlink{class_edit_mode_manager_a8a8c1a3a9558fbbcfa7c15d8ce48a264}
 void \mbox{\hyperlink{class_edit_mode_manager_afc8be75da1a5042fcf78b0e9bf1e2108}{Reset\+Struct}} ()
 \begin{DoxyCompactList}\small\item\em Toutes les cellules redeviennent mortes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_aacc30d9cdb3d747fbad20130903ec24e}{Hide}} ()
-\begin{DoxyCompactList}\small\item\em Cache les objets de l\textquotesingle{}Ã©diteur de structure. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Cache les objets de l\textquotesingle{}éditeur de structure. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_acf80baac30f6611bcb1bf97b61ffc1ca}{Show}} ()
-\begin{DoxyCompactList}\small\item\em Montre les objets de l\textquotesingle{}Ã©diteur de structure. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Montre les objets de l\textquotesingle{}éditeur de structure. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_ac9e73b653a4af1d833a2df57c45cf4cf}{Active\+Or\+Deactiverand\+Number\+Cell}} ()
-\begin{DoxyCompactList}\small\item\em Cochez ou dÃ©cochez la fonction de gÃ©nÃ©rer un nombre alÃ©atoire de cellule. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Cochez ou décochez la fonction de générer un nombre aléatoire de cellule. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_ab1048ff448edf1c84b42abb9a811d0ae}{Active\+Or\+Deactiverand\+Number\+Layer}} ()
-\begin{DoxyCompactList}\small\item\em Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Cochez ou décochez la fonction de choisir un numéro de la couche. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_ac7d44060ec1a703a7f9ea15ecf13d2cf}{go\+Number\+Layer}} ()
-\begin{DoxyCompactList}\small\item\em Le bouton clique pour afficher le numÃ©ro de couche spÃ©cifiÃ© par l\textquotesingle{}utilisateur \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Le bouton clique pour afficher le numéro de couche spécifié par l\textquotesingle{}utilisateur \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_a96ee789fb9bf31726bf942d334775a92}{go\+Random}} ()
-\begin{DoxyCompactList}\small\item\em Le bouton clique pour afficher la structure alÃ©atoire \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Le bouton clique pour afficher la structure aléatoire \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_ac1d4e4f292d17b4364054f05ddc13bee}{Apply\+Structure}} ()
-\begin{DoxyCompactList}\small\item\em Transmet la structure (le tableau contenant des cellules vivantes \+: cells\+Volume\+Life) Ã  l\textquotesingle{}outil de simulation. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Transmet la structure (le tableau contenant des cellules vivantes \+: cells\+Volume\+Life) à l\textquotesingle{}outil de simulation. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_edit_mode_manager_ad6ef0af559103e1ec43cf0b393bef83c}{close\+Panel\+Apply}} ()
-\begin{DoxyCompactList}\small\item\em DÃ©sactiver le panel \+: panel\+Info \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Désactiver le panel \+: panel\+Info \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Fonctions membres privées}
 \begin{DoxyCompactItemize}
 \item 
@@ -64,31 +64,31 @@ void \mbox{\hyperlink{class_edit_mode_manager_a4f5385630cfd8a65e1aac37f79b4f8d3}
 \begin{DoxyCompactItemize}
 \item 
 T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_edit_mode_manager_a8f714287067b2bdf21ff8ab45e72dfba}{inputfield\+Random\+Percentage}}
-\begin{DoxyCompactList}\small\item\em Zone de texte pour entrer une valeur faire naÃ®tre des cellules de faÃ§on alÃ©atoire. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Zone de texte pour entrer une valeur faire naître des cellules de façon aléatoire. \end{DoxyCompactList}\item 
 T\+M\+P\+\_\+\+Input\+Field \mbox{\hyperlink{class_edit_mode_manager_ad36781169457109afdb5b11d2766bde7}{inputfield\+Layer}}
-\begin{DoxyCompactList}\small\item\em Zone de texte pour entrer le numÃ©ro de couches que l\textquotesingle{}utilisateur souhaite modifier. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Zone de texte pour entrer le numéro de couches que l\textquotesingle{}utilisateur souhaite modifier. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_edit_mode_manager_ab22d78b821b9c0e8a939ef89abe37f5f}{x}} = 0
 \begin{DoxyCompactList}\small\item\em Le nombre de couches que l\textquotesingle{}utilisateur souhaite modifier. \end{DoxyCompactList}\item 
 Game\+Object \mbox{\hyperlink{class_edit_mode_manager_afbeb266fcf4af2980b1cd76a64b3ce91}{cell\+Prefab}}
 \begin{DoxyCompactList}\small\item\em Le prefab de l\textquotesingle{}objet 3D de la cellule. \end{DoxyCompactList}\item 
 float \mbox{\hyperlink{class_edit_mode_manager_acecef311540113a1ef783ad637c7bf6c}{decalage}}
-\begin{DoxyCompactList}\small\item\em L\textquotesingle{}Ã©cart entre les cellules. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}écart entre les cellules. \end{DoxyCompactList}\item 
 Transform \mbox{\hyperlink{class_edit_mode_manager_a95ebb6471df3c826b6295182d144d570}{parent\+Dead\+Cells}}
 \begin{DoxyCompactList}\small\item\em L\textquotesingle{}objet parent des cellules mortes. \end{DoxyCompactList}\item 
 Transform \mbox{\hyperlink{class_edit_mode_manager_a73637bcfc94b5701b5bab079a93aaaad}{parent\+Cells\+In\+Life}}
 \begin{DoxyCompactList}\small\item\em L\textquotesingle{}objet parent des cellules vivantes. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_simulation}{Simulation}} \mbox{\hyperlink{class_edit_mode_manager_a1fd101cae685f8113863a24df8b9ee8f}{simulation}}
-\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de simulation, et cela pour transmettre la structure (les cellules vivantes qui sont prÃ©sentes dans l\textquotesingle{}Ã©diteur de structure) Ã  l\textquotesingle{}outil de simulation/visualisation. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Stocke l\textquotesingle{}instance de simulation, et cela pour transmettre la structure (les cellules vivantes qui sont présentes dans l\textquotesingle{}éditeur de structure) à l\textquotesingle{}outil de simulation/visualisation. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_edit_mode_cell}{Edit\+Mode\+Cell}} \mbox{[},,\mbox{]} \mbox{\hyperlink{class_edit_mode_manager_a7dedb1b0edf13150eb522730203f773e}{cells}}
-\begin{DoxyCompactList}\small\item\em Le tableau contenant l\textquotesingle{}Ã©tat des cellules, 1 si en vie sinon 0. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Le tableau contenant l\textquotesingle{}état des cellules, 1 si en vie sinon 0. \end{DoxyCompactList}\item 
 int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_edit_mode_manager_ae9b25aaa4594dd5296b2e8190b7ff303}{cells\+Volume\+Life}}
 \begin{DoxyCompactList}\small\item\em Liste des cellules vivantes. \end{DoxyCompactList}\item 
 int \mbox{[},,\mbox{]} \mbox{\hyperlink{class_edit_mode_manager_a2f9d02aaf0d440c6ab0f9b73e3fec5e6}{cells\+Volume\+Dead}}
 \begin{DoxyCompactList}\small\item\em Liste des cellules mortes. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_edit_mode_manager_a2ad2ba7ae4c1faa2444b397f587f8adf}{hide\+Dead\+Cells}} = true
-\begin{DoxyCompactList}\small\item\em BoolÃ©en, true si les cellules mortes ne sont pas affichÃ©es sinon false. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Booléen, true si les cellules mortes ne sont pas affichées sinon false. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_edit_mode_manager_a2b9b6468cc837ee97b01202de2972129}{force\+Deactivation}} = false
-\begin{DoxyCompactList}\small\item\em true si force la dÃ©sactivation de la visualisation sinon false. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em true si force la désactivation de la visualisation sinon false. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_edit_mode_manager_ad0e09cececc48bcb4e7b768fa35dc954}{h}}
 \begin{DoxyCompactList}\small\item\em La hauteur, la largeur et la longueur du volume dans le quel se situe les cellules (le nombre de cellule en y,x et z) \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_edit_mode_manager_ad9e4950cf24abf3ede8c0891c4df7b77}{w}}
@@ -96,27 +96,27 @@ int \mbox{\hyperlink{class_edit_mode_manager_ad9e4950cf24abf3ede8c0891c4df7b77}{
 int \mbox{\hyperlink{class_edit_mode_manager_a1979d9d74b3ead0806d3aa58f92a298c}{l}}
 \item 
 bool \mbox{\hyperlink{class_edit_mode_manager_a82186201a56d05f092efab0e79f2a78d}{rand\+Number\+Cell}} = false
-\begin{DoxyCompactList}\small\item\em Vrai si un nombre alÃ©atoire de cellule est choisi, faux sinon. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Vrai si un nombre aléatoire de cellule est choisi, faux sinon. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_edit_mode_manager_a0730066800d9fdb8d8872243bb0574ba}{number\+Layer}} = false
-\begin{DoxyCompactList}\small\item\em Vrai si le toggle pour dÃ©finir le numÃ©ro de couches est choisi, faux sinon. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Vrai si le toggle pour définir le numéro de couches est choisi, faux sinon. \end{DoxyCompactList}\item 
 float \mbox{\hyperlink{class_edit_mode_manager_ad5ab7a25d17a19fee7eda1becfddb719}{random}}
 \item 
 T\+M\+P\+\_\+\+Text \mbox{\hyperlink{class_edit_mode_manager_ae6fc2f251b5813fc0c75330462b9dade}{text}}
-\begin{DoxyCompactList}\small\item\em Le texte affichÃ© sur le panel panel\+Apply\+Button. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Le texte affiché sur le panel panel\+Apply\+Button. \end{DoxyCompactList}\item 
 Game\+Object \mbox{\hyperlink{class_edit_mode_manager_a219384b34d903ef7872d37db677d5842}{panel\+Info}}
 \begin{DoxyCompactList}\small\item\em Le panel de message d\textquotesingle{}erreur \end{DoxyCompactList}\item 
 Game\+Object \mbox{\hyperlink{class_edit_mode_manager_a945ba1a2fb0835b8dc12d723683eeb33}{Boutton\+Go\+Random}}
-\begin{DoxyCompactList}\small\item\em Bouton permettant Ã  l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Random\+Percentage.\+text\char`\"{} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Bouton permettant à l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Random\+Percentage.\+text\char`\"{} \end{DoxyCompactList}\item 
 Game\+Object \mbox{\hyperlink{class_edit_mode_manager_ad5c5ed8457e18b2adc75f38498d28e92}{Boutton\+Go\+Layer}}
-\begin{DoxyCompactList}\small\item\em Bouton permettant Ã  l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Layer.\+text\char`\"{} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Bouton permettant à l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Layer.\+text\char`\"{} \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_camera_control}{Camera\+Control}} \mbox{\hyperlink{class_edit_mode_manager_a5cfa2a3b82fbc098b2fc63f043f1b07b}{camera}}
-\begin{DoxyCompactList}\small\item\em ContrÃ´leur de la camÃ©ra \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Contrôleur de la caméra \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_edit_mode_manager_af3f46c507dd0557ad3890647be53bdb0}{apply\+Change}} = true
 \begin{DoxyCompactList}\small\item\em Vrai si tous les changements sont corrects \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Description détaillée}
-Cette classe regroupe les mÃ©thodes liÃ©es Ã  l\textquotesingle{}Ã©diteur de structure. 
+Cette classe regroupe les méthodes liées à l\textquotesingle{}éditeur de structure. 
 
 \begin{DoxyAuthor}{Auteur}
 G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent,Q\+IN Yi,T\+I\+AN Ning 
@@ -135,7 +135,7 @@ G\+R\+O\+U\+T\+E\+AU Dorian, TU Vincent,Q\+IN Yi,T\+I\+AN Ning
 
 
 
-Cochez ou dÃ©cochez la fonction de gÃ©nÃ©rer un nombre alÃ©atoire de cellule. 
+Cochez ou décochez la fonction de générer un nombre aléatoire de cellule. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ab1048ff448edf1c84b42abb9a811d0ae}\label{class_edit_mode_manager_ab1048ff448edf1c84b42abb9a811d0ae}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Active\+Or\+Deactiverand\+Number\+Layer@{Active\+Or\+Deactiverand\+Number\+Layer}}
@@ -145,9 +145,10 @@ Cochez ou dÃ©cochez la fonction de gÃ©nÃ©rer un nombre alÃ©atoire de cel
 
 
 
-Cochez ou dÃ©cochez la fonction de choisir un numÃ©ro de la couche. 
+Cochez ou décochez la fonction de choisir un numéro de la couche. 
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -166,10 +167,11 @@ Ajoute la position de la cellule comme position d\textquotesingle{}une cellule v
 
 
 \begin{DoxyParams}{Paramètres}
-{\em pos} & Position de la cellule Ã  ajouter\\
+{\em pos} & Position de la cellule à ajouter\\
 \hline
 \end{DoxyParams}
-Voici le graphe des appelants de cette fonction \+:\nopagebreak
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -184,7 +186,7 @@ Voici le graphe des appelants de cette fonction \+:\nopagebreak
 
 
 
-Transmet la structure (le tableau contenant des cellules vivantes \+: cells\+Volume\+Life) Ã  l\textquotesingle{}outil de simulation. 
+Transmet la structure (le tableau contenant des cellules vivantes \+: cells\+Volume\+Life) à l\textquotesingle{}outil de simulation. 
 
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \nopagebreak
@@ -202,7 +204,7 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-Change la taille du volume et met Ã  jour les cellules. 
+Change la taille du volume et met à jour les cellules. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -229,7 +231,7 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-DÃ©sactiver le panel \+: panel\+Info 
+Désactiver le panel \+: panel\+Info 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ac7d44060ec1a703a7f9ea15ecf13d2cf}\label{class_edit_mode_manager_ac7d44060ec1a703a7f9ea15ecf13d2cf}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!go\+Number\+Layer@{go\+Number\+Layer}}
@@ -239,7 +241,7 @@ DÃ©sactiver le panel \+: panel\+Info
 
 
 
-Le bouton clique pour afficher le numÃ©ro de couche spÃ©cifiÃ© par l\textquotesingle{}utilisateur 
+Le bouton clique pour afficher le numéro de couche spécifié par l\textquotesingle{}utilisateur 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a96ee789fb9bf31726bf942d334775a92}\label{class_edit_mode_manager_a96ee789fb9bf31726bf942d334775a92}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!go\+Random@{go\+Random}}
@@ -249,7 +251,7 @@ Le bouton clique pour afficher le numÃ©ro de couche spÃ©cifiÃ© par l\textq
 
 
 
-Le bouton clique pour afficher la structure alÃ©atoire 
+Le bouton clique pour afficher la structure aléatoire 
 
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \nopagebreak
@@ -267,7 +269,7 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-Cache les objets de l\textquotesingle{}Ã©diteur de structure. 
+Cache les objets de l\textquotesingle{}éditeur de structure. 
 
 Voici le graphe des appelants de cette fonction \+:
 \nopagebreak
@@ -285,7 +287,7 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Active ou dÃ©sactive la visualisation des cellules mortes. 
+Active ou désactive la visualisation des cellules mortes. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15}\label{class_edit_mode_manager_a8a950f58c809a7161d85e5d9a73e4d15}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Initialize\+Cells@{Initialize\+Cells}}
@@ -295,10 +297,9 @@ Active ou dÃ©sactive la visualisation des cellules mortes.
 
 
 
-Initialise les cellules mortes qui pourront devenir vivante par une intÃ©raction avec la souris. 
+Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris. 
 
-Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
-\nopagebreak
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -325,7 +326,7 @@ Ajoute la position de la cellule comme position d\textquotesingle{}une cellule m
 
 
 \begin{DoxyParams}{Paramètres}
-{\em pos} & Position de la cellule Ã  supprimer\\
+{\em pos} & Position de la cellule à supprimer\\
 \hline
 \end{DoxyParams}
 Voici le graphe des appelants de cette fonction \+:
@@ -362,7 +363,7 @@ Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 
 
 
-Montre les objets de l\textquotesingle{}Ã©diteur de structure. 
+Montre les objets de l\textquotesingle{}éditeur de structure. 
 
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
 \nopagebreak
@@ -411,7 +412,7 @@ Vrai si tous les changements sont corrects
 
 
 
-Bouton permettant Ã  l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Layer.\+text\char`\"{} 
+Bouton permettant à l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Layer.\+text\char`\"{} 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a945ba1a2fb0835b8dc12d723683eeb33}\label{class_edit_mode_manager_a945ba1a2fb0835b8dc12d723683eeb33}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!Boutton\+Go\+Random@{Boutton\+Go\+Random}}
@@ -421,7 +422,7 @@ Bouton permettant Ã  l\textquotesingle{}utilisateur de sauvegarder \char`\"{}i
 
 
 
-Bouton permettant Ã  l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Random\+Percentage.\+text\char`\"{} 
+Bouton permettant à l\textquotesingle{}utilisateur de sauvegarder \char`\"{}inputfield\+Random\+Percentage.\+text\char`\"{} 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a5cfa2a3b82fbc098b2fc63f043f1b07b}\label{class_edit_mode_manager_a5cfa2a3b82fbc098b2fc63f043f1b07b}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!camera@{camera}}
@@ -431,7 +432,7 @@ Bouton permettant Ã  l\textquotesingle{}utilisateur de sauvegarder \char`\"{}i
 
 
 
-ContrÃ´leur de la camÃ©ra 
+Contrôleur de la caméra 
 
 \mbox{\Hypertarget{class_edit_mode_manager_afbeb266fcf4af2980b1cd76a64b3ce91}\label{class_edit_mode_manager_afbeb266fcf4af2980b1cd76a64b3ce91}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!cell\+Prefab@{cell\+Prefab}}
@@ -451,7 +452,7 @@ Le prefab de l\textquotesingle{}objet 3D de la cellule.
 
 
 
-Le tableau contenant l\textquotesingle{}Ã©tat des cellules, 1 si en vie sinon 0. 
+Le tableau contenant l\textquotesingle{}état des cellules, 1 si en vie sinon 0. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a2f9d02aaf0d440c6ab0f9b73e3fec5e6}\label{class_edit_mode_manager_a2f9d02aaf0d440c6ab0f9b73e3fec5e6}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!cells\+Volume\+Dead@{cells\+Volume\+Dead}}
@@ -481,7 +482,7 @@ Liste des cellules vivantes.
 
 
 
-L\textquotesingle{}Ã©cart entre les cellules. 
+L\textquotesingle{}écart entre les cellules. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a2b9b6468cc837ee97b01202de2972129}\label{class_edit_mode_manager_a2b9b6468cc837ee97b01202de2972129}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!force\+Deactivation@{force\+Deactivation}}
@@ -491,7 +492,7 @@ L\textquotesingle{}Ã©cart entre les cellules.
 
 
 
-true si force la dÃ©sactivation de la visualisation sinon false. 
+true si force la désactivation de la visualisation sinon false. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ad0e09cececc48bcb4e7b768fa35dc954}\label{class_edit_mode_manager_ad0e09cececc48bcb4e7b768fa35dc954}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!h@{h}}
@@ -511,7 +512,7 @@ La hauteur, la largeur et la longueur du volume dans le quel se situe les cellul
 
 
 
-BoolÃ©en, true si les cellules mortes ne sont pas affichÃ©es sinon false. 
+Booléen, true si les cellules mortes ne sont pas affichées sinon false. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ad36781169457109afdb5b11d2766bde7}\label{class_edit_mode_manager_ad36781169457109afdb5b11d2766bde7}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!inputfield\+Layer@{inputfield\+Layer}}
@@ -521,7 +522,7 @@ BoolÃ©en, true si les cellules mortes ne sont pas affichÃ©es sinon false.
 
 
 
-Zone de texte pour entrer le numÃ©ro de couches que l\textquotesingle{}utilisateur souhaite modifier. 
+Zone de texte pour entrer le numéro de couches que l\textquotesingle{}utilisateur souhaite modifier. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a8f714287067b2bdf21ff8ab45e72dfba}\label{class_edit_mode_manager_a8f714287067b2bdf21ff8ab45e72dfba}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!inputfield\+Random\+Percentage@{inputfield\+Random\+Percentage}}
@@ -531,7 +532,7 @@ Zone de texte pour entrer le numÃ©ro de couches que l\textquotesingle{}utilisa
 
 
 
-Zone de texte pour entrer une valeur faire naÃ®tre des cellules de faÃ§on alÃ©atoire. 
+Zone de texte pour entrer une valeur faire naître des cellules de façon aléatoire. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a1979d9d74b3ead0806d3aa58f92a298c}\label{class_edit_mode_manager_a1979d9d74b3ead0806d3aa58f92a298c}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!l@{l}}
@@ -547,7 +548,7 @@ Zone de texte pour entrer une valeur faire naÃ®tre des cellules de faÃ§on al
 
 
 
-Vrai si le toggle pour dÃ©finir le numÃ©ro de couches est choisi, faux sinon. 
+Vrai si le toggle pour définir le numéro de couches est choisi, faux sinon. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_a219384b34d903ef7872d37db677d5842}\label{class_edit_mode_manager_a219384b34d903ef7872d37db677d5842}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!panel\+Info@{panel\+Info}}
@@ -587,7 +588,7 @@ L\textquotesingle{}objet parent des cellules mortes.
 
 
 
-Vrai si un nombre alÃ©atoire de cellule est choisi, faux sinon. 
+Vrai si un nombre aléatoire de cellule est choisi, faux sinon. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ad5ab7a25d17a19fee7eda1becfddb719}\label{class_edit_mode_manager_ad5ab7a25d17a19fee7eda1becfddb719}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!random@{random}}
@@ -607,7 +608,7 @@ Vrai si un nombre alÃ©atoire de cellule est choisi, faux sinon.
 
 
 
-Stocke l\textquotesingle{}instance de simulation, et cela pour transmettre la structure (les cellules vivantes qui sont prÃ©sentes dans l\textquotesingle{}Ã©diteur de structure) Ã  l\textquotesingle{}outil de simulation/visualisation. 
+Stocke l\textquotesingle{}instance de simulation, et cela pour transmettre la structure (les cellules vivantes qui sont présentes dans l\textquotesingle{}éditeur de structure) à l\textquotesingle{}outil de simulation/visualisation. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ae6fc2f251b5813fc0c75330462b9dade}\label{class_edit_mode_manager_ae6fc2f251b5813fc0c75330462b9dade}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!text@{text}}
@@ -617,7 +618,7 @@ Stocke l\textquotesingle{}instance de simulation, et cela pour transmettre la st
 
 
 
-Le texte affichÃ© sur le panel panel\+Apply\+Button. 
+Le texte affiché sur le panel panel\+Apply\+Button. 
 
 \mbox{\Hypertarget{class_edit_mode_manager_ad9e4950cf24abf3ede8c0891c4df7b77}\label{class_edit_mode_manager_ad9e4950cf24abf3ede8c0891c4df7b77}} 
 \index{Edit\+Mode\+Manager@{Edit\+Mode\+Manager}!w@{w}}

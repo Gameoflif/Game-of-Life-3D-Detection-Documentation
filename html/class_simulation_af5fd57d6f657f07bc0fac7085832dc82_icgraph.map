@@ -6,7 +6,7 @@
 <area shape="rect" id="node10" href="$class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="198,208,337,235"/>
 <area shape="rect" id="node11" href="$class_simulation.html#a2af29808f03940f4a8824c926f8c8cf9" title="Passage à la génération précédente. " alt="" coords="187,259,347,285"/>
 <area shape="rect" id="node3" href="$class_simulation.html#aeb4bcb9efba94261ae3225d7c77d4fe9" title="Crée et initialise les variables avant une simulation (aprés avoir mis de nouveau paramétres)..." alt="" coords="430,5,609,32"/>
-<area shape="rect" id="node6" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="411,56,628,83"/>
-<area shape="rect" id="node7" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="416,107,623,133"/>
-<area shape="rect" id="node9" href="$class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le dÃ©but la simulation. " alt="" coords="426,157,613,184"/>
+<area shape="rect" id="node6" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="411,56,628,83"/>
+<area shape="rect" id="node7" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique à la simulation le fichier importé. " alt="" coords="416,107,623,133"/>
+<area shape="rect" id="node9" href="$class_menu_visualization_u_i.html#ad71bfeae87aee9f53387e7abf59040c4" title="Relance depuis le début la simulation. " alt="" coords="426,157,613,184"/>
 </map>

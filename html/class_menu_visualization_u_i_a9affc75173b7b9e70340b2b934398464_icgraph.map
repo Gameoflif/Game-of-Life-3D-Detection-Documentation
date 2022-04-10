@@ -1,6 +1,6 @@
 <map id="MenuVisualizationUI.PauseOrPlay" name="MenuVisualizationUI.PauseOrPlay">
-<area shape="rect" id="node2" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="DÃ©sactive les panneaux edit mode et vizualization et active le panel parameters. ..." alt="" coords="235,5,425,32"/>
-<area shape="rect" id="node3" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="241,56,419,83"/>
+<area shape="rect" id="node2" href="$class_navigation.html#adf000d0931e06c79e1e66f266d93e313" title="Désactive les panneaux edit mode et vizualization et active le panel parameters. " alt="" coords="235,5,425,32"/>
+<area shape="rect" id="node3" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="Désactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="241,56,419,83"/>
 <area shape="rect" id="node4" href="$class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="482,27,649,53"/>
 <area shape="rect" id="node5" href="$class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="473,78,657,119"/>
 </map>

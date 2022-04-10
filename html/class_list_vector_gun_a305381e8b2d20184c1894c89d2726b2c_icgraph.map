@@ -1,8 +1,8 @@
 <map id="ListVectorGun.trouverMiniVect" name="ListVectorGun.trouverMiniVect">
 <area shape="rect" id="node2" href="$class_detection_gun.html#a0ca849e6a37b8734261999c4f8f64523" title="DetectionGun.compareGun" alt="" coords="256,5,435,32"/>
-<area shape="rect" id="node6" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une g..." alt="" coords="252,56,439,83"/>
-<area shape="rect" id="node3" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="DÃ©terminer la prÃ©sence ou l&#39;absence de canons " alt="" coords="509,5,667,32"/>
-<area shape="rect" id="node4" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="DÃ©terminer le nombre de canons par leur pÃ©riode. " alt="" coords="737,31,911,57"/>
+<area shape="rect" id="node6" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génér..." alt="" coords="252,56,439,83"/>
+<area shape="rect" id="node3" href="$class_detection_gun.html#a664491436b7ca39a34f4146754a6ae71" title="Déterminer la présence ou l&#39;absence de canons " alt="" coords="509,5,667,32"/>
+<area shape="rect" id="node4" href="$class_detection.html#aa21c434f39d4e9d901635d9db2a4bbca" title="Déterminer le nombre de canons par leur période. " alt="" coords="737,31,911,57"/>
 <area shape="rect" id="node5" href="$class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="959,31,1087,57"/>
 <area shape="rect" id="node7" href="$class_detection_gun.html#aaafe20e9ecbfe9e95e2f36ac49701d3d" title="DetectionGun.trouverModelGun" alt="" coords="487,56,689,83"/>
 </map>

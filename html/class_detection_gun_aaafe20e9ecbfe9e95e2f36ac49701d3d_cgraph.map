@@ -1,6 +1,6 @@
 <map id="DetectionGun.trouverModelGun" name="DetectionGun.trouverModelGun">
 <area shape="rect" id="node2" href="$class_list_vector_gun.html#a23dabaffda742276390b578c091d101a" title="Savoir combien de points d&#39;entre deux structures ont les mêmes coordonnées " alt="" coords="256,69,444,96"/>
-<area shape="rect" id="node6" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une g..." alt="" coords="257,132,443,159"/>
+<area shape="rect" id="node6" href="$class_list_vector_gun.html#ad93bd26e0c5d5e71ff75acfb43edd5c3" title="Obtenir es modèles(position relative) qui correspondent à la structure de la taille du gun dans une génér..." alt="" coords="257,132,443,159"/>
 <area shape="rect" id="node3" href="$class_list_vector_gun.html#a7c7706a2171becc86a8353b525d35d69" title="ListVectorGun.Count" alt="" coords="520,56,663,83"/>
 <area shape="rect" id="node4" href="$class_list_vector_gun.html#afacf0a838223ed57e72abcc7c21594ae" title="Vérifie si un élément est compris dans la liste. " alt="" coords="511,5,671,32"/>
 <area shape="rect" id="node5" href="$class_list_vector_gun.html#a6b94b7d8288d1415f1670181251bbfa2" title="ListVectorGun.getPosition" alt="" coords="504,107,679,133"/>

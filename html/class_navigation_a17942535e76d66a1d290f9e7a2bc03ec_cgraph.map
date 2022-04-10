@@ -1,10 +1,10 @@
 <map id="Navigation.GoAnywayED" name="Navigation.GoAnywayED">
-<area shape="rect" id="node2" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="220,105,399,131"/>
-<area shape="rect" id="node3" href="$class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;Ã©diteur de structure. " alt="" coords="479,13,642,39"/>
+<area shape="rect" id="node2" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="Désactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="220,105,399,131"/>
+<area shape="rect" id="node3" href="$class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;éditeur de structure. " alt="" coords="479,13,642,39"/>
 <area shape="rect" id="node6" href="$class_menu_visualization_u_i.html#a9affc75173b7b9e70340b2b934398464" title="Mets en pause ou lance la simulation. " alt="" coords="470,64,651,105"/>
 <area shape="rect" id="node8" href="$class_menu_visualization_u_i.html#ab06398a58bc8438ead7172d9e09b8bca" title="Montre ou cache la visualisation. " alt="" coords="473,129,649,171"/>
 <area shape="rect" id="node11" href="$class_camera_control.html#a879e70766aaa6eec8be532ab6712dd6b" title="Permet d&#39;activer ou de désactiver le mouvement de la caméra. " alt="" coords="447,195,675,222"/>
-<area shape="rect" id="node4" href="$class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intÃ©raction avec la souris..." alt="" coords="730,5,909,47"/>
+<area shape="rect" id="node4" href="$class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris..." alt="" coords="730,5,909,47"/>
 <area shape="rect" id="node5" href="$class_edit_mode_cell.html#a85064e1ba44195ce0a8fa8c66f8e5ffa" title="Initialisation de variable. " alt="" coords="964,13,1115,39"/>
 <area shape="rect" id="node7" href="$class_simulation.html#ab668bfea667549d1295fc55f5ccfbc4a" title="Mets en pause ou en play la simulation. " alt="" coords="737,71,901,98"/>
 <area shape="rect" id="node9" href="$class_simulation.html#a71a9e0a93e05353ff243f4c48afa67d0" title="Cache les objets 3D de la visualisation. " alt="" coords="726,130,913,157"/>

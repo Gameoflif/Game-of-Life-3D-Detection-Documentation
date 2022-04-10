@@ -1,12 +1,12 @@
 <map id="Detection.CombineStructure" name="Detection.CombineStructure">
-<area shape="rect" id="node2" href="$class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dÃ©pendances entre structures et les combinent si nÃ©cessaire. Deux structures sont dÃ©pen..." alt="" coords="239,107,427,133"/>
-<area shape="rect" id="node3" href="$class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la gÃ©nÃ©ration zÃ©ro (dÃ©part). Initialise les variables. " alt="" coords="475,69,628,96"/>
-<area shape="rect" id="node9" href="$class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle gÃ©nÃ©ration Ã  stockGen. " alt="" coords="489,132,614,159"/>
+<area shape="rect" id="node2" href="$class_detection.html#a0f5d7b85c0daaf07503132a2faa23bcf" title="Trouve les dépendances entre structures et les combinent si nécessaire. Deux structures sont dépendan..." alt="" coords="239,107,427,133"/>
+<area shape="rect" id="node3" href="$class_detection.html#a96c6d9a8e299f137a4fb84d2ea80e092" title="Modifie la génération zéro (départ). Initialise les variables. " alt="" coords="475,69,628,96"/>
+<area shape="rect" id="node9" href="$class_detection.html#a92c60be1a69ea74b7f7bef04a0e53238" title="Ajoute une nouvelle génération à stockGen. " alt="" coords="489,132,614,159"/>
 <area shape="rect" id="node4" href="$class_simulation.html#aff8ad1d9fe429a08bf0d42f52b08b71b" title="Crée des cellules de manière aléatoire. Remets les variables nécéssaire (comme le numéro de la généra..." alt="" coords="676,12,855,39"/>
 <area shape="rect" id="node6" href="$class_simulation.html#a775498931843884fbc6c08de3b2b1afd" title="Utilisé pour obtenir les positions de départ des cellules vivantes (première génération). " alt="" coords="685,69,845,96"/>
 <area shape="rect" id="node5" href="$class_simulation.html#aeb4bcb9efba94261ae3225d7c77d4fe9" title="Crée et initialise les variables avant une simulation (aprés avoir mis de nouveau paramétres)..." alt="" coords="922,5,1101,32"/>
-<area shape="rect" id="node7" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="903,56,1120,83"/>
-<area shape="rect" id="node8" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="908,107,1115,133"/>
+<area shape="rect" id="node7" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="903,56,1120,83"/>
+<area shape="rect" id="node8" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique à la simulation le fichier importé. " alt="" coords="908,107,1115,133"/>
 <area shape="rect" id="node10" href="$class_simulation.html#a1ba6581d305c2d60d174e0cffd917719" title="Méthode permettant le passage à la génération suivante. " alt="" coords="685,157,845,184"/>
 <area shape="rect" id="node11" href="$class_simulation.html#a8486cde41c003277c1ac75fffeda973b" title="Simulation.Update" alt="" coords="947,157,1075,184"/>
 <area shape="rect" id="node12" href="$class_simulation.html#a6027638c71846ed03d560cd75d8a92d6" title="Passage à la prochaine génération. " alt="" coords="942,208,1081,235"/>

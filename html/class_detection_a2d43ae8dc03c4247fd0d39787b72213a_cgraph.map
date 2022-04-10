@@ -1,5 +1,5 @@
 <map id="Detection.Detect" name="Detection.Detect">
-<area shape="rect" id="node2" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="411,5,549,32"/>
-<area shape="rect" id="node3" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="AppelÃ© par Detect, permet la dÃ©tection des vaisseaux. " alt="" coords="191,31,344,57"/>
+<area shape="rect" id="node2" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier élément qui est la position de départ de la structure, pour avoir la même structure mais à une position différente. " alt="" coords="411,5,549,32"/>
+<area shape="rect" id="node3" href="$class_detection.html#a88c0afc7566ffe8ac32fe1c21da192df" title="Appelé par Detect, permet la détection des vaisseaux. " alt="" coords="191,31,344,57"/>
 <area shape="rect" id="node4" href="$class_details_structure.html#a43f45ec1bc3888d7db09407d52964352" title="Actualise les infromations des structures. " alt="" coords="172,81,363,108"/>
 </map>

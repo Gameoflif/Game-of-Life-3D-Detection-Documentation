@@ -1,8 +1,8 @@
 <map id="EditModeCell.Initialize" name="EditModeCell.Initialize">
-<area shape="rect" id="node2" href="$class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intÃ©raction avec la souris..." alt="" coords="204,23,383,65"/>
+<area shape="rect" id="node2" href="$class_edit_mode_manager.html#a8a950f58c809a7161d85e5d9a73e4d15" title="Initialise les cellules mortes qui pourront devenir vivante par une intéraction avec la souris..." alt="" coords="204,23,383,65"/>
 <area shape="rect" id="node3" href="$class_edit_mode_manager.html#afc8be75da1a5042fcf78b0e9bf1e2108" title="Toutes les cellules redeviennent mortes. " alt="" coords="431,5,631,32"/>
-<area shape="rect" id="node4" href="$class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;Ã©diteur de structure. " alt="" coords="449,56,612,83"/>
-<area shape="rect" id="node5" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="DÃ©sactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="679,56,857,83"/>
+<area shape="rect" id="node4" href="$class_edit_mode_manager.html#acf80baac30f6611bcb1bf97b61ffc1ca" title="Montre les objets de l&#39;éditeur de structure. " alt="" coords="449,56,612,83"/>
+<area shape="rect" id="node5" href="$class_navigation.html#af687f3df18da0e95175b04fe5cc7da56" title="Désactive les panels parameters, vizualization et active le panel edit mode. " alt="" coords="679,56,857,83"/>
 <area shape="rect" id="node6" href="$class_navigation.html#a17942535e76d66a1d290f9e7a2bc03ec" title="Ignorer les messages d&#39;aide pour entrer dans l&#39;edit mode. " alt="" coords="914,27,1081,53"/>
 <area shape="rect" id="node7" href="$class_navigation.html#a9a7bb527269069e0c083ef70291d4fb3" title="Pour afficher les messages d&#39;aide. " alt="" coords="905,78,1089,119"/>
 </map>

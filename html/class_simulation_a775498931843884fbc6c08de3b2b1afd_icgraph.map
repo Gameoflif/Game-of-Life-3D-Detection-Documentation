@@ -1,4 +1,4 @@
 <map id="Simulation.SetStructure" name="Simulation.SetStructure">
-<area shape="rect" id="node2" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) Ã  l&#39;outil de si..." alt="" coords="213,5,431,32"/>
-<area shape="rect" id="node3" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique Ã  la simulation le fichier importÃ©. " alt="" coords="219,56,425,83"/>
+<area shape="rect" id="node2" href="$class_edit_mode_manager.html#ac1d4e4f292d17b4364054f05ddc13bee" title="Transmet la structure (le tableau contenant des cellules vivantes : cellsVolumeLife) à l&#39;outil de sim..." alt="" coords="213,5,431,32"/>
+<area shape="rect" id="node3" href="$class_parameters.html#a8438e2686a572fc6d1cc2947489da01d" title="Applique à la simulation le fichier importé. " alt="" coords="219,56,425,83"/>
 </map>

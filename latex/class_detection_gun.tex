@@ -18,11 +18,11 @@ Graphe de collaboration de Detection\+Gun\+:
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_af804b47fcbcc2c89bbe17b47eb8f7c47}{sous\+Structure}} (int\mbox{[},,\mbox{]} stock\+Gen, Voisinage2 voisinage)
 \begin{DoxyCompactList}\small\item\em Verifier si la sous-\/structure est la structure cible de detection \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_detection_gun_a664491436b7ca39a34f4146754a6ae71}{Compare}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ struc, int indice, bool test\+Stable, int dimension, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien\+Struc1, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}{model}})
-\begin{DoxyCompactList}\small\item\em DÃ©terminer la prÃ©sence ou l\textquotesingle{}absence de canons \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Déterminer la présence ou l\textquotesingle{}absence de canons \end{DoxyCompactList}\item 
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_aaafe20e9ecbfe9e95e2f36ac49701d3d}{trouver\+Model\+Gun}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien3, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien2, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ ancien1, List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ actuel, int nb)
 \item 
 List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0a14866d2727aea5d457121bd646f3bb}{get\+Nb\+Sous\+Structure}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ struc, int nb)
-\begin{DoxyCompactList}\small\item\em Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond Ã  la taille spÃ©cifiÃ©e par l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond à la taille spécifiée par l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} \mbox{\hyperlink{class_detection_gun_a488d963e0b78922904b6bd42182ca7b1}{get\+Structure\+Alive}} (int\mbox{[},,\mbox{]} stock\+Gen)
 \begin{DoxyCompactList}\small\item\em Obtenir les cellules vivantes. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_detection_gun_a0ca849e6a37b8734261999c4f8f64523}{compare\+Gun}} (List$<$ \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} $>$ \mbox{\hyperlink{class_detection_gun_a0c8ad0d86d7f0a02de8a120cffae1337}{model}}, \mbox{\hyperlink{class_list_vector_gun}{List\+Vector\+Gun}} v, int indice)
@@ -99,24 +99,24 @@ Classe pour detecter la structure Canon (un Gosper Glider Gun trouve en 3D) \beg
 
 
 
-DÃ©terminer la prÃ©sence ou l\textquotesingle{}absence de canons 
+Déterminer la présence ou l\textquotesingle{}absence de canons 
 
 
 \begin{DoxyParams}{Paramètres}
 {\em struc} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la gÃ©nÃ©ration actuelle. 
+La sous-\/strucuture de la génération actuelle. 
 \begin{DoxyParams}{Paramètres}
 {\em indice} & \\
 \hline
 \end{DoxyParams}
-La indice-\/iÃ¨me forme d\textquotesingle{}un gun 
+La indice-\/ième forme d\textquotesingle{}un gun 
 \begin{DoxyParams}{Paramètres}
 {\em test\+Stable} & \\
 \hline
 \end{DoxyParams}
-Si c\textquotesingle{}est vrai, nous commenÃ§ons Ã  dÃ©terminer si la structure au sommet correspond au modÃ¨le 
+Si c\textquotesingle{}est vrai, nous commençons à déterminer si la structure au sommet correspond au modèle 
 \begin{DoxyParams}{Paramètres}
 {\em dimension} & \\
 \hline
@@ -126,10 +126,11 @@ La dimension de cette structure.
 {\em ancien\+Struc} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la derniÃ¨re gÃ©nÃ©ration. \begin{DoxyReturn}{Renvoie}
+La sous-\/strucuture de la dernière génération. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
-Vrai s\textquotesingle{}il y a un canon ; faux s\textquotesingle{}il n\textquotesingle{}y a pas de canon. Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+Vrai s\textquotesingle{}il y a un canon ; faux s\textquotesingle{}il n\textquotesingle{}y a pas de canon. Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -261,7 +262,7 @@ Voici le graphe des appelants de cette fonction \+:
 
 
 
-Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond Ã  la taille spÃ©cifiÃ©e par l\textquotesingle{}utilisateur. 
+Obtenir la structure dans la sous-\/structure \char`\"{}struc\char`\"{} qui correspond à la taille spécifiée par l\textquotesingle{}utilisateur. 
 
 
 \begin{DoxyParams}{Paramètres}
@@ -273,7 +274,7 @@ La sous-\/structure
 {\em nb} & \\
 \hline
 \end{DoxyParams}
-La taille spÃ©cifiÃ©e par l\textquotesingle{}utilisateur. \begin{DoxyReturn}{Renvoie}
+La taille spécifiée par l\textquotesingle{}utilisateur. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
 Une liste de la structure Voici le graphe des appelants de cette fonction \+:
@@ -445,12 +446,12 @@ Voici le graphe des appelants de cette fonction \+:
 {\em ancien} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la derniÃ¨re gÃ©nÃ©ration. 
+La sous-\/strucuture de la dernière génération. 
 \begin{DoxyParams}{Paramètres}
 {\em actuel} & \\
 \hline
 \end{DoxyParams}
-La sous-\/strucuture de la gÃ©nÃ©ration actuelle. \begin{DoxyReturn}{Renvoie}
+La sous-\/strucuture de la génération actuelle. \begin{DoxyReturn}{Renvoie}
 
 \end{DoxyReturn}
 Voici le graphe d\textquotesingle{}appel pour cette fonction \+:

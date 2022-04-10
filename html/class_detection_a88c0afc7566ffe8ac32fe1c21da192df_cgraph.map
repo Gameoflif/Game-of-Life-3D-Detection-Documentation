@@ -1,3 +1,3 @@
 <map id="Detection.DetectGlider" name="Detection.DetectGlider">
-<area shape="rect" id="node2" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier Ã©lÃ©ment qui est la position de dÃ©part de la structure..." alt="" coords="207,5,345,32"/>
+<area shape="rect" id="node2" href="$class_detection.html#a2d8aeb536aa1051f0522f8317b14b36e" title="Compare deux listes, sauf le premier élément qui est la position de départ de la structure, pour avoir la même structure mais à une position différente. " alt="" coords="207,5,345,32"/>
 </map>
